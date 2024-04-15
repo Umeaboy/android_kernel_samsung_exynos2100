@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Makefile for kvm guest drivers on s390
-#
-# Copyright IBM Corp. 2008
-
-obj-$(CONFIG_S390_GUEST) += virtio_ccw.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:3b16a63f5ac25bb99415125f388905e07f905164005d850816033b1efbef1711
+size 147

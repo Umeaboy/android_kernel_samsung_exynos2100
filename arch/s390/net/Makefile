@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Arch-specific network modules
-#
-obj-$(CONFIG_BPF_JIT) += bpf_jit_comp.o
-obj-$(CONFIG_HAVE_PNETID) += pnet.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:4ea54bb4768f298beb5a505f314284e2e8c8424d94563ae6ac3446a8c54ba9b1
+size 147

@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the L3 device API
-#
-
-obj-$(CONFIG_NET_L3_MASTER_DEV) += l3mdev.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:5cf1cb75adf10d3bbd6433e6d9746ab47eb75bf8b306f1f40f6105340c050735
+size 122

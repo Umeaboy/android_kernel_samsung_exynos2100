@@ -1,22 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-menuconfig SND_MXS_SOC
-	tristate "SoC Audio for Freescale MXS CPUs"
-	depends on ARCH_MXS || COMPILE_TEST
-	depends on COMMON_CLK
-	select SND_SOC_GENERIC_DMAENGINE_PCM
-	help
-	  Say Y or M if you want to add support for codecs attached to
-	  the MXS SAIF interface.
-
-
-if SND_MXS_SOC
-
-config SND_SOC_MXS_SGTL5000
-	tristate "SoC Audio support for MXS boards with sgtl5000"
-	depends on I2C
-	select SND_SOC_SGTL5000
-	help
-	  Say Y if you want to add support for SoC audio on an MXS board with
-	  a sgtl5000 codec.
-
-endif	# SND_MXS_SOC
+version https://git-lfs.github.com/spec/v1
+oid sha256:4d79e03c684933ad53e91a17023d3116c9eca1348bbd2b5e0d80c7c80a29ac49
+size 568

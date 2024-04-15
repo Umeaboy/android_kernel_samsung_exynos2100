@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-y					+= fuse-tegra.o
-obj-y					+= fuse-tegra30.o
-obj-y					+= tegra-apbmisc.o
-obj-$(CONFIG_ARCH_TEGRA_2x_SOC)		+= fuse-tegra20.o
-obj-$(CONFIG_ARCH_TEGRA_2x_SOC)		+= speedo-tegra20.o
-obj-$(CONFIG_ARCH_TEGRA_3x_SOC)		+= speedo-tegra30.o
-obj-$(CONFIG_ARCH_TEGRA_114_SOC)	+= speedo-tegra114.o
-obj-$(CONFIG_ARCH_TEGRA_124_SOC)	+= speedo-tegra124.o
-obj-$(CONFIG_ARCH_TEGRA_132_SOC)	+= speedo-tegra124.o
-obj-$(CONFIG_ARCH_TEGRA_210_SOC)	+= speedo-tegra210.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:579c65eff44baefe1c09189fce78e3e8d6b6fdd2de18d3c0553bbcd543842d9f
+size 491

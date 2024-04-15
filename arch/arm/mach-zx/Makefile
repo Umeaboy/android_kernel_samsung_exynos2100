@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_SOC_ZX296702) += zx296702.o zx296702-pm-domain.o
-obj-$(CONFIG_SMP) += headsmp.o platsmp.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:078335923a736ee71105df17d1878b3f4859dd9270e8d33139e58d55da5e7e84
+size 143

@@ -1,24 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Kernel configuration file for aic94xx SAS/SATA driver.
-#
-# Copyright (c) 2005 Adaptec, Inc.  All rights reserved.
-# Copyright (c) 2005 Luben Tuikov <luben_tuikov@adaptec.com>
-#
-
-config SCSI_AIC94XX
-	tristate "Adaptec AIC94xx SAS/SATA support"
-	depends on PCI
-	select SCSI_SAS_LIBSAS
-	select FW_LOADER
-	help
-		This driver supports Adaptec's SAS/SATA 3Gb/s 64 bit PCI-X
-		AIC94xx chip based host adapters.
-
-config AIC94XX_DEBUG
-	bool "Compile in debug mode"
-	default y
-	depends on SCSI_AIC94XX
-	help
-		Compiles the aic94xx driver in debug mode.  In debug mode,
-		the driver prints some messages to the console.
+version https://git-lfs.github.com/spec/v1
+oid sha256:2b1f3b38dc0aaeacbb410c3dfe7f8db0c6779dcb76e8a5872eb286b0603fe153
+size 653

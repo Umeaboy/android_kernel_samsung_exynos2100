@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-obj-y := \
-	prom.o \
-	setup.o \
-	memory.o \
-	irq.o \
-	time.o \
-	platform.o \
-	gpio.o \
-	clock.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:870927283ad7219a3a693422f648aac2db72ccba6f4fb1ca46905ae2490e1cba
+size 132

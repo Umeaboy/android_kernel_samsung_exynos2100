@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-xilinx-video-objs += xilinx-dma.o xilinx-vip.o xilinx-vipp.o
-
-obj-$(CONFIG_VIDEO_XILINX) += xilinx-video.o
-obj-$(CONFIG_VIDEO_XILINX_TPG) += xilinx-tpg.o
-obj-$(CONFIG_VIDEO_XILINX_VTC) += xilinx-vtc.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:6bef49cae3aceba95a364ad893850cbaf020963355d258d12b408b615f145e07
+size 237

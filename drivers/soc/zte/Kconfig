@@ -1,15 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# ZTE SoC drivers
-#
-menuconfig SOC_ZTE
-	depends on ARCH_ZX || COMPILE_TEST
-	bool "ZTE SoC driver support"
-
-if SOC_ZTE
-
-config ZX2967_PM_DOMAINS
-	bool "ZX2967 PM domains"
-	depends on PM_GENERIC_DOMAINS
-
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:242ed3bacb0bdaa38cfcc0c4a891dcbb8ead84299ef81f26a70a7c8068009ac0
+size 250

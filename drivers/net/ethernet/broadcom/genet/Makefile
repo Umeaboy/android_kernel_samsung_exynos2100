@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_BCMGENET) += genet.o
-genet-objs := bcmgenet.o bcmmii.o bcmgenet_wol.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:e140205f553914f2be4aadb8e4a0ad7e3a2ebd06ebf3078585fb400cdcf998fb
+size 123

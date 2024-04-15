@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-adv7511-y := adv7511_drv.o
-adv7511-$(CONFIG_DRM_I2C_ADV7511_AUDIO) += adv7511_audio.o
-adv7511-$(CONFIG_DRM_I2C_ADV7511_CEC) += adv7511_cec.o
-adv7511-$(CONFIG_DRM_I2C_ADV7533) += adv7533.o
-obj-$(CONFIG_DRM_I2C_ADV7511) += adv7511.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:b451165c9b1fd26281c5c1fb46d818bec9d7c0d8c442a923f6289e9816d72b7c
+size 271

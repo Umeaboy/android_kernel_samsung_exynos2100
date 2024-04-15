@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for RapidIO devices
-#
-
-obj-$(CONFIG_RAPIDIO_TSI721)	+= tsi721_mport.o
-tsi721_mport-y			:= tsi721.o
-tsi721_mport-$(CONFIG_RAPIDIO_DMA_ENGINE) += tsi721_dma.o
-obj-$(CONFIG_RAPIDIO_MPORT_CDEV) += rio_mport_cdev.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:455793b9bd77b898ebe857fc1e122e06a4260cef0d41099b41ace60c75d14d71
+size 263

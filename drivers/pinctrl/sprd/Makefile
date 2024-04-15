@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_PINCTRL_SPRD)		+= pinctrl-sprd.o
-obj-$(CONFIG_PINCTRL_SPRD_SC9860)	+= pinctrl-sprd-sc9860.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:645063b4a143e5ccc14e32cf78355f68cd83d66dc6f21d21aa2c2b93418e5de9
+size 145

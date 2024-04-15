@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for Bosch BMI160 IMU
-#
-obj-$(CONFIG_BMI160) += bmi160_core.o
-obj-$(CONFIG_BMI160_I2C) += bmi160_i2c.o
-obj-$(CONFIG_BMI160_SPI) += bmi160_spi.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:af246f08ed65b9dfbf3d9304acc688e56d24d043e7c273398308221327d101e1
+size 196

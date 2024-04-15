@@ -1,12 +1,3 @@
-#
-# Makefile for Secure OS booster API
-#
-obj-$(CONFIG_SECURE_OS_BOOSTER_API) += sec_os_booster.o
-
-# MobiCore kernel driver path
-GUD_ROOT_FOLDER := drivers/gud/gud-exynos2100
-
-ccflags-y += -Iinclude/soc/samsung/
-# Includes MobiCore kernel driver
-ccflags-y += -I$(GUD_ROOT_FOLDER)/MobiCoreDriver
-ccflags-y += -I$(GUD_ROOT_FOLDER)/MobiCoreDriver/public
+version https://git-lfs.github.com/spec/v1
+oid sha256:5b28cdc75d108b61c411362183b160fba330c2eb258a0c829f54ccb35942d83e
+size 350

@@ -1,9 +1,3 @@
-config SEC_KQ_BALANCER
-	tristate "Samsung KQ Balancer support"
-	default n
-	depends on DRV_SAMSUNG && SEC_FACTORY
-	help
-	  This option enables Samsung KQ Balancer feature.
-	  This module acts as a module that adjusts frequency balance.
-	  Enable this feature for checking frequency stability.
-	  This module only works with nbd daemon.
+version https://git-lfs.github.com/spec/v1
+oid sha256:38f54223c845dfb3d5d30ba8f65251505678c0ea60c2167f8c73663c10525dcf
+size 335

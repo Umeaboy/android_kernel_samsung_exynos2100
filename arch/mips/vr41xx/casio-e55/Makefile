@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the CASIO CASSIOPEIA E-55/65 specific parts of the kernel
-#
-
-obj-y			+= setup.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:c665f296e911378659463bd3d3582071cbe39b4bfb4085d3281a20c099572dd7
+size 137

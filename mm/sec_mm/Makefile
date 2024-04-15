@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-obj-$(CONFIG_SEC_MM)		:= sec_mm.o
-sec_mm-objs			:= sec_mm_init.o lowfile_detect.o panic_handler.o show_mem.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:2a68f3d7a3846ce42cb1328ade136fd5f56888d38fbf0e999f7b50ce0e07239c
+size 146

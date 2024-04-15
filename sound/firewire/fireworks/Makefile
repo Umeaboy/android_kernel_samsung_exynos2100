@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-snd-fireworks-objs := fireworks_transaction.o fireworks_command.o \
-		      fireworks_stream.o fireworks_proc.o fireworks_midi.o \
-		      fireworks_pcm.o fireworks_hwdep.o fireworks.o
-obj-$(CONFIG_SND_FIREWORKS) += snd-fireworks.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:c72ff407884e51468ea833cb00c81a4ed0294115d21374a148510c657bef477c
+size 272

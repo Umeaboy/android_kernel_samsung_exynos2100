@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for HSI controllers drivers
-#
-
-omap_ssi-objs		+= omap_ssi_core.o omap_ssi_port.o
-obj-$(CONFIG_OMAP_SSI)	+= omap_ssi.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:970b9bbc55fba250c5016975e7092d6d0beeb05d7cf3df6375b682f2354d0058
+size 171

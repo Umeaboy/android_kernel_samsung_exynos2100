@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the linux kernel.
-#
-
-obj-y := entry.o platform.o ctop.o
-obj-$(CONFIG_SMP) += smp.o
-obj-$(CONFIG_EZNPS_MTM_EXT) += mtm.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:b325d840b251a80ba897b6211cea4d6c08d7194ec3a29407a5923cbdfea4418d
+size 177

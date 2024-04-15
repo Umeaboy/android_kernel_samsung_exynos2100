@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_COMMON_CLK_PIC32) += clk-core.o
-obj-$(CONFIG_PIC32MZDA) += clk-pic32mzda.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:def8403c14b37cca69575ab4af4bbad7e559b8f971da90deb710a89a4648f5a3
+size 128

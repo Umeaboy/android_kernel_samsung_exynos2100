@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for industrial I/O accelerometer drivers
-#
-
-obj-$(CONFIG_ADIS16203) += adis16203.o
-obj-$(CONFIG_ADIS16240) += adis16240.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:f91329aee511542ee4654ac55c0092adc6971ef5286ab10278d29ad8a8fe50b6
+size 170

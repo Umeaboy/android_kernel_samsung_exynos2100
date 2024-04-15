@@ -1,17 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-# OP-TEE Trusted Execution Environment Configuration
-config OPTEE
-	tristate "OP-TEE"
-	depends on HAVE_ARM_SMCCC
-	depends on MMU
-	help
-	  This implements the OP-TEE Trusted Execution Environment (TEE)
-	  driver.
-
-config OPTEE_SHM_NUM_PRIV_PAGES
-	int "Private Shared Memory Pages"
-	default 1
-	depends on OPTEE
-	help
-	  This sets the number of private shared memory pages to be
-	  used by OP-TEE TEE driver.
+version https://git-lfs.github.com/spec/v1
+oid sha256:82f5e06363f3ec9ae174c66c4deb8d5e0744c19e66e599a3e02475451b58fff1
+size 445

@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile - Intel MIC Coprocessor State Management (COSM) Driver
-# Copyright(c) 2015, Intel Corporation.
-#
-obj-$(CONFIG_MIC_COSM) += mic_cosm.o
-
-mic_cosm-objs := cosm_main.o
-mic_cosm-objs += cosm_debugfs.o
-mic_cosm-objs += cosm_sysfs.o
-mic_cosm-objs += cosm_scif_server.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:6ed8339ab9757f2cdbdaa36381722005a021e58b2af6297658c17050411a520b
+size 310

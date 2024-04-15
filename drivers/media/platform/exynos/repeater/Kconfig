@@ -1,6 +1,3 @@
-config VIDEO_EXYNOS_REPEATER
-       tristate "EXYNOS REPEATER Driver"
-       depends on VIDEO_EXYNOS
-       default n
-	---help---
-	  Repeater driver for WFD
+version https://git-lfs.github.com/spec/v1
+oid sha256:13b13a5c767e0957ec754b561cd2b25bbe74c4ef6a4f52e8045361fa90771aec
+size 157

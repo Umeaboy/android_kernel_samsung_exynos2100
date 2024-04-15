@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_INFINIBAND_MTHCA) += ib_mthca.o
-
-ib_mthca-y :=	mthca_main.o mthca_cmd.o mthca_profile.o mthca_reset.o \
-		mthca_allocator.o mthca_eq.o mthca_pd.o mthca_cq.o \
-		mthca_mr.o mthca_qp.o mthca_av.o mthca_mcg.o mthca_mad.o \
-		mthca_provider.o mthca_memfree.o mthca_uar.o mthca_srq.o \
-		mthca_catas.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:4ae2450a90000befd9eded5825af6fec44f3e415cae58695ed9f187c7308be52
+size 345

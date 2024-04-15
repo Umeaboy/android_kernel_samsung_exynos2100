@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-# BCM2835 Platform Support
-snd-soc-bcm2835-i2s-objs := bcm2835-i2s.o
-
-obj-$(CONFIG_SND_BCM2835_SOC_I2S) += snd-soc-bcm2835-i2s.o
-
-# CYGNUS Platform Support
-snd-soc-cygnus-objs := cygnus-pcm.o cygnus-ssp.o
-
-obj-$(CONFIG_SND_SOC_CYGNUS) += snd-soc-cygnus.o
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:a33e61c97ad7358499d9ca039c33ee0e2803b01c17b665761a180842c5798feb
+size 296

@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_SERIO_NVEC_PS2)	+= nvec_ps2.o
-obj-$(CONFIG_MFD_NVEC)		+= nvec.o
-obj-$(CONFIG_NVEC_POWER) 	+= nvec_power.o
-obj-$(CONFIG_KEYBOARD_NVEC) 	+= nvec_kbd.o
-obj-$(CONFIG_NVEC_PAZ00) 	+= nvec_paz00.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:a4c3e7d21aa01573131414629ace92f153b5ce6ea4dd7bd83f949a755992799c
+size 239

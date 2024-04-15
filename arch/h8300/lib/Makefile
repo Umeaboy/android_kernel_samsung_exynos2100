@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for H8/300-specific library files..
-#
-
-lib-y  = memcpy.o memset.o abs.o strncpy.o \
-	 mulsi3.o udivsi3.o muldi3.o moddivsi3.o \
-	 ashldi3.o lshrdi3.o ashrdi3.o ucmpdi2.o \
-	 delay.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:eefbe4d7d13ff73e6e58c20f84e8708b1cf2bee25e2296fb3ba2a9151576d610
+size 235

@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_SCSI_HISI_SAS)		+= hisi_sas_main.o
-obj-$(CONFIG_SCSI_HISI_SAS)		+= hisi_sas_v1_hw.o hisi_sas_v2_hw.o
-obj-$(CONFIG_SCSI_HISI_SAS_PCI)		+= hisi_sas_v3_hw.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:220ac6facffebcf6698a0491355bc088682861c11c1ab388cd9ae68c97308b06
+size 207

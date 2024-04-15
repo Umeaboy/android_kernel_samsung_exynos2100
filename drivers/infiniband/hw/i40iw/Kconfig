@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-config INFINIBAND_I40IW
-	tristate "Intel(R) Ethernet X722 iWARP Driver"
-	depends on INET && I40E
-	depends on IPV6 || !IPV6
-	depends on PCI
-	select GENERIC_ALLOCATOR
-	---help---
-	Intel(R) Ethernet X722 iWARP Driver
+version https://git-lfs.github.com/spec/v1
+oid sha256:aaabc67bfe6ec566c00011b72e6fafdadfd293bbd5b48bf9f838c891185f9ffc
+size 254

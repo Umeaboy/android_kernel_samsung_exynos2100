@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-usbvision-objs  := usbvision-core.o usbvision-video.o usbvision-i2c.o usbvision-cards.o
-
-obj-$(CONFIG_VIDEO_USBVISION) += usbvision.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:84682409d405e0f3aa788b304f6f2a6f8d5e2a3bae8ea692544e1bca0260ef2b
+size 174

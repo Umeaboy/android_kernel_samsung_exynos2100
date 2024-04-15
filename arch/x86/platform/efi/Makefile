@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-OBJECT_FILES_NON_STANDARD_efi_thunk_$(BITS).o := y
-OBJECT_FILES_NON_STANDARD_efi_stub_$(BITS).o := y
-
-obj-$(CONFIG_EFI) 		+= quirks.o efi.o efi_$(BITS).o efi_stub_$(BITS).o
-obj-$(CONFIG_EFI_MIXED)		+= efi_thunk_$(BITS).o
+version https://git-lfs.github.com/spec/v1
+oid sha256:942e25023c649745816a7dab9271f3f89a147c537cd540ad6684755e7cf2c28b
+size 256

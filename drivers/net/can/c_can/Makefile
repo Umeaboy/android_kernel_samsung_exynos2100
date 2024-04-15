@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-#  Makefile for the Bosch C_CAN controller drivers.
-#
-
-obj-$(CONFIG_CAN_C_CAN) += c_can.o
-obj-$(CONFIG_CAN_C_CAN_PLATFORM) += c_can_platform.o
-obj-$(CONFIG_CAN_C_CAN_PCI) += c_can_pci.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:260e7f0f03a14dd09e0de901703ae7ce964af2e802a96ff86578a0b86564d97a
+size 228

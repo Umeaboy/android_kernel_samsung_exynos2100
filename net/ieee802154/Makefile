@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_IEEE802154) += ieee802154.o
-obj-$(CONFIG_IEEE802154_SOCKET) += ieee802154_socket.o
-obj-y += 6lowpan/
-
-ieee802154-y := netlink.o nl-mac.o nl-phy.o nl_policy.o core.o \
-                header_ops.o sysfs.o nl802154.o trace.o
-ieee802154_socket-y := socket.o
-
-CFLAGS_trace.o := -I$(src)
+version https://git-lfs.github.com/spec/v1
+oid sha256:25e998f25008c8270ae88c1a7c7df91182709cfa0866164bf2dcaa0a8373dfc2
+size 331

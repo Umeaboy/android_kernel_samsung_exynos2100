@@ -1,26 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-if (ARCH_PXA || COMPILE_TEST)
-
-config PINCTRL_PXA
-	bool
-	select PINMUX
-	select PINCONF
-	select GENERIC_PINCONF
-
-config PINCTRL_PXA25X
-	tristate "Marvell PXA25x pin controller driver"
-	select PINCTRL_PXA
-	default y if PXA25x
-	help
-	  This is the pinctrl, pinmux, pinconf driver for the Marvell
-	  PXA2xx block found in the pxa25x platforms.
-
-config PINCTRL_PXA27X
-	tristate "Marvell PXA27x pin controller driver"
-	select PINCTRL_PXA
-	default y if PXA27x
-	help
-	  This is the pinctrl, pinmux, pinconf driver for the Marvell
-	  PXA2xx block found in the pxa27x platforms.
-
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a30798b4fece2db35f2d1b4d4c4a9396f9c6b5431600c9b3698af1d28b2c3d2
+size 616

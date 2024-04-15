@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-config MTK_HSDMA
-	tristate "MTK HSDMA support"
-	depends on RALINK && SOC_MT7621
-	select DMA_ENGINE
-	select DMA_VIRTUAL_CHANNELS
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:7d41446281b93028174bb013a5702ed9d795383912aa9df1b27633436f8c714c
+size 164

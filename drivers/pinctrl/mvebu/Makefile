@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_PINCTRL_MVEBU)	+= pinctrl-mvebu.o
-obj-$(CONFIG_PINCTRL_DOVE)	+= pinctrl-dove.o
-obj-$(CONFIG_PINCTRL_KIRKWOOD)	+= pinctrl-kirkwood.o
-obj-$(CONFIG_PINCTRL_ARMADA_370) += pinctrl-armada-370.o
-obj-$(CONFIG_PINCTRL_ARMADA_375) += pinctrl-armada-375.o
-obj-$(CONFIG_PINCTRL_ARMADA_38X) += pinctrl-armada-38x.o
-obj-$(CONFIG_PINCTRL_ARMADA_39X) += pinctrl-armada-39x.o
-obj-$(CONFIG_PINCTRL_ARMADA_AP806) += pinctrl-armada-ap806.o
-obj-$(CONFIG_PINCTRL_ARMADA_CP110) += pinctrl-armada-cp110.o
-obj-$(CONFIG_PINCTRL_ARMADA_XP)  += pinctrl-armada-xp.o
-obj-$(CONFIG_PINCTRL_ARMADA_37XX)  += pinctrl-armada-37xx.o
-obj-$(CONFIG_PINCTRL_ORION)  += pinctrl-orion.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:e32aab559c1da3dffe433028fc2847945ada39d7e37bf4d8ae61d55352235d23
+size 694

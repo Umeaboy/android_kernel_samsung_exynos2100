@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_VIDEO_SUNXI_CEDRUS) += sunxi-cedrus.o
-
-sunxi-cedrus-y = cedrus.o cedrus_video.o cedrus_hw.o cedrus_dec.o \
-		 cedrus_mpeg2.o cedrus_h264.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:b96758052f6144696af21e3781f3d43667604553803c649e7f5d057f1b249d2c
+size 187

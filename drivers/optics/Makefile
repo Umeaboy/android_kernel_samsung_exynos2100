@@ -1,9 +1,3 @@
-#
-# Makefile for the optics drivers.
-#
-
-# Each configuration option enables a list of files.
-
-KBUILD_CFLAGS += -Wno-unused-variable -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-frame-larger-than=
-
-obj-$(CONFIG_SENSORS_TSL2510)		+= tsl2510.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:7df95b1b4972c353ccfdd80c00fa0ac5a484d4aa168873518bdae616d73fb8e7
+size 262

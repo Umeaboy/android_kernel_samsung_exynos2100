@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# drivers/char/pcmcia/Makefile
-#
-# Makefile for the Linux PCMCIA char device drivers.
-#
-
-obj-$(CONFIG_SYNCLINK_CS) += synclink_cs.o
-obj-$(CONFIG_CARDMAN_4000) += cm4000_cs.o
-obj-$(CONFIG_CARDMAN_4040) += cm4040_cs.o
-obj-$(CONFIG_SCR24X) += scr24x_cs.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a5ae9f94eb9611cd05630e97abed3e5fceecf9311ed39480d8a3becd113da0b
+size 294

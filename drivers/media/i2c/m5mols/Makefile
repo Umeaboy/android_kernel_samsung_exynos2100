@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-m5mols-objs	:= m5mols_core.o m5mols_controls.o m5mols_capture.o
-
-obj-$(CONFIG_VIDEO_M5MOLS)		+= m5mols.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:e025119d3ed6d3d64d4dd26ef8df83c7c2162a463e9a880fb1e7f8d283ba7f52
+size 145

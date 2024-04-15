@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_OPROFILE) += oprofile.o
-
-DRIVER_OBJS = $(addprefix ../../../drivers/oprofile/, \
-		oprof.o cpu_buffer.o buffer_sync.o \
-		event_buffer.o oprofile_files.o \
-		oprofilefs.o oprofile_stats.o \
-		timer_int.o )
-
-ifeq ($(CONFIG_HW_PERF_EVENTS),y)
-DRIVER_OBJS += $(addprefix ../../../drivers/oprofile/, oprofile_perf.o)
-endif
-
-oprofile-y				:= $(DRIVER_OBJS) common.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:9765d809fb87c1b3914459fd78eb0b7eef53f312003aadb10cd1273db20c9c2a
+size 409

@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# platform driver
-snd-soc-mtk-common-objs := mtk-afe-platform-driver.o mtk-afe-fe-dai.o
-obj-$(CONFIG_SND_SOC_MEDIATEK) += snd-soc-mtk-common.o
-
-obj-$(CONFIG_SND_SOC_MTK_BTCVSD) += mtk-btcvsd.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:a5b7244e3b9b66f9df73eb52af63871772808efb2346832888783c63e6b0bbf9
+size 228

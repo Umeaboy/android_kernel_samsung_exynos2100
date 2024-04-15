@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for industrial I/O ADC drivers
-#
-
-obj-$(CONFIG_AD7816) += ad7816.o
-obj-$(CONFIG_AD7192) += ad7192.o
-obj-$(CONFIG_AD7280) += ad7280a.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:2825fc007c6d4da0cfed8cb8195211448d0bb8b94ab0772a2167ddd6df068324
+size 182

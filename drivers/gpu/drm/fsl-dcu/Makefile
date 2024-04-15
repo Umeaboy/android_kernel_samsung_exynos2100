@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-fsl-dcu-drm-y := fsl_dcu_drm_drv.o \
-		 fsl_dcu_drm_kms.o \
-		 fsl_dcu_drm_rgb.o \
-		 fsl_dcu_drm_plane.o \
-		 fsl_dcu_drm_crtc.o \
-		 fsl_tcon.o
-obj-$(CONFIG_DRM_FSL_DCU)	+= fsl-dcu-drm.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:5cc8158fce789cbe511550f9ebeef0e3cd96b8f74eacca1bbf9dd0c02ed38786
+size 224

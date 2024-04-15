@@ -1,20 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Analog Front End drivers
-#
-# When adding new entries keep the list in alphabetical order
-
-menu "Analog Front Ends"
-
-config IIO_RESCALE
-	tristate "IIO rescale"
-	depends on OF || COMPILE_TEST
-	help
-	  Say yes here to build support for the IIO rescaling
-	  that handles voltage dividers, current sense shunts and
-	  current sense amplifiers.
-
-	  To compile this driver as a module, choose M here: the
-	  module will be called iio-rescale.
-
-endmenu
+version https://git-lfs.github.com/spec/v1
+oid sha256:9f38e2cb3ebae9c535938bf3b0f789507e80b242ab2a02736afea435ecc3e0e3
+size 489

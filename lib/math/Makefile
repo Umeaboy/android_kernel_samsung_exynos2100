@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-y += div64.o gcd.o lcm.o int_pow.o int_sqrt.o reciprocal_div.o
-
-obj-$(CONFIG_CORDIC)		+= cordic.o
-obj-$(CONFIG_PRIME_NUMBERS)	+= prime_numbers.o
-obj-$(CONFIG_RATIONAL)		+= rational.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:dbcd428adea8a4f45d773e597b69b3ce7ad14a36307eb850f2a1dc292d86dbf8
+size 227

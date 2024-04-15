@@ -1,26 +1,3 @@
-#
-# Samsung Performance Logging system
-#
-
-menu "samsung Performace manager"
-
-config KPERFMON
-	bool "Enable performance log"
-	default y
-	help
-		Samsung performance log(OLOG).
-		Say Y here if enable performance olog driver to do logging system resources.
-		When some delay occurs in the kernel, native or user user space,
-		the logging information should be restored into the system.
-
-config KPERFMON_BUILD
-	tristate "Building tyoe of performance log"
-	default m
-	help
-		Samsung performance log(OLOG).
-		This is to set a build type for module or build-in.
-		Say m here if you want a module of performance olog driver.
-		Say y here if you want build-in object of the performance olog driver.
-
-endmenu
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:92a0b36b24cf3584fcc1f93fbdc08ae9f23f19fc3f7ba8eb1980b435bd8784a8
+size 699

@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the linux hypfs filesystem routines.
-#
-
-obj-$(CONFIG_S390_HYPFS_FS) += s390_hypfs.o
-
-s390_hypfs-objs := inode.o hypfs_diag.o hypfs_vm.o hypfs_dbfs.o hypfs_sprp.o
-s390_hypfs-objs += hypfs_diag0c.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:c0ec8e5169c51d8a8e36ffe00fca66f557a0316d11cec60315e94cf176390792
+size 248

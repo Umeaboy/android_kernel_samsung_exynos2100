@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-qnoc-qcs404-objs			:= qcs404.o
-qnoc-sdm845-objs			:= sdm845.o
-icc-smd-rpm-objs			:= smd-rpm.o
-
-obj-$(CONFIG_INTERCONNECT_QCOM_QCS404) += qnoc-qcs404.o
-obj-$(CONFIG_INTERCONNECT_QCOM_SDM845) += qnoc-sdm845.o
-obj-$(CONFIG_INTERCONNECT_QCOM_SMD_RPM) += icc-smd-rpm.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:d4a9b505488f6547e28857471343fa180c291bec710bfb5d662365f9ceddd824
+size 300

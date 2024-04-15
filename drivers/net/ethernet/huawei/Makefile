@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Huawei device drivers.
-#
-
-obj-$(CONFIG_HINIC) += hinic/
+version https://git-lfs.github.com/spec/v1
+oid sha256:5908354a4f3089ef45e0aed90dd3aabd341f3d43277152a58373c2b68a958cfd
+size 117

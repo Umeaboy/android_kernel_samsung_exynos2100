@@ -1,15 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for ALSA
-# Copyright (c) 2001 by Jaroslav Kysela <perex@perex.cz>
-#
-
-snd-opl3-lib-objs := opl3_lib.o opl3_synth.o
-snd-opl3-synth-y := opl3_seq.o opl3_midi.o opl3_drums.o
-ifneq ($(CONFIG_SND_SEQUENCER_OSS),)
-snd-opl3-synth-y += opl3_oss.o
-endif
-
-obj-$(CONFIG_SND_OPL3_LIB) += snd-opl3-lib.o
-obj-$(CONFIG_SND_OPL4_LIB) += snd-opl3-lib.o
-obj-$(CONFIG_SND_OPL3_LIB_SEQ) += snd-opl3-synth.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:8540b7a7f93d7f00709590e4f3211a7bcb27f6598a26e036eb628b7ce0735e0a
+size 434

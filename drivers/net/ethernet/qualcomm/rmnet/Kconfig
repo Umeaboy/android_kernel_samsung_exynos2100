@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# RMNET MAP driver
-#
-
-menuconfig RMNET
-	tristate "RmNet MAP driver"
-	default n
-	select GRO_CELLS
-	---help---
-	  If you select this, you will enable the RMNET module which is used
-	  for handling data in the multiplexing and aggregation protocol (MAP)
-	  format in the embedded data path. RMNET devices can be attached to
-	  any IP mode physical device.
+version https://git-lfs.github.com/spec/v1
+oid sha256:2d2f659b2cf9f260be1cb261f16942c71f0623081fb7b1a56018e52dc63d38fb
+size 395

@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_VIRTIO) += virtio.o virtio_ring.o
-obj-$(CONFIG_VIRTIO_MMIO) += virtio_mmio.o
-obj-$(CONFIG_VIRTIO_PCI) += virtio_pci.o
-virtio_pci-y := virtio_pci_modern.o virtio_pci_common.o
-virtio_pci-$(CONFIG_VIRTIO_PCI_LEGACY) += virtio_pci_legacy.o
-obj-$(CONFIG_VIRTIO_BALLOON) += virtio_balloon.o
-obj-$(CONFIG_VIRTIO_INPUT) += virtio_input.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:2cd7cf0dac40a67aa80766e5fa44b03561d8c4d66e1adec726b989173f6890bd
+size 378

@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the SMSC network device drivers.
-#
-
-obj-$(CONFIG_SMC9194) += smc9194.o
-obj-$(CONFIG_SMC91X) += smc91x.o
-obj-$(CONFIG_PCMCIA_SMC91C92) += smc91c92_cs.o
-obj-$(CONFIG_EPIC100) += epic100.o
-obj-$(CONFIG_SMSC9420) += smsc9420.o
-obj-$(CONFIG_SMC911X) += smc911x.o
-obj-$(CONFIG_SMSC911X) += smsc911x.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:862fc795d77d916417e4a15d7a5c3f9806afa37373443aa1b5fa0aa8649de283
+size 347

@@ -1,20 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-config VIDEO_SOLO6X10
-	tristate "Bluecherry / Softlogic 6x10 capture cards (MPEG-4/H.264)"
-	depends on PCI && VIDEO_DEV && SND && I2C
-	select BITREVERSE
-	select FONT_SUPPORT
-	select FONT_8x16
-	select VIDEOBUF2_DMA_SG
-	select VIDEOBUF2_DMA_CONTIG
-	select SND_PCM
-	select FONT_8x16
-	help
-	  This driver supports the Bluecherry H.264 and MPEG-4 hardware
-	  compression capture cards and other Softlogic-based ones.
-
-	  Following cards have been tested:
-	  * Bluecherry BC-H16480A (PCIe, 16 port, H.264)
-	  * Bluecherry BC-H04120A (PCIe, 4 port, H.264)
-	  * Bluecherry BC-H04120A-MPCI (Mini-PCI, 4 port, H.264)
-	  * Bluecherry BC-04120A (PCIe, 4 port, MPEG-4)
+version https://git-lfs.github.com/spec/v1
+oid sha256:a16357470b278fae771fbe6a4a22a19e311e1808b0c7e7ebb76464b2d10b7145
+size 696

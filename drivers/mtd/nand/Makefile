@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-nandcore-objs := core.o bbt.o
-obj-$(CONFIG_MTD_NAND_CORE) += nandcore.o
-
-obj-y	+= onenand/
-obj-y	+= raw/
-obj-y	+= spi/
+version https://git-lfs.github.com/spec/v1
+oid sha256:0e8d5710beebdd4cc9e291c9b1ec8ef5eaab76ebdd8d3862a5844ef9bf197f68
+size 155

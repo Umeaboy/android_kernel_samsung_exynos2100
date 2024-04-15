@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Makefile for USB tools
-
-PTHREAD_LIBS = -lpthread
-WARNINGS = -Wall -Wextra
-CFLAGS = $(WARNINGS) -g -I../include
-LDFLAGS = $(PTHREAD_LIBS)
-
-all: testusb ffs-test
-%: %.c
-	$(CC) $(CFLAGS) -o $@ $^ $(LDFLAGS)
-
-clean:
-	$(RM) testusb ffs-test
+version https://git-lfs.github.com/spec/v1
+oid sha256:b2679961317d6f6f8e40316dd449c87fbefa2466820d12ccdac1e0030d492a8e
+size 273

@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_VIDEO_STI_HVA) += st-hva.o
-st-hva-y := hva-v4l2.o hva-hw.o hva-mem.o hva-h264.o
-st-hva-$(CONFIG_VIDEO_STI_HVA_DEBUGFS) += hva-debugfs.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:27e55172e0ad4ec4ade2d87c5bfae6a1e9802da772d694471babccc8f756595f
+size 189

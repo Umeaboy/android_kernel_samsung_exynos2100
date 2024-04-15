@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for ALSA
-# Copyright (c) 2001 by Jaroslav Kysela <perex@perex.cz>
-#
-
-snd-util-mem-objs := util_mem.o
-
-# Toplevel Module Dependency
-obj-$(CONFIG_SND_EMU10K1) += snd-util-mem.o
-obj-$(CONFIG_SND_TRIDENT) += snd-util-mem.o
-obj-$(CONFIG_SND_SBAWE_SEQ) += snd-util-mem.o
-obj-$(CONFIG_SND_SEQUENCER) += emux/
+version https://git-lfs.github.com/spec/v1
+oid sha256:c134d3824325986c8d9c95f4ea32078bce6b3071dcf82d1eef8ac13044777d21
+size 350

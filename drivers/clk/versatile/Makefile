@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-# Makefile for Versatile-specific clocks
-obj-$(CONFIG_ICST)		+= icst.o clk-icst.o clk-versatile.o
-obj-$(CONFIG_INTEGRATOR_IMPD1)	+= clk-impd1.o
-obj-$(CONFIG_CLK_SP810)		+= clk-sp810.o
-obj-$(CONFIG_CLK_VEXPRESS_OSC)	+= clk-vexpress-osc.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:29265e16d146f5e027500f960a65787798c90fb756d6076450ebf501c2fcf653
+size 277

@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the PPS core.
-#
-
-pps_core-y			:= pps.o kapi.o sysfs.o
-pps_core-$(CONFIG_NTP_PPS)	+= kc.o
-obj-$(CONFIG_PPS)		:= pps_core.o
-obj-y				+= clients/ generators/
-
-ccflags-$(CONFIG_PPS_DEBUG) := -DDEBUG
+version https://git-lfs.github.com/spec/v1
+oid sha256:7681b5789548aedfb0e67ad336336ec360f3137d79519dfa18d19d599723640c
+size 252

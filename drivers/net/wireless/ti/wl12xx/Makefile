@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-wl12xx-objs	= main.o cmd.o acx.o debugfs.o scan.o event.o
-
-obj-$(CONFIG_WL12XX)		+= wl12xx.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:97ef4a57a86d3abc3dca20385f1321b0e62957503204efd23033123fced293bd
+size 133

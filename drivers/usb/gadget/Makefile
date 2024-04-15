@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# USB peripheral controller drivers
-#
-subdir-ccflags-$(CONFIG_USB_GADGET_DEBUG)	:= -DDEBUG
-subdir-ccflags-$(CONFIG_USB_GADGET_VERBOSE)	+= -DVERBOSE_DEBUG
-ccflags-y				+= -I$(srctree)/drivers/usb/gadget/udc
-
-obj-$(CONFIG_USB_LIBCOMPOSITE)	+= libcomposite.o
-libcomposite-y			:= usbstring.o config.o epautoconf.o
-libcomposite-y			+= composite.o functions.o configfs.o u_f.o
-
-obj-$(CONFIG_USB_GADGET)	+= udc/ function/ legacy/
+version https://git-lfs.github.com/spec/v1
+oid sha256:587b7caa41fa7d7a021dd6663acd62ce11f6e26e44053e0b8b82b05b7860a4b0
+size 460

@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-CFLAGS += -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -Wall
-CFLAGS += -I../.. -I../../../../..
-
-LDLIBS := -llz4 -lcrypto
-EXTRA_SOURCES := utils.c
-TEST_GEN_PROGS := incfs_test
-
-$(TEST_GEN_PROGS): $(EXTRA_SOURCES)
-
-include ../../lib.mk
+version https://git-lfs.github.com/spec/v1
+oid sha256:d9e6face7f375cb861a5c0052f6449f8dff51663f2bda9196b3234f970b48884
+size 262

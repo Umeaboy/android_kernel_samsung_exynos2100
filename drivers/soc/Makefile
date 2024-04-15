@@ -1,29 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the Linux Kernel SOC specific device drivers.
-#
-
-obj-$(CONFIG_ARCH_ACTIONS)	+= actions/
-obj-$(CONFIG_SOC_ASPEED)	+= aspeed/
-obj-$(CONFIG_ARCH_AT91)		+= atmel/
-obj-y				+= bcm/
-obj-$(CONFIG_ARCH_DOVE)		+= dove/
-obj-$(CONFIG_MACH_DOVE)		+= dove/
-obj-y				+= fsl/
-obj-$(CONFIG_ARCH_GEMINI)	+= gemini/
-obj-$(CONFIG_ARCH_MXC)		+= imx/
-obj-$(CONFIG_ARCH_IXP4XX)	+= ixp4xx/
-obj-$(CONFIG_SOC_XWAY)		+= lantiq/
-obj-y				+= mediatek/
-obj-y				+= amlogic/
-obj-y				+= qcom/
-obj-y				+= renesas/
-obj-$(CONFIG_ARCH_ROCKCHIP)	+= rockchip/
-obj-$(CONFIG_SOC_SAMSUNG)	+= samsung/
-obj-y				+= sunxi/
-obj-$(CONFIG_ARCH_TEGRA)	+= tegra/
-obj-y				+= ti/
-obj-$(CONFIG_ARCH_U8500)	+= ux500/
-obj-$(CONFIG_PLAT_VERSATILE)	+= versatile/
-obj-y				+= xilinx/
-obj-$(CONFIG_ARCH_ZX)		+= zte/
+version https://git-lfs.github.com/spec/v1
+oid sha256:51ae325b43630ce63f5c61486876b2ebf774705ff9b03b66b0e6e37d495f7717
+size 814

@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0+
-obj-$(CONFIG_USB_ASPEED_VHUB)	+= aspeed-vhub.o
-aspeed-vhub-y	:= core.o ep0.o epn.o dev.o hub.o
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:338d543e072b73457f596971a486cad91a50bd58fc10506481d7fcc29557803e
+size 132

@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_SND_BCM2835)	+= snd-bcm2835.o
-snd-bcm2835-objs		:= bcm2835.o bcm2835-ctl.o bcm2835-pcm.o bcm2835-vchiq.o
-
-ccflags-y += -I $(srctree)/$(src)/.. -D__VCCOREVER__=0x04000000
+version https://git-lfs.github.com/spec/v1
+oid sha256:2d09ba1e7b9a90374e75cf90109c06476e5a04b4b1441177134401d22ca377a2
+size 218

@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_WILC1000) += wilc1000.o
-
-ccflags-y += -DFIRMWARE_1002=\"atmel/wilc1002_firmware.bin\" \
-		-DFIRMWARE_1003=\"atmel/wilc1003_firmware.bin\"
-
-wilc1000-objs := wilc_wfi_cfgoperations.o wilc_netdev.o wilc_mon.o \
-			wilc_hif.o wilc_wlan_cfg.o wilc_wlan.o
-
-obj-$(CONFIG_WILC1000_SDIO) += wilc1000-sdio.o
-wilc1000-sdio-objs += wilc_sdio.o
-
-obj-$(CONFIG_WILC1000_SPI) += wilc1000-spi.o
-wilc1000-spi-objs += wilc_spi.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:2fd4db28f22ee3c1fb3da8ee24324abca4e4c3704d6571a015ab7b6b3cc6f99a
+size 458

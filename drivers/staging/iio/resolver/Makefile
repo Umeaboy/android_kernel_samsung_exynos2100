@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for Resolver/Synchro drivers
-#
-
-obj-$(CONFIG_AD2S1210) += ad2s1210.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:f2fbf3171e91c459a398ad634571c6bc771cf259385404f25ffdaaca409f5af7
+size 117

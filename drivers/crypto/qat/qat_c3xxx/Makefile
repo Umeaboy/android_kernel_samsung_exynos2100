@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-ccflags-y := -I $(srctree)/$(src)/../qat_common
-obj-$(CONFIG_CRYPTO_DEV_QAT_C3XXX) += qat_c3xxx.o
-qat_c3xxx-objs := adf_drv.o adf_c3xxx_hw_data.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:e89cbc4b76a25be8c0443e0b140518b3f2f4a087bd6baeb6294b10ea07e168c3
+size 186

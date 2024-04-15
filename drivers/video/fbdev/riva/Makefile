@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the Riva framebuffer driver
-#
-
-obj-$(CONFIG_FB_RIVA)     += rivafb.o
-
-rivafb-objs               := fbdev.o riva_hw.o nv_driver.o
-
-ifdef CONFIG_FB_RIVA_I2C
-	rivafb-objs       += rivafb-i2c.o
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:5e68fa74377bf34d08f91c44230f1d9da04589d382341520cf2d9257cb267183
+size 248

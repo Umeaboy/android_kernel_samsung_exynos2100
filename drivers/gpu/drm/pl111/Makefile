@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-pl111_drm-y +=	pl111_display.o \
-		pl111_versatile.o \
-		pl111_drv.o
-
-pl111_drm-$(CONFIG_ARCH_VEXPRESS) += pl111_vexpress.o
-pl111_drm-$(CONFIG_ARCH_NOMADIK) += pl111_nomadik.o
-pl111_drm-$(CONFIG_DEBUG_FS) += pl111_debugfs.o
-
-obj-$(CONFIG_DRM_PL111) += pl111_drm.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:6336e5726fff0c3ae318fe851a5eb7b8b9d17bf906f9e101638c10baeabf8b6f
+size 299

@@ -1,20 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# ARM Versatile SoC drivers
-#
-config SOC_INTEGRATOR_CM
-	bool "SoC bus device for the ARM Integrator platform core modules"
-	depends on ARCH_INTEGRATOR
-	select SOC_BUS
-	help
-	  Include support for the SoC bus on the ARM Integrator platform
-	  core modules providing some sysfs information about the ASIC
-	  variant.
-
-config SOC_REALVIEW
-	bool "SoC bus device for the ARM RealView platforms"
-	depends on ARCH_REALVIEW
-	select SOC_BUS
-	help
-	  Include support for the SoC bus on the ARM RealView platforms
-	  providing some sysfs information about the ASIC variant.
+version https://git-lfs.github.com/spec/v1
+oid sha256:e406aec9bce44aa2231460078b4d008e7bb5211d1af4f38237772ee7ec10b702
+size 605

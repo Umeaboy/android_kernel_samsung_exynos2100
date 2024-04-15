@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-OBJECT_FILES_NON_STANDARD_head.o := y
-
-obj-$(CONFIG_PVH) += enlighten.o
-obj-$(CONFIG_PVH) += head.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:e9f87b3ae6b1db761f9ad3e00af1ffacd1c85c14d4c427effbf3cd6606f5c723
+size 135

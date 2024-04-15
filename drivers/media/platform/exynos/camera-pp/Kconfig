@@ -1,17 +1,3 @@
-#
-# Exynos Camera PostProcessing IP device drivers
-#
-config VIDEO_EXYNOS_CAMERA_POSTPROCESS
-		tristate "Exynos Camera Post-Processing Devices"
-		depends on VIDEO_EXYNOS
-		select V4L2_MEM2MEM_DEV
-		select MEDIA_M2M1SHOT
-		select VIDEOBUF2_DMA_SG
-		default n
-		help
-			This is a representative exynos Camera PostProcessing device.
-
-source "drivers/media/platform/exynos/camera-pp/gdc/Kconfig"
-source "drivers/media/platform/exynos/camera-pp/str/Kconfig"
-source "drivers/media/platform/exynos/camera-pp/votf/Kconfig"
-source "drivers/media/platform/exynos/camera-pp/pd_mgr/Kconfig"
+version https://git-lfs.github.com/spec/v1
+oid sha256:03c9eb51e4a603591b529f33bf548d4ca8ae54236b1e4dfa47f93fd108cdd4cb
+size 578

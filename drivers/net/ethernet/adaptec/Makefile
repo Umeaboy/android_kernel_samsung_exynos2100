@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Adaptec network device drivers.
-#
-
-obj-$(CONFIG_ADAPTEC_STARFIRE) += starfire.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:60ae519eabb7c5d454408de53eb78aab8c54428df0ee5fb51dad46ed4f1dedb5
+size 141

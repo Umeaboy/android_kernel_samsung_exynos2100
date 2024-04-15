@@ -1,16 +1,3 @@
-menuconfig VISION_SUPPORT
-	tristate "Vision Support"
-	select VISION_CORE
-	help
-	  If you want to use hardware acceleration for vision
-	  enable this option and other options below.
-
-if VISION_SUPPORT
-
-source "drivers/vision/vision-core/Kconfig"
-
-source "drivers/vision/dsp/Kconfig"
-
-source "drivers/vision/npu/Kconfig"
-
-endif # VISION_SUPPORT
+version https://git-lfs.github.com/spec/v1
+oid sha256:2d441fd3bfb78b263cbbe9daa65c3a92a48539b1d74290e153363bd9952a885f
+size 343

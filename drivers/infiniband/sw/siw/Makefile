@@ -1,11 +1,3 @@
-obj-$(CONFIG_RDMA_SIW) += siw.o
-
-siw-y := \
-	siw_cm.o \
-	siw_cq.o \
-	siw_main.o \
-	siw_mem.o \
-	siw_qp.o \
-	siw_qp_tx.o \
-	siw_qp_rx.o \
-	siw_verbs.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:ccb7d63cdc234dd88ebcdf9bc6f4cbbbc488b60f44706c89942754e7f6b4ef68
+size 150

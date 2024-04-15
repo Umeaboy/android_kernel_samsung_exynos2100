@@ -1,22 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# OKI Semiconductor device configuration
-#
-
-config NET_VENDOR_OKI
-	bool "OKI Semiconductor devices"
-	default y
-	depends on PCI
-	---help---
-	  If you have a network (Ethernet) card belonging to this class, say Y.
-
-	  Note that the answer to this question doesn't directly affect the
-	  kernel: saying N will just cause the configurator to skip all
-	  the questions about OKI Semiconductor cards. If you say Y, you will
-	  be asked for your specific card in the following questions.
-
-if NET_VENDOR_OKI
-
-source "drivers/net/ethernet/oki-semi/pch_gbe/Kconfig"
-
-endif # NET_VENDOR_OKI
+version https://git-lfs.github.com/spec/v1
+oid sha256:6dc7163e15c36df1603e9ca1c85657cab85c47d5fe054c12c2f51302c745e753
+size 622

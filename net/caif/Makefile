@@ -1,16 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-ccflags-$(CONFIG_CAIF_DEBUG)     :=      -DDEBUG
-
-caif-y := caif_dev.o \
-	cfcnfg.o cfmuxl.o cfctrl.o  \
-	cffrml.o cfveil.o cfdbgl.o\
-	cfserl.o cfdgml.o  \
-	cfrfml.o cfvidl.o cfutill.o \
-	cfsrvl.o cfpkt_skbuff.o
-
-obj-$(CONFIG_CAIF) += caif.o
-obj-$(CONFIG_CAIF_NETDEV) += chnl_net.o
-obj-$(CONFIG_CAIF) += caif_socket.o
-obj-$(CONFIG_CAIF_USB) += caif_usb.o
-
-export-y := caif.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:282bdb1138a58b57c3a2d451617391d5f11b39dc528d40b9e0e14b7734265793
+size 409

@@ -1,21 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the Linux BPFILTER layer.
-#
-
-hostprogs-y := bpfilter_umh
-bpfilter_umh-objs := main.o
-KBUILD_HOSTCFLAGS += -I $(srctree)/tools/include/ -I $(srctree)/tools/include/uapi
-HOSTCC := $(CC)
-
-ifeq ($(CONFIG_BPFILTER_UMH), y)
-# builtin bpfilter_umh should be compiled with -static
-# since rootfs isn't mounted at the time of __init
-# function is called and do_execv won't find elf interpreter
-KBUILD_HOSTLDFLAGS += -static
-endif
-
-$(obj)/bpfilter_umh_blob.o: $(obj)/bpfilter_umh
-
-obj-$(CONFIG_BPFILTER_UMH) += bpfilter.o
-bpfilter-objs += bpfilter_kern.o bpfilter_umh_blob.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:6f84aef7a64449d574d9ae16ad6eccc4cf2ce70505571fbeed576d794001f5f7
+size 617

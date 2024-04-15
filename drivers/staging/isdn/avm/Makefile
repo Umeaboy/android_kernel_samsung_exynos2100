@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Makefile for the AVM ISDN device drivers
-
-# Each configuration option enables a list of files.
-
-obj-$(CONFIG_ISDN_DRV_AVMB1_B1ISA)	+= b1isa.o b1.o
-obj-$(CONFIG_ISDN_DRV_AVMB1_B1PCI)	+= b1pci.o b1.o b1dma.o
-obj-$(CONFIG_ISDN_DRV_AVMB1_B1PCMCIA)	+= b1pcmcia.o b1.o
-obj-$(CONFIG_ISDN_DRV_AVMB1_AVM_CS)	+= avm_cs.o
-obj-$(CONFIG_ISDN_DRV_AVMB1_T1ISA)	+= t1isa.o b1.o
-obj-$(CONFIG_ISDN_DRV_AVMB1_T1PCI)	+= t1pci.o b1.o b1dma.o
-obj-$(CONFIG_ISDN_DRV_AVMB1_C4)		+= c4.o b1.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:193f9a2096d457f3bfd9c728f9e1783bfc3de37535befbe4e4104f5c2fff65a6
+size 504

@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the industrial I/O core.
-#
-
-obj-y += accel/
-obj-y += adc/
-obj-y += addac/
-obj-y += cdc/
-obj-y += frequency/
-obj-y += impedance-analyzer/
-obj-y += meter/
-obj-y += resolver/
+version https://git-lfs.github.com/spec/v1
+oid sha256:173458ab20082e22d7f346aab3bcd1b2b05e9238159aff1ca92f723f830973d2
+size 224

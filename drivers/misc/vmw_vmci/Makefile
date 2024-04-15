@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_VMWARE_VMCI) += vmw_vmci.o
-vmw_vmci-y += vmci_context.o vmci_datagram.o vmci_doorbell.o \
-	vmci_driver.o vmci_event.o vmci_guest.o vmci_handle_array.o \
-	vmci_host.o vmci_queue_pair.o vmci_resource.o vmci_route.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:9914f77ea6e024524fa8c9232f9891dc4473b0bd6bb028a568d4bd82b4259b06
+size 266

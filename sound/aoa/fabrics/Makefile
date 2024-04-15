@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-snd-aoa-fabric-layout-objs += layout.o
-
-obj-$(CONFIG_SND_AOA_FABRIC_LAYOUT) += snd-aoa-fabric-layout.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:328c78fa0498c49e872957f77c41b483c1b4e7cb27ac2801d75233335d38ef90
+size 143

@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the SiS framebuffer device driver
-#
-
-obj-$(CONFIG_FB_SIS) += sisfb.o
-
-sisfb-objs := sis_main.o sis_accel.o init.o init301.o initextlfb.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:905ef3e15eed3109e764efcc66f4117341f1f2dbdadfb16fd5bf02db5a224eb0
+size 194

@@ -1,8 +1,3 @@
-MCD_PANEL_PATH := drivers/video/fbdev/exynos/panel
-if SOC_EXYNOS2100 || SOC_EXYNOS9830 || SOC_EXYNOS9820 || SOC_EXYNOS9610 || UML
-
-source "drivers/video/fbdev/exynos/dpu30/Kconfig"
-source "drivers/video/fbdev/exynos/panel/Kconfig"
-source "drivers/video/fbdev/exynos/dp_logger/Kconfig"
-
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:1e5c8ca40b79ff47efa0671fc8b727edfa662e4c12edcd2717ecdf43c8d977e5
+size 292

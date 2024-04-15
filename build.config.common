@@ -1,16 +1,3 @@
-BRANCH=android11-5.4
-KMI_GENERATION=2
-
-CC=clang
-LD=ld.lld
-NM=llvm-nm
-OBJCOPY=llvm-objcopy
-DEPMOD=depmod
-CLANG_PREBUILT_BIN=prebuilts-master/clang/host/linux-x86/clang-r416183b/bin
-BUILDTOOLS_PREBUILT_BIN=build/build-tools/path/linux-x86
-
-KCFLAGS="${KCFLAGS} -D__ANDROID_COMMON_KERNEL__"
-EXTRA_CMDS=''
-STOP_SHIP_TRACEPRINTK=1
-IN_KERNEL_MODULES=1
-DO_NOT_STRIP_MODULES=1
+version https://git-lfs.github.com/spec/v1
+oid sha256:c6f69f28d23925a72489d7dff2c6a09fe39f9ab5e95cb13c122e12f7d7d5407f
+size 368

@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Xilinx Clocking Wizard Driver
-#
-
-config COMMON_CLK_XLNX_CLKWZRD
-	tristate "Xilinx Clocking Wizard"
-	depends on COMMON_CLK && OF
-	help
-	  Support for the Xilinx Clocking Wizard IP core clock generator.
+version https://git-lfs.github.com/spec/v1
+oid sha256:8e8b356d1b62fe2546d60789b577931e902a84d29bbf0aa6bdb159ea21452297
+size 240

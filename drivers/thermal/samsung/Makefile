@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Samsung thermal specific Makefile
-#
-obj-$(CONFIG_EXYNOS_THERMAL_V2)		+= exynos_thermal.o
-exynos_thermal-y			+= exynos_tmu_v2.o
-exynos_thermal-y			+= exynos_acpm_tmu.o
-exynos_thermal-$(CONFIG_EXYNOS_CPU_THERMAL)	+= cpu_cooling.o
-exynos_thermal-$(CONFIG_ISP_THERMAL)	+= isp_cooling.o
-exynos_thermal-$(CONFIG_DEV_THERMAL)	+= dev_cooling.o
-
-obj-$(CONFIG_GPU_THERMAL)		+= gpu_cooling.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:1b30fb6644f4e74f872f47efddbbc799e6af4df4ac68b3460f57229bf966887a
+size 425

@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-config DRM_ARMADA
-	tristate "DRM support for Marvell Armada SoCs"
-	depends on DRM && HAVE_CLK && ARM && MMU
-	select DRM_KMS_HELPER
-	help
-	  Support the "LCD" controllers found on the Marvell Armada 510
-	  devices.  There are two controllers on the device, each controller
-	  supports graphics and video overlays.
-
-	  This driver provides no built-in acceleration; acceleration is
-	  performed by other IP found on the SoC.  This driver provides
-	  kernel mode setting and buffer management to userspace.
+version https://git-lfs.github.com/spec/v1
+oid sha256:d118564b0d6e054b3e6b7958f543e1c0248e9409ba01f41ac0d25911f70bfe67
+size 544

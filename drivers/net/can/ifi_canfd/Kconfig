@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-config CAN_IFI_CANFD
-	depends on HAS_IOMEM
-	tristate "IFI CAN_FD IP"
-	---help---
-	  This driver adds support for the I/F/I CAN_FD soft IP block
-	  connected to the "platform bus" (Linux abstraction for directly
-	  to the processor attached devices). The CAN_FD is most often
-	  synthesised into an FPGA or CPLD.
+version https://git-lfs.github.com/spec/v1
+oid sha256:3d67a7dd60b886f117cf10f832a31d2674e91edbbd6d269012d45fa87d074619
+size 352

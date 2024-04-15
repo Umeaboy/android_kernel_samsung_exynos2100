@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for bootable kernel images
-#
-
-OBJCOPYFLAGS_vmlinux.bin := -O binary
-$(obj)/vmlinux.bin: vmlinux FORCE
-	$(call if_changed,objcopy)
-
-$(obj)/dtbImage.%: vmlinux
-	$(call if_changed,objcopy)
+version https://git-lfs.github.com/spec/v1
+oid sha256:68fa33b4c1750f7c45232366d5527f4ce927b6e49df4eab57719d846daf2d0a7
+size 234

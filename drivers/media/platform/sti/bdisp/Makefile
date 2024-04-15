@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_VIDEO_STI_BDISP) += bdisp.o
-
-bdisp-objs := bdisp-v4l2.o bdisp-hw.o bdisp-debug.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:9a3371dd630caf79d8b6b5944c709cf3f4c931d32bdc07bbf47c985333d1af32
+size 134

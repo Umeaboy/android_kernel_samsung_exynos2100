@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-config PINCTRL_ZX
-	bool
-	select PINMUX
-	select GENERIC_PINCONF
-	select GENERIC_PINCTRL_GROUPS
-	select GENERIC_PINMUX_FUNCTIONS
-
-config PINCTRL_ZX296718
-	bool "ZTE ZX296718 pinctrl driver"
-	depends on OF && ARCH_ZX
-	select PINCTRL_ZX
-	help
-	  Say Y here to enable the ZX296718 pinctrl driver
+version https://git-lfs.github.com/spec/v1
+oid sha256:0a2f4858e0f2e7059b6c06efcf375a11fc5cf11551959e980df70d3a5021b6fd
+size 331

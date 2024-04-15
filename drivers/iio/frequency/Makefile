@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile iio/frequency
-#
-
-# When adding new entries keep the list in alphabetical order
-obj-$(CONFIG_AD9523) += ad9523.o
-obj-$(CONFIG_ADF4350) += adf4350.o
-obj-$(CONFIG_ADF4371) += adf4371.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:7e08e5381138fd82fc00c3c8d51ac32249c37073ff505ea531a0dc4688eee599
+size 235

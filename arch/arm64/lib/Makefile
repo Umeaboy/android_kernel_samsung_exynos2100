@@ -1,18 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-lib-y		:= clear_user.o delay.o copy_from_user.o		\
-		   copy_to_user.o copy_in_user.o copy_page.o		\
-		   clear_page.o memchr.o memcpy.o memmove.o memset.o	\
-		   memcmp.o strcmp.o strncmp.o strlen.o strnlen.o	\
-		   strchr.o strrchr.o tishift.o
-
-ifeq ($(CONFIG_KERNEL_MODE_NEON), y)
-obj-$(CONFIG_XOR_BLOCKS)	+= xor-neon.o
-CFLAGS_REMOVE_xor-neon.o	+= -mgeneral-regs-only
-CFLAGS_xor-neon.o		+= -ffreestanding
-endif
-
-lib-$(CONFIG_ARCH_HAS_UACCESS_FLUSHCACHE) += uaccess_flushcache.o
-
-obj-$(CONFIG_CRC32) += crc32.o
-
-obj-$(CONFIG_FUNCTION_ERROR_INJECTION) += error-inject.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:604981812ce1186341c229a4716986d12fb21dfada38d46845c5c2e1d743612e
+size 606

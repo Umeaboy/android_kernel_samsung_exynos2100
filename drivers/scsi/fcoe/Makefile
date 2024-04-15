@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_FCOE) += fcoe.o
-obj-$(CONFIG_LIBFCOE) += libfcoe.o
-
-libfcoe-objs := fcoe_ctlr.o fcoe_transport.o fcoe_sysfs.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:d6b0a873b6365e268d0446601e09fff82fa7e8be7fa4fa6104cf9f1ef9234611
+size 163

@@ -1,6 +1,3 @@
-config VIDEO_EXYNOS_CAMERA_POSTPROCESS_PD_MGR
-	tristate "EXYNOS CAMERA POSTPROCESS POWER DOMAIN MANAGER Driver"
-	depends on VIDEO_EXYNOS_CAMERA_POSTPROCESS
-	default n
-	help
-		Use to build Camera Postprocess power domain manager driver
+version https://git-lfs.github.com/spec/v1
+oid sha256:cdf9a061ea229189c0f2874b388189507ae1328bcabf228dab53874aa7dc246b
+size 235

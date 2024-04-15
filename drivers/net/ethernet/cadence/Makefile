@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the Atmel network device drivers.
-#
-macb-y	:= macb_main.o
-
-ifeq ($(CONFIG_MACB_USE_HWSTAMP),y)
-macb-y	+= macb_ptp.o
-endif
-
-obj-$(CONFIG_MACB) += macb.o
-obj-$(CONFIG_MACB_PCI) += macb_pci.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:7c26360d4132acd0315920722ceecffd1113af91a98b25ced9f16ac9ae81e59a
+size 241

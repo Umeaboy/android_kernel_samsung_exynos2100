@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-bnx2i-y := bnx2i_init.o bnx2i_hwi.o bnx2i_iscsi.o bnx2i_sysfs.o
-
-obj-$(CONFIG_SCSI_BNX2_ISCSI) += bnx2i.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:602b42b5704ec1b3ffdc7216a036863fa3b86b93274b8abc7a291f7db973d10c
+size 146

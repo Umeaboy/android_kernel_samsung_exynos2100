@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for code common across different PXA processor families
-#
-ccflags-$(CONFIG_ARCH_MMP) := -I$(srctree)/$(src)/include
-
-obj-$(CONFIG_PXA3xx)		+= mfp.o
-obj-$(CONFIG_ARCH_MMP)		+= mfp.o
-
-obj-$(CONFIG_PXA_SSP)		+= ssp.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:8a906beaa8b258a23f947665ead3b91e23c846fc10c5f84bed7190f82857d6d3
+size 267

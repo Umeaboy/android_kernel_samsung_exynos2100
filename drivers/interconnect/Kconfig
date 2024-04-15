@@ -1,16 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-menuconfig INTERCONNECT
-	tristate "On-Chip Interconnect management support"
-	help
-	  Support for management of the on-chip interconnects.
-
-	  This framework is designed to provide a generic interface for
-	  managing the interconnects in a SoC.
-
-	  If unsure, say no.
-
-if INTERCONNECT
-
-source "drivers/interconnect/qcom/Kconfig"
-
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:d515f8e8e0ff47dd8371af03dfcd1376ef9af662ad749b61f6ede6a9d8b9604d
+size 375

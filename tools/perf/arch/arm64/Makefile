@@ -1,28 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-ifndef NO_DWARF
-PERF_HAVE_DWARF_REGS := 1
-endif
-PERF_HAVE_JITDUMP := 1
-PERF_HAVE_ARCH_REGS_QUERY_REGISTER_OFFSET := 1
-
-#
-# Syscall table generation for perf
-#
-
-out    := $(OUTPUT)arch/arm64/include/generated/asm
-header := $(out)/syscalls.c
-incpath := $(srctree)/tools
-sysdef := $(srctree)/tools/arch/arm64/include/uapi/asm/unistd.h
-sysprf := $(srctree)/tools/perf/arch/arm64/entry/syscalls/
-systbl := $(sysprf)/mksyscalltbl
-
-# Create output directory if not already present
-_dummy := $(shell [ -d '$(out)' ] || mkdir -p '$(out)')
-
-$(header): $(sysdef) $(systbl)
-	$(Q)$(SHELL) '$(systbl)' '$(CC)' '$(HOSTCC)' $(incpath) $(sysdef) > $@
-
-clean::
-	$(call QUIET_CLEAN, arm64) $(RM) $(header)
-
-archheaders: $(header)
+version https://git-lfs.github.com/spec/v1
+oid sha256:f9c2a84340463f6c0a2f317edf7514e200bb145b9eacf35a2946318edeb3b695
+size 746

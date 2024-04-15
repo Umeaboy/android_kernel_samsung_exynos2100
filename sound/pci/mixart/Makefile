@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for ALSA
-# Copyright (c) 2001 by Jaroslav Kysela <perex@perex.cz>
-#
-
-snd-mixart-objs := mixart.o mixart_core.o mixart_hwdep.o mixart_mixer.o
-
-obj-$(CONFIG_SND_MIXART) += snd-mixart.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:c25eb6e2c6144c5ffc5e60b74bdb610beb4dd438c7a882e779fdc8d3ec7262ec
+size 236

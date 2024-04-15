@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-snd-soc-adi-axi-i2s-objs := axi-i2s.o
-snd-soc-adi-axi-spdif-objs := axi-spdif.o
-
-obj-$(CONFIG_SND_SOC_ADI_AXI_I2S) += snd-soc-adi-axi-i2s.o
-obj-$(CONFIG_SND_SOC_ADI_AXI_SPDIF) += snd-soc-adi-axi-spdif.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:cb3d30ad717a11b99a0180344c4bda5d41ec33595e411049f98bb717069c1294
+size 243

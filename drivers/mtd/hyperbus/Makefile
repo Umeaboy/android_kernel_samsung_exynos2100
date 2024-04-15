@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-obj-$(CONFIG_MTD_HYPERBUS)	+= hyperbus-core.o
-obj-$(CONFIG_HBMC_AM654)	+= hbmc-am654.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:3fd4a10a86ffaad6b33fc84b1269225493a954f9a364410fe7921981cf3dca84
+size 123

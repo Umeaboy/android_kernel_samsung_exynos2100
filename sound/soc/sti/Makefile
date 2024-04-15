@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-# STI platform support
-snd-soc-sti-objs := sti_uniperif.o uniperif_player.o uniperif_reader.o
-
-obj-$(CONFIG_SND_SOC_STI) += snd-soc-sti.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:19a4370ce54be3b588877b17fa929e58925b52d36aae8e8eda135053438a43a9
+size 178

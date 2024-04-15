@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_VIDEO_CAFE_CCIC) += cafe_ccic.o mcam-core.o
-cafe_ccic-y := cafe-driver.o
-
-obj-$(CONFIG_VIDEO_MMP_CAMERA) += mmp_camera.o mcam-core.o
-mmp_camera-y := mmp-driver.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c05bdd6a0d3ec7e765d5e8c7b43b2de3a76a7191be000680354f9dd01b7918e
+size 215

@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-bochs-drm-y := bochs_drv.o bochs_mm.o bochs_kms.o bochs_hw.o
-
-obj-$(CONFIG_DRM_BOCHS)	+= bochs-drm.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:ed7a88927d9c56986a7b2ef1aabea7da03a94c2c14601bf81e85d3ee400f1a2b
+size 141

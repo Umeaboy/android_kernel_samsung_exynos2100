@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for SSP sensor drivers and commons.
-#
-
-sensorhub-objs				:= ssp_dev.o ssp_spi.o
-obj-$(CONFIG_IIO_SSP_SENSORHUB)		+= sensorhub.o
-
-obj-$(CONFIG_IIO_SSP_SENSORS_COMMONS) 	+= ssp_iio.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:b79320ff41d92cb47b023e98baf45a4e76ff8ae6c09fd7c8dc3215ee3072aceb
+size 234

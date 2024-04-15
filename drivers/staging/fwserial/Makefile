@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_FIREWIRE_SERIAL) += firewire-serial.o
-firewire-serial-objs := fwserial.o dma_fifo.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:a884091f147df24016003630795c457e64c884f2ca062849c85ada49cf0f7ed9
+size 132

@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for PPS clients.
-#
-
-obj-$(CONFIG_PPS_CLIENT_KTIMER)	+= pps-ktimer.o
-obj-$(CONFIG_PPS_CLIENT_LDISC)	+= pps-ldisc.o
-obj-$(CONFIG_PPS_CLIENT_PARPORT) += pps_parport.o
-obj-$(CONFIG_PPS_CLIENT_GPIO)	+= pps-gpio.o
-
-ccflags-$(CONFIG_PPS_DEBUG) := -DDEBUG
+version https://git-lfs.github.com/spec/v1
+oid sha256:a6b6e5242b96b59d00362b184e49ee6fe0ff295063eda30a24b3eae57c2220e3
+size 301

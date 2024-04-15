@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the Chelsio network device drivers.
-#
-
-obj-$(CONFIG_CHELSIO_T1) += cxgb/
-obj-$(CONFIG_CHELSIO_T3) += cxgb3/
-obj-$(CONFIG_CHELSIO_T4) += cxgb4/
-obj-$(CONFIG_CHELSIO_T4VF) += cxgb4vf/
-obj-$(CONFIG_CHELSIO_LIB) += libcxgb/
+version https://git-lfs.github.com/spec/v1
+oid sha256:85b40c448775b22b1faafaccf95a2093c2f52bbd08625744fc96528bff0322f5
+size 272

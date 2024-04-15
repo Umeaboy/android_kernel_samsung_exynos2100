@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the drm device driver.  This driver provides support for the
-# Direct Rendering Infrastructure (DRI) in XFree86 4.1.0 and higher.
-
-sis-y := sis_drv.o sis_mm.o
-
-obj-$(CONFIG_DRM_SIS)   += sis.o
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:0de41a8dbdf9155054e293f3fc980c8a703f4f10618ccb530a5bed0dbfb1898f
+size 252

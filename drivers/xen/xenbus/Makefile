@@ -1,15 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-y	+= xenbus.o
-obj-y	+= xenbus_dev_frontend.o
-
-xenbus-objs =
-xenbus-objs += xenbus_client.o
-xenbus-objs += xenbus_comms.o
-xenbus-objs += xenbus_xs.o
-xenbus-objs += xenbus_probe.o
-
-xenbus-be-objs-$(CONFIG_XEN_BACKEND) += xenbus_probe_backend.o
-xenbus-objs += $(xenbus-be-objs-y)
-
-obj-$(CONFIG_XEN_BACKEND) += xenbus_dev_backend.o
-obj-$(CONFIG_XEN_XENBUS_FRONTEND) += xenbus_probe_frontend.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:e4261ab252163e9e0ad3f21656269669dea89c1a156633bc3983147d2f284ec0
+size 428

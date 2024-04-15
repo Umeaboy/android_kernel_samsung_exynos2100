@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the drm device driver.  This driver provides support for the
-# Direct Rendering Infrastructure (DRI) in XFree86 4.1.0 and higher.
-
-virtio-gpu-y := virtgpu_drv.o virtgpu_kms.o virtgpu_gem.o \
-	virtgpu_display.o virtgpu_vq.o virtgpu_ttm.o \
-	virtgpu_fence.o virtgpu_object.o virtgpu_debugfs.o virtgpu_plane.o \
-	virtgpu_ioctl.o virtgpu_prime.o virtgpu_trace_points.o
-
-obj-$(CONFIG_DRM_VIRTIO_GPU) += virtio-gpu.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:a9eb90b09feadf62cb021f28a75efac1442d484df378f9b9029ae866bbc72466
+size 463

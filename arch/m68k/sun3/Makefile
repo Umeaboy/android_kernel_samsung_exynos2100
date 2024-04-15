@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for Linux arch/m68k/sun3 source directory
-#
-
-obj-y	:= sun3ints.o sun3dvma.o idprom.o
-
-obj-$(CONFIG_SUN3) += config.o mmu_emu.o leds.o dvma.o intersil.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:c0d2e297b0f78966e61a7cb19a9b707ffcc620483b7c06109b43d5419dc81d99
+size 205

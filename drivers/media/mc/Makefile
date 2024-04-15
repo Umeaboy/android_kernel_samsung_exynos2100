@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-mc-objs	:= mc-device.o mc-devnode.o mc-entity.o \
-	   mc-request.o
-
-ifneq ($(CONFIG_USB),)
-	mc-objs += mc-dev-allocator.o
-endif
-
-obj-$(CONFIG_MEDIA_SUPPORT) += mc.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:cc2747c7efa64e51bd6d406ea1d6b5bf594f7f64f48d087060a46281436c67d7
+size 201

@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_CRYPTO_DEV_VIRTIO) += virtio_crypto.o
-virtio_crypto-objs := \
-	virtio_crypto_algs.o \
-	virtio_crypto_mgr.o \
-	virtio_crypto_core.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:d280d676b02a34f41d055bce2f7c39bd2607f9991d04ae448f4e7f2316cd27dc
+size 179

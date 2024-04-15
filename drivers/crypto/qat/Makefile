@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_CRYPTO_DEV_QAT) += qat_common/
-obj-$(CONFIG_CRYPTO_DEV_QAT_DH895xCC) += qat_dh895xcc/
-obj-$(CONFIG_CRYPTO_DEV_QAT_C3XXX) += qat_c3xxx/
-obj-$(CONFIG_CRYPTO_DEV_QAT_C62X) += qat_c62x/
-obj-$(CONFIG_CRYPTO_DEV_QAT_DH895xCCVF) += qat_dh895xccvf/
-obj-$(CONFIG_CRYPTO_DEV_QAT_C3XXXVF) += qat_c3xxxvf/
-obj-$(CONFIG_CRYPTO_DEV_QAT_C62XVF) += qat_c62xvf/
+version https://git-lfs.github.com/spec/v1
+oid sha256:55a1d6859862d21baef0727ca42d6115970978f247f7e700dc00f0423c02c730
+size 393

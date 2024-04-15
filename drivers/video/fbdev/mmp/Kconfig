@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-menuconfig MMP_DISP
-	tristate "Marvell MMP Display Subsystem support"
-	depends on CPU_PXA910 || CPU_MMP2
-	help
-	  Marvell Display Subsystem support.
-
-if MMP_DISP
-source "drivers/video/fbdev/mmp/hw/Kconfig"
-source "drivers/video/fbdev/mmp/panel/Kconfig"
-source "drivers/video/fbdev/mmp/fb/Kconfig"
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:e01adeb1e059cdde67d33ada0bd44ba691295fa6487df145d6339f23e09eaac2
+size 343

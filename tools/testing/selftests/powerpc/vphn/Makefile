@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-TEST_GEN_PROGS := test-vphn
-
-CFLAGS += -m64 -I$(CURDIR)
-
-top_srcdir = ../../../../..
-include ../../lib.mk
-
-$(TEST_GEN_PROGS): ../harness.c
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:180fc7e5f06e039476b81e1d4ffb213b8f4fafd46089165ae77eb94517593c81
+size 180

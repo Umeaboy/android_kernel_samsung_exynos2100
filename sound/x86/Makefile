@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-snd-hdmi-lpe-audio-objs += \
-	intel_hdmi_audio.o
-
-obj-$(CONFIG_HDMI_LPE_AUDIO) += snd-hdmi-lpe-audio.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:04a9cea3f692387760c83cfdae697f11ad88b8a41a07cc63aa331e8ea2b15cb0
+size 143

@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-ifneq '$(CONFIG_H8300_BUILTIN_DTB)' '""'
-BUILTIN_DTB := $(patsubst "%",%,$(CONFIG_H8300_BUILTIN_DTB)).dtb.o
-endif
-
-obj-y += $(BUILTIN_DTB)
-
-dtb-$(CONFIG_H8300H_SIM) := h8300h_sim.dtb
-dtb-$(CONFIG_H8S_SIM) := h8s_sim.dtb
-dtb-$(CONFIG_H8S_EDOSK2674) := edosk2674.dtb
+version https://git-lfs.github.com/spec/v1
+oid sha256:5e9c8a763b9739d464d1b4ec21ad8f5bf95a476c17b56b6bd2a3c20003c77430
+size 300

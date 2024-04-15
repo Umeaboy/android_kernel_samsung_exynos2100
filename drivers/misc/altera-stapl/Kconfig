@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-comment "Altera FPGA firmware download module (requires I2C)"
-	depends on !I2C
-
-config ALTERA_STAPL
-	tristate "Altera FPGA firmware download module"
-	depends on I2C
-	help
-	  An Altera FPGA module. Say Y when you want to support this tool.
+version https://git-lfs.github.com/spec/v1
+oid sha256:b26477a22b481a83343c6be01f2425727d174835f0a0660ccc52d79cb0325375
+size 279

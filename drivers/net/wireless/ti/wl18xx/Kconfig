@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-config WL18XX
-	tristate "TI wl18xx support"
-	depends on MAC80211
-	select WLCORE
-	---help---
-	  This module adds support for wireless adapters based on TI
-	  WiLink 8 chipsets.
+version https://git-lfs.github.com/spec/v1
+oid sha256:8950f4e59c7883c9339f186c6e29ba36506f794dd3c0ed5f47f21272dd7b51d4
+size 216

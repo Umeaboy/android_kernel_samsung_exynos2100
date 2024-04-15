@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-all: test
-test: vsock_diag_test
-vsock_diag_test: vsock_diag_test.o timeout.o control.o
-
-CFLAGS += -g -O2 -Werror -Wall -I. -I../../include/uapi -I../../include -Wno-pointer-sign -fno-strict-overflow -fno-strict-aliasing -fno-common -MMD -U_FORTIFY_SOURCE -D_GNU_SOURCE
-.PHONY: all test clean
-clean:
-	${RM} *.o *.d vsock_diag_test
--include *.d
+version https://git-lfs.github.com/spec/v1
+oid sha256:8f2fe0b6a6a2b2eb158b4e538db93f0eecb605e45c43a50b41e8a5ab6db2f7c1
+size 383

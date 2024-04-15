@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-## Chelsio FCoE driver
-#
-##
-
-ccflags-y += -I$(srctree)/drivers/net/ethernet/chelsio/cxgb4
-
-obj-$(CONFIG_SCSI_CHELSIO_FCOE) += csiostor.o
-
-csiostor-objs := csio_attr.o csio_init.o csio_lnode.o csio_scsi.o \
-		csio_hw.o csio_hw_t5.o csio_isr.o \
-		csio_mb.o csio_rnode.o csio_wr.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:d2da5fab3ffd9bbbfa60d5150f0b1327147566835d8847baed978b5a74ca3231
+size 316

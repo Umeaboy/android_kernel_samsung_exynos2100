@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_X86_CPU_RESCTRL)	+= core.o rdtgroup.o monitor.o
-obj-$(CONFIG_X86_CPU_RESCTRL)	+= ctrlmondata.o pseudo_lock.o
-CFLAGS_pseudo_lock.o = -I$(src)
+version https://git-lfs.github.com/spec/v1
+oid sha256:20ecdbdb46f80c188fe3dbbb5b38fb464b4e6d9db5790db4385b9f84f86116b0
+size 189

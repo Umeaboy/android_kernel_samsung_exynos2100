@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile to build the network driver for ServerEngine's BladeEngine.
-#
-
-obj-$(CONFIG_BE2NET) += be2net.o
-
-be2net-y :=  be_main.o be_cmds.o be_ethtool.o be_roce.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:9fc4b3fd07723a914d6c2ed441821d4ab061a04a2c918475da9473872a60e166
+size 206

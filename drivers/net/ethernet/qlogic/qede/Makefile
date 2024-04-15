@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_QEDE) := qede.o
-
-qede-y := qede_main.o qede_fp.o qede_filter.o qede_ethtool.o qede_ptp.o
-qede-$(CONFIG_DCB) += qede_dcbnl.o
-qede-$(CONFIG_QED_RDMA) += qede_rdma.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:2774ae3d7c4e7606c5256eea10def9a3187fbd67f8ff22924444ab05034b4e54
+size 216

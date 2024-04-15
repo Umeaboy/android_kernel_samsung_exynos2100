@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-ifneq ($(CONFIG_DVB_B2C2_FLEXCOP_PCI),)
-b2c2-flexcop-pci-objs += flexcop-dma.o
-endif
-
-b2c2-flexcop-pci-objs += flexcop-pci.o
-obj-$(CONFIG_DVB_B2C2_FLEXCOP_PCI) += b2c2-flexcop-pci.o
-
-ccflags-y += -I $(srctree)/drivers/media/common/b2c2/
+version https://git-lfs.github.com/spec/v1
+oid sha256:bf84b3b6cf883ae009ed5f5380640c7dfdc7c36b673577e2cc087af63d534e7f
+size 272

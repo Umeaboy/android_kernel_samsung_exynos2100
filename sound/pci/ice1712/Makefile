@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for ALSA
-# Copyright (c) 2001 by Jaroslav Kysela <perex@perex.cz>
-#
-
-snd-ice17xx-ak4xxx-objs := ak4xxx.o
-snd-ice1712-objs := ice1712.o delta.o hoontech.o ews.o
-snd-ice1724-objs := ice1724.o amp.o revo.o aureon.o vt1720_mobo.o pontis.o prodigy192.o prodigy_hifi.o juli.o phase.o wtm.o se.o maya44.o quartet.o psc724.o wm8766.o wm8776.o
-
-# Toplevel Module Dependency
-obj-$(CONFIG_SND_ICE1712) += snd-ice1712.o snd-ice17xx-ak4xxx.o
-obj-$(CONFIG_SND_ICE1724) += snd-ice1724.o snd-ice17xx-ak4xxx.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:ee8312fcd988d783727380f7fcc11e69b26671890b55cbdff8656f93602835e7
+size 541

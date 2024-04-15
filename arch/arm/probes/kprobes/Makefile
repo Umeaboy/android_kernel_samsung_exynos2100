@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_KPROBES)		+= core.o actions-common.o checkers-common.o
-obj-$(CONFIG_ARM_KPROBES_TEST)	+= test-kprobes.o
-test-kprobes-objs		:= test-core.o
-
-ifdef CONFIG_THUMB2_KERNEL
-obj-$(CONFIG_KPROBES)		+= actions-thumb.o checkers-thumb.o
-test-kprobes-objs		+= test-thumb.o
-else
-obj-$(CONFIG_KPROBES)		+= actions-arm.o checkers-arm.o
-obj-$(CONFIG_OPTPROBES)		+= opt-arm.o
-test-kprobes-objs		+= test-arm.o
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:0fac7914b195a60cfbd42d867c48abc88ffa07e426e0c295e5511d31fba4f76e
+size 445

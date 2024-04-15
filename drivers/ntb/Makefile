@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_NTB) += ntb.o hw/ test/
-obj-$(CONFIG_NTB_TRANSPORT) += ntb_transport.o
-
-ntb-y			:= core.o
-ntb-$(CONFIG_NTB_MSI)	+= msi.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:6805caadfab88c525205c7cf17e560a8ddbdd3869de41d397bb7ec7956e6819e
+size 174

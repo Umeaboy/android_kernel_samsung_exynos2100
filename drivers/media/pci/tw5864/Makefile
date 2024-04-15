@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-tw5864-objs := tw5864-core.o tw5864-video.o tw5864-h264.o tw5864-util.o
-
-obj-$(CONFIG_VIDEO_TW5864) += tw5864.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:c117df9c2a8c2bf38a8be6adce562e4cd29fe48df303dbadc009df77d9809b91
+size 152

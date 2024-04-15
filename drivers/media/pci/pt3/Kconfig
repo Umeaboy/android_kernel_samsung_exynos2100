@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-config DVB_PT3
-	tristate "Earthsoft PT3 cards"
-	depends on DVB_CORE && PCI && I2C
-	select DVB_TC90522 if MEDIA_SUBDRV_AUTOSELECT
-	select MEDIA_TUNER_QM1D1C0042 if MEDIA_SUBDRV_AUTOSELECT
-	select MEDIA_TUNER_MXL301RF if MEDIA_SUBDRV_AUTOSELECT
-	help
-	  Support for Earthsoft PT3 PCIe cards.
-
-	  Say Y or M if you own such a device and want to use it.
+version https://git-lfs.github.com/spec/v1
+oid sha256:cd8178bd85b45710b90875b5da99bc3b14603aba348c7aa67746ef5d8b515e2d
+size 390

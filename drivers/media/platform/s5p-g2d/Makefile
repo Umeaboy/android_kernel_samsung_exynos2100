@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-s5p-g2d-objs := g2d.o g2d-hw.o
-
-obj-$(CONFIG_VIDEO_SAMSUNG_S5P_G2D)	+= s5p-g2d.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:8255c9ad2b2c5355413b298db0506d2d58d15933cfaf28e3b156901ad593e9eb
+size 121

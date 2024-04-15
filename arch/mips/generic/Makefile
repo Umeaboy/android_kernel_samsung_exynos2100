@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-or-later
-#
-# Copyright (C) 2016 Imagination Technologies
-# Author: Paul Burton <paul.burton@mips.com>
-#
-
-obj-y += init.o
-obj-y += irq.o
-obj-y += proc.o
-
-obj-$(CONFIG_YAMON_DT_SHIM)		+= yamon-dt.o
-obj-$(CONFIG_LEGACY_BOARD_SEAD3)	+= board-sead3.o
-obj-$(CONFIG_LEGACY_BOARD_OCELOT)	+= board-ocelot.o
-obj-$(CONFIG_VIRT_BOARD_RANCHU)		+= board-ranchu.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:729cd555d3d025f5c39ffd45f81f9d9b71c1b0b70d013fcf50c44c39410849b7
+size 384

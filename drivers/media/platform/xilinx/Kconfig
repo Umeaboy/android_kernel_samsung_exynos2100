@@ -1,26 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-config VIDEO_XILINX
-	tristate "Xilinx Video IP (EXPERIMENTAL)"
-	depends on VIDEO_V4L2 && VIDEO_V4L2_SUBDEV_API && OF && HAS_DMA
-	select VIDEOBUF2_DMA_CONTIG
-	select V4L2_FWNODE
-	help
-	  Driver for Xilinx Video IP Pipelines
-
-if VIDEO_XILINX
-
-config VIDEO_XILINX_TPG
-	tristate "Xilinx Video Test Pattern Generator"
-	depends on VIDEO_XILINX
-	select VIDEO_XILINX_VTC
-	help
-	   Driver for the Xilinx Video Test Pattern Generator
-
-config VIDEO_XILINX_VTC
-	tristate "Xilinx Video Timing Controller"
-	depends on VIDEO_XILINX
-	help
-	   Driver for the Xilinx Video Timing Controller
-
-endif #VIDEO_XILINX
+version https://git-lfs.github.com/spec/v1
+oid sha256:35121eefa972a2f8f4c70602fdca07d13f04d43039a45a473a0cdbd956b22343
+size 630

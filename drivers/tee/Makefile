@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_TEE) += tee.o
-tee-objs += tee_core.o
-tee-objs += tee_shm.o
-tee-objs += tee_shm_pool.o
-obj-$(CONFIG_OPTEE) += optee/
+version https://git-lfs.github.com/spec/v1
+oid sha256:29a817d57f6a2ce0ce960dfd721cef1e725b02da17d0d7a9c750501191a3fa29
+size 164

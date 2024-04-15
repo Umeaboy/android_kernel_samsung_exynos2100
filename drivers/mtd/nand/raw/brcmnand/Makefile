@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# link order matters; don't link the more generic brcmstb_nand.o before the
-# more specific iproc_nand.o, for instance
-obj-$(CONFIG_MTD_NAND_BRCMNAND)		+= iproc_nand.o
-obj-$(CONFIG_MTD_NAND_BRCMNAND)		+= bcm63138_nand.o
-obj-$(CONFIG_MTD_NAND_BRCMNAND)		+= bcm6368_nand.o
-obj-$(CONFIG_MTD_NAND_BRCMNAND)		+= brcmstb_nand.o
-obj-$(CONFIG_MTD_NAND_BRCMNAND)		+= brcmnand.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:9ae633bdf77b651fbdc0c7deae26426a773835a33b07b5e6e3b41264c0024eb2
+size 404

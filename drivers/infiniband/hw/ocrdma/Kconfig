@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-config INFINIBAND_OCRDMA
-	tristate "Emulex One Connect HCA support"
-	depends on ETHERNET && NETDEVICES && PCI && INET && (IPV6 || IPV6=n)
-	select NET_VENDOR_EMULEX
-	select BE2NET
-	---help---
-	  This driver provides low-level InfiniBand over Ethernet
-	  support for Emulex One Connect host channel adapters (HCAs).
+version https://git-lfs.github.com/spec/v1
+oid sha256:aafcef9b96de0b08c78167f3c4beb441497c7f8fd5c1f72070901a699e26a71b
+size 354

@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for radios with Silicon Labs Si4713 FM Radio Transmitters
-#
-
-obj-$(CONFIG_I2C_SI4713) += si4713.o
-obj-$(CONFIG_USB_SI4713) += radio-usb-si4713.o
-obj-$(CONFIG_PLATFORM_SI4713) += radio-platform-si4713.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:fc1d84078ea280214270cf7dd18c5875d5a29aedc7e8a8abbdc6724bf9b824b8
+size 255

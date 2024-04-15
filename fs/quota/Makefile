@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_QUOTA)		+= dquot.o
-obj-$(CONFIG_QFMT_V1)		+= quota_v1.o
-obj-$(CONFIG_QFMT_V2)		+= quota_v2.o
-obj-$(CONFIG_QUOTA_TREE)	+= quota_tree.o
-obj-$(CONFIG_QUOTACTL)		+= quota.o kqid.o
-obj-$(CONFIG_QUOTACTL_COMPAT)	+= compat.o
-obj-$(CONFIG_QUOTA_NETLINK_INTERFACE)	+= netlink.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:965709298de069a589ac94fb917e0032c8b88d626d02584b8afd93fe538f44d0
+size 317

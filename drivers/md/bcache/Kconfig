@@ -1,28 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-
-config BCACHE
-	tristate "Block device as cache"
-	select CRC64
-	help
-	Allows a block device to be used as cache for other devices; uses
-	a btree for indexing and the layout is optimized for SSDs.
-
-	See Documentation/admin-guide/bcache.rst for details.
-
-config BCACHE_DEBUG
-	bool "Bcache debugging"
-	depends on BCACHE
-	help
-	Don't select this option unless you're a developer
-
-	Enables extra debugging tools, allows expensive runtime checks to be
-	turned on.
-
-config BCACHE_CLOSURES_DEBUG
-	bool "Debug closures"
-	depends on BCACHE
-	select DEBUG_FS
-	help
-	Keeps all active closures in a linked list and provides a debugfs
-	interface to list them, which makes it possible to see asynchronous
-	operations that get stuck.
+version https://git-lfs.github.com/spec/v1
+oid sha256:eaba13fd3bba1fe2a44ae4f17cb61f34944b1812fd7b5e5b177b04a286b7647b
+size 757

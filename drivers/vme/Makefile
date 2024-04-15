@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the VME bridge device drivers.
-#
-obj-$(CONFIG_VME_BUS)		+= vme.o
-
-obj-y				+= bridges/
-obj-y				+= boards/
+version https://git-lfs.github.com/spec/v1
+oid sha256:2968f354ea5b2bdf14901995dc8d035375ab9aa92cc7a34b89a7474469e9ece4
+size 164

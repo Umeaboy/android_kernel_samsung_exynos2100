@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_VIDEO_STM32_DCMI) += stm32-dcmi.o
-obj-$(CONFIG_VIDEO_STM32_HDMI_CEC) += stm32-cec.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:113179c119be4dfff86f574e7a85c88c06bd13a5e840597012ddb33c0b57fa19
+size 137

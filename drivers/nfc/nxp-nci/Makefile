@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for NXP-NCI NFC driver
-#
-
-nxp-nci-objs = core.o firmware.o
-nxp-nci_i2c-objs = i2c.o
-
-obj-$(CONFIG_NFC_NXP_NCI) += nxp-nci.o
-obj-$(CONFIG_NFC_NXP_NCI_I2C) += nxp-nci_i2c.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:98e9f1e833217005a739bf140563ff5eceaedb74bb4e401cb9fa2b7c96e2f22f
+size 224

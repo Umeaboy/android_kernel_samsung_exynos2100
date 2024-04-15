@@ -1,19 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# 
-# Copyright (C) 2000 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
-#
-
-# Don't instrument UML-specific code
-KCOV_INSTRUMENT                := n
-
-obj-y = execvp.o file.o helper.o irq.o main.o mem.o process.o \
-	registers.o sigio.o signal.o start_up.o time.o tty.o \
-	umid.o user_syms.o util.o drivers/ skas/
-
-obj-$(CONFIG_ARCH_REUSE_HOST_VSYSCALL_AREA) += elf_aux.o
-
-USER_OBJS := $(user-objs-y) elf_aux.o execvp.o file.o helper.o irq.o \
-	main.o mem.o process.o registers.o sigio.o signal.o start_up.o time.o \
-	tty.o umid.o util.o
-
-include arch/um/scripts/Makefile.rules
+version https://git-lfs.github.com/spec/v1
+oid sha256:307aa8b2332c07293fa9d57682d4718d2dde535c2cd9035d746872aca11d7165
+size 613

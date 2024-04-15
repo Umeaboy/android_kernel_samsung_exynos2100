@@ -1,7 +1,3 @@
-obj-$(CONFIG_UH) 		+= uh_debug_log.o
-
-# app
-obj-$(CONFIG_RKP)	+= rkp.o
-obj-$(CONFIG_RKP_TEST)		+= rkp_test.o
-obj-$(CONFIG_KDP)	+= kdp.o
-obj-$(CONFIG_KDP_TEST)		+= kdp_test.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:10c410f8fee589f7bb059adb47c3741d3daa73ce7a09a2eca4e146ee6612eb18
+size 173

@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: MIT
-nvkm-y += nvkm/falcon/base.o
-nvkm-y += nvkm/falcon/v1.o
-nvkm-y += nvkm/falcon/msgqueue.o
-nvkm-y += nvkm/falcon/msgqueue_0137c63d.o
-nvkm-y += nvkm/falcon/msgqueue_0148cdec.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:4a1feaa86c701db746415bdd3bbf8e6a31bd04c66581f3cc09a2a5e2094b6ec5
+size 204

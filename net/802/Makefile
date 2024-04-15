@@ -1,15 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the Linux 802.x protocol layers.
-#
-
-# Check the p8022 selections against net/core/Makefile.
-obj-$(CONFIG_LLC)	+= p8022.o psnap.o
-obj-$(CONFIG_NET_FC)	+=                 fc.o
-obj-$(CONFIG_FDDI)	+=                 fddi.o
-obj-$(CONFIG_HIPPI)	+=                 hippi.o
-obj-$(CONFIG_IPX)	+= p8022.o psnap.o p8023.o
-obj-$(CONFIG_ATALK)	+= p8022.o psnap.o
-obj-$(CONFIG_STP)	+= stp.o
-obj-$(CONFIG_GARP)	+= garp.o
-obj-$(CONFIG_MRP)	+= mrp.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:7ec532b61f93d2e2be8ffc2ee31e514f671703b5bda2cc6b1852c521cb9e45f8
+size 485

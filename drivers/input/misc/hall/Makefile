@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-obj-$(CONFIG_INPUT_HALL_IC)	+= hall_ic.o
-obj-$(CONFIG_HALL_NOTIFIER)	+= hall_ic_notifier.o
-obj-$(CONFIG_HALL_DUMP_KEY_MODE)	+= sec_hall_dumpkey.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:0e2a5a8691de937bae1594f1556315f3e56d7146c3a6476c38df72d3aa574338
+size 182

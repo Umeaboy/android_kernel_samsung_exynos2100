@@ -1,15 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-rtl8723be-objs :=		\
-		dm.o		\
-		fw.o		\
-		hw.o		\
-		led.o		\
-		phy.o		\
-		pwrseq.o	\
-		rf.o		\
-		sw.o		\
-		table.o		\
-		trx.o		\
-
-
-obj-$(CONFIG_RTL8723BE) += rtl8723be.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:0fd70caab324a61f3b674ee43a55a9b9077f193d8e2b688f6ea938230c4d9ca3
+size 206

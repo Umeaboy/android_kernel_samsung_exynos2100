@@ -1,20 +1,3 @@
-#menu depth2
-menu "Vendor Feature Setting"
-	depends on EXYNOS_PABLO_ISP
-
-choice VENDER_FEATURES
-	prompt "Use vender features"
-	depends on EXYNOS_PABLO_ISP
-	default CAMERA_VENDER_DEFAULT
-	help
-	  Use the vender specific features.
-
-config CAMERA_VENDER_DEFAULT
-        bool "Default"
-config CAMERA_VENDER_MCD
-        bool "MCD"
-endchoice
-
-source "drivers/media/platform/exynos/camera/vendor/default/Kconfig"
-source "drivers/media/platform/exynos/camera/vendor/mcd/Kconfig"
-endmenu
+version https://git-lfs.github.com/spec/v1
+oid sha256:9dbaf9d5c60945a13ed76b6ddb2a68247f45f7642129310d9813225569a024a6
+size 479

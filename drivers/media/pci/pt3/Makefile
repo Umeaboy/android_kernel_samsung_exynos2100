@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-earth-pt3-objs += pt3.o pt3_i2c.o pt3_dma.o
-
-obj-$(CONFIG_DVB_PT3) += earth-pt3.o
-
-ccflags-y += -I $(srctree)/drivers/media/dvb-frontends
-ccflags-y += -I $(srctree)/drivers/media/tuners
+version https://git-lfs.github.com/spec/v1
+oid sha256:410079b1d506833291631b96bb438ff409b11aca64ad90ef85046afa6c27890b
+size 222

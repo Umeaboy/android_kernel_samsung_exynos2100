@@ -1,15 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the LASAT specific kernel interface routines under Linux.
-#
-
-obj-y				+= reset.o setup.o prom.o lasat_board.o \
-				   at93c.o interrupt.o serial.o
-
-obj-$(CONFIG_LASAT_SYSCTL)	+= sysctl.o
-obj-$(CONFIG_DS1603)		+= ds1603.o
-obj-$(CONFIG_PICVUE)		+= picvue.o
-obj-$(CONFIG_PICVUE_PROC)	+= picvue_proc.o
-
-clean:
-	make -C image clean
+version https://git-lfs.github.com/spec/v1
+oid sha256:ba0cc3540b240c07f07b3413b99730512e69202d925c5087c543fa6de7a782c6
+size 380

@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-sun6i-csi-y += sun6i_video.o sun6i_csi.o
-
-obj-$(CONFIG_VIDEO_SUN6I_CSI) += sun6i-csi.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:ba5f2f5af7ad88c88ce863a2993887feb8d578d151b1d5fdf8b912df453c0e55
+size 127

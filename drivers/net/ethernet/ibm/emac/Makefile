@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the PowerPC 4xx on-chip ethernet driver
-#
-
-obj-$(CONFIG_IBM_EMAC) += ibm_emac.o
-
-ibm_emac-y := mal.o core.o phy.o
-ibm_emac-$(CONFIG_IBM_EMAC_ZMII) += zmii.o
-ibm_emac-$(CONFIG_IBM_EMAC_RGMII) += rgmii.o
-ibm_emac-$(CONFIG_IBM_EMAC_TAH) += tah.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:2b77eb3e0e5216fb04c4e509bc4f5ac0742cca4824b2704794df4ae0592294e4
+size 295

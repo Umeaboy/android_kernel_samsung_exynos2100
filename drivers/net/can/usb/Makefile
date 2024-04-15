@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-#  Makefile for the Linux Controller Area Network USB drivers.
-#
-
-obj-$(CONFIG_CAN_8DEV_USB) += usb_8dev.o
-obj-$(CONFIG_CAN_EMS_USB) += ems_usb.o
-obj-$(CONFIG_CAN_ESD_USB2) += esd_usb2.o
-obj-$(CONFIG_CAN_GS_USB) += gs_usb.o
-obj-$(CONFIG_CAN_KVASER_USB) += kvaser_usb/
-obj-$(CONFIG_CAN_MCBA_USB) += mcba_usb.o
-obj-$(CONFIG_CAN_PEAK_USB) += peak_usb/
-obj-$(CONFIG_CAN_UCAN) += ucan.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:150ee685c36c354addb028f94ae5a38a947b7dda52c10837805eeac1bda0439c
+size 419

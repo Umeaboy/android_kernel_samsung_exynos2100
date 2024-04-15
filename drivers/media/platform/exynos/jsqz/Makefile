@@ -1,3 +1,3 @@
-obj-$(CONFIG_VIDEO_EXYNOS_JPEG_SQZ)	+= jsqz-core.o jsqz-helper.o
-UBSAN_SANITIZE := y
-KASAN_SANITIZE := y
+version https://git-lfs.github.com/spec/v1
+oid sha256:6fbfaef2dc3f47a02d9640f0470207cb1fd126d675a8ede6b67152c1d609fcd7
+size 105

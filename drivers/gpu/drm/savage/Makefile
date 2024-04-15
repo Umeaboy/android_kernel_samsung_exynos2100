@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the drm device driver.  This driver provides support for the
-# Direct Rendering Infrastructure (DRI) in XFree86 4.1.0 and higher.
-
-savage-y := savage_drv.o savage_bci.o savage_state.o
-
-obj-$(CONFIG_DRM_SAVAGE)+= savage.o
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:2ed171e41032107e976bb7d4a939b20c8468a24e068a481e2a9cadfae30cd1c8
+size 279

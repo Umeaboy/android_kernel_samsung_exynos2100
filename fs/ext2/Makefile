@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the linux ext2-filesystem routines.
-#
-
-obj-$(CONFIG_EXT2_FS) += ext2.o
-
-ext2-y := balloc.o dir.o file.o ialloc.o inode.o \
-	  ioctl.o namei.o super.o symlink.o
-
-ext2-$(CONFIG_EXT2_FS_XATTR)	 += xattr.o xattr_user.o xattr_trusted.o
-ext2-$(CONFIG_EXT2_FS_POSIX_ACL) += acl.o
-ext2-$(CONFIG_EXT2_FS_SECURITY)	 += xattr_security.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:6063b788f73cfbaf33208090bd9e63ee6fab8000c6ad2056769edf58d8f75a4b
+size 378

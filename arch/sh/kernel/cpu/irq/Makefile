@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the Linux/SuperH CPU-specific IRQ handlers.
-#
-obj-$(CONFIG_SUPERH32)			+= imask.o
-obj-$(CONFIG_CPU_SH5)			+= intc-sh5.o
-obj-$(CONFIG_CPU_HAS_IPR_IRQ)		+= ipr.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:6e7e5384f0432f3b6616cdeecd2ccb917f9519fa3d2ce7e8389dda2e7ecd5fbe
+size 212

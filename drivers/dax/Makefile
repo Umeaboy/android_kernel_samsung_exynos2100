@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_DAX) += dax.o
-obj-$(CONFIG_DEV_DAX) += device_dax.o
-obj-$(CONFIG_DEV_DAX_KMEM) += kmem.o
-
-dax-y := super.o
-dax-y += bus.o
-device_dax-y := device.o
-
-obj-y += pmem/
+version https://git-lfs.github.com/spec/v1
+oid sha256:444e378550de80ad287cab2c11df8c7c54bfc6913efac727ed2ec9b881da79e1
+size 211

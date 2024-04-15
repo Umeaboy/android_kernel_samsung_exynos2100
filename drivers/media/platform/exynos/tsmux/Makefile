@@ -1,9 +1,3 @@
-#
-# Copyright (c) 2016 Samsung Electronics Co., Ltd.
-#		http://www.samsung.com
-#
-# Licensed under GPLv2
-#
-
-tsmux-objs := tsmux_dev.o tsmux_reg.o
-obj-$(CONFIG_VIDEO_EXYNOS_TSMUX)	+= tsmux.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:30d2cf33552a532f162cb5704899f28f9a7d426fe08c0c2d5839b2b69d6caeed
+size 189

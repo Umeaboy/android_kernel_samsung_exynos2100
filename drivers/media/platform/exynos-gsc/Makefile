@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-exynos-gsc-objs := gsc-core.o gsc-m2m.o gsc-regs.o
-
-obj-$(CONFIG_VIDEO_SAMSUNG_EXYNOS_GSC)	+= exynos-gsc.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:b6d812f50ba27f4be65c9d08dc9b10bd2fd536a509250d21efc50cbeba4675a5
+size 147

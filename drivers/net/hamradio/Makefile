@@ -1,23 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the Linux AX.25 and HFMODEM device drivers.
-#
-#
-# 19971130 	Moved the amateur radio related network drivers from 
-#		drivers/net/ to drivers/hamradio for easier maintenance.
-#               Joerg Reuter DL1BKE <jreuter@yaina.de>
-#
-# 20000806	Rewritten to use lists instead of if-statements.
-#		Christoph Hellwig <hch@infradead.org>
-#
-
-obj-$(CONFIG_DMASCC)		+= dmascc.o
-obj-$(CONFIG_SCC)		+= scc.o
-obj-$(CONFIG_MKISS)		+= mkiss.o
-obj-$(CONFIG_6PACK)		+= 6pack.o
-obj-$(CONFIG_YAM)		+= yam.o
-obj-$(CONFIG_BPQETHER)		+= bpqether.o
-obj-$(CONFIG_BAYCOM_SER_FDX)	+= baycom_ser_fdx.o	hdlcdrv.o
-obj-$(CONFIG_BAYCOM_SER_HDX)	+= baycom_ser_hdx.o	hdlcdrv.o
-obj-$(CONFIG_BAYCOM_PAR)	+= baycom_par.o		hdlcdrv.o
-obj-$(CONFIG_BAYCOM_EPP)	+= baycom_epp.o		hdlcdrv.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:ff82ae193fceef126580b8b871271eb4cdea8d0a8ea333bfce7f3135180d65f3
+size 801

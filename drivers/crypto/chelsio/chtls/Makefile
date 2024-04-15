@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-ccflags-y := -I $(srctree)/drivers/net/ethernet/chelsio/cxgb4 \
-	     -I $(srctree)/drivers/crypto/chelsio
-
-obj-$(CONFIG_CRYPTO_DEV_CHELSIO_TLS) += chtls.o
-chtls-objs := chtls_main.o chtls_cm.o chtls_io.o chtls_hw.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:43e05bcaf7bae731e8c9f5696d6b07ebfe3661ec07ce7f7528e5839eca3faf0e
+size 256

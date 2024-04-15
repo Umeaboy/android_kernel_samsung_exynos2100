@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_VIDEO_GS1662) += gs1662.o
-obj-$(CONFIG_CXD2880_SPI_DRV) += cxd2880-spi.o
-
-ccflags-y += -I $(srctree)/drivers/media/dvb-frontends/cxd2880
+version https://git-lfs.github.com/spec/v1
+oid sha256:532f85eed9b916d28557a1b9f9deb3c5ce55f9132e9970117883a775f6da7df8
+size 190

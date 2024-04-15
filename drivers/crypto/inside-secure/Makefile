@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_CRYPTO_DEV_SAFEXCEL) += crypto_safexcel.o
-crypto_safexcel-objs := safexcel.o safexcel_ring.o safexcel_cipher.o safexcel_hash.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:612db019f2e508e6a8e528c6667ffdfbb659c3d623a8c519c7ea1cb582eb11a1
+size 180

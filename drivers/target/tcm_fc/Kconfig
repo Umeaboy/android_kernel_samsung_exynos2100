@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-config TCM_FC
-	tristate "TCM_FC fabric Plugin"
-	depends on LIBFC
-	help
-	Say Y here to enable the TCM FC plugin for accessing FC fabrics in TCM
+version https://git-lfs.github.com/spec/v1
+oid sha256:2217de08d646e15ae4f4b63c4e98132006c0614a361d04f67771a34a283c523c
+size 183

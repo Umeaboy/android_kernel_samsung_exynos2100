@@ -1,11 +1,3 @@
-#
-# Generic vendor feature config states
-#
-
-# Enable the vendor features
-config SECURE_CAMERA_USE
-	tristate "Use secure camera"
-	depends on CAMERA_VENDER_DEFAULT
-	default n
-	---help---
-	  Use secure camera.
+version https://git-lfs.github.com/spec/v1
+oid sha256:fc5439e43d9b8b1e9f5de6bcd635edd619a6125784fa2cb279f86c8abb039ba0
+size 207

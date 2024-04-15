@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the IPACK bridge device drivers.
-#
-obj-$(CONFIG_IPACK_BUS)		+= ipack.o
-obj-y				+= devices/
-obj-y				+= carriers/
+version https://git-lfs.github.com/spec/v1
+oid sha256:b702eced59721a11e5ca7ee5f2ae81393af91d237f105d75dc6b2e5bd785eded
+size 171

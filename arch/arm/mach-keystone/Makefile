@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-y					:= keystone.o smc.o
-
-obj-$(CONFIG_SMP)			+= platsmp.o
-
-# PM domain driver for Keystone SOCs
-obj-$(CONFIG_ARCH_KEYSTONE)		+= pm_domain.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:ca872c89805bccab11bf78a0d7ba2515236f0df89670096139dfee6e3e91ed32
+size 181

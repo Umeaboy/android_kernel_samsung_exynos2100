@@ -1,2 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_VIDEO_TEGRA_HDMI_CEC)	+= tegra_cec.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:f5356c317f3d385020643efd28433edbbd5464171508706cc6740bfee12d4cda
+size 90

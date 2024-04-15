@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_PINCTRL_OWL)	+= pinctrl-owl.o
-obj-$(CONFIG_PINCTRL_S700) 	+= pinctrl-s700.o
-obj-$(CONFIG_PINCTRL_S900) 	+= pinctrl-s900.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:4a97a5fccb3ea41ed5416b598566385b83d659ae9ead0b1952ce814861e07d48
+size 175

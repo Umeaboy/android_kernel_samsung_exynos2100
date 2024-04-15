@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-y := cgroup.o rstat.o namespace.o cgroup-v1.o freezer.o
-
-obj-$(CONFIG_CGROUP_FREEZER) += legacy_freezer.o
-obj-$(CONFIG_CGROUP_PIDS) += pids.o
-obj-$(CONFIG_CGROUP_RDMA) += rdma.o
-obj-$(CONFIG_CPUSETS) += cpuset.o
-obj-$(CONFIG_CGROUP_DEBUG) += debug.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:28bacc8e6985c35ac531b41cfb8fa661d44a3dc34b085c0009a3d265de7afc2e
+size 289

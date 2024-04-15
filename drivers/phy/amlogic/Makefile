@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_PHY_MESON8B_USB2)		+= phy-meson8b-usb2.o
-obj-$(CONFIG_PHY_MESON_GXL_USB2)	+= phy-meson-gxl-usb2.o
-obj-$(CONFIG_PHY_MESON_G12A_USB2)	+= phy-meson-g12a-usb2.o
-obj-$(CONFIG_PHY_MESON_GXL_USB3)	+= phy-meson-gxl-usb3.o
-obj-$(CONFIG_PHY_MESON_G12A_USB3_PCIE)	+= phy-meson-g12a-usb3-pcie.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:efd0ab61095d6528e07ce36768c8b5dbcb3e58750da94fdf2a93b5074ac9b41f
+size 336

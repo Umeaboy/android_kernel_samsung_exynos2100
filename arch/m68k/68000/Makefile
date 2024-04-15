@@ -1,19 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-##################################################
-#
-# Makefile for 68000 core based cpus
-#
-# 2012.10.21, Luis Alves <ljalvs@gmail.com>
-#             Merged all 68000 based cpu's config
-#             files into a single directory.
-#
-
-# 68328, 68EZ328, 68VZ328
-
-obj-y			+= entry.o ints.o timers.o
-obj-$(CONFIG_M68328)	+= m68328.o
-obj-$(CONFIG_M68EZ328)	+= m68EZ328.o
-obj-$(CONFIG_M68VZ328)	+= m68VZ328.o
-obj-$(CONFIG_ROM)	+= romvec.o
-
-extra-y 		:= head.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:922b92fe8c5286a2112bf13efea9c026adbe3716f21673498cf0f7bd75c21509
+size 489

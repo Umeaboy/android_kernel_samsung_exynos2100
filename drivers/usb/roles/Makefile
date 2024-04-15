@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-obj-$(CONFIG_USB_ROLE_SWITCH)		+= roles.o
-roles-y					:= class.o
-obj-$(CONFIG_USB_ROLES_INTEL_XHCI)	+= intel-xhci-usb-role-switch.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:1e4a8165661da506bfe0ac8479142529d50107d81e2d5b54a20f6fa00b49b67e
+size 168

@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Cavium ethernet device drivers.
-#
-obj-$(CONFIG_NET_VENDOR_CAVIUM) += common/
-obj-$(CONFIG_NET_VENDOR_CAVIUM) += thunder/
-obj-$(CONFIG_NET_VENDOR_CAVIUM) += liquidio/
-obj-$(CONFIG_NET_VENDOR_CAVIUM) += octeon/
+version https://git-lfs.github.com/spec/v1
+oid sha256:09f8d2ebe4c912fc1723d17930a597e610a0493b77a059ca792a8a75c8f026ff
+size 270

@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-adv748x-objs	:= \
-		adv748x-afe.o \
-		adv748x-core.o \
-		adv748x-csi2.o \
-		adv748x-hdmi.o
-
-obj-$(CONFIG_VIDEO_ADV748X)	+= adv748x.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:c7174903ec08745ac46682347f56249f5fb610fc065af754c10bd1b682d501e5
+size 173

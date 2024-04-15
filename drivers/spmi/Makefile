@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for kernel SPMI framework.
-#
-obj-$(CONFIG_SPMI)	+= spmi.o
-
-obj-$(CONFIG_SPMI_MSM_PMIC_ARB)	+= spmi-pmic-arb.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:543ef00a40b44f3e814dc7a3a6b472042382d7740558ccca307eec0d1bd8e364
+size 163

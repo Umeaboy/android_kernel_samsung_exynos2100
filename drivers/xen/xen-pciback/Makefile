@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_XEN_PCIDEV_BACKEND) += xen-pciback.o
-
-xen-pciback-y := pci_stub.o pciback_ops.o xenbus.o
-xen-pciback-y += conf_space.o conf_space_header.o \
-		 conf_space_capability.o \
-		 conf_space_quirks.o vpci.o \
-		 passthrough.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:576f8f4358d885d7dfe965e11f6c9e5a0a4b406599f48f322994d42baf339f86
+size 267

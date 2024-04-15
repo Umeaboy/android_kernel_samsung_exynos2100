@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Myricom Myri-10G ethernet driver
-#
-
-obj-$(CONFIG_MYRI10GE) += myri10ge.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:d0f3e9d3412abdc9ccb6eb993c95b1791f44ba51798badf1851fb2a5621ca9a1
+size 134

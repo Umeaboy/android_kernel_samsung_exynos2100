@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-
-softing-y := softing_main.o softing_fw.o
-obj-$(CONFIG_CAN_SOFTING) += softing.o
-obj-$(CONFIG_CAN_SOFTING_CS) += softing_cs.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:bfb5d14e2f6c16ea508563480a06accc050b970e648e405ac0e73fc893f8a5da
+size 166

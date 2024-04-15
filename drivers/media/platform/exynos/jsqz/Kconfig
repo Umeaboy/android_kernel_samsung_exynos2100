@@ -1,9 +1,3 @@
-#
-# Exynos multimedia device drivers
-#
-config VIDEO_EXYNOS_JPEG_SQZ
-        bool "Exynos Jpeg Squeeze driver"
-        depends on VIDEO_EXYNOS
-        default y
-        help
-          This is a representative exynos Jpeg squeezer device
+version https://git-lfs.github.com/spec/v1
+oid sha256:69ba8d6c4b7dba9f3c746059b9d49adb1e3ad8cce0d086792754e18694c58224
+size 236

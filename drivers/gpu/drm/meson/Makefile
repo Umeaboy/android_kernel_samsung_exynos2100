@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-meson-drm-y := meson_drv.o meson_plane.o meson_crtc.o meson_venc_cvbs.o
-meson-drm-y += meson_viu.o meson_vpp.o meson_venc.o meson_vclk.o meson_overlay.o
-
-obj-$(CONFIG_DRM_MESON) += meson-drm.o
-obj-$(CONFIG_DRM_MESON_DW_HDMI) += meson_dw_hdmi.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:cafb6d2f8d903b3de5a60295dfbc192561a95291527c4f2958186a48ad8712d2
+size 284

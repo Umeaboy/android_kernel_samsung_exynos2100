@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# 
-# Copyright (C) 2000, 2002 Jeff Dike (jdike@karaya.com)
-#
-
-ethertap-objs := ethertap_kern.o ethertap_user.o
-tuntap-objs := tuntap_kern.o tuntap_user.o
-
-obj-y = 
-obj-$(CONFIG_UML_NET_ETHERTAP) += ethertap.o
-obj-$(CONFIG_UML_NET_TUNTAP) += tuntap.o
-
-include arch/um/scripts/Makefile.rules
+version https://git-lfs.github.com/spec/v1
+oid sha256:7b0a30152e53d4347db068bcb8b3f97bc9ff6e5004a0865e505bfaa5685d85a2
+size 325

@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the ia64-specific parts of the memory manager.
-#
-
-obj-y := init.o fault.o tlb.o extable.o ioremap.o
-
-obj-$(CONFIG_HUGETLB_PAGE) += hugetlbpage.o
-obj-$(CONFIG_NUMA)	   += numa.o
-obj-$(CONFIG_DISCONTIGMEM) += discontig.o
-obj-$(CONFIG_SPARSEMEM)	   += discontig.o
-obj-$(CONFIG_FLATMEM)	   += contig.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:039b43a9756867f92a9c5ec4e1b85a64fc66907239f6887264f70ea5dd790fb2
+size 350

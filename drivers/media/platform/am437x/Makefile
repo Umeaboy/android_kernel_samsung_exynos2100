@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-# Makefile for AM437x VPFE driver
-
-obj-$(CONFIG_VIDEO_AM437X_VPFE) += am437x-vpfe.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:b25b265bf23e376ded76d0c19ba3509036e6e8058d11c08de18aa9c2a5200dff
+size 124

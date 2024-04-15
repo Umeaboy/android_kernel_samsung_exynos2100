@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for ALSA
-#
-
-snd-harmony-objs := harmony.o
-
-# Toplevel Module Dependency
-obj-$(CONFIG_SND_HARMONY) += snd-harmony.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:f3ba50bc4c40af1a436ed55bfd5c36df629057eaccbc9df887b3f87c3249defb
+size 168

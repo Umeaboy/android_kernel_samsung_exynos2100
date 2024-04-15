@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for linux/drivers/platform/mellanox
-# Mellanox Platform-Specific Drivers
-#
-obj-$(CONFIG_MLXBF_TMFIFO)	+= mlxbf-tmfifo.o
-obj-$(CONFIG_MLXREG_HOTPLUG)	+= mlxreg-hotplug.o
-obj-$(CONFIG_MLXREG_IO) += mlxreg-io.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:3be2ab77a2e450b5d8cbcbc9a4436d4d062d6185fca31450d77409da336931c1
+size 256

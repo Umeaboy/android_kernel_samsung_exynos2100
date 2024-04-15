@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: ISC
-obj-$(CONFIG_WCN36XX) := wcn36xx.o
-wcn36xx-y +=   main.o \
-               dxe.o \
-               txrx.o \
-               smd.o \
-               pmc.o \
-               debug.o
-
-wcn36xx-$(CONFIG_NL80211_TESTMODE) += testmode.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:5fe58c22daf19a47bba29b5b468c7daafe7659eb4677b2e36ff7e98b8d9bf0ad
+size 256

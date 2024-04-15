@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-CFLAGS_core.o				:= -I$(src)
-icc-core-objs				:= core.o
-
-obj-$(CONFIG_INTERCONNECT)		+= icc-core.o
-obj-$(CONFIG_INTERCONNECT_QCOM)		+= qcom/
+version https://git-lfs.github.com/spec/v1
+oid sha256:0ee1f4ddc391ee8160da4073e749fd470422831b08175a635805b84795b86eb0
+size 177

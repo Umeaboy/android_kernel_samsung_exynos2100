@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_NTB_PINGPONG) += ntb_pingpong.o
-obj-$(CONFIG_NTB_TOOL) += ntb_tool.o
-obj-$(CONFIG_NTB_PERF) += ntb_perf.o
-obj-$(CONFIG_NTB_MSI_TEST) += ntb_msi_test.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:1baae993f930f7f8502802eb6a9eb1bc52c031bbaf030a50525e2268ea1e4c0b
+size 204

@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for sensors seen through the ChromeOS EC sensor hub.
-#
-
-obj-$(CONFIG_IIO_CROS_EC_SENSORS_CORE) += cros_ec_sensors_core.o
-obj-$(CONFIG_IIO_CROS_EC_SENSORS) += cros_ec_sensors.o
-obj-$(CONFIG_IIO_CROS_EC_SENSORS_LID_ANGLE) += cros_ec_lid_angle.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a3179cbc3090e46713f67e0c7bc3b4b676568c6e86448a3bb3ea7773535fa58
+size 296

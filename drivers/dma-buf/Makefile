@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-y := dma-buf.o dma-fence.o dma-fence-array.o dma-fence-chain.o \
-	 dma-resv.o seqno-fence.o
-obj-$(CONFIG_SYNC_FILE)		+= sync_file.o
-obj-$(CONFIG_SW_SYNC)		+= sw_sync.o sync_debug.o
-obj-$(CONFIG_UDMABUF)		+= udmabuf.o
-obj-$(CONFIG_DMA_BUF_CONTAINER)  += dma-buf-container.o
-
-dmabuf_selftests-y := \
-	selftest.o \
-	st-dma-fence.o
-
-obj-$(CONFIG_DMABUF_SELFTESTS)	+= dmabuf_selftests.o
-obj-$(CONFIG_DMABUF_TRACE)	+= dma-buf-trace.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:03a5506174113d44dbc70989ab1ac28a5cd60985b7318379b49f26cba7f63b7d
+size 472

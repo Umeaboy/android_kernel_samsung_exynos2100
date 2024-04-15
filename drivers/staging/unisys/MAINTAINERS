@@ -1,5 +1,3 @@
-Unisys s-Par drivers
-M:	David Kershner <sparmaintainer@unisys.com>
-S:	Maintained
-F:	drivers/staging/unisys/Documentation/overview.txt
-F:	drivers/staging/unisys/
+version https://git-lfs.github.com/spec/v1
+oid sha256:b2b2dcc462573a783632b905a6761f359847c1edfb1ddc9942071829044a26be
+size 161

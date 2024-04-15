@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_TYPEC)		+= typec.o
-typec-y				:= class.o mux.o bus.o
-obj-$(CONFIG_TYPEC)		+= altmodes/
-obj-$(CONFIG_TYPEC_TCPM)	+= tcpm/
-obj-$(CONFIG_TYPEC_UCSI)	+= ucsi/
-obj-$(CONFIG_TYPEC_TPS6598X)	+= tps6598x.o
-obj-$(CONFIG_TYPEC)		+= mux/
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:65eb5298db07fe633456a5f22f733cd223d84d0f115dd6e9cab0ab738f36f8a6
+size 276

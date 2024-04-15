@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile - Intel MIC COSM Client Driver
-# Copyright(c) 2015, Intel Corporation.
-#
-obj-$(CONFIG_MIC_COSM) += cosm_client.o
-
-cosm_client-objs += cosm_scif_client.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:4098dae08da26de37d4f116d615046ae793becb26ec40a19c7af8f6fb7f570c3
+size 206

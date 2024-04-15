@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-ifneq ($(CONFIG_BUILTIN_DTB_SOURCE),"")
-obj-$(CONFIG_USE_BUILTIN_DTB) += $(patsubst "%",%,$(CONFIG_BUILTIN_DTB_SOURCE)).dtb.o
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:853e791252de2b0c9fbf7f800774a485ebdb97a1fed3578ce771ac9137f1406b
+size 172

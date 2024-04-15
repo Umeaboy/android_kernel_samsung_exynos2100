@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-snd-soc-sst-atom-hifi2-platform-objs :=	sst-mfld-platform-pcm.o \
-					sst-mfld-platform-compress.o \
-					sst-atom-controls.o
-
-obj-$(CONFIG_SND_SST_ATOM_HIFI2_PLATFORM) += snd-soc-sst-atom-hifi2-platform.o
-
-# DSP driver
-obj-$(CONFIG_SND_SST_IPC) += sst/
+version https://git-lfs.github.com/spec/v1
+oid sha256:79f0c01fcdeda266a849cd0be076b279fcf137a45b95f68594d96f0103a049f9
+size 290

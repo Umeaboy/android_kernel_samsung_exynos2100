@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0 OR MIT
-
-drm_xen_front-objs := xen_drm_front.o \
-		      xen_drm_front_kms.o \
-		      xen_drm_front_conn.o \
-		      xen_drm_front_evtchnl.o \
-		      xen_drm_front_cfg.o \
-		      xen_drm_front_gem.o
-
-obj-$(CONFIG_DRM_XEN_FRONTEND) += drm_xen_front.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:9c25fd6c7d0133530f4f8f266484c49917326f762ff9fab2e6b9174ed91f0b77
+size 287

@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for Cavium crypto device drivers
-#
-obj-$(CONFIG_CRYPTO_DEV_CAVIUM_ZIP) += zip/
+version https://git-lfs.github.com/spec/v1
+oid sha256:01101633fb1d7bd697dcff46d2b39290fc293587d052e4f7f943e4cfe50cf29b
+size 132

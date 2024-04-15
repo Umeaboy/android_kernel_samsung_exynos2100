@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Core
-obj-$(CONFIG_PINCTRL_STM32) += pinctrl-stm32.o
-
-# SoC Drivers
-obj-$(CONFIG_PINCTRL_STM32F429)	+= pinctrl-stm32f429.o
-obj-$(CONFIG_PINCTRL_STM32F469)	+= pinctrl-stm32f469.o
-obj-$(CONFIG_PINCTRL_STM32F746)	+= pinctrl-stm32f746.o
-obj-$(CONFIG_PINCTRL_STM32F769)	+= pinctrl-stm32f769.o
-obj-$(CONFIG_PINCTRL_STM32H743)	+= pinctrl-stm32h743.o
-obj-$(CONFIG_PINCTRL_STM32MP157) += pinctrl-stm32mp157.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:3271c5852d6ccac6e6043c66cf42d00a5b38bb44101b6de6702827f89d98ec55
+size 436

@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_HVC_CONSOLE)	+= hvc_vio.o hvsi_lib.o
-obj-$(CONFIG_HVC_OPAL)		+= hvc_opal.o hvsi_lib.o
-obj-$(CONFIG_HVC_OLD_HVSI)	+= hvsi.o
-obj-$(CONFIG_HVC_RTAS)		+= hvc_rtas.o
-obj-$(CONFIG_HVC_DCC)		+= hvc_dcc.o
-obj-$(CONFIG_HVC_DRIVER)	+= hvc_console.o
-obj-$(CONFIG_HVC_IRQ)		+= hvc_irq.o
-obj-$(CONFIG_HVC_XEN)		+= hvc_xen.o
-obj-$(CONFIG_HVC_IUCV)		+= hvc_iucv.o
-obj-$(CONFIG_HVC_UDBG)		+= hvc_udbg.o
-obj-$(CONFIG_HVC_RISCV_SBI)	+= hvc_riscv_sbi.o
-obj-$(CONFIG_HVCS)		+= hvcs.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:68d87393d606691f3f269385b0b2e3a50bd56fb8fc1743d29ec8f548e0ef9b26
+size 512

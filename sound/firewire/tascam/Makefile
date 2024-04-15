@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-snd-firewire-tascam-objs := tascam-proc.o amdtp-tascam.o tascam-stream.o \
-			    tascam-pcm.o tascam-hwdep.o tascam-transaction.o \
-			    tascam-midi.o tascam.o
-obj-$(CONFIG_SND_FIREWIRE_TASCAM) += snd-firewire-tascam.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:6482446e30bbed44d550e837d54aded17f841e55e24523ccdaddef4b851abfc7
+size 262

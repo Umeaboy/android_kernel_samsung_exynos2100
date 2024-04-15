@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-p54common-objs			:= eeprom.o fwio.o txrx.o main.o
-p54common-$(CONFIG_P54_LEDS)	+= led.o
-
-obj-$(CONFIG_P54_COMMON)	+= p54common.o
-obj-$(CONFIG_P54_USB)		+= p54usb.o
-obj-$(CONFIG_P54_PCI)		+= p54pci.o
-obj-$(CONFIG_P54_SPI)		+= p54spi.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:b7d8c62f79717b8be58b6daaa876e8fb098a20b26f19cd55e0ce7b90b26886c6
+size 269

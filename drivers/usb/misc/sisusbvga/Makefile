@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the sisusb driver (if driver is inside kernel tree).
-#
-
-obj-$(CONFIG_USB_SISUSBVGA) += sisusbvga.o
-
-sisusbvga-y := sisusb.o
-sisusbvga-$(CONFIG_USB_SISUSBVGA_CON) += sisusb_con.o sisusb_init.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:2a656ce746bfdeb6bea7abb8bf8f5b80343927a6f6637b7364ca27b0f55d3b9e
+size 244

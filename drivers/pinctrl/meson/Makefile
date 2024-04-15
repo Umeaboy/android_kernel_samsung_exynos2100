@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_PINCTRL_MESON) += pinctrl-meson.o
-obj-$(CONFIG_PINCTRL_MESON8_PMX) += pinctrl-meson8-pmx.o
-obj-$(CONFIG_PINCTRL_MESON8) += pinctrl-meson8.o
-obj-$(CONFIG_PINCTRL_MESON8B) += pinctrl-meson8b.o
-obj-$(CONFIG_PINCTRL_MESON_GXBB) += pinctrl-meson-gxbb.o
-obj-$(CONFIG_PINCTRL_MESON_GXL) += pinctrl-meson-gxl.o
-obj-$(CONFIG_PINCTRL_MESON_AXG_PMX) += pinctrl-meson-axg-pmx.o
-obj-$(CONFIG_PINCTRL_MESON_AXG) += pinctrl-meson-axg.o
-obj-$(CONFIG_PINCTRL_MESON_G12A) += pinctrl-meson-g12a.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:f4ae99c4631dfc7e153f6706863dd87063a1074f5a8ef4d0a8388897c70f3ddb
+size 531

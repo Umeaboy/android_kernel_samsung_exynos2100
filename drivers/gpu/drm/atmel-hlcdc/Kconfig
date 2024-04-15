@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-config DRM_ATMEL_HLCDC
-	tristate "DRM Support for ATMEL HLCDC Display Controller"
-	depends on DRM && OF && COMMON_CLK && MFD_ATMEL_HLCDC && ARM
-	select DRM_GEM_CMA_HELPER
-	select DRM_KMS_HELPER
-	select DRM_KMS_CMA_HELPER
-	select DRM_PANEL
-	help
-	  Choose this option if you have an ATMEL SoC with an HLCDC display
-	  controller (i.e. at91sam9n12, at91sam9x5 family or sama5d3 family).
+version https://git-lfs.github.com/spec/v1
+oid sha256:93d18857eafd23a728ad190aef6c842a8cf6db7ff3d2d3a26a1baef6aaa1f7b6
+size 425

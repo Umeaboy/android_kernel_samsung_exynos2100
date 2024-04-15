@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-ccflags-y := -I $(srctree)/drivers/net/ethernet/chelsio/cxgb4
-ccflags-y += -I $(srctree)/drivers/net/ethernet/chelsio/libcxgb
-
-obj-$(CONFIG_INFINIBAND_CXGB4) += iw_cxgb4.o
-
-iw_cxgb4-y :=  device.o cm.o provider.o mem.o cq.o qp.o resource.o ev.o id_table.o \
-	       restrack.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:83febc66d41cba678238f1e3fb9f5b73639bdba20a8e128c8de28da6b3daaae0
+size 317

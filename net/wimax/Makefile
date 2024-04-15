@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-obj-$(CONFIG_WIMAX)		+= wimax.o
-
-wimax-y :=		\
-	id-table.o	\
-	op-msg.o	\
-	op-reset.o	\
-	op-rfkill.o	\
-	op-state-get.o	\
-	stack.o
-
-wimax-$(CONFIG_DEBUG_FS) += debugfs.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:cb422dba656cd9f64e30f6bc76ef8abc5e66ff2ddc6b320228e6f2c461ae3e00
+size 204

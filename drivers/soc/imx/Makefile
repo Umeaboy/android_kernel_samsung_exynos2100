@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_HAVE_IMX_GPC) += gpc.o
-obj-$(CONFIG_IMX_GPCV2_PM_DOMAINS) += gpcv2.o
-obj-$(CONFIG_ARCH_MXC) += soc-imx8.o
-obj-$(CONFIG_IMX_SCU_SOC) += soc-imx-scu.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:7c1939a04dd893fae910d451335f1a7f6b2c9149eddb8388411e7406a4202f3c
+size 202

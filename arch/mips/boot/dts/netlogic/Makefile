@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-dtb-$(CONFIG_DT_XLP_EVP)	+= xlp_evp.dtb
-dtb-$(CONFIG_DT_XLP_SVP)	+= xlp_svp.dtb
-dtb-$(CONFIG_DT_XLP_FVP)	+= xlp_fvp.dtb
-dtb-$(CONFIG_DT_XLP_GVP)	+= xlp_gvp.dtb
-dtb-$(CONFIG_DT_XLP_RVP)	+= xlp_rvp.dtb
-
-obj-$(CONFIG_BUILTIN_DTB)	+= $(addsuffix .o, $(dtb-y))
+version https://git-lfs.github.com/spec/v1
+oid sha256:f50888f12ecb6f6da70d3a6b3bca03885ca9b5c7be2c02da7a32df1360c33e64
+size 291

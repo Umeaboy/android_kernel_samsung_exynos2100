@@ -1,16 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-################################################################################
-#
-# FUJITSU Extended Socket Network Device driver
-# Copyright (c) 2015 FUJITSU LIMITED
-#
-################################################################################
-
-
-#
-# Makefile for the FUJITSU Extended Socket network device driver
-#
-
-obj-$(CONFIG_FUJITSU_ES) += fjes.o
-
-fjes-objs := fjes_main.o fjes_hw.o fjes_ethtool.o fjes_trace.o fjes_debugfs.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:a01cf557d5f4548db7329d00bbdc03fd2f52a34534c0f08e2d9caec0d7886fdd
+size 477

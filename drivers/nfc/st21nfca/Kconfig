@@ -1,19 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-config NFC_ST21NFCA
-	tristate
-	select CRC_CCITT
-	---help---
-	  STMicroelectronics ST21NFCA core driver. It implements the chipset
-	  HCI logic and hooks into the NFC kernel APIs. Physical layers will
-	  register against it.
-
-config NFC_ST21NFCA_I2C
-	tristate "STMicroelectronics ST21NFCA NFC driver (I2C)"
-	depends on NFC_HCI && I2C && NFC_SHDLC
-	select NFC_ST21NFCA
-	---help---
-	  This module adds support for the STMicroelectronics st21nfca i2c interface.
-	  Select this if your platform is using the i2c bus.
-
-	  If you choose to build a module, it'll be called st21nfca_i2c.
-	  Say N if unsure.
+version https://git-lfs.github.com/spec/v1
+oid sha256:978864aa70609cb98fc3751d7e0fb42b78eba462812c44ebc77c08d615ee7fab
+size 639

@@ -1,17 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Built-in dtb
-builtindtb-y		:= nsim_700
-
-ifneq ($(CONFIG_ARC_BUILTIN_DTB_NAME),"")
-	builtindtb-y	:= $(patsubst "%",%,$(CONFIG_ARC_BUILTIN_DTB_NAME))
-endif
-
-obj-y   += $(builtindtb-y).dtb.o
-dtb-y := $(builtindtb-y).dtb
-
-# for CONFIG_OF_ALL_DTBS test
-dtstree	:= $(srctree)/$(src)
-dtb-	:= $(patsubst $(dtstree)/%.dts,%.dtb, $(wildcard $(dtstree)/*.dts))
-
-# board-specific dtc flags
-DTC_FLAGS_hsdk += --pad 20
+version https://git-lfs.github.com/spec/v1
+oid sha256:60aba400a8fe0ac89218b6e16b04f9d57c87e4e67970b186e8f87af8285a1628
+size 442

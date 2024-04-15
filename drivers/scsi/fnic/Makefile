@@ -1,18 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_FCOE_FNIC) += fnic.o
-
-fnic-y	:= \
-	fnic_attrs.o \
-	fnic_isr.o \
-	fnic_main.o \
-	fnic_res.o \
-	fnic_fcs.o \
-	fnic_scsi.o \
-	fnic_trace.o \
-	fnic_debugfs.o \
-	vnic_cq.o \
-	vnic_dev.o \
-	vnic_intr.o \
-	vnic_rq.o \
-	vnic_wq_copy.o \
-	vnic_wq.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:bc9ddbc4813adbe0a6420683aec0e09a0b27bac0adb22fdd30a4925659ccce46
+size 288

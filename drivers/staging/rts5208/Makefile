@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_RTS5208) := rts5208.o
-
-ccflags-y := -Idrivers/scsi
-
-rts5208-y := rtsx.o rtsx_chip.o rtsx_transport.o rtsx_scsi.o \
-	rtsx_card.o general.o sd.o xd.o ms.o spi.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:13a221fc1919039c6510ee7a3b93816b8e6515e1cd584d2795ce2d9db1bb4452
+size 207

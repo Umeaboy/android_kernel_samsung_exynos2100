@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-
-vfio-pci-y := vfio_pci.o vfio_pci_intrs.o vfio_pci_rdwr.o vfio_pci_config.o
-vfio-pci-$(CONFIG_VFIO_PCI_IGD) += vfio_pci_igd.o
-vfio-pci-$(CONFIG_VFIO_PCI_NVLINK2) += vfio_pci_nvlink2.o
-
-obj-$(CONFIG_VFIO_PCI) += vfio-pci.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:a13ff6397b9746c8cd424d4eda57fd8ba91bae9f3b731c7640bb5e43b7d9405f
+size 263

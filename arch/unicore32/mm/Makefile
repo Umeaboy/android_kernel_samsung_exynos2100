@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the linux unicore-specific parts of the memory manager.
-#
-
-obj-y				:= extable.o fault.o init.o pgd.o mmu.o
-obj-y				+= flush.o ioremap.o
-
-obj-$(CONFIG_MODULES)		+= proc-syms.o
-
-obj-$(CONFIG_ALIGNMENT_TRAP)	+= alignment.o
-
-obj-$(CONFIG_CPU_UCV2)		+= cache-ucv2.o tlb-ucv2.o proc-ucv2.o
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:d52fef98930b28ae4fe881134b0e753b3517928d09f13bc3bc7b10be354f499c
+size 339

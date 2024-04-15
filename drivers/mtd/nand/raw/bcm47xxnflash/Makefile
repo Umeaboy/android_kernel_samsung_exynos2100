@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-bcm47xxnflash-y				+= main.o
-bcm47xxnflash-y				+= ops_bcm4706.o
-
-obj-$(CONFIG_MTD_NAND_BCM47XXNFLASH)	+= bcm47xxnflash.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:8d875706cfd1abe972e9fb0ac6ef95854299562a86c94932a47ad73770a09f36
+size 162

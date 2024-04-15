@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Makefile for netfilter selftests
-
-TEST_PROGS := nft_trans_stress.sh nft_nat.sh bridge_brouter.sh \
-	conntrack_icmp_related.sh nft_flowtable.sh \
-	conntrack_vrf.sh
-
-include ../lib.mk
+version https://git-lfs.github.com/spec/v1
+oid sha256:b69296a1d41824d49a43b579ce11f9e37c3bacfd64ecd3c8c357c2986a0b8c5a
+size 219

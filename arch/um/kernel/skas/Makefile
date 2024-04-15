@@ -1,17 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Copyright (C) 2002 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
-#
-
-obj-y := clone.o mmu.o process.o syscall.o uaccess.o
-
-# clone.o is in the stub, so it can't be built with profiling
-# GCC hardened also auto-enables -fpic, but we need %ebx so it can't work ->
-# disable it
-
-CFLAGS_clone.o := $(CFLAGS_NO_HARDENING)
-UNPROFILE_OBJS := clone.o
-
-KCOV_INSTRUMENT := n
-
-include arch/um/scripts/Makefile.rules
+version https://git-lfs.github.com/spec/v1
+oid sha256:32492601e514889dc60c61627a5debd4fcad3b75c574e49011cc7ff0e2de643e
+size 448

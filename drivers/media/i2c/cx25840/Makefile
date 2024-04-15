@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-cx25840-objs    := cx25840-core.o cx25840-audio.o cx25840-firmware.o \
-		   cx25840-vbi.o cx25840-ir.o
-
-obj-$(CONFIG_VIDEO_CX25840) += cx25840.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:1243e7c7345358616ba3395ad3f66550f31b9704a46ff022eb7bda9ac15ebf17
+size 185

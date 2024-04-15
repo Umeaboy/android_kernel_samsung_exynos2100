@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-smsmdtv-objs := smscoreapi.o sms-cards.o smsendian.o
-smsdvb-objs := smsdvb-main.o
-
-obj-$(CONFIG_SMS_SIANO_MDTV) += smsmdtv.o smsdvb.o
-
-ifeq ($(CONFIG_SMS_SIANO_RC),y)
-  smsmdtv-objs += smsir.o
-endif
-
-ifeq ($(CONFIG_SMS_SIANO_DEBUGFS),y)
-  smsdvb-objs += smsdvb-debugfs.o
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:62da3cfefd8345ed605c27bececa44e1db8ae12d4aabfa4b18204efed3e2d0f8
+size 312

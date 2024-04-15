@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-pwc-objs	+= pwc-if.o pwc-misc.o pwc-ctrl.o pwc-v4l.o pwc-uncompress.o
-pwc-objs	+= pwc-dec1.o pwc-dec23.o pwc-kiara.o pwc-timon.o
-
-obj-$(CONFIG_USB_PWC) += pwc.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:7a6c87d7b272515b09572e8a88ca061b7df1e5f56e20482991c0747a68804f42
+size 201

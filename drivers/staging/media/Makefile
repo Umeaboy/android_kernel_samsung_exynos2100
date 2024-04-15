@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_VIDEO_ALLEGRO_DVT)	+= allegro-dvt/
-obj-$(CONFIG_VIDEO_IMX_MEDIA)	+= imx/
-obj-$(CONFIG_VIDEO_MESON_VDEC)	+= meson/vdec/
-obj-$(CONFIG_VIDEO_OMAP4)	+= omap4iss/
-obj-$(CONFIG_VIDEO_SUNXI)	+= sunxi/
-obj-$(CONFIG_TEGRA_VDE)		+= tegra-vde/
-obj-$(CONFIG_VIDEO_HANTRO)	+= hantro/
-obj-$(CONFIG_VIDEO_IPU3_IMGU)	+= ipu3/
-obj-$(CONFIG_SOC_CAMERA)	+= soc_camera/
+version https://git-lfs.github.com/spec/v1
+oid sha256:e278d85b4955c8eada1a38b13b176125c9dd895add990633ef75c2852ea9c527
+size 398

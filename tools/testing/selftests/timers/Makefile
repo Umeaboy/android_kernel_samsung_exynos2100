@@ -1,24 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-CFLAGS += -O3 -Wl,-no-as-needed -Wall
-LDLIBS += -lrt -lpthread -lm
-
-# these are all "safe" tests that don't modify
-# system time or require escalated privileges
-TEST_GEN_PROGS = posix_timers nanosleep nsleep-lat set-timer-lat mqueue-lat \
-	     inconsistency-check raw_skew threadtest rtcpie
-
-DESTRUCTIVE_TESTS = alarmtimer-suspend valid-adjtimex adjtick change_skew \
-		      skew_consistency clocksource-switch freq-step leap-a-day \
-		      leapcrash set-tai set-2038 set-tz
-
-TEST_GEN_PROGS_EXTENDED = $(DESTRUCTIVE_TESTS)
-
-TEST_FILES := settings
-
-include ../lib.mk
-
-# these tests require escalated privileges
-# and may modify the system time or trigger
-# other behavior like suspend
-run_destructive_tests: run_tests
-	$(call RUN_TESTS, $(DESTRUCTIVE_TESTS))
+version https://git-lfs.github.com/spec/v1
+oid sha256:b6721f72550fe6f083aeea15f36fc8388e2ce7a4f27307bac18a0930cba29634
+size 796

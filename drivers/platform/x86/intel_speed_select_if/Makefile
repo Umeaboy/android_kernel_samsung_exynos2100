@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile - Intel Speed Select Interface drivers
-# Copyright (c) 2019, Intel Corporation.
-#
-
-obj-$(CONFIG_INTEL_SPEED_SELECT_INTERFACE) += isst_if_common.o
-obj-$(CONFIG_INTEL_SPEED_SELECT_INTERFACE) += isst_if_mmio.o
-obj-$(CONFIG_INTEL_SPEED_SELECT_INTERFACE) += isst_if_mbox_pci.o
-obj-$(CONFIG_INTEL_SPEED_SELECT_INTERFACE) += isst_if_mbox_msr.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:a976a8fa3dabc104281c99534c812df69784e3fd7c94c289fbcf5d4dfd1f91d9
+size 385

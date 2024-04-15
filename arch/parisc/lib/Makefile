@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for parisc-specific library files
-#
-
-lib-y	:= lusercopy.o bitops.o checksum.o io.o memset.o memcpy.o \
-	   ucmpdi2.o delay.o
-
-obj-y	:= iomap.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:1564b451e168a10576eba8e090f7e0d837c42e03e5afadda34bcdd41aa37910c
+size 196

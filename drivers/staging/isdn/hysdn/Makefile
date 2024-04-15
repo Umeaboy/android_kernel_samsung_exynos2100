@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-# Makefile for the hysdn ISDN device driver
-
-# Each configuration option enables a list of files.
-
-obj-$(CONFIG_HYSDN)		+= hysdn.o
-
-# Multipart objects.
-
-hysdn-y				:= hysdn_procconf.o hysdn_proclog.o boardergo.o \
-				   hysdn_boot.o hysdn_sched.o hysdn_net.o hysdn_init.o
-hysdn-$(CONFIG_HYSDN_CAPI)	+= hycapi.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:4c59ed565822d8f3d60d2337add4a68fa9e4fe71281f67cb810998803c71197e
+size 353

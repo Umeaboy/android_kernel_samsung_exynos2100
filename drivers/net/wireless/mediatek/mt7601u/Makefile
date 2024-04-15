@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_MT7601U)	+= mt7601u.o
-
-mt7601u-objs	= \
-	usb.o init.o main.o mcu.o trace.o dma.o core.o eeprom.o phy.o \
-	mac.o util.o debugfs.o tx.o
-
-CFLAGS_trace.o := -I$(src)
+version https://git-lfs.github.com/spec/v1
+oid sha256:15330cbb8f2b43627bcba62c1917c45235c815a5385bdbd91fd90a1b17d1fc47
+size 215

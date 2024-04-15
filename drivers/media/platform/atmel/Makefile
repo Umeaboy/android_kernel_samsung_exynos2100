@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-atmel-isc-objs = atmel-sama5d2-isc.o atmel-isc-base.o
-
-obj-$(CONFIG_VIDEO_ATMEL_ISI) += atmel-isi.o
-obj-$(CONFIG_VIDEO_ATMEL_ISC) += atmel-isc.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:13403f56d36cddd423437936ea9735c39d0605696fbf563d4f2ebe9b8b6117ef
+size 185

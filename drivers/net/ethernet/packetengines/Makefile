@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Packet Engines network device drivers.
-#
-
-obj-$(CONFIG_HAMACHI) += hamachi.o
-obj-$(CONFIG_YELLOWFIN) += yellowfin.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:d5a4d2a8ab0ab61665f2b7504f43a402139aac571f920b31894f5fe78781da64
+size 177

@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# rdmavt driver
-#
-#
-#
-# Called from the kernel module build system.
-#
-obj-$(CONFIG_INFINIBAND_RDMAVT) += rdmavt.o
-
-rdmavt-y := vt.o ah.o cq.o mad.o mcast.o mmap.o mr.o pd.o qp.o \
-	rc.o srq.o trace.o
-
-CFLAGS_trace.o = -I$(src)
+version https://git-lfs.github.com/spec/v1
+oid sha256:9b7f5707701fd4126f23c8929d0bb4cf7f0ddb00c18dc4567f22f402b1565a1c
+size 269

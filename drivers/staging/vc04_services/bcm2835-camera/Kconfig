@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-config VIDEO_BCM2835
-	tristate "BCM2835 Camera"
-	depends on MEDIA_SUPPORT
-	depends on VIDEO_V4L2 && (ARCH_BCM2835 || COMPILE_TEST)
-	select BCM2835_VCHIQ
-	select VIDEOBUF2_VMALLOC
-	select BTREE
-	help
-	  Say Y here to enable camera host interface devices for
-	  Broadcom BCM2835 SoC. This operates over the VCHIQ interface
-	  to a service running on VideoCore.
+version https://git-lfs.github.com/spec/v1
+oid sha256:92fc3450738c2cb77aa003cd7026bdf4690fc645151bf08a56468ae422a540f9
+size 394

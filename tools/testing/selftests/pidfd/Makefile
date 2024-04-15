@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-CFLAGS += -g -I../../../../usr/include/ -pthread
-
-TEST_GEN_PROGS := pidfd_test pidfd_open_test pidfd_poll_test pidfd_wait
-
-include ../lib.mk
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:117a827846e0eca1e0c7215166e13ccc4a693afa52111d47884e9c506751d850
+size 182

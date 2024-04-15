@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Makefile for comedi drivers unit tests
-#
-ccflags-$(CONFIG_COMEDI_DEBUG)		:= -DDEBUG
-
-obj-$(CONFIG_COMEDI_TESTS)		+= example_test.o ni_routes_test.o
-CFLAGS_ni_routes_test.o			:= -DDEBUG
+version https://git-lfs.github.com/spec/v1
+oid sha256:f9133ed2aaddb1c41343e2ad0caab53c0c1672a5dd6a95cbe1e0179d8ec9ff06
+size 222

@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_INFINIBAND_IPOIB)			+= ib_ipoib.o
-
-ib_ipoib-y					:= ipoib_main.o \
-						   ipoib_ib.o \
-						   ipoib_multicast.o \
-						   ipoib_verbs.o \
-						   ipoib_vlan.o \
-						   ipoib_ethtool.o \
-						   ipoib_netlink.o
-ib_ipoib-$(CONFIG_INFINIBAND_IPOIB_CM)		+= ipoib_cm.o
-ib_ipoib-$(CONFIG_INFINIBAND_IPOIB_DEBUG)	+= ipoib_fs.o
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:0dc59062267d17da837251d8942892a2b045ef3429a986ce4527942b8823f6a2
+size 379

@@ -1,7 +1,3 @@
-obj-$(CONFIG_CHARGER_MAX77705)	+= max77705-charger.o
-max77705-charger-$(CONFIG_CHARGER_MAX77705)	+= max77705_charger.o
-
-ifeq ($(CONFIG_SEC_KUNIT), y)
- GCOV_PROFILE_max77705_charger.o := $(CONFIG_SEC_KUNIT)
-endif
-ccflags-y := -Wformat
+version https://git-lfs.github.com/spec/v1
+oid sha256:eaa2eb19132922a8270fd87a8deb37f0047fdee1c62f53cb3eecf58d3e43c544
+size 234

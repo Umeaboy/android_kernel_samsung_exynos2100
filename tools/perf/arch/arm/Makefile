@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-ifndef NO_DWARF
-PERF_HAVE_DWARF_REGS := 1
-endif
-PERF_HAVE_JITDUMP := 1
+version https://git-lfs.github.com/spec/v1
+oid sha256:555f77b9d8607331727b53ae48678f5be63334fb7247a816bcfd619fdbce42ba
+size 111

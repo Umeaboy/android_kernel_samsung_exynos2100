@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Mellanox device drivers.
-#
-
-obj-$(CONFIG_MLX4_CORE) += mlx4/
-obj-$(CONFIG_MLX5_CORE) += mlx5/core/
-obj-$(CONFIG_MLXSW_CORE) += mlxsw/
-obj-$(CONFIG_MLXFW) += mlxfw/
+version https://git-lfs.github.com/spec/v1
+oid sha256:0bf3bde2d5153eb9078f2753cbb4a35ecc545fb913af1d533723c98075849123
+size 225

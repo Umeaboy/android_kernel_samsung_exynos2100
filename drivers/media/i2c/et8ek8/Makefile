@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-et8ek8-objs			+= et8ek8_mode.o et8ek8_driver.o
-obj-$(CONFIG_VIDEO_ET8EK8)	+= et8ek8.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:d3db127f2a2662add46fdfd70f72192b5f932c8e93eabce4973615d595d1037b
+size 126

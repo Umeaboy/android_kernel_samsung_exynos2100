@@ -1,18 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Copyright (c) 2010-2011 Samsung Electronics Co., Ltd.
-#		http://www.samsung.com/
-
-ccflags-$(CONFIG_ARCH_MULTIPLATFORM) += -I$(srctree)/$(src)/include -I$(srctree)/arch/arm/plat-samsung/include
-
-# Core
-
-obj-$(CONFIG_ARCH_EXYNOS)	+= exynos.o exynos-smc.o firmware.o
-
-obj-$(CONFIG_EXYNOS_CPU_SUSPEND) += pm.o sleep.o
-obj-$(CONFIG_PM_SLEEP)		+= suspend.o
-
-obj-$(CONFIG_SMP)		+= platsmp.o headsmp.o
-
-obj-$(CONFIG_EXYNOS_MCPM)	+= mcpm-exynos.o
-CFLAGS_mcpm-exynos.o		+= -march=armv7-a
+version https://git-lfs.github.com/spec/v1
+oid sha256:9d743b95bb04b7a8287cc98ba107fbcb73b1c6077cde153da6d804e79afe5611
+size 517

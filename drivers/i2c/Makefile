@@ -1,20 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the i2c core.
-#
-
-obj-$(CONFIG_I2C_BOARDINFO)	+= i2c-boardinfo.o
-obj-$(CONFIG_I2C)		+= i2c-core.o
-i2c-core-objs 			:= i2c-core-base.o i2c-core-smbus.o
-i2c-core-$(CONFIG_ACPI)		+= i2c-core-acpi.o
-i2c-core-$(CONFIG_I2C_SLAVE) 	+= i2c-core-slave.o
-i2c-core-$(CONFIG_OF) 		+= i2c-core-of.o
-
-obj-$(CONFIG_I2C_SMBUS)		+= i2c-smbus.o
-obj-$(CONFIG_I2C_CHARDEV)	+= i2c-dev.o
-obj-$(CONFIG_I2C_MUX)		+= i2c-mux.o
-obj-y				+= algos/ busses/ muxes/
-obj-$(CONFIG_I2C_STUB)		+= i2c-stub.o
-obj-$(CONFIG_I2C_SLAVE_EEPROM)	+= i2c-slave-eeprom.o
-
-ccflags-$(CONFIG_I2C_DEBUG_CORE) := -DDEBUG
+version https://git-lfs.github.com/spec/v1
+oid sha256:113dac0595bc99c0e1b01e43ab5e7d1de72497d6b91d36cfd491fbcaf752c180
+size 623

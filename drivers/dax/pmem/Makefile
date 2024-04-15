@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_DEV_DAX_PMEM) += dax_pmem.o
-obj-$(CONFIG_DEV_DAX_PMEM) += dax_pmem_core.o
-obj-$(CONFIG_DEV_DAX_PMEM_COMPAT) += dax_pmem_compat.o
-
-dax_pmem-y := pmem.o
-dax_pmem_core-y := core.o
-dax_pmem_compat-y := compat.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:6fc843a1989c51f2b74dd2895ce43919c7d499640d166239b05e5f7b8f02abc8
+size 260

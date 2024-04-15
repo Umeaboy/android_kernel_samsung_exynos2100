@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# IBM CXL-attached Flash Accelerator SCSI Driver
-#
-
-config CXLFLASH
-	tristate "Support for IBM CAPI Flash"
-	depends on PCI && SCSI && (CXL || OCXL) && EEH
-	select IRQ_POLL
-	default m
-	help
-	  Allows CAPI Accelerated IO to Flash
-	  If unsure, say N.
+version https://git-lfs.github.com/spec/v1
+oid sha256:23aaaf9877c24ba28c752dbeae1d73f4db23e2c8455e43848149aa664ab24b70
+size 291

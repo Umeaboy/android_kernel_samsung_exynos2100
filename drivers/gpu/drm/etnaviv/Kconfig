@@ -1,24 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-
-config DRM_ETNAVIV
-	tristate "ETNAVIV (DRM support for Vivante GPU IP cores)"
-	depends on DRM
-	depends on MMU
-	select SHMEM
-	select SYNC_FILE
-	select THERMAL if DRM_ETNAVIV_THERMAL
-	select TMPFS
-	select WANT_DEV_COREDUMP
-	select CMA if HAVE_DMA_CONTIGUOUS
-	select DMA_CMA if HAVE_DMA_CONTIGUOUS
-	select DRM_SCHED
-	help
-	  DRM driver for Vivante GPUs.
-
-config DRM_ETNAVIV_THERMAL
-	bool "enable ETNAVIV thermal throttling"
-	depends on DRM_ETNAVIV
-	default y
-	help
-	  Compile in support for thermal throttling.
-	  Say Y unless you want to risk burning your SoC.
+version https://git-lfs.github.com/spec/v1
+oid sha256:d9fe2017d107cff925e14213840e234fee9d3e870f4d230b02cd7ac92dd3651d
+size 600

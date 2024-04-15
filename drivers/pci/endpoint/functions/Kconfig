@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# PCI Endpoint Functions
-#
-
-config PCI_EPF_TEST
-	tristate "PCI Endpoint Test driver"
-	depends on PCI_ENDPOINT
-	select CRC32
-	help
-	   Enable this configuration option to enable the test driver
-	   for PCI Endpoint.
-
-	   If in doubt, say "N" to disable Endpoint test driver.
+version https://git-lfs.github.com/spec/v1
+oid sha256:3bb7c6bd432d9ec2155fe65c30cb03e5e5270ba2c7fc9c1cd4ee42cf030946c4
+size 311

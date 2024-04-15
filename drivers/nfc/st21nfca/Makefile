@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for ST21NFCA HCI based NFC driver
-#
-
-st21nfca_hci-objs = core.o dep.o se.o vendor_cmds.o
-obj-$(CONFIG_NFC_ST21NFCA)     += st21nfca_hci.o
-
-st21nfca_i2c-objs  = i2c.o
-obj-$(CONFIG_NFC_ST21NFCA_I2C) += st21nfca_i2c.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:4b61910a94e5e4a0ad683f4227846bc383474856a1c9fe8878d3fab038e2763c
+size 268

@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0+
-#
-# Makefile for the HISILICON network device drivers.
-#
-
-obj-$(CONFIG_HNS3) += hns3pf/
-obj-$(CONFIG_HNS3) += hns3vf/
-
-obj-$(CONFIG_HNS3) += hnae3.o
-
-obj-$(CONFIG_HNS3_ENET) += hns3.o
-hns3-objs = hns3_enet.o hns3_ethtool.o hns3_debugfs.o
-
-hns3-$(CONFIG_HNS3_DCB) += hns3_dcbnl.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:48e31a64540d93e1740adb4a4c9e10203685f11261c5bb869c6f63a0b29bbab2
+size 315

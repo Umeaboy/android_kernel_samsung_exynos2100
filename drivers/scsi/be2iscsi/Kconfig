@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-config BE2ISCSI
-	tristate "Emulex 10Gbps iSCSI - BladeEngine 2"
-	depends on PCI && SCSI && NET
-	select SCSI_ISCSI_ATTRS
-	select ISCSI_BOOT_SYSFS
-	select IRQ_POLL
-
-	help
-	This driver implements the iSCSI functionality for Emulex
-	10Gbps Storage adapter - BladeEngine 2.
+version https://git-lfs.github.com/spec/v1
+oid sha256:49ead434366466f63591add94b6977fe5b51517039fd9a73cf748c73aa44f4ac
+size 309

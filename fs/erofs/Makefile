@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-
-EROFS_VERSION = "1.0"
-
-ccflags-y += -DEROFS_VERSION=\"$(EROFS_VERSION)\"
-
-obj-$(CONFIG_EROFS_FS) += erofs.o
-erofs-objs := super.o inode.o data.o namei.o dir.o utils.o
-erofs-$(CONFIG_EROFS_FS_XATTR) += xattr.o
-erofs-$(CONFIG_EROFS_FS_ZIP) += decompressor.o zmap.o zdata.o
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c007f6186d92c3a5ceab5be5cd18d981f72e6336ca79b3cccdfb296acb7fc69
+size 313

@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-config ARCH_PICOXCELL
-	bool "Picochip PicoXcell"
-	depends on ARCH_MULTI_V6
-	select ARM_VIC
-	select DW_APB_TIMER_OF
-	select GPIOLIB
-	select HAVE_TCM
-	select NO_IOPORT_MAP
+version https://git-lfs.github.com/spec/v1
+oid sha256:f4da2326d40c746cf315977ff31d4f4bbe58c0736e774cea35ae28bd5f022d09
+size 210

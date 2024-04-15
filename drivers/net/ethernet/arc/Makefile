@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the ARC network device drivers.
-#
-
-arc_emac-objs := emac_main.o emac_mdio.o
-obj-$(CONFIG_ARC_EMAC_CORE) += arc_emac.o
-obj-$(CONFIG_ARC_EMAC) += emac_arc.o
-obj-$(CONFIG_EMAC_ROCKCHIP) += emac_rockchip.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:97756b4df4892909c846188cee7ee68333247ce8cb52b9ad6355207ab28732eb
+size 259

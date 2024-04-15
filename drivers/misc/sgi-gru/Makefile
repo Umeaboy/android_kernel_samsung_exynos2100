@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-ccflags-$(CONFIG_SGI_GRU_DEBUG)	:= -DDEBUG
-
-obj-$(CONFIG_SGI_GRU) := gru.o
-gru-y := grufile.o grumain.o grufault.o grutlbpurge.o gruprocfs.o grukservices.o gruhandles.o grukdump.o
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:c6b5bedaa59049522d8a9db70b95d8d32bcc940de919ec2d64ae839e5e1f2c94
+size 221

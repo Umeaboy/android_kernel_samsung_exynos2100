@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Allwinner sunXi SoC drivers
-#
-config SUNXI_SRAM
-	bool
-	default ARCH_SUNXI
-	select REGMAP_MMIO
-	help
-	  Say y here to enable the SRAM controller support. This
-	  device is responsible on mapping the SRAM in the sunXi SoCs
-	  whether to the CPU/DMA, or to the devices.
+version https://git-lfs.github.com/spec/v1
+oid sha256:940cc5f240504a8d90140515cea259d1c44da134ec4a878cc8dbd0c77315581c
+size 311

@@ -1,16 +1,3 @@
-config SAMSUNG_TUI
-       tristate "Samsung Trustzone Teegris UI"
-	bool "TUI HW Handler"
-	default n
-	help
-		Provide methods for TUI such as acquisition of buffer
-		to be used as secure frame buffer in Secure World and
-		synchronization of display and touch device between
-		Normal World and Secure World.
-
-config SAMSUNG_TUI_TEST
-	bool "Testing module for TUI HW handler"
-	default n
-	depends on SAMSUNG_TUI
-	help
-		support TUI Driver Test
+version https://git-lfs.github.com/spec/v1
+oid sha256:5fef126dba0bc1de45e448ccdc2d016d9d5c4de3796f66f05ef1a1f03a6ef6ab
+size 439

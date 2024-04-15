@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_QEDF) := qedf.o
-qedf-y = qedf_dbg.o qedf_main.o qedf_io.o qedf_fip.o \
-	 qedf_attr.o qedf_els.o drv_scsi_fw_funcs.o drv_fcoe_fw_funcs.o
-
-qedf-$(CONFIG_DEBUG_FS) += qedf_debugfs.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:3a7c5c4a330b91bc69d05d12e69fc37fbca59fa422da3b2325fcea04143f2790
+size 232

@@ -1,16 +1,3 @@
-config NPU_INTERFACE
-	bool "Select Interface"
-	help
-	  This is NPU interface
-
-config NPU_LOOPBACK
-	bool "Use Loopback"
-	depends on NPU_INTERFACE
-	help
-	  This is loopback device
-
-config NPU_HARDWARE
-	bool "Use Hardware"
-	depends on NPU_INTERFACE
-	help
-	  This is hardware device
+version https://git-lfs.github.com/spec/v1
+oid sha256:ab10a172389057adf316331eb7945dd2f20780df1f5104e53e47f7b45e1bb334
+size 279

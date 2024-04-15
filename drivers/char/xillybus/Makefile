@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for Xillybus driver
-#
-
-obj-$(CONFIG_XILLYBUS)		+= xillybus_core.o
-obj-$(CONFIG_XILLYBUS_PCIE)	+= xillybus_pcie.o
-obj-$(CONFIG_XILLYBUS_OF)	+= xillybus_of.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:9666957e3edbad035b0b3bee3fd004f65984946ff500c53ef852bff1fd47951d
+size 209

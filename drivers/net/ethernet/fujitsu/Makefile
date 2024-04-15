@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Fujitsu network device drivers.
-#
-
-obj-$(CONFIG_PCMCIA_FMVJ18X) += fmvj18x_cs.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:9137d68995288eaad042690f33d1091d39f6d2a6033ce69d44c18643aa3dacbf
+size 141

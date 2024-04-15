@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-snd-soc-sst-baytrail-pcm-objs := \
-	        sst-baytrail-ipc.o sst-baytrail-pcm.o sst-baytrail-dsp.o
-
-obj-$(CONFIG_SND_SOC_INTEL_BAYTRAIL) += snd-soc-sst-baytrail-pcm.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:128b7534b0ccd407ae44f0dfe958734899656640529f672e2a5e2d3cc3f86ee4
+size 209

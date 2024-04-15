@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-rtl8187-objs		:= dev.o rtl8225.o leds.o rfkill.o
-
-obj-$(CONFIG_RTL8187)	+= rtl8187.o
-
-ccflags-y += -I $(srctree)/$(src)/..
+version https://git-lfs.github.com/spec/v1
+oid sha256:f3a5405d4b439c6b648785cbbdd0b0960e9df228b39248a00c76f2cf20568bc1
+size 163

@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the kernel DVB device drivers.
-#
-
-dvb-net-$(CONFIG_DVB_NET) := dvb_net.o
-dvb-vb2-$(CONFIG_DVB_MMAP) := dvb_vb2.o
-
-dvb-core-objs := dvbdev.o dmxdev.o dvb_demux.o			\
-		 dvb_ca_en50221.o dvb_frontend.o		\
-		 $(dvb-net-y) dvb_ringbuffer.o $(dvb-vb2-y) dvb_math.o
-
-obj-$(CONFIG_DVB_CORE) += dvb-core.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:aeb03ff1d004fd99b9524a6390079d2b11fc88eac83bc48be8e64ad06f5c2e90
+size 350

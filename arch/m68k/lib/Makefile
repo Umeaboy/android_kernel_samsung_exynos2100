@@ -1,17 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-#
-# Makefile for m68k-specific library files..
-#
-
-lib-y	:= ashldi3.o ashrdi3.o lshrdi3.o muldi3.o \
-	   memcpy.o memset.o memmove.o
-
-lib-$(CONFIG_MMU) += uaccess.o
-lib-$(CONFIG_CPU_HAS_NO_MULDIV64) += mulsi3.o divsi3.o udivsi3.o
-lib-$(CONFIG_CPU_HAS_NO_MULDIV64) += modsi3.o umodsi3.o
-
-ifndef CONFIG_GENERIC_CSUM
-lib-y	+= checksum.o
-endif
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:9a4262ff669cc589b3e42242eccb032ecae08e4d230e827a18ee8cdc1a980b7d
+size 376

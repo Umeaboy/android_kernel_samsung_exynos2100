@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Makefile for the kernel ISDN subsystem and device drivers.
-
-# Object files in subdirectories
-
-obj-$(CONFIG_ISDN_CAPI)			+= capi/
-obj-$(CONFIG_MISDN)			+= mISDN/
-obj-$(CONFIG_ISDN)			+= hardware/
+version https://git-lfs.github.com/spec/v1
+oid sha256:1cf4e50f065d975fce7bea17ff4c924fea0d263d4a82e08c7c89b8b52e6a04a5
+size 232

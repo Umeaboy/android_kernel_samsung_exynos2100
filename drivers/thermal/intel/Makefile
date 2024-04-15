@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for various Intel thermal drivers.
-
-obj-$(CONFIG_INTEL_POWERCLAMP)	+= intel_powerclamp.o
-obj-$(CONFIG_X86_PKG_TEMP_THERMAL)	+= x86_pkg_temp_thermal.o
-obj-$(CONFIG_INTEL_SOC_DTS_IOSF_CORE)	+= intel_soc_dts_iosf.o
-obj-$(CONFIG_INTEL_SOC_DTS_THERMAL)	+= intel_soc_dts_thermal.o
-obj-$(CONFIG_INTEL_QUARK_DTS_THERMAL)	+= intel_quark_dts_thermal.o
-obj-$(CONFIG_INT340X_THERMAL)  += int340x_thermal/
-obj-$(CONFIG_INTEL_BXT_PMIC_THERMAL) += intel_bxt_pmic_thermal.o
-obj-$(CONFIG_INTEL_PCH_THERMAL)	+= intel_pch_thermal.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:321b23d3a698996db063d0e44e52846e05b71382834ba1fa742fd33e83db06ea
+size 561

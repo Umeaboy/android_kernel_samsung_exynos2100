@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-config DRM_SHMOBILE
-	tristate "DRM Support for SH Mobile"
-	depends on DRM && ARM
-	depends on ARCH_SHMOBILE || COMPILE_TEST
-	select BACKLIGHT_CLASS_DEVICE
-	select DRM_KMS_HELPER
-	select DRM_KMS_CMA_HELPER
-	select DRM_GEM_CMA_HELPER
-	help
-	  Choose this option if you have an SH Mobile chipset.
-	  If M is selected the module will be called shmob-drm.
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:01264865a896574941a363a06452a22060a646c60cb1dd571d344271c96c87df
+size 386

@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-
-coda-vpu-objs := coda-common.o coda-bit.o coda-gdi.o coda-h264.o coda-mpeg2.o coda-mpeg4.o coda-jpeg.o
-
-obj-$(CONFIG_VIDEO_CODA) += coda-vpu.o
-obj-$(CONFIG_VIDEO_IMX_VDOA) += imx-vdoa.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:eb973f0b20fa1f200d3583787cc8037a4979d876de2811e8ee6a8ac85671e141
+size 227

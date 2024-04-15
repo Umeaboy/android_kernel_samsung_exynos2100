@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Altera device drivers.
-#
-
-obj-$(CONFIG_ALTERA_TSE) += altera_tse.o
-altera_tse-objs := altera_tse_main.o altera_tse_ethtool.o \
-altera_msgdma.o altera_sgdma.o altera_utils.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:3df3f12a0306bdfa176981f7e1949dee244a7dd0600094137b2b89fd26e0e810
+size 234

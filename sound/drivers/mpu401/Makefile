@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for ALSA
-# Copyright (c) 2001 by Jaroslav Kysela <perex@perex.cz>
-#
-
-snd-mpu401-objs := mpu401.o
-snd-mpu401-uart-objs := mpu401_uart.o
-
-obj-$(CONFIG_SND_MPU401_UART) += snd-mpu401-uart.o
-
-# Toplevel Module Dependency
-obj-$(CONFIG_SND_MPU401) += snd-mpu401.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:02a67667d828faf21e3ef3463932d7d97826f20cb6736de59bae5cc6c8e00d05
+size 311

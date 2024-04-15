@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-stk1160-y :=	stk1160-core.o \
-		stk1160-v4l.o \
-		stk1160-video.o \
-		stk1160-i2c.o \
-		stk1160-ac97.o
-
-obj-$(CONFIG_VIDEO_STK1160) += stk1160.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:8a5d3db18134f0b4cedbc75467abc62960d01b2b8d3e9441ffa9361fe28ca9ec
+size 180

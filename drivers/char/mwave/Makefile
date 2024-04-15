@@ -1,16 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for ACP Modem (Mwave).
-#
-# See the README file in this directory for more info. <paulsch@us.ibm.com>
-#
-
-obj-$(CONFIG_MWAVE) += mwave.o
-
-mwave-y := mwavedd.o smapi.o tp3780i.o 3780i.o
-
-# To have the mwave driver disable other uarts if necessary
-# ccflags-y := -DMWAVE_FUTZ_WITH_OTHER_DEVICES
-
-# To compile in lots (~20 KiB) of run-time enablable printk()s for debugging:
-ccflags-y += -DMW_TRACE
+version https://git-lfs.github.com/spec/v1
+oid sha256:8ca109b780ca70e4892729c30dbfe0f1d3f94727056ad6a0e10165b51725203f
+size 447

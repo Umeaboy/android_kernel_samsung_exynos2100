@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the MB862xx framebuffer driver
-#
-
-obj-$(CONFIG_FB_MB862XX) += mb862xxfb.o
-
-mb862xxfb-y := mb862xxfbdrv.o mb862xxfb_accel.o
-mb862xxfb-$(CONFIG_FB_MB862XX_I2C) += mb862xx-i2c.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:93132f80cda50a9b6722ba40ae3709dceba8c68816593ed4d828b70f89c3ba5a
+size 232

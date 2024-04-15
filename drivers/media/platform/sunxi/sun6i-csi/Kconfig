@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-config VIDEO_SUN6I_CSI
-	tristate "Allwinner V3s Camera Sensor Interface driver"
-	depends on VIDEO_V4L2 && COMMON_CLK && VIDEO_V4L2_SUBDEV_API && HAS_DMA
-	depends on ARCH_SUNXI || COMPILE_TEST
-	select VIDEOBUF2_DMA_CONTIG
-	select REGMAP_MMIO
-	select V4L2_FWNODE
-	help
-	   Support for the Allwinner Camera Sensor Interface Controller on V3s.
+version https://git-lfs.github.com/spec/v1
+oid sha256:b98e2ca0290ea3c275ea5d1cfcae1df4dea305b406165b130c7d3cdd9649ff1e
+size 380

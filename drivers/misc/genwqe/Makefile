@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for GenWQE driver
-#
-
-obj-$(CONFIG_GENWQE) := genwqe_card.o
-genwqe_card-objs := card_base.o card_dev.o card_ddcb.o card_sysfs.o \
-	card_debugfs.o card_utils.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:0d1e8542a630a33d64759382812b019fcc00fd231b258bee51195af3b161ec73
+size 211

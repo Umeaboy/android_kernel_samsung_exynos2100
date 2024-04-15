@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-snd-soc-simple-card-utils-objs	:= simple-card-utils.o
-snd-soc-simple-card-objs	:= simple-card.o
-snd-soc-audio-graph-card-objs	:= audio-graph-card.o
-
-obj-$(CONFIG_SND_SIMPLE_CARD_UTILS)	+= snd-soc-simple-card-utils.o
-obj-$(CONFIG_SND_SIMPLE_CARD)		+= snd-soc-simple-card.o
-obj-$(CONFIG_SND_AUDIO_GRAPH_CARD)	+= snd-soc-audio-graph-card.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:566830fe770073eefbab546f5fbe51ac7f0a3be4a0fdfe45b58b9bebebcc3649
+size 372

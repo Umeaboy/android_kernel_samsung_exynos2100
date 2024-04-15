@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for sirf specific clk
-#
-
-obj-$(CONFIG_ARCH_SIRF) += clk-prima2.o clk-atlas6.o clk-atlas7.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:cebdc6b6df5d47bee8ee954c0a34451fbf491b8eabc7b20236a8f1a91850ad0a
+size 144

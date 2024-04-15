@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Makefile for cgroup tools
-
-CFLAGS = -Wall -Wextra
-
-all: cgroup_event_listener
-%: %.c
-	$(CC) $(CFLAGS) -o $@ $^
-
-clean:
-	$(RM) cgroup_event_listener
+version https://git-lfs.github.com/spec/v1
+oid sha256:613984654e6624182936c35aff8b67a30447629e533bb76ebaf64693e671b211
+size 185

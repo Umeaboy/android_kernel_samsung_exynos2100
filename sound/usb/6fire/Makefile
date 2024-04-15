@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-snd-usb-6fire-objs += chip.o comm.o midi.o control.o firmware.o pcm.o
-obj-$(CONFIG_SND_USB_6FIRE) += snd-usb-6fire.o
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:5d522650da9b5e9085f9585cad250aadd7208c618496b0f4d3fb4bbc13c6bd31
+size 158

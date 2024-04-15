@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-snd-aw2-objs := aw2-alsa.o aw2-saa7146.o
-
-obj-$(CONFIG_SND_AW2) += snd-aw2.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:07219c6162a7750a45cd134d877ee0cf2aa176eb36c66238176408b2b67c7ca4
+size 117

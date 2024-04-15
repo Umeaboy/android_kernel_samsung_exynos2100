@@ -1,18 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_OPROFILE) += oprofile.o
-
-DRIVER_OBJS = $(addprefix ../../../drivers/oprofile/, \
-		oprof.o cpu_buffer.o buffer_sync.o \
-		event_buffer.o oprofile_files.o \
-		oprofilefs.o oprofile_stats.o \
-		timer_int.o )
-
-oprofile-y				:= $(DRIVER_OBJS) common.o backtrace.o
-
-oprofile-$(CONFIG_CPU_MIPS32)		+= op_model_mipsxx.o
-oprofile-$(CONFIG_CPU_MIPS64)		+= op_model_mipsxx.o
-oprofile-$(CONFIG_CPU_R10000)		+= op_model_mipsxx.o
-oprofile-$(CONFIG_CPU_SB1)		+= op_model_mipsxx.o
-oprofile-$(CONFIG_CPU_XLR)		+= op_model_mipsxx.o
-oprofile-$(CONFIG_CPU_LOONGSON2)	+= op_model_loongson2.o
-oprofile-$(CONFIG_CPU_LOONGSON3)	+= op_model_loongson3.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:60446d97311199f595fa0737b7e6105488dfb485d54f8828e1f105bf4270974c
+size 677

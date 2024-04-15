@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-obj-$(CONFIG_KPC2000) += kpc2000/
-obj-$(CONFIG_KPC2000_I2C) += kpc2000_i2c.o
-obj-$(CONFIG_KPC2000_SPI) += kpc2000_spi.o
-obj-$(CONFIG_KPC2000_DMA) += kpc_dma/
+version https://git-lfs.github.com/spec/v1
+oid sha256:eb5250fe8d91e85c8cc8c5e88c9969c846d60b180bec58e771653f330be7b1a6
+size 194

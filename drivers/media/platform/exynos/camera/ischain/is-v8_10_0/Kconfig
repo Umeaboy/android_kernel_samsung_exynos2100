@@ -1,13 +1,3 @@
-config PABLO_V8_10_0
-	bool "Use PABLO v8.10.0"
-	depends on SOC_EXYNOS9630
-	select EXYNOS_DEVICE_MIPI_CSIS_VER4
-	select CSIS_V5_3
-	select CAMERA_CIS_SELECT
-	select CAMERA_ACT_SELECT
-	select CAMERA_FLASH_SELECT
-	select CAMERA_PDP
-	select MC_SCALER_V8_10
-	select PDP_V1_0_0
-	help
-	  PABLO ISP version 8.0.0
+version https://git-lfs.github.com/spec/v1
+oid sha256:676edeb10a0442bc754b390a4e0c2981b65024971b87de1468d3b061e6b23430
+size 304

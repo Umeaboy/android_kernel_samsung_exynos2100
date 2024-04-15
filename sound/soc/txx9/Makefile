@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Platform
-snd-soc-txx9aclc-objs := txx9aclc.o
-snd-soc-txx9aclc-ac97-objs := txx9aclc-ac97.o
-
-obj-$(CONFIG_SND_SOC_TXX9ACLC) += snd-soc-txx9aclc.o
-obj-$(CONFIG_SND_SOC_TXX9ACLC_AC97) += snd-soc-txx9aclc-ac97.o
-
-# Machine
-snd-soc-txx9aclc-generic-objs := txx9aclc-generic.o
-
-obj-$(CONFIG_SND_SOC_TXX9ACLC_GENERIC) += snd-soc-txx9aclc-generic.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:34d3e9d50ad749ff818e8c92615189128b759f71025a0030a4ee9468b2fcba9a
+size 378

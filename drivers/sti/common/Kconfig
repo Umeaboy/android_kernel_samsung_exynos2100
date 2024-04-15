@@ -1,9 +1,3 @@
-comment "Samsung STI Options"
-config SEC_STI
-	tristate "Samsung STI(System Test Infra)"
-	default n
-	help
-		Config to support Samsung STI(System Test Infra) solutions.
-		There are many sub configs to support
-		ABC driver, ABC hub driver, LABO driver and so on.
-		All sub configs depends on config SEC_STI.
+version https://git-lfs.github.com/spec/v1
+oid sha256:d9c9bf64959d434eddc3d4a7c0edddb646b25401d3d110bd7cbf66ef468508f1
+size 305

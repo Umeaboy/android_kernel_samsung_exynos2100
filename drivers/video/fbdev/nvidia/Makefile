@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the nVidia framebuffer driver
-#
-
-obj-$(CONFIG_FB_NVIDIA)          += nvidiafb.o
-
-nvidiafb-y                       := nvidia.o nv_hw.o nv_setup.o \
-			            nv_accel.o nv_of.o
-nvidiafb-$(CONFIG_FB_NVIDIA_I2C) += nv_i2c.o
-nvidiafb-$(CONFIG_FB_NVIDIA_BACKLIGHT)  += nv_backlight.o
-
-nvidiafb-objs                    := $(nvidiafb-y)
+version https://git-lfs.github.com/spec/v1
+oid sha256:f217b5501c9679f02701349bc2dac58109f77b58c75fdebbe301af579a784458
+size 387

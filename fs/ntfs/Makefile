@@ -1,15 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Rules for making the NTFS driver.
-
-obj-$(CONFIG_NTFS_FS) += ntfs.o
-
-ntfs-y := aops.o attrib.o collate.o compress.o debug.o dir.o file.o \
-	  index.o inode.o mft.o mst.o namei.o runlist.o super.o sysctl.o \
-	  unistr.o upcase.o
-
-ntfs-$(CONFIG_NTFS_RW) += bitmap.o lcnalloc.o logfile.o quota.o usnjrnl.o
-
-ccflags-y := -DNTFS_VERSION=\"2.1.32\"
-ccflags-$(CONFIG_NTFS_DEBUG)	+= -DDEBUG
-ccflags-$(CONFIG_NTFS_RW)	+= -DNTFS_RW
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:50720af6f88707304bbc7804270ea977bc476d6a0f2f7c9fca4876a7ce03150d
+size 459

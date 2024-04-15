@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-netup-unidvb-objs += netup_unidvb_core.o
-netup-unidvb-objs += netup_unidvb_i2c.o
-netup-unidvb-objs += netup_unidvb_ci.o
-netup-unidvb-objs += netup_unidvb_spi.o
-
-obj-$(CONFIG_DVB_NETUP_UNIDVB) += netup-unidvb.o
-
-ccflags-y += -I $(srctree)/drivers/media/dvb-frontends
+version https://git-lfs.github.com/spec/v1
+oid sha256:91a446c60d6fa7445537f77202330cf0b4006c49b1584caaad6ec6b014697b25
+size 301

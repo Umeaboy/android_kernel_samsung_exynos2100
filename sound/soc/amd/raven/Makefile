@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0+
-# Raven Ridge platform Support
-snd-pci-acp3x-objs	:= pci-acp3x.o
-snd-acp3x-pcm-dma-objs	:= acp3x-pcm-dma.o
-obj-$(CONFIG_SND_SOC_AMD_ACP3x)	 += snd-pci-acp3x.o
-obj-$(CONFIG_SND_SOC_AMD_ACP3x)	 += snd-acp3x-pcm-dma.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:eca9332385ac4c6be0ebe8f15db90cda687aa1399f75cb0b95f34730b99e854b
+size 251

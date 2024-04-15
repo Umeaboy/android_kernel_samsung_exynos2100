@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-s5p-jpeg-objs := jpeg-core.o jpeg-hw-exynos3250.o jpeg-hw-exynos4.o jpeg-hw-s5p.o
-obj-$(CONFIG_VIDEO_SAMSUNG_S5P_JPEG) += s5p-jpeg.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:ae029ef50d782775a067d0fc13a15e0ed02f3648a2db9437a365b16ebfa5bc25
+size 173

@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-CBMC_FLAGS = -I../.. -I../../src -I../../include -I../../empty_includes -32 -pointer-check -mm pso
-
-all:
-	for i in ./*.pass; do \
-		echo $$i ; \
-		CBMC_FLAGS="$(CBMC_FLAGS)" sh ../test_script.sh --should-pass $$i > $$i.out 2>&1 ; \
-	done
-	for i in ./*.fail; do \
-		echo $$i ; \
-		CBMC_FLAGS="$(CBMC_FLAGS)" sh ../test_script.sh --should-fail $$i > $$i.out 2>&1 ; \
-	done
+version https://git-lfs.github.com/spec/v1
+oid sha256:06732cfa66b3fff2de56ab5d25b45ba37042612ad4833660a3d2a908157b199a
+size 406

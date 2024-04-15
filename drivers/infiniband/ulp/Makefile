@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_INFINIBAND_IPOIB)		+= ipoib/
-obj-$(CONFIG_INFINIBAND_SRP)		+= srp/
-obj-$(CONFIG_INFINIBAND_SRPT)		+= srpt/
-obj-$(CONFIG_INFINIBAND_ISER)		+= iser/
-obj-$(CONFIG_INFINIBAND_ISERT)		+= isert/
-obj-$(CONFIG_INFINIBAND_OPA_VNIC)	+= opa_vnic/
+version https://git-lfs.github.com/spec/v1
+oid sha256:b68048ba28e2bce1befaef5b732e0e44ddade8efb0a44bed4e1dcfc9a99ccf8d
+size 284

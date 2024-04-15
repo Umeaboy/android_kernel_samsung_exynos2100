@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the phy drivers.
-#
-
-obj-$(CONFIG_PHY_UNIPHIER_USB2)	+= phy-uniphier-usb2.o
-obj-$(CONFIG_PHY_UNIPHIER_USB3)	+= phy-uniphier-usb3hs.o phy-uniphier-usb3ss.o
-obj-$(CONFIG_PHY_UNIPHIER_PCIE)	+= phy-uniphier-pcie.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:592ecf9f65d489cf6757a193bbeb7ca86478a02f506f835105f81c0273de884a
+size 261

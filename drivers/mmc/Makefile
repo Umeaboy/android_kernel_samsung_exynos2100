@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the kernel mmc device drivers.
-#
-
-obj-$(CONFIG_MMC)		+= core/
-obj-$(subst m,y,$(CONFIG_MMC))	+= host/
+version https://git-lfs.github.com/spec/v1
+oid sha256:3c38446903dc52a4b63e4b8c2daf0a413b81951e262e5fa77a1f01417dcb7b00
+size 159

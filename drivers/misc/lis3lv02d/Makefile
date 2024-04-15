@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# STMicroelectonics LIS3LV02D and similar accelerometers
-#
-
-obj-$(CONFIG_SENSORS_LIS3LV02D) += lis3lv02d.o
-obj-$(CONFIG_SENSORS_LIS3_SPI)	+= lis3lv02d_spi.o
-obj-$(CONFIG_SENSORS_LIS3_I2C)	+= lis3lv02d_i2c.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:82ba6a924f34bdc4b10ecf203a5c94385f41424d2d8397a1c3ec0ac01e500433
+size 249

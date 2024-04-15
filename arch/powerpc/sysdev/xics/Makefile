@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-obj-y				+= xics-common.o
-obj-$(CONFIG_PPC_ICP_NATIVE)	+= icp-native.o
-obj-$(CONFIG_PPC_ICP_HV)	+= icp-hv.o
-obj-$(CONFIG_PPC_ICS_RTAS)	+= ics-rtas.o
-obj-$(CONFIG_PPC_POWERNV)	+= ics-opal.o icp-opal.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:3afc69df389185c8f4feb15fecb7a74d82d2d325d98620ec1d23346dd7c56eb8
+size 236

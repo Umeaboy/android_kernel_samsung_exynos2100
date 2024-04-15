@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-config FSNOTIFY
-	def_bool n
-	select SRCU
-
-source "fs/notify/dnotify/Kconfig"
-source "fs/notify/inotify/Kconfig"
-source "fs/notify/fanotify/Kconfig"
+version https://git-lfs.github.com/spec/v1
+oid sha256:330e7a5038cc07671168e62917c98e2c38051d3b4b793b12be58fcfa81f0e671
+size 188

@@ -1,15 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_VGASTATE)            += vgastate.o
-obj-$(CONFIG_HDMI)                += hdmi.o
-
-obj-$(CONFIG_VT)		  += console/
-obj-$(CONFIG_FB_STI)		  += console/
-obj-$(CONFIG_LOGO)		  += logo/
-obj-y				  += backlight/
-
-obj-y				  += fbdev/
-
-obj-$(CONFIG_VIDEOMODE_HELPERS) += display_timing.o videomode.o
-ifeq ($(CONFIG_OF),y)
-obj-$(CONFIG_VIDEOMODE_HELPERS) += of_display_timing.o of_videomode.o
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:ed7f99937a873ed54722b3462cce215c790e68fe9ec440f2ba7190ba8cf4bee5
+size 437

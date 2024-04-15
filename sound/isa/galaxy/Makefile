@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for ALSA
-# Copyright (c) 2001 by Jaroslav Kysela <perex@suse.cz>
-#
-
-snd-azt1605-objs := azt1605.o
-snd-azt2316-objs := azt2316.o
-
-obj-$(CONFIG_SND_AZT1605) += snd-azt1605.o
-obj-$(CONFIG_SND_AZT2316) += snd-azt2316.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:cc1ab842adfd7ee0fc209be2f986371f8cdcb3b6a10b8e325cb27d3682509ea9
+size 268

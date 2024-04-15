@@ -1,9 +1,3 @@
-#
-# Copyright (c) 2016 Samsung Electronics Co., Ltd.
-#              http://www.samsung.com
-#
-# Licensed under GPLv2
-#
-
-repeater-objs := repeater_dev.o repeater_buf.o
-obj-$(CONFIG_VIDEO_EXYNOS_REPEATER)       += repeater.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:37082b36d6083d3d124ca075a32cf8849fccf00231ddfcf1e3b20ced3ec0d008
+size 222

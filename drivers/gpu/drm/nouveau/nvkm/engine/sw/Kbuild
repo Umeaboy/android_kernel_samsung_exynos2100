@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: MIT
-nvkm-y += nvkm/engine/sw/base.o
-nvkm-y += nvkm/engine/sw/nv04.o
-nvkm-y += nvkm/engine/sw/nv10.o
-nvkm-y += nvkm/engine/sw/nv50.o
-nvkm-y += nvkm/engine/sw/gf100.o
-
-nvkm-y += nvkm/engine/sw/chan.o
-
-nvkm-y += nvkm/engine/sw/nvsw.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:3210e3d69cd43e365de73f5a255e3aa533f35a11573deeb8b88f51f08ef4451f
+size 258

@@ -1,26 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-ccflags-$(CONFIG_DRM_TEGRA_DEBUG) += -DDEBUG
-
-tegra-drm-y := \
-	drm.o \
-	gem.o \
-	fb.o \
-	hub.o \
-	plane.o \
-	dc.o \
-	output.o \
-	rgb.o \
-	hda.o \
-	hdmi.o \
-	mipi-phy.o \
-	dsi.o \
-	sor.o \
-	dpaux.o \
-	gr2d.o \
-	gr3d.o \
-	falcon.o \
-	vic.o
-
-tegra-drm-y += trace.o
-
-obj-$(CONFIG_DRM_TEGRA) += tegra-drm.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:efcacd0eb4625f0467d0b51a5a29df1e3d2207683fb1aa4fb3eaeee726f92c6f
+size 338

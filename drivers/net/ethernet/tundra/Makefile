@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Tundra network device drivers.
-#
-
-obj-$(CONFIG_TSI108_ETH) += tsi108_eth.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:1f981d66eede88feed59889eb89ffbd2fa863881a829b07bda5fc5c4666527bc
+size 136

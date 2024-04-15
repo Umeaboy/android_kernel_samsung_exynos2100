@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-menu "USB Type-C Multiplexer/DeMultiplexer Switch support"
-
-config TYPEC_MUX_PI3USB30532
-	tristate "Pericom PI3USB30532 Type-C cross switch driver"
-	depends on I2C
-	help
-	  Say Y or M if your system has a Pericom PI3USB30532 Type-C cross
-	  switch / mux chip found on some devices with a Type-C port.
-
-endmenu
+version https://git-lfs.github.com/spec/v1
+oid sha256:8f095dc64b60234fd61198fcbf496fd39cec0d72d08c559b9943caf456ecfb11
+size 346

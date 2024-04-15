@@ -1,24 +1,3 @@
-#
-# Makefile for Samsung Secure Element
-#
-ifeq ($(CONFIG_STAR_K250A_LEGO), m)
-obj-$(CONFIG_STAR_K250A_LEGO) = snvm.o
-
-snvm-y += sec_star.o \
-                        protocol/ese_data.o \
-			protocol/ese_memory.o \
-                        protocol/ese_iso7816_t1.o \
-                        hal/ese_i2c.o \
-                        hal/ese_spi.o \
-                        hal/ese_hal.o \
-			sec_k250a.o
-else
-obj-$(CONFIG_STAR_K250A_LEGO) += sec_star.o \
-			protocol/ese_data.o \
-			protocol/ese_memory.o \
-			protocol/ese_iso7816_t1.o \
-			hal/ese_i2c.o \
-			hal/ese_spi.o \
-			hal/ese_hal.o \
-			sec_k250a.o
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:733fb8aabbc8545aaf47692e4a5d3c40165dda9e522f153e734339e1c0dd967a
+size 613

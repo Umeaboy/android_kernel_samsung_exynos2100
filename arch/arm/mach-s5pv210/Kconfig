@@ -1,32 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Copyright (c) 2010 Samsung Electronics Co., Ltd.
-#		http://www.samsung.com/
-
-# Configuration options for the S5PV210/S5PC110
-
-config ARCH_S5PV210
-	bool "Samsung S5PV210/S5PC110"
-	depends on ARCH_MULTI_V7
-	select ARM_VIC
-	select CLKSRC_SAMSUNG_PWM
-	select COMMON_CLK_SAMSUNG
-	select GPIOLIB
-	select HAVE_S3C2410_I2C if I2C
-	select HAVE_S3C2410_WATCHDOG if WATCHDOG
-	select HAVE_S3C_RTC if RTC_CLASS
-	select PINCTRL
-	select PINCTRL_EXYNOS
-	help
-	  Samsung S5PV210/S5PC110 series based systems
-
-if ARCH_S5PV210
-
-config CPU_S5PV210
-	def_bool y
-	select ARM_AMBA
-	select PL330_DMA if DMADEVICES
-	help
-	  Enable S5PV210 CPU support
-
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:72cb3559550eade886c82cd786aec0def03dde310ece552e23c0c2b417d1ed28
+size 671

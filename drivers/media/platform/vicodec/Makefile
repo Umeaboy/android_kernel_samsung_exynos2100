@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-vicodec-objs := vicodec-core.o codec-fwht.o codec-v4l2-fwht.o
-
-obj-$(CONFIG_VIDEO_VICODEC) += vicodec.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a46c2375d0a21f0f5dab8a87da9dd5a5e77f0340756300f092ff6c1364a3a7c
+size 139

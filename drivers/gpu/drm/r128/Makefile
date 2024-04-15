@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the drm device driver.  This driver provides support for the
-# Direct Rendering Infrastructure (DRI) in XFree86 4.1.0 and higher.
-
-r128-y   := r128_drv.o r128_cce.o r128_state.o r128_irq.o
-
-r128-$(CONFIG_COMPAT)   += r128_ioc32.o
-
-obj-$(CONFIG_DRM_R128)	+= r128.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:ba414c66722e32f198c5aef80a053cd4abae19ea5b17fbf4d5ce095bf58abfbc
+size 321

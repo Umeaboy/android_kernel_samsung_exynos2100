@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-b2c2-flexcop-usb-objs := flexcop-usb.o
-obj-$(CONFIG_DVB_B2C2_FLEXCOP_USB) += b2c2-flexcop-usb.o
-
-ccflags-y += -I $(srctree)/drivers/media/common/b2c2/
+version https://git-lfs.github.com/spec/v1
+oid sha256:ea8c3183e9fa892b557d5f2bc0d2d21f60df7537ed92bd8c2f83941176fbd558
+size 191

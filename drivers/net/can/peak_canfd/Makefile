@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the PEAK-System CAN-FD IP module drivers
-#
-obj-$(CONFIG_CAN_PEAK_PCIEFD) += peak_pciefd.o
-peak_pciefd-y := peak_pciefd_main.o peak_canfd.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:c889fa9c8d6f0d274cc258903ca891474a5cb3cdb506bc0c8cb9a72ccef2e916
+size 196

@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-test-drm_modeset-y := test-drm_modeset_common.o test-drm_plane_helper.o \
-                      test-drm_format.o test-drm_framebuffer.o \
-		      test-drm_damage_helper.o
-
-obj-$(CONFIG_DRM_DEBUG_SELFTEST) += test-drm_mm.o test-drm_modeset.o test-drm_cmdline_parser.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:f465ec37cf985eea1750ddd62d62f80559d35f53710e978f36128849f7cea5e5
+size 308

@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-CC := $(CROSS_COMPILE)gcc
-CFLAGS := -I../../usr/include
-
-PROGS := mei-amt-version
-
-all: $(PROGS)
-
-clean:
-	rm -fr $(PROGS)
+version https://git-lfs.github.com/spec/v1
+oid sha256:1f01994265df093f090b1ee217cae0acbda22692fde7aee6571e6c371920efc2
+size 157

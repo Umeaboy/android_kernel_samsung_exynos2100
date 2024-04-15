@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-obj-$(CONFIG_CAN_DEV)		+= can-dev.o
-can-dev-y			+= dev.o
-can-dev-y			+= rx-offload.o
-
-can-dev-$(CONFIG_CAN_LEDS)	+= led.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:4d68dc085df175eac1d4d5c8de61d4ce130148550c59867c5f462f11badffcff
+size 158

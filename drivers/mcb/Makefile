@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-obj-$(CONFIG_MCB) += mcb.o
-
-mcb-y += mcb-core.o
-mcb-y += mcb-parse.o
-
-obj-$(CONFIG_MCB_PCI) += mcb-pci.o
-obj-$(CONFIG_MCB_LPC) += mcb-lpc.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:1e8e7dd34dae7daef03efd97fde41026203ff5b19462f0e2184ea99a09a10080
+size 176

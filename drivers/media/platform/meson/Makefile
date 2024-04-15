@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_VIDEO_MESON_AO_CEC)	+= ao-cec.o
-obj-$(CONFIG_VIDEO_MESON_G12A_AO_CEC)	+= ao-cec-g12a.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:6a12c15f29f4b402cbe65a6f6f0d5b3bf26749ea7b1b608a802c19ac7bdacf0a
+size 140

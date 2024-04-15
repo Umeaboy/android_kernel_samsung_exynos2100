@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Netronome network device drivers
-#
-
-obj-$(CONFIG_NFP) += nfp/
+version https://git-lfs.github.com/spec/v1
+oid sha256:feafae1f27814fbf07ae89ab5337b2f7aad51fb8481befe37ac3bf631a04c167
+size 123

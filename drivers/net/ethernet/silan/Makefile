@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Silan network device drivers.
-#
-
-obj-$(CONFIG_SC92031) += sc92031.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:fb36d68867b94b77147693ad8be7657a29fc034479885ffc20cebcc089ad9cf1
+size 129

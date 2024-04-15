@@ -1,22 +1,3 @@
-config VIDEO_EXYNOS_MFC
-	tristate "Exynos MFC Driver"
-	default n
-	depends on VIDEO_EXYNOS
-	select VIDEOBUF2_CORE
-	select VIDEOBUF2_DMA_SG
-	---help---
-	  MFC driver for V4L2.
-
-config MFC_USES_LLC
-	  bool "MFC LLC support"
-	  default y
-	  depends on VIDEO_EXYNOS_MFC
-	  help
-	  Uses the LLC of MFC.
-
-config MFC_USE_DMABUF_CONTAINER
-	bool "MFC dma-buf container support"
-	default n
-	depends on VIDEO_EXYNOS_MFC
-	---help---
-	  Use dma-buf container for MFC.
+version https://git-lfs.github.com/spec/v1
+oid sha256:04d89f4b1ece51af66f8e9d3b107b989766a709255f9bf01b67a9711d4746288
+size 454

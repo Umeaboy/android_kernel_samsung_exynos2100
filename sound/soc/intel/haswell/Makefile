@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-snd-soc-sst-haswell-pcm-objs := \
-	        sst-haswell-ipc.o sst-haswell-pcm.o sst-haswell-dsp.o
-
-obj-$(CONFIG_SND_SOC_INTEL_HASWELL) += snd-soc-sst-haswell-pcm.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:ecb480985264f1503f25eddf214252354b6a7ba0ed9064486279d25c79f2d3c8
+size 203

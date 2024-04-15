@@ -1,25 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-config CAN_MSCAN
-	depends on PPC
-	tristate "Support for Freescale MSCAN based chips"
-	---help---
-	  The Motorola Scalable Controller Area Network (MSCAN) definition
-	  is based on the MSCAN12 definition which is the specific
-	  implementation of the Motorola Scalable CAN concept targeted for
-	  the Motorola MC68HC12 Microcontroller Family.
-
-if CAN_MSCAN
-
-config CAN_MPC5XXX
-	tristate "Freescale MPC5xxx onboard CAN controller"
-	depends on (PPC_MPC52xx || PPC_MPC512x)
-	---help---
-	  If you say yes here you get support for Freescale's MPC5xxx
-	  onboard CAN controller. Currently, the MPC5200, MPC5200B and
-	  MPC5121 (Rev. 2 and later) are supported.
-
-	  This driver can also be built as a module. If so, the module
-	  will be called mscan-mpc5xxx.ko.
-
-endif
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:14b60ff2b8fa06eb7ca10a3b454e85215d59221f1957f01f8cd0d06b2adc292f
+size 803

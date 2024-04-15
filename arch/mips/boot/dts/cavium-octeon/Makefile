@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-dtb-$(CONFIG_CAVIUM_OCTEON_SOC)	+= octeon_3xxx.dtb octeon_68xx.dtb
-
-obj-$(CONFIG_BUILTIN_DTB)	+= $(addsuffix .o, $(dtb-y))
+version https://git-lfs.github.com/spec/v1
+oid sha256:d64f5ec4b393d3fe064e9f360f237267f267b9f8db2f0cb2e436628758132f96
+size 158

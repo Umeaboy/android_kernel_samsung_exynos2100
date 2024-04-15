@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for radios with Silicon Labs Si470x FM Radio Receivers
-#
-
-obj-$(CONFIG_RADIO_SI470X) += radio-si470x-common.o
-obj-$(CONFIG_USB_SI470X) += radio-si470x-usb.o
-obj-$(CONFIG_I2C_SI470X) += radio-si470x-i2c.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:c4288d4aa5d1a8247f02aaec623c7e76c1f59876b39c5847db10200e02394bf6
+size 257

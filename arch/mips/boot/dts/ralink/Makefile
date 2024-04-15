@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-dtb-$(CONFIG_DTB_RT2880_EVAL)	+= rt2880_eval.dtb
-dtb-$(CONFIG_DTB_RT305X_EVAL)	+= rt3052_eval.dtb
-dtb-$(CONFIG_DTB_RT3883_EVAL)	+= rt3883_eval.dtb
-dtb-$(CONFIG_DTB_MT7620A_EVAL)	+= mt7620a_eval.dtb
-dtb-$(CONFIG_DTB_OMEGA2P)	+= omega2p.dtb
-dtb-$(CONFIG_DTB_VOCORE2)	+= vocore2.dtb
-
-obj-$(CONFIG_BUILTIN_DTB)	+= $(addsuffix .o, $(dtb-y))
+version https://git-lfs.github.com/spec/v1
+oid sha256:57b77ed043e76fe7783c51049487f1b19c1448dadb3b42eb7b212dd2eddf3823
+size 371

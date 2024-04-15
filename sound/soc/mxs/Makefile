@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# MXS Platform Support
-snd-soc-mxs-objs := mxs-saif.o
-snd-soc-mxs-pcm-objs := mxs-pcm.o
-
-obj-$(CONFIG_SND_MXS_SOC) += snd-soc-mxs.o snd-soc-mxs-pcm.o
-
-# i.MX Machine Support
-snd-soc-mxs-sgtl5000-objs := mxs-sgtl5000.o
-
-obj-$(CONFIG_SND_SOC_MXS_SGTL5000) += snd-soc-mxs-sgtl5000.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:73ac83803eeddfaba4a7f430dfa87035e4c3f39bee14bcbb696a3f40bbb189dd
+size 315

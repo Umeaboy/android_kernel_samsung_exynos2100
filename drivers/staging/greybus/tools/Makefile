@@ -1,32 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-ifeq ($(strip $(V)), 1)
-  Q =
-else
-  Q = @
-endif
-
-CFLAGS	+= -std=gnu99 -Wall -Wextra -g \
-	    -D_GNU_SOURCE \
-	    -Wno-unused-parameter \
-	    -Wmaybe-uninitialized \
-	    -Wredundant-decls \
-	    -Wcast-align \
-	    -Wsign-compare \
-	    -Wno-missing-field-initializers
-
-CC	:= $(CROSS_COMPILE)gcc
-
-TOOLS = loopback_test
-
-all: $(TOOLS)
-
-%.o: %.c ../greybus_protocols.h
-	@echo '  TARGET_CC $@'
-	$(Q)$(CC) $(CFLAGS) -c $< -o $@
-
-loopback_%: loopback_%.o
-	@echo '  TARGET_LD $@'
-	$(Q)$(CC) $(CFLAGS) $(LDFLAGS) $^ -o $@
-
-clean::
-	rm -f *.o $(TOOLS)
+version https://git-lfs.github.com/spec/v1
+oid sha256:ba28c9dbf79aa3bed84fa0703d0b0c9b074b598590ad533b11762e3ae886ad15
+size 583

@@ -1,15 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-or-later
-#
-# Copyright (c) 2019 Oracle.
-# All Rights Reserved.
-#
-obj-$(CONFIG_FS_IOMAP)		+= iomap.o
-
-iomap-y				+= \
-					apply.o \
-					buffered-io.o \
-					direct-io.o \
-					fiemap.o \
-					seek.o
-
-iomap-$(CONFIG_SWAP)		+= swapfile.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:727b65fa95d27f7e2ed1a0f206c26f237031074585ccab30c0ee6b62f6520b29
+size 272

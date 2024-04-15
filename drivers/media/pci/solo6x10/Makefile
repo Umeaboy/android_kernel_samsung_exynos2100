@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-solo6x10-y := solo6x10-core.o solo6x10-i2c.o solo6x10-p2m.o solo6x10-v4l2.o \
-		solo6x10-tw28.o solo6x10-gpio.o solo6x10-disp.o solo6x10-enc.o \
-		solo6x10-v4l2-enc.o solo6x10-g723.o solo6x10-eeprom.o
-
-obj-$(CONFIG_VIDEO_SOLO6X10) += solo6x10.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:21c4c73dabbccb2e8034830187cf0c446a9bd44303bd1a917049d66da84b66f1
+size 285

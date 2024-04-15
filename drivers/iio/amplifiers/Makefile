@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile iio/amplifiers
-#
-
-# When adding new entries keep the list in alphabetical order
-obj-$(CONFIG_AD8366) += ad8366.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:ee1b4dc7d659dbbe7769d72d162983aaa7bf73003e8a4714ef2fff3c4fcddb74
+size 166

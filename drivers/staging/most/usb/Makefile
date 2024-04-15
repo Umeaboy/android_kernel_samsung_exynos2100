@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_MOST_USB) += most_usb.o
-
-most_usb-objs := usb.o
-ccflags-y += -I $(srctree)/drivers/staging/
+version https://git-lfs.github.com/spec/v1
+oid sha256:aee4ec55816949a9a6affce1fdbb76d1c3358d23dcdfda42ec8cdebb6fe39d5b
+size 140

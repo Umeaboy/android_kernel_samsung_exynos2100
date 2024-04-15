@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-subdir-ccflags-y +=  -I$(srctree)/drivers/net/ethernet/freescale/fman
-
-obj-$(CONFIG_FSL_FMAN) += fsl_dpaa_fman.o
-obj-$(CONFIG_FSL_FMAN) += fsl_dpaa_fman_port.o
-obj-$(CONFIG_FSL_FMAN) += fsl_dpaa_mac.o
-
-fsl_dpaa_fman-objs	:= fman_muram.o fman.o fman_sp.o fman_keygen.o
-fsl_dpaa_fman_port-objs := fman_port.o
-fsl_dpaa_mac-objs:= mac.o fman_dtsec.o fman_memac.o fman_tgec.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:182de35b81a36b17c50031b900575a0164ce19c77d1329b3e73d7e48fcf79d47
+size 406

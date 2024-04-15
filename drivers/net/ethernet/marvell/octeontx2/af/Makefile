@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for Marvell's OcteonTX2 RVU Admin Function driver
-#
-
-obj-$(CONFIG_OCTEONTX2_MBOX) += octeontx2_mbox.o
-obj-$(CONFIG_OCTEONTX2_AF) += octeontx2_af.o
-
-octeontx2_mbox-y := mbox.o
-octeontx2_af-y := cgx.o rvu.o rvu_cgx.o rvu_npa.o rvu_nix.o \
-		  rvu_reg.o rvu_npc.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:c2367a6fc570a2ca1179f7fb5d79b3d823bdb0fbcab18cd6aceee14bc8207349
+size 309

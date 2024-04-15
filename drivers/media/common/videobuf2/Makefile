@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-videobuf2-common-objs := videobuf2-core.o
-
-ifeq ($(CONFIG_TRACEPOINTS),y)
-  videobuf2-common-objs += vb2-trace.o
-endif
-
-obj-$(CONFIG_VIDEOBUF2_CORE) += videobuf2-common.o
-obj-$(CONFIG_VIDEOBUF2_V4L2) += videobuf2-v4l2.o
-obj-$(CONFIG_VIDEOBUF2_MEMOPS) += videobuf2-memops.o
-obj-$(CONFIG_VIDEOBUF2_VMALLOC) += videobuf2-vmalloc.o
-obj-$(CONFIG_VIDEOBUF2_DMA_CONTIG) += videobuf2-dma-contig.o
-obj-$(CONFIG_VIDEOBUF2_DMA_SG) += videobuf2-dma-sg.o
-obj-$(CONFIG_VIDEOBUF2_DVB) += videobuf2-dvb.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:78a2c897bda9a62896a6c337043ab88ccf28964f74ea3e9007a08fd2e8615e0c
+size 524

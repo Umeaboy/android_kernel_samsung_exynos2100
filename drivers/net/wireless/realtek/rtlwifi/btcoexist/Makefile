@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-btcoexist-objs :=	halbtc8192e2ant.o	\
-			halbtc8723b1ant.o	\
-			halbtc8723b2ant.o	\
-			halbtc8821a1ant.o	\
-			halbtc8821a2ant.o	\
-			halbtcoutsrc.o		\
-			rtl_btc.o
-
-obj-$(CONFIG_RTLBTCOEXIST) += btcoexist.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:54b6889132576ff2ab9fa39f2cecb68be571c363b6d46842b1920e59add1c740
+size 242

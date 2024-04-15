@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# SPEAR Platform Support
-snd-soc-spear-pcm-objs := spear_pcm.o
-snd-soc-spear-spdif-in-objs := spdif_in.o
-snd-soc-spear-spdif-out-objs := spdif_out.o
-
-obj-$(CONFIG_SND_SPEAR_SOC) += snd-soc-spear-pcm.o
-obj-$(CONFIG_SND_SPEAR_SPDIF_IN) += snd-soc-spear-spdif-in.o
-obj-$(CONFIG_SND_SPEAR_SPDIF_OUT) += snd-soc-spear-spdif-out.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:73fce800e958ed506bc8a470ca7b3a6ab3781c16b68a6ff5dec810b68a1fe1cb
+size 360

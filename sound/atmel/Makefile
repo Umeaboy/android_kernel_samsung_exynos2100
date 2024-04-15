@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-snd-atmel-ac97c-objs		:= ac97c.o
-
-obj-$(CONFIG_SND_ATMEL_AC97C)	+= snd-atmel-ac97c.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:767809dcea1ac90ec256c3edb65c6591269af008d413ae362df1494f8465999e
+size 125

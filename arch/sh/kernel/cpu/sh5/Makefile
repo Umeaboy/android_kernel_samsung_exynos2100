@@ -1,16 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the Linux/SuperH SH-5 backends.
-#
-obj-y := entry.o probe.o switchto.o
-
-obj-$(CONFIG_SH_FPU)		+= fpu.o
-obj-$(CONFIG_KALLSYMS)		+= unwind.o
-
-# CPU subtype setup
-obj-$(CONFIG_CPU_SH5)		+= setup-sh5.o
-
-# Primary on-chip clocks (common)
-clock-$(CONFIG_CPU_SH5)		:= clock-sh5.o
-
-obj-y			+= $(clock-y)
+version https://git-lfs.github.com/spec/v1
+oid sha256:91262e7bc2690b29865818d82e8296812671301d23d9d2bc42a703a400b383b8
+size 347

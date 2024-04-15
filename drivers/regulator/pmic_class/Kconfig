@@ -1,8 +1,3 @@
-if REGULATOR
-
-config DRV_SAMSUNG_PMIC
-	tristate "Samsung PMIC sysfs system"
-	help
-	 This driver supports a Samsung PMIC sysfs.
-
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:968bd538f4938f798ecbe5689bae64a0c262cf999233bc69d237430f09823085
+size 134

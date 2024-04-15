@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_INFINIBAND_VMWARE_PVRDMA) += vmw_pvrdma.o
-
-vmw_pvrdma-y := pvrdma_cmd.o pvrdma_cq.o pvrdma_doorbell.o pvrdma_main.o pvrdma_misc.o pvrdma_mr.o pvrdma_qp.o pvrdma_srq.o pvrdma_verbs.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:8ba290ed021f8a6055a7164567cc8b9b6aed18da6d6085e9e55a4c7a9c654779
+size 235

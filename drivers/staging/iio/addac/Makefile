@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for industrial I/O ADDAC drivers
-#
-
-obj-$(CONFIG_ADT7316) += adt7316.o
-obj-$(CONFIG_ADT7316_SPI) += adt7316-spi.o
-obj-$(CONFIG_ADT7316_I2C) += adt7316-i2c.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:040cda8cd7538f36589a7903b52d8e390d8c763dc64adc1d9f80b1a283b0166b
+size 205

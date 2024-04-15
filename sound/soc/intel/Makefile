@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Core support
-obj-$(CONFIG_SND_SOC) += common/
-
-# Platform Support
-obj-$(CONFIG_SND_SOC_INTEL_HASWELL) += haswell/
-obj-$(CONFIG_SND_SOC_INTEL_BAYTRAIL) += baytrail/
-obj-$(CONFIG_SND_SST_ATOM_HIFI2_PLATFORM) += atom/
-obj-$(CONFIG_SND_SOC_INTEL_SKYLAKE) += skylake/
-
-# Machine support
-obj-$(CONFIG_SND_SOC) += boards/
+version https://git-lfs.github.com/spec/v1
+oid sha256:8ae58328d644cc2172beb4e93d105e06c97ec32d150ff3e502833fcec8dbcd76
+size 352

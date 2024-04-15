@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-AFLAGS_headsmp.o		+= -march=armv7-a
-
-obj-$(CONFIG_ARCH_NPCM7XX)	+= npcm7xx.o
-obj-$(CONFIG_SMP)		+= platsmp.o headsmp.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:3b54244f8073d4a80b6f393e242a88c3a824f5f4620da35d0aec3b9d4cfb9628
+size 159

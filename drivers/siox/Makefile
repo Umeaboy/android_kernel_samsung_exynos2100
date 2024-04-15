@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_SIOX) += siox-core.o
-obj-$(CONFIG_SIOX_BUS_GPIO) += siox-bus-gpio.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:a58ac1e04747fc4094868e274300708f789bcd2321b254c3d5e3890d1a422b8a
+size 121

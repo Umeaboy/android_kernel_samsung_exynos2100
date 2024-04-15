@@ -1,16 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-targets := Image Image.gz
-
-$(obj)/Image: vmlinux FORCE
-	$(call if_changed,objcopy)
-
-$(obj)/Image.gz: $(obj)/Image FORCE
-	$(call if_changed,gzip)
-
-install: $(obj)/Image
-	$(CONFIG_SHELL) $(srctree)/$(src)/install.sh $(KERNELRELEASE) \
-	$(obj)/Image System.map "$(INSTALL_PATH)"
-
-zinstall: $(obj)/Image.gz
-	$(CONFIG_SHELL) $(srctree)/$(src)/install.sh $(KERNELRELEASE) \
-	$(obj)/Image.gz System.map "$(INSTALL_PATH)"
+version https://git-lfs.github.com/spec/v1
+oid sha256:203a3ba49c23849ae37996310016d8ef0b19df06f53135a9e8eb14868245c20a
+size 454

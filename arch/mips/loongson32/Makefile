@@ -1,18 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Common code for all Loongson 1 based systems
-#
-
-obj-$(CONFIG_MACH_LOONGSON32) += common/
-
-#
-# Loongson LS1B board
-#
-
-obj-$(CONFIG_LOONGSON1_LS1B)  += ls1b/
-
-#
-# Loongson LS1C board
-#
-
-obj-$(CONFIG_LOONGSON1_LS1C)  += ls1c/
+version https://git-lfs.github.com/spec/v1
+oid sha256:daa95c4db87103c731369e6425a19fcd3c9ea0c6967111628dd3119222e43e5a
+size 267

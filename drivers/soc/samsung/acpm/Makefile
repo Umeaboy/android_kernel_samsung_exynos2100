@@ -1,9 +1,3 @@
-#
-# Makefile for ACPM.
-#
-
-obj-$(CONFIG_EXYNOS_ACPM)    += exynos_acpm.o 
-exynos_acpm-$(CONFIG_EXYNOS_ACPM)    += acpm.o acpm_ipc.o
-exynos_acpm-$(CONFIG_EXYNOS_ACPM_MFD)	+= acpm_mfd.o
-obj-$(CONFIG_EXYNOS_ACPM_S2D)	+= acpm_s2d.o
-obj-$(CONFIG_EXYNOS_ACPM_PLGDBG)	+= plugin_dbg.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:3bc312650c5a265d0733b4cac7076b616deb2e55418a8c59619c0a857e4dd99f
+size 276

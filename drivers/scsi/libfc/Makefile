@@ -1,15 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# $Id: Makefile
-
-obj-$(CONFIG_LIBFC) += libfc.o
-
-libfc-objs := \
-	fc_libfc.o \
-	fc_disc.o \
-	fc_exch.o \
-	fc_elsct.o \
-	fc_frame.o \
-	fc_lport.o \
-	fc_rport.o \
-	fc_fcp.o \
-	fc_npiv.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:ea3d29b42e927727d2b6b819b52cd1a78f0cb1e86b7743a7c4aa8b25bd301959
+size 219

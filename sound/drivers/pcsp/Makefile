@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-snd-pcsp-objs := pcsp.o pcsp_lib.o pcsp_mixer.o pcsp_input.o
-obj-$(CONFIG_SND_PCSP) += snd-pcsp.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:23b32626bcc00f0407c941142c9e08ff48a49881f8faa5aa064c3aeb0d16ff85
+size 138

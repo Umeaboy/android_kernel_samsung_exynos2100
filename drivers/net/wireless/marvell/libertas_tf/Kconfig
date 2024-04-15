@@ -1,19 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-config LIBERTAS_THINFIRM
-	tristate "Marvell 8xxx Libertas WLAN driver support with thin firmware"
-	depends on MAC80211
-	select FW_LOADER
-	---help---
-	  A library for Marvell Libertas 8xxx devices using thinfirm.
-
-config LIBERTAS_THINFIRM_DEBUG
-	bool "Enable full debugging output in the Libertas thin firmware module."
-	depends on LIBERTAS_THINFIRM
-	---help---
-	  Debugging support.
-
-config LIBERTAS_THINFIRM_USB
-	tristate "Marvell Libertas 8388 USB 802.11b/g cards with thin firmware"
-	depends on LIBERTAS_THINFIRM && USB
-	---help---
-	  A driver for Marvell Libertas 8388 USB devices using thinfirm.
+version https://git-lfs.github.com/spec/v1
+oid sha256:6bf0184b8c193ec8363b38dcdc2a1c1ab1e6b8c796abce371fa9e1cf1dfdddf4
+size 641

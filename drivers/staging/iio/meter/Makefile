@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for metering ic drivers
-#
-
-obj-$(CONFIG_ADE7854) += ade7854.o
-obj-$(CONFIG_ADE7854_I2C) += ade7854-i2c.o
-obj-$(CONFIG_ADE7854_SPI) += ade7854-spi.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:166cb577970270b60ccfb19bec7a8e682f46dc8d2b0fdb3991f6b532c95cf5d6
+size 196

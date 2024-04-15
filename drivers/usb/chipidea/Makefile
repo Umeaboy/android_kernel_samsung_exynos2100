@@ -1,18 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_USB_CHIPIDEA)		+= ci_hdrc.o
-
-ci_hdrc-y				:= core.o otg.o debug.o ulpi.o
-ci_hdrc-$(CONFIG_USB_CHIPIDEA_UDC)	+= udc.o
-ci_hdrc-$(CONFIG_USB_CHIPIDEA_HOST)	+= host.o
-ci_hdrc-$(CONFIG_USB_OTG_FSM)		+= otg_fsm.o
-
-# Glue/Bridge layers go here
-
-obj-$(CONFIG_USB_CHIPIDEA)	+= ci_hdrc_usb2.o
-obj-$(CONFIG_USB_CHIPIDEA)	+= ci_hdrc_msm.o
-obj-$(CONFIG_USB_CHIPIDEA)	+= ci_hdrc_zevio.o
-
-obj-$(CONFIG_USB_CHIPIDEA_PCI)	+= ci_hdrc_pci.o
-
-obj-$(CONFIG_USB_CHIPIDEA_OF)	+= usbmisc_imx.o ci_hdrc_imx.o
-obj-$(CONFIG_USB_CHIPIDEA_OF)	+= ci_hdrc_tegra.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:34ead652b2431b45da1631fa77b14dccbcfab442d0af96665746ad4b640713fa
+size 581

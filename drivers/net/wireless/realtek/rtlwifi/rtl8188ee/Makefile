@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-rtl8188ee-objs :=		\
-		dm.o		\
-		fw.o		\
-		hw.o		\
-		led.o		\
-		phy.o		\
-		pwrseq.o	\
-		rf.o		\
-		sw.o		\
-		table.o		\
-		trx.o
-
-obj-$(CONFIG_RTL8188EE) += rtl8188ee.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:d0563bfc0c0744a6f2095f6d24d95e5ce447a460866524a8ab807505e8aaf95d
+size 202

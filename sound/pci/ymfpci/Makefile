@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for ALSA
-# Copyright (c) 2001 by Jaroslav Kysela <perex@perex.cz>
-#
-
-snd-ymfpci-objs := ymfpci.o ymfpci_main.o
-
-# Toplevel Module Dependency
-obj-$(CONFIG_SND_YMFPCI) += snd-ymfpci.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:e030379a3ced21584efd3f727bef895a3ef97f25cf6ecc9e7cc4a3bc1d2b8ace
+size 235

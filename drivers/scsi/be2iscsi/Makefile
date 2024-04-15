@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile to build the iSCSI driver for Emulex OneConnect.
-#
-#
-
-obj-$(CONFIG_BE2ISCSI) += be2iscsi.o
-
-be2iscsi-y := be_iscsi.o be_main.o be_mgmt.o be_cmds.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:42149ba456ef1a99f30aafea42ed8d660a8aa9e6ea7569088c879897af833a04
+size 200

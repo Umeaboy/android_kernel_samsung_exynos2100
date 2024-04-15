@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_PM)	+= sysfs.o generic_ops.o common.o qos.o runtime.o wakeirq.o
-obj-$(CONFIG_PM_SLEEP)	+= main.o wakeup.o wakeup_stats.o
-obj-$(CONFIG_PM_TRACE_RTC)	+= trace.o
-obj-$(CONFIG_PM_GENERIC_DOMAINS)	+=  domain.o domain_governor.o
-obj-$(CONFIG_HAVE_CLK)	+= clock_ops.o
-
-ccflags-$(CONFIG_DEBUG_DRIVER) := -DDEBUG
+version https://git-lfs.github.com/spec/v1
+oid sha256:db3eee8bd58215afaae6aa14e037be6e002afe0cb3054eaa4e0e215c2961dc42
+size 352

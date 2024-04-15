@@ -1,12 +1,3 @@
-ARCH=x86_64
-
-CLANG_TRIPLE=x86_64-linux-gnu-
-CROSS_COMPILE=x86_64-linux-androidkernel-
-LINUX_GCC_CROSS_COMPILE_PREBUILTS_BIN=prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9/bin
-
-FILES="
-arch/x86/boot/bzImage
-vmlinux
-System.map
-Module.symvers
-"
+version https://git-lfs.github.com/spec/v1
+oid sha256:72e2a74cc91e994e86bf243938398746c75115a417723793e7c6c31f3bb96cb0
+size 248

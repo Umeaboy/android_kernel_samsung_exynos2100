@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_NTB_INTEL) += ntb_hw_intel.o
-ntb_hw_intel-y := ntb_hw_gen1.o ntb_hw_gen3.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:a4825ecab1abaeb13e8b8aa4fcf3ae6a28f1be6e812b48cdf7101dcd173e07e9
+size 128

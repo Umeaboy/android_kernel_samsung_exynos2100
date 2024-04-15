@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-config MLX4_INFINIBAND
-	tristate "Mellanox ConnectX HCA support"
-	depends on NETDEVICES && ETHERNET && PCI && INET
-	select NET_VENDOR_MELLANOX
-	select MLX4_CORE
-	---help---
-	  This driver provides low-level InfiniBand support for
-	  Mellanox ConnectX PCI Express host channel adapters (HCAs).
-	  This is required to use InfiniBand protocols such as
-	  IP-over-IB or SRP with these devices.
+version https://git-lfs.github.com/spec/v1
+oid sha256:64b8c20bbb670b035ef8c3582d69c780aa9a777f10fdeb071b0287e421fcf358
+size 430

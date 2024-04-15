@@ -1,6 +1,3 @@
-# For building individual subdir files on the command line
-subdir-ccflags-y += -I$(srctree)/$(src)/..
-
-# Extra header tests
-header-test-pattern-$(CONFIG_DRM_I915_WERROR) := *.h
-header-test- := intel_vbt_defs.h
+version https://git-lfs.github.com/spec/v1
+oid sha256:f2374dc5272ba19c57c38b02d74caf141aab2b15bb52b315b389c33ab78db46c
+size 210

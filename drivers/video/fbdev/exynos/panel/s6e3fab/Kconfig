@@ -1,8 +1,3 @@
-menuconfig EXYNOS_DECON_LCD_S6E3FAB
-	tristate "S6E3FAB DDI Panel Driver"
-	depends on MCD_PANEL && EXYNOS_MIPI_DSIM
-	default n
-	help
-		This enables S6E3FAB DDI dependent panel drivers of
-		common panel driver. say Y, if you have a panel based on
-		the S6E3FAB DDI.
+version https://git-lfs.github.com/spec/v1
+oid sha256:40c651cb34390358f14b0165e08152e0b7d277ad979c2a14f657a7c1236d2ef7
+size 264

@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_IXP4XX_QMGR)	+= ixp4xx-qmgr.o
-obj-$(CONFIG_IXP4XX_NPE)	+= ixp4xx-npe.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:2f768204806172ed85a1a0e74a7578a25595141c669275286caa45e7cc5eed0c
+size 124

@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-# MIPS networking code
-
-obj-$(CONFIG_MIPS_CBPF_JIT) += bpf_jit.o bpf_jit_asm.o
-obj-$(CONFIG_MIPS_EBPF_JIT) += ebpf_jit.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:f765ec4a5a2194338dbc950a64352dca9601d9bc51996b9aee5f8808c2b2c109
+size 161

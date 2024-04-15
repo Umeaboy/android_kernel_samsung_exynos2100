@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#/*
-# * Copyright (C) ST-Ericsson SA 2010
-# * Author: shujuan.chen@stericsson.com for ST-Ericsson.
-# */
-
-ccflags-$(CONFIG_CRYPTO_DEV_UX500_DEBUG) += -DDEBUG
-
-obj-$(CONFIG_CRYPTO_DEV_UX500_CRYP) += ux500_cryp.o
-ux500_cryp-objs :=  cryp.o cryp_irq.o cryp_core.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:ea3b1e9d09d10e692fe133fb88e7bbf35ce2dc9f57d36476355fc0123cfcd092
+size 300

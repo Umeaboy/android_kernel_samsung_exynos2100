@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the gameport drivers.
-#
-
-# Each configuration option enables a list of files.
-
-obj-$(CONFIG_GAMEPORT)		+= gameport.o
-obj-$(CONFIG_GAMEPORT_EMU10K1)	+= emu10k1-gp.o
-obj-$(CONFIG_GAMEPORT_FM801)	+= fm801-gp.o
-obj-$(CONFIG_GAMEPORT_L4)	+= lightning.o
-obj-$(CONFIG_GAMEPORT_NS558)	+= ns558.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:2066aeb0b7b1ce823509f89136bc6e139b0ff6f95a9a5b28e939f2e2625d6e4c
+size 340

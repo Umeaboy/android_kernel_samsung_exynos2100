@@ -1,29 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-mantis_core-objs :=	mantis_ioc.o	\
-			mantis_uart.o	\
-			mantis_dma.o	\
-			mantis_pci.o	\
-			mantis_i2c.o	\
-			mantis_dvb.o	\
-			mantis_evm.o	\
-			mantis_hif.o	\
-			mantis_ca.o	\
-			mantis_pcmcia.o	\
-			mantis_input.o
-
-mantis-objs	:=	mantis_cards.o	\
-			mantis_vp1033.o	\
-			mantis_vp1034.o	\
-			mantis_vp1041.o	\
-			mantis_vp2033.o	\
-			mantis_vp2040.o	\
-			mantis_vp3030.o
-
-hopper-objs	:=	hopper_cards.o	\
-			hopper_vp3028.o
-
-obj-$(CONFIG_MANTIS_CORE)	+= mantis_core.o
-obj-$(CONFIG_DVB_MANTIS)	+= mantis.o
-obj-$(CONFIG_DVB_HOPPER)	+= hopper.o
-
-ccflags-y += -I $(srctree)/drivers/media/dvb-frontends/
+version https://git-lfs.github.com/spec/v1
+oid sha256:e2a0a58c2f8ab1a86f24dbe3ac52f5e37daf9e3108268d22522e06232e3a6886
+size 637

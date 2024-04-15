@@ -1,15 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-obj-$(CONFIG_NETDEVSIM) += netdevsim.o
-
-netdevsim-objs := \
-	netdev.o dev.o fib.o bus.o
-
-ifeq ($(CONFIG_BPF_SYSCALL),y)
-netdevsim-objs += \
-	bpf.o
-endif
-
-ifneq ($(CONFIG_XFRM_OFFLOAD),)
-netdevsim-objs += ipsec.o
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:6a19617be048f1d7db7087163b75e742e095abcc60e4607195931e7c5ead64da
+size 254

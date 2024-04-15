@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-# Makefile - Intel Omni-Path Virtual Network Controller driver
-# Copyright(c) 2017, Intel Corporation.
-#
-obj-$(CONFIG_INFINIBAND_OPA_VNIC) += opa_vnic.o
-
-opa_vnic-y := opa_vnic_netdev.o opa_vnic_encap.o opa_vnic_ethtool.o \
-              opa_vnic_vema.o opa_vnic_vema_iface.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:5fd7093d8ab27735633adc46f3a38f7975c8e94db635499c45a816ab3a62f1a3
+size 316

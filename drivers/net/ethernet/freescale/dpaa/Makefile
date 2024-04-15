@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the Freescale DPAA Ethernet controllers
-#
-
-# Include FMan headers
-FMAN        = $(srctree)/drivers/net/ethernet/freescale/fman
-ccflags-y += -I$(FMAN)
-
-obj-$(CONFIG_FSL_DPAA_ETH) += fsl_dpa.o
-
-fsl_dpa-objs += dpaa_eth.o dpaa_ethtool.o dpaa_eth_sysfs.o
-CFLAGS_dpaa_eth.o := -I$(src)
+version https://git-lfs.github.com/spec/v1
+oid sha256:85aa1b12bcfc91fbdf5931dbe2496bd1702a2bbe25fe1468bf574594d5d10ef0
+size 333

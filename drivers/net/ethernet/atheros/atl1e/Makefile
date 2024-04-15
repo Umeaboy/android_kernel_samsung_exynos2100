@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_ATL1E)	+= atl1e.o
-atl1e-objs		+= atl1e_main.o atl1e_hw.o atl1e_ethtool.o atl1e_param.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:a7042c36503d74a7435b6e72785680700f3c39f2bfca070f27416d2906f1b8b7
+size 140

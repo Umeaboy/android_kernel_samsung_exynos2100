@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-# Marvell PXA pin control drivers
-obj-$(CONFIG_PINCTRL_PXA25X)	+= pinctrl-pxa2xx.o pinctrl-pxa25x.o
-obj-$(CONFIG_PINCTRL_PXA27X)	+= pinctrl-pxa2xx.o pinctrl-pxa27x.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:fad0f3a6664f3ecdc65f86d3e6ae2e8836915fc6d281c7f0b99ef3164366adfc
+size 206

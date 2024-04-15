@@ -1,5 +1,3 @@
-config BCM_GPS_SPI_DRIVER
-    bool "SPI"
-    depends on SPI
-    help
-        Support for BRCM GPS SPI driver.
+version https://git-lfs.github.com/spec/v1
+oid sha256:87eb5d261cff1ca95c53a20cbf1c580cf0a6e6ecc2b79087c67036014ddb29d4
+size 109

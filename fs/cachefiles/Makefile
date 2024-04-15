@@ -1,19 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for caching in a mounted filesystem
-#
-
-cachefiles-y := \
-	bind.o \
-	daemon.o \
-	interface.o \
-	key.o \
-	main.o \
-	namei.o \
-	rdwr.o \
-	security.o \
-	xattr.o
-
-cachefiles-$(CONFIG_CACHEFILES_HISTOGRAM) += proc.o
-
-obj-$(CONFIG_CACHEFILES) := cachefiles.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:355a9eaceda3bf08cd18ae058d69690f1ba29d7c728e16df665c34524c3eb043
+size 300

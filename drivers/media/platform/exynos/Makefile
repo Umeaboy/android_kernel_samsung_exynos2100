@@ -1,8 +1,3 @@
-obj-$(CONFIG_VIDEO_EXYNOS_REPEATER)				+= repeater/
-obj-$(CONFIG_VIDEO_EXYNOS_TSMUX)				+= tsmux/
-obj-$(CONFIG_VIDEO_EXYNOS_MFC)					+= mfc/
-obj-$(CONFIG_VIDEO_EXYNOS_CAMERA_POSTPROCESS)			+= camera-pp/
-obj-$(CONFIG_VIDEO_EXYNOS_PABLO_ISP)				+= camera/
-obj-$(CONFIG_VIDEO_EXYNOS_JPEG_SQZ)				+= jsqz/
-obj-$(CONFIG_VIDEO_EXYNOS_MC_FRC)				+= mcfrc/
-EXTRA_CLAGS += -Idrivers/media/video
+version https://git-lfs.github.com/spec/v1
+oid sha256:2b85676618048c7dbfee27efdb36ccab6ac1c601e54815a8fce8400900271b5f
+size 386

@@ -1,28 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-y					+= clk.o
-obj-y					+= clk-audio-sync.o
-obj-y					+= clk-dfll.o
-obj-y					+= clk-divider.o
-obj-y					+= clk-periph.o
-obj-y					+= clk-periph-fixed.o
-obj-y					+= clk-periph-gate.o
-obj-y					+= clk-pll.o
-obj-y					+= clk-pll-out.o
-obj-y					+= clk-sdmmc-mux.o
-obj-y					+= clk-super.o
-obj-y					+= clk-tegra-audio.o
-obj-y					+= clk-tegra-periph.o
-obj-y					+= clk-tegra-pmc.o
-obj-y					+= clk-tegra-fixed.o
-obj-y					+= clk-tegra-super-gen4.o
-obj-$(CONFIG_TEGRA_CLK_EMC)		+= clk-emc.o
-obj-$(CONFIG_ARCH_TEGRA_2x_SOC)         += clk-tegra20.o
-obj-$(CONFIG_ARCH_TEGRA_3x_SOC)         += clk-tegra30.o
-obj-$(CONFIG_ARCH_TEGRA_114_SOC)	+= clk-tegra114.o
-obj-$(CONFIG_ARCH_TEGRA_124_SOC)	+= clk-tegra124.o
-obj-$(CONFIG_TEGRA_CLK_DFLL)		+= clk-tegra124-dfll-fcpu.o
-obj-$(CONFIG_ARCH_TEGRA_132_SOC)	+= clk-tegra124.o
-obj-y					+= cvb.o
-obj-$(CONFIG_ARCH_TEGRA_210_SOC)	+= clk-tegra210.o
-obj-$(CONFIG_CLK_TEGRA_BPMP)		+= clk-bpmp.o
-obj-y					+= clk-utils.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:ec36a4a66753f4f1bca0e0b15e2a265a23737f3e619d74ac02bde176a5e7a791
+size 993

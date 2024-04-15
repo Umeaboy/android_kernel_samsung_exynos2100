@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the tablet drivers
-#
-
-
-obj-$(CONFIG_TABLET_USB_ACECAD)	+= acecad.o
-obj-$(CONFIG_TABLET_USB_AIPTEK)	+= aiptek.o
-obj-$(CONFIG_TABLET_USB_GTCO)	+= gtco.o
-obj-$(CONFIG_TABLET_USB_HANWANG) += hanwang.o
-obj-$(CONFIG_TABLET_USB_KBTAB)	+= kbtab.o
-obj-$(CONFIG_TABLET_USB_PEGASUS) += pegasus_notetaker.o
-obj-$(CONFIG_TABLET_SERIAL_WACOM4) += wacom_serial4.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:256f9c2bc1713b420ffe2d8cd41e4d62a934ce003512b307c23738340a67d884
+size 401

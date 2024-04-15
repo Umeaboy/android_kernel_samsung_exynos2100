@@ -1,8 +1,3 @@
-obj-$(CONFIG_CAMERA_OIS_SELECT) += is-helper-ois-i2c.o \
-				is-ois.o
-
-obj-$(CONFIG_CAMERA_OIS_IDG2030_OBJ) += is-ois-idg2030.o
-obj-$(CONFIG_CAMERA_OIS_BU24218GWL_OBJ) += is-ois-bu24218gwl.o
-
-EXTRA_CFLAGS += -I$(srctree)/drivers/media/platform/exynos/camera/sensor/module_framework
-EXTRA_CFLAGS += -I$(srctree)/drivers/media/platform/exynos/camera/sensor
+version https://git-lfs.github.com/spec/v1
+oid sha256:865eb76180db7cacf8081005619b195d3bf4eaf4d513ad847c8112c21bf59cfb
+size 355

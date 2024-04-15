@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# VIA/Wondermedia pinctrl support
-
-obj-$(CONFIG_PINCTRL_WMT)	+= pinctrl-wmt.o
-obj-$(CONFIG_PINCTRL_VT8500)	+= pinctrl-vt8500.o
-obj-$(CONFIG_PINCTRL_WM8505)	+= pinctrl-wm8505.o
-obj-$(CONFIG_PINCTRL_WM8650)	+= pinctrl-wm8650.o
-obj-$(CONFIG_PINCTRL_WM8750)	+= pinctrl-wm8750.o
-obj-$(CONFIG_PINCTRL_WM8850)	+= pinctrl-wm8850.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:e8d3bcb9c125071a6a096b5cf159997f930d53dabc49ac5b189835499128cfac
+size 358

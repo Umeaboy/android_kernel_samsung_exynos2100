@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-obj-$(CONFIG_HAS_DMA)			+= mapping.o direct.o dummy.o
-obj-$(CONFIG_DMA_CMA)			+= contiguous.o
-obj-$(CONFIG_DMA_DECLARE_COHERENT)	+= coherent.o
-obj-$(CONFIG_DMA_VIRT_OPS)		+= virt.o
-obj-$(CONFIG_DMA_API_DEBUG)		+= debug.o
-obj-$(CONFIG_SWIOTLB)			+= swiotlb.o
-obj-$(CONFIG_DMA_REMAP)			+= remap.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:c8fbf976f1e8d8fefbd3ce1b6a39dae93489bf16fdfb97f56490930a3caa0eb3
+size 331

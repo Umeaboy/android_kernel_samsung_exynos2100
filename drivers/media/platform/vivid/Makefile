@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-vivid-objs := vivid-core.o vivid-ctrls.o vivid-vid-common.o vivid-vbi-gen.o \
-		vivid-vid-cap.o vivid-vid-out.o vivid-kthread-cap.o vivid-kthread-out.o \
-		vivid-radio-rx.o vivid-radio-tx.o vivid-radio-common.o \
-		vivid-rds-gen.o vivid-sdr-cap.o vivid-vbi-cap.o vivid-vbi-out.o \
-		vivid-osd.o
-ifeq ($(CONFIG_VIDEO_VIVID_CEC),y)
-  vivid-objs += vivid-cec.o
-endif
-
-obj-$(CONFIG_VIDEO_VIVID) += vivid.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:a6786ab30a463745ac45e811a5630e479dcdef169b423ebe62b59f78fc681790
+size 437

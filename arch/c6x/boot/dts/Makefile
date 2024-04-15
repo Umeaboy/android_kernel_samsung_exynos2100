@@ -1,16 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for device trees
-#
-
-DTC_FLAGS ?= -p 1024
-
-dtb-$(CONFIG_SOC_TMS320C6455) += dsk6455.dtb
-dtb-$(CONFIG_SOC_TMS320C6457) += evmc6457.dtb
-dtb-$(CONFIG_SOC_TMS320C6472) += evmc6472.dtb
-dtb-$(CONFIG_SOC_TMS320C6474) += evmc6474.dtb
-dtb-$(CONFIG_SOC_TMS320C6678) += evmc6678.dtb
-
-ifneq ($(DTB),)
-obj-y += $(DTB).dtb.o
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:a35e3c0140172eee942c99aafc5fd0a6463d480714936d6d740e86ef63183477
+size 364

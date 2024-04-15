@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_MTD_SPI_NOR)	+= spi-nor.o
-obj-$(CONFIG_SPI_ASPEED_SMC)	+= aspeed-smc.o
-obj-$(CONFIG_SPI_CADENCE_QUADSPI)	+= cadence-quadspi.o
-obj-$(CONFIG_SPI_HISI_SFC)	+= hisi-sfc.o
-obj-$(CONFIG_SPI_MTK_QUADSPI)    += mtk-quadspi.o
-obj-$(CONFIG_SPI_NXP_SPIFI)	+= nxp-spifi.o
-obj-$(CONFIG_SPI_INTEL_SPI)	+= intel-spi.o
-obj-$(CONFIG_SPI_INTEL_SPI_PCI)	+= intel-spi-pci.o
-obj-$(CONFIG_SPI_INTEL_SPI_PLATFORM)	+= intel-spi-platform.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:cf1c764d384ef156532bc898e7150bdfd51abd41e3abcc27a8988f62e2fdfb47
+size 463

@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-mgag200-y   := mgag200_main.o mgag200_mode.o mgag200_cursor.o \
-	mgag200_drv.o mgag200_i2c.o mgag200_ttm.o
-
-obj-$(CONFIG_DRM_MGAG200) += mgag200.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:205e7cff7a71bc2908ec264c54d11a4ccc6224488abc90834fb2218aa4bd02b6
+size 187

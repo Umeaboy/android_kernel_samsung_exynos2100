@@ -1,17 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-config PI433
-        tristate "Pi433 - a 433MHz radio module for Raspberry Pi"
-        depends on SPI
-        help
-          This option allows you to enable support for the radio module Pi433.
-
-          Pi433 is a shield that fits onto the GPIO header of a Raspberry Pi
-          or compatible. It extends the Raspberry Pi with the option, to
-          send and receive data in the 433MHz ISM band - for example to
-          communicate between two systems without using ethernet or bluetooth
-          or for control or read sockets, actors, sensors, widely available
-          for low price.
-
-          For details or the option to buy, please visit https://pi433.de/en.html
-
-          If in doubt, say N here, but saying yes most probably won't hurt
+version https://git-lfs.github.com/spec/v1
+oid sha256:630996d90245e8223c66bb90100fee97e1f9fc0c5a0ab74edcaba03427247d29
+size 790

@@ -1,6 +1,3 @@
-obj-$(CONFIG_EXYNOS_PABLO_ISP) += is-v8_1_0/
-obj-$(CONFIG_EXYNOS_PABLO_ISP) += is-v8_10_0/
-obj-$(CONFIG_EXYNOS_PABLO_ISP) += is-v8_20_0/
-obj-$(CONFIG_EXYNOS_PABLO_ISP) += is-v9_1_0/
-
-EXTRA_CFLAGS += -I$(srctree)/drivers/media/platform/exynos/camera/include
+version https://git-lfs.github.com/spec/v1
+oid sha256:f782a003dab21f326f19a67e0f61eef0a035b991a4afbc74be7e7e5a568c277e
+size 257

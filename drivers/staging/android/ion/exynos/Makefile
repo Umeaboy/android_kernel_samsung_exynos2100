@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_ION_EXYNOS) += ion_exynos_mod.o
-ion_exynos_mod-y += ion_exynos.o ion_debug.o
-ion_exynos_mod-$(CONFIG_ION_EXYNOS_CMA_HEAP) += ion_cma_heap.o
-ion_exynos_mod-$(CONFIG_ION_EXYNOS_CARVEOUT_HEAP) += ion_carveout_heap.o
-ion_exynos_mod-$(CONFIG_EXYNOS_CONTENT_PATH_PROTECTION) += ion_buffer_protect.o
-
-obj-$(CONFIG_ION_EXYNOS_HPA_HEAP) += ion_hpa_heap.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:a213b16b7dd159818877a964363c54fd257a51e446116906178e9558c46fcb1a
+size 394

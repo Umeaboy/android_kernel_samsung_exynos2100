@@ -1,16 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-config PHY_FSL_IMX8MQ_USB
-	tristate "Freescale i.MX8M USB3 PHY"
-	depends on OF && HAS_IOMEM
-	select GENERIC_PHY
-	default ARCH_MXC && ARM64
-
-config PHY_MIXEL_MIPI_DPHY
-	tristate "Mixel MIPI DSI PHY support"
-	depends on OF && HAS_IOMEM
-	select GENERIC_PHY
-	select GENERIC_PHY_MIPI_DPHY
-	select REGMAP_MMIO
-	help
-	  Enable this to add support for the Mixel DSI PHY as found
-	  on NXP's i.MX8 family of SOCs.
+version https://git-lfs.github.com/spec/v1
+oid sha256:88a066f4c609ffad248bd5b0e4e154539cbc54da46620e5003d47e06ef4d6eb9
+size 445

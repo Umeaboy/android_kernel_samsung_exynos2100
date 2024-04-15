@@ -1,15 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the Freescale Ethernet controllers
-#
-
-obj-$(CONFIG_FS_ENET) += fs_enet.o
-
-fs_enet-$(CONFIG_FS_ENET_HAS_SCC) += mac-scc.o
-fs_enet-$(CONFIG_FS_ENET_HAS_FEC) += mac-fec.o
-fs_enet-$(CONFIG_FS_ENET_HAS_FCC) += mac-fcc.o
-
-obj-$(CONFIG_FS_ENET_MDIO_FEC) += mii-fec.o
-obj-$(CONFIG_FS_ENET_MDIO_FCC) += mii-bitbang.o
-
-fs_enet-objs := fs_enet-main.o $(fs_enet-m)
+version https://git-lfs.github.com/spec/v1
+oid sha256:ce431936c0a096f28de150b94d0911dc3df5c8e15370c72d909a258de700abf0
+size 405

@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_POWERCAP)	+= powercap_sys.o
-obj-$(CONFIG_INTEL_RAPL_CORE) += intel_rapl_common.o
-obj-$(CONFIG_INTEL_RAPL) += intel_rapl_msr.o
-obj-$(CONFIG_IDLE_INJECT) += idle_inject.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:fc6e6c99cae04ab4883169fad0b5fb40d0e4a6dacf22a4354977acfe2b1ddff5
+size 222

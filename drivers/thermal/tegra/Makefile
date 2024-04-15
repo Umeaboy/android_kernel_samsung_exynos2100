@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_TEGRA_SOCTHERM)		+= tegra-soctherm.o
-obj-$(CONFIG_TEGRA_BPMP_THERMAL)	+= tegra-bpmp-thermal.o
-
-tegra-soctherm-y				:= soctherm.o soctherm-fuse.o
-tegra-soctherm-$(CONFIG_ARCH_TEGRA_124_SOC)	+= tegra124-soctherm.o
-tegra-soctherm-$(CONFIG_ARCH_TEGRA_132_SOC)	+= tegra132-soctherm.o
-tegra-soctherm-$(CONFIG_ARCH_TEGRA_210_SOC)	+= tegra210-soctherm.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:7687148556463ab2456ca353a2f65a19ff995be355b53eb056761debd48cf257
+size 394

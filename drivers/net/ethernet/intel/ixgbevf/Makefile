@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Copyright(c) 1999 - 2018 Intel Corporation.
-#
-# Makefile for the Intel(R) 82599 VF ethernet driver
-#
-
-obj-$(CONFIG_IXGBEVF) += ixgbevf.o
-
-ixgbevf-objs := vf.o \
-                mbx.o \
-                ethtool.o \
-                ixgbevf_main.o
-ixgbevf-$(CONFIG_IXGBEVF_IPSEC) += ipsec.o
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:3dae339e42f4f25f1753e758b88a75b32b9c3cadb33df26ea21e896c1124670c
+size 325

@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the linux kernel, U8500 machine.
-#
-
-obj-y				:= pm.o
-obj-$(CONFIG_UX500_SOC_DB8500)	+= cpu-db8500.o
-obj-$(CONFIG_SMP)		+= platsmp.o
-obj-$(CONFIG_PM_GENERIC_DOMAINS) += pm_domains.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:a0b5d3c27d1f07084a47014d8f9094c2ccdeb7b81e895663dde59772093c078c
+size 238

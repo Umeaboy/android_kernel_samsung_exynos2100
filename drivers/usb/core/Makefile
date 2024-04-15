@@ -1,18 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for USB Core files and filesystem
-#
-
-usbcore-y := usb.o hub.o hcd.o urb.o message.o driver.o
-usbcore-y += config.o file.o buffer.o sysfs.o endpoint.o
-usbcore-y += devio.o notify.o generic.o quirks.o devices.o
-usbcore-y += phy.o port.o
-
-usbcore-$(CONFIG_OF)		+= of.o
-usbcore-$(CONFIG_USB_PCI)		+= hcd-pci.o
-usbcore-$(CONFIG_ACPI)		+= usb-acpi.o
-usbcore-$(CONFIG_USB_HOST_CERTIFICATION)		+= usb_host_certify.o
-
-obj-$(CONFIG_USB)		+= usbcore.o
-
-obj-$(CONFIG_USB_LEDS_TRIGGER_USBPORT)	+= ledtrig-usbport.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:d4b70c9642f62146c1827d245bb9258df93c298ca4adb79d47cedb9022f6adbd
+size 550

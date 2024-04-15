@@ -1,18 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Resolver/Synchro drivers
-#
-menu "Resolver to digital converters"
-
-config AD2S1210
-	tristate "Analog Devices ad2s1210 driver"
-	depends on SPI
-	depends on GPIOLIB || COMPILE_TEST
-	help
-	  Say yes here to build support for Analog Devices spi resolver
-	  to digital converters, ad2s1210, provides direct access via sysfs.
-
-	  To compile this driver as a module, choose M here: the
-	  module will be called ad2s1210.
-
-endmenu
+version https://git-lfs.github.com/spec/v1
+oid sha256:ecae16a060c1f3d1d7e42727f5fa31ccc4cc5d5595adb3f039956012758ca17d
+size 460

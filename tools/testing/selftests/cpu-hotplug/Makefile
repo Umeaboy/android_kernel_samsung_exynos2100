@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-all:
-
-TEST_PROGS := cpu-on-off-test.sh
-
-include ../lib.mk
-
-run_full_test:
-	@/bin/bash ./cpu-on-off-test.sh -a || echo "cpu-hotplug selftests: [FAIL]"
-
-clean:
+version https://git-lfs.github.com/spec/v1
+oid sha256:b14abfce2e77d18f0143fe3d8c5275257b429efb6da34fd654cfcca98fb47790
+size 193

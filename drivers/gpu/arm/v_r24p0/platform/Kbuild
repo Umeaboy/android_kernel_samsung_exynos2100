@@ -1,21 +1,3 @@
-#
-# (C) COPYRIGHT 2012 ARM Limited. All rights reserved.
-#
-# This program is free software and is provided to you under the terms of the
-# GNU General Public License version 2 as published by the Free Software
-# Foundation, and any use by you of this program is subject to the terms
-# of such GNU licence.
-#
-# A copy of the licence is included with the program, and can also be obtained
-# from Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
-# Boston, MA  02110-1301, USA.
-#
-#
-
-
-
-ifeq ($(CONFIG_MALI_PLATFORM_THIRDPARTY),y)
-# remove begin and end quotes from the Kconfig string type
-	platform_name := $(shell echo $(CONFIG_MALI_PLATFORM_THIRDPARTY_NAME))
-	obj-y += $(platform_name)/
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:3705cbf95bb04ae3181d7f20b4d88e58d91aaf804d6337072a1bb218b43cdf0c
+size 706

@@ -1,34 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-MOUNT_CFLAGS := $(shell pkg-config --cflags mount 2>/dev/null)
-MOUNT_LDLIBS := $(shell pkg-config --libs mount 2>/dev/null)
-ifeq ($(MOUNT_LDLIBS),)
-MOUNT_LDLIBS := -lmount -I/usr/include/libmount
-endif
-
-CFLAGS += -O2 -g -std=gnu99 -Wall -I../../../../usr/include/ $(MOUNT_CFLAGS)
-LDLIBS += $(MOUNT_LDLIBS)
-
-TEST_PROGS := gpio-mockup.sh
-TEST_FILES := gpio-mockup-sysfs.sh
-TEST_GEN_PROGS_EXTENDED := gpio-mockup-chardev
-
-KSFT_KHDR_INSTALL := 1
-include ../lib.mk
-
-GPIODIR := $(realpath ../../../gpio)
-GPIOOUT := $(OUTPUT)/tools-gpio/
-GPIOOBJ := $(GPIOOUT)/gpio-utils.o
-
-override define CLEAN
-	$(RM) $(TEST_GEN_PROGS_EXTENDED)
-	$(RM) -rf $(GPIOOUT)
-endef
-
-$(TEST_GEN_PROGS_EXTENDED): $(GPIOOBJ)
-
-$(GPIOOUT):
-	mkdir -p $@
-
-$(GPIOOBJ): $(GPIOOUT)
-	$(MAKE) OUTPUT=$(GPIOOUT) -C $(GPIODIR)
+version https://git-lfs.github.com/spec/v1
+oid sha256:96ebb935c0ca4a1f8ef8a364369d1bb62bc9e2aa700380fb40125317add235bc
+size 818

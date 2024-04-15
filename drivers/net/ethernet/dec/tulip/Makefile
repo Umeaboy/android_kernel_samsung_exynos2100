@@ -1,20 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the Linux "Tulip" family network device drivers.
-#
-
-ccflags-$(CONFIG_NET_TULIP)	:= -DDEBUG
-
-obj-$(CONFIG_PCMCIA_XIRCOM)	+= xircom_cb.o
-obj-$(CONFIG_DM9102)		+= dmfe.o
-obj-$(CONFIG_WINBOND_840)	+= winbond-840.o
-obj-$(CONFIG_DE2104X)		+= de2104x.o
-obj-$(CONFIG_TULIP)		+= tulip.o
-obj-$(CONFIG_DE4X5)		+= de4x5.o
-obj-$(CONFIG_ULI526X)		+= uli526x.o
-
-# Declare multi-part drivers.
-
-tulip-objs			:= eeprom.o interrupt.o media.o \
-				   timer.o tulip_core.o		\
-				   21142.o pnic.o pnic2.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:22ab853e4315712f840930e67230fd664e24bc93ac6dbe980ced53e823bcd879
+size 538

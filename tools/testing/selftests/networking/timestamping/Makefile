@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-CFLAGS += -I../../../../../usr/include
-
-TEST_GEN_FILES := hwtstamp_config rxtimestamp timestamping txtimestamp
-TEST_PROGS := txtimestamp.sh
-
-all: $(TEST_PROGS)
-
-top_srcdir = ../../../../..
-KSFT_KHDR_INSTALL := 1
-include ../../lib.mk
+version https://git-lfs.github.com/spec/v1
+oid sha256:e6aa9046a73e1349c7a1e4f09edb99b8d883bfdd92a7352e44618107f3b4466f
+size 268

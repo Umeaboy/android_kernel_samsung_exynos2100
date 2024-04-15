@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-OBJECT_FILES_NON_STANDARD_wakeup_$(BITS).o := y
-
-obj-$(CONFIG_ACPI)		+= boot.o
-obj-$(CONFIG_ACPI_SLEEP)	+= sleep.o wakeup_$(BITS).o
-obj-$(CONFIG_ACPI_APEI)		+= apei.o
-obj-$(CONFIG_ACPI_CPPC_LIB)	+= cppc_msr.o
-
-ifneq ($(CONFIG_ACPI_PROCESSOR),)
-obj-y				+= cstate.o
-endif
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:acae6737d3ff12d0391edb6ad8c11aa34bb5ade94f21cae58d1aa42a1c39f680
+size 307

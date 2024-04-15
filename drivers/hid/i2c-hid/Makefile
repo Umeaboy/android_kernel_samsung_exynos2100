@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the I2C input drivers
-#
-
-obj-$(CONFIG_I2C_HID)				+= i2c-hid.o
-
-i2c-hid-objs					=  i2c-hid-core.o
-i2c-hid-$(CONFIG_DMI)				+= i2c-hid-dmi-quirks.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:6dd91785d390d69ecba253da4af63e0ec1a03fa07c40b70bb969555868877020
+size 205

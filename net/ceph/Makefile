@@ -1,17 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for CEPH filesystem.
-#
-obj-$(CONFIG_CEPH_LIB) += libceph.o
-
-libceph-y := ceph_common.o messenger.o msgpool.o buffer.o pagelist.o \
-	mon_client.o decode.o \
-	cls_lock_client.o \
-	osd_client.o osdmap.o crush/crush.o crush/mapper.o crush/hash.o \
-	striper.o \
-	debugfs.o \
-	auth.o auth_none.o \
-	crypto.o armor.o \
-	auth_x.o \
-	ceph_fs.o ceph_strings.o ceph_hash.o \
-	pagevec.o snapshot.o string_table.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:3bf3ef3efcbffea01974f9d27976a17ab3a87cd9b85dba9c5e8d39e1b6df9af9
+size 449

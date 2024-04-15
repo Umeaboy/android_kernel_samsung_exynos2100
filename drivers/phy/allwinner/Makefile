@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_PHY_SUN4I_USB)		+= phy-sun4i-usb.o
-obj-$(CONFIG_PHY_SUN6I_MIPI_DPHY)	+= phy-sun6i-mipi-dphy.o
-obj-$(CONFIG_PHY_SUN9I_USB)		+= phy-sun9i-usb.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:2e4c89ee1216a46488ac17e53ae0e39e311df13703e5298b5cd1af05fdb8cb18
+size 195

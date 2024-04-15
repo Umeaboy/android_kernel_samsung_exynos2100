@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-dtb-$(CONFIG_DTB_PIC32_MZDA_SK)		+= pic32mzda_sk.dtb
-
-dtb-$(CONFIG_DTB_PIC32_NONE)		+= \
-					pic32mzda_sk.dtb
-
-obj-$(CONFIG_BUILTIN_DTB)	+= $(addsuffix .o, $(dtb-y))
+version https://git-lfs.github.com/spec/v1
+oid sha256:fc0245aef94d7842198dbd2bba5e52ce92b743a0ec0c5f09168e4d81c34cb342
+size 202

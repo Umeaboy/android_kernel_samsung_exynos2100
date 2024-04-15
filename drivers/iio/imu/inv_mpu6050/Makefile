@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for Invensense MPU6050 device.
-#
-
-obj-$(CONFIG_INV_MPU6050_IIO) += inv-mpu6050.o
-inv-mpu6050-objs := inv_mpu_core.o inv_mpu_ring.o inv_mpu_trigger.o
-
-obj-$(CONFIG_INV_MPU6050_I2C) += inv-mpu6050-i2c.o
-inv-mpu6050-i2c-objs := inv_mpu_i2c.o inv_mpu_acpi.o
-
-obj-$(CONFIG_INV_MPU6050_SPI) += inv-mpu6050-spi.o
-inv-mpu6050-spi-objs := inv_mpu_spi.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:61a8b61e80e8b72b5f35f438abc3b1698913c5e7d1f0ccd5f1a1dbc2a3c8f000
+size 392

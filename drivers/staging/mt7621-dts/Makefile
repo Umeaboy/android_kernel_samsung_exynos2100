@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-dtb-$(CONFIG_DTB_GNUBEE1)      += gbpc1.dtb
-dtb-$(CONFIG_DTB_GNUBEE2)      += gbpc2.dtb
-
-obj-y				+= $(patsubst %.dtb, %.dtb.o, $(dtb-y))
+version https://git-lfs.github.com/spec/v1
+oid sha256:7bff11e8708923d67bc0d6650d3b86e3aa13b5fea221bfa81e38bb6afcb228cb
+size 173

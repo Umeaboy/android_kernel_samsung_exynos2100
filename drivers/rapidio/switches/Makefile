@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for RIO switches
-#
-
-obj-$(CONFIG_RAPIDIO_TSI57X)	+= tsi57x.o
-obj-$(CONFIG_RAPIDIO_CPS_XX)	+= idtcps.o
-obj-$(CONFIG_RAPIDIO_TSI568)	+= tsi568.o
-obj-$(CONFIG_RAPIDIO_CPS_GEN2)	+= idt_gen2.o
-obj-$(CONFIG_RAPIDIO_RXS_GEN3)	+= idt_gen3.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:02f4c506d3428851b5ab9bdab8a6f9ba0bbb51090eba3f5f43873a64f1d210fe
+size 281

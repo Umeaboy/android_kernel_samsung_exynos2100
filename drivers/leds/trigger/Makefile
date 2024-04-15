@@ -1,17 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_LEDS_TRIGGER_TIMER)	+= ledtrig-timer.o
-obj-$(CONFIG_LEDS_TRIGGER_ONESHOT)	+= ledtrig-oneshot.o
-obj-$(CONFIG_LEDS_TRIGGER_DISK)		+= ledtrig-disk.o
-obj-$(CONFIG_LEDS_TRIGGER_MTD)		+= ledtrig-mtd.o
-obj-$(CONFIG_LEDS_TRIGGER_HEARTBEAT)	+= ledtrig-heartbeat.o
-obj-$(CONFIG_LEDS_TRIGGER_BACKLIGHT)	+= ledtrig-backlight.o
-obj-$(CONFIG_LEDS_TRIGGER_GPIO)		+= ledtrig-gpio.o
-obj-$(CONFIG_LEDS_TRIGGER_CPU)		+= ledtrig-cpu.o
-obj-$(CONFIG_LEDS_TRIGGER_ACTIVITY)	+= ledtrig-activity.o
-obj-$(CONFIG_LEDS_TRIGGER_DEFAULT_ON)	+= ledtrig-default-on.o
-obj-$(CONFIG_LEDS_TRIGGER_TRANSIENT)	+= ledtrig-transient.o
-obj-$(CONFIG_LEDS_TRIGGER_CAMERA)	+= ledtrig-camera.o
-obj-$(CONFIG_LEDS_TRIGGER_PANIC)	+= ledtrig-panic.o
-obj-$(CONFIG_LEDS_TRIGGER_NETDEV)	+= ledtrig-netdev.o
-obj-$(CONFIG_LEDS_TRIGGER_PATTERN)	+= ledtrig-pattern.o
-obj-$(CONFIG_LEDS_TRIGGER_AUDIO)	+= ledtrig-audio.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:0196d53f228561eaed2ef82a00e74ed97c3af0f0a44909f8da995f8c185649f4
+size 911

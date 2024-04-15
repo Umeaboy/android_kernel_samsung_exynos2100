@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_QCOM_TSENS)	+= qcom_tsens.o
-
-qcom_tsens-y			+= tsens.o tsens-common.o tsens-v0_1.o \
-				   tsens-8960.o tsens-v2.o tsens-v1.o
-obj-$(CONFIG_QCOM_SPMI_TEMP_ALARM)	+= qcom-spmi-temp-alarm.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:83945ee13f67ff015e0d4e81ab2784027c5930e9f78fd097b368050803d90507
+size 241

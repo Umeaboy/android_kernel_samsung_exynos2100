@@ -1,8 +1,3 @@
-
-# usb notify driver
-obj-$(CONFIG_USB_NOTIFY_LAYER)			+= usb_notify_layer.o
-usb_notify_layer-y				:= usb_notify.o  usb_notify_sysfs.o dock_notify.o
-usb_notify_layer-$(CONFIG_USB_HOST_NOTIFY)			+= host_notify_class.o
-usb_notify_layer-$(CONFIG_USB_EXTERNAL_NOTIFY)		+= external_notify.o
-usb_notify_layer-$(CONFIG_USB_NOTIFY_PROC_LOG)		+= usblog_proc_notify.o
-obj-$(CONFIG_USB_NOTIFIER)			+= usb_notifier.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:57ec645a1e61aebe5fdcf864d8f186c3b26011b7793abb7f148ec83a0bc50f2a
+size 404

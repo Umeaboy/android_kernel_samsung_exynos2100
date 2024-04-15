@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-#  Makefile for the Bosch M_CAN controller driver.
-#
-
-obj-$(CONFIG_CAN_M_CAN) += m_can.o
-obj-$(CONFIG_CAN_M_CAN_PLATFORM) += m_can_platform.o
-obj-$(CONFIG_CAN_M_CAN_TCAN4X5X) += tcan4x5x.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:daf21b3ffa0c9e043ffc71dd8ad96eaab5dbf2555f0b87db031eb472bc942180
+size 231

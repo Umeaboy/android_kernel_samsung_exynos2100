@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the Motorola 8xx FEC ethernet controller
-#
-
-obj-$(CONFIG_SERIAL_CPM) += cpm_uart.o
-
-# Select the correct platform objects.
-cpm_uart-objs-$(CONFIG_CPM2)	+= cpm_uart_cpm2.o
-cpm_uart-objs-$(CONFIG_CPM1)	+= cpm_uart_cpm1.o
-
-cpm_uart-objs	:= cpm_uart_core.o $(cpm_uart-objs-y)
+version https://git-lfs.github.com/spec/v1
+oid sha256:a9595616db527124ed17ac9d9f59b082c68d57f1a430b058736bd70de18df96c
+size 324

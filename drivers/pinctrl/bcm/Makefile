@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Broadcom pinctrl support
-
-obj-$(CONFIG_PINCTRL_BCM281XX)		+= pinctrl-bcm281xx.o
-obj-$(CONFIG_PINCTRL_BCM2835)		+= pinctrl-bcm2835.o
-obj-$(CONFIG_PINCTRL_IPROC_GPIO)	+= pinctrl-iproc-gpio.o
-obj-$(CONFIG_PINCTRL_CYGNUS_MUX)	+= pinctrl-cygnus-mux.o
-obj-$(CONFIG_PINCTRL_NS)		+= pinctrl-ns.o
-obj-$(CONFIG_PINCTRL_NSP_GPIO)		+= pinctrl-nsp-gpio.o
-obj-$(CONFIG_PINCTRL_NS2_MUX)		+= pinctrl-ns2-mux.o
-obj-$(CONFIG_PINCTRL_NSP_MUX)		+= pinctrl-nsp-mux.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:515bb768d51ad3405a07695ce2a874e0d7d7387458eaa9cd1004daacc5cdff01
+size 483

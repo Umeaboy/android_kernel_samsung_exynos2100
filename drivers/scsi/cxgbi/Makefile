@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-ccflags-y += -I $(srctree)/drivers/net/ethernet/chelsio/libcxgb
-
-obj-$(CONFIG_SCSI_CXGB3_ISCSI)	+= libcxgbi.o cxgb3i/
-obj-$(CONFIG_SCSI_CXGB4_ISCSI)	+= libcxgbi.o cxgb4i/
+version https://git-lfs.github.com/spec/v1
+oid sha256:6ab52d8e5e00debbd6f1e78652fddab9ee6c3bc1a4905e71bb6128dd84e51b8e
+size 211

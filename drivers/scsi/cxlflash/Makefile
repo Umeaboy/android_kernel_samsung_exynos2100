@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_CXLFLASH) += cxlflash.o
-cxlflash-y += main.o superpipe.o lunmgt.o vlun.o
-cxlflash-$(CONFIG_CXL) += cxl_hw.o
-cxlflash-$(CONFIG_OCXL) += ocxl_hw.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:f13bae8f8b3e4bac6b6bf7983c7d4b9e276b0ccd72a1ab373730a6bedb758e73
+size 198

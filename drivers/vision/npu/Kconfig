@@ -1,1 +1,3 @@
-source "drivers/vision/npu/core/Kconfig"
+version https://git-lfs.github.com/spec/v1
+oid sha256:93325142dc7f73f5250b965fbea7096e1148702233a1e003afbe0b851c0528d7
+size 41

@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-ccflags-y += -I$(src)			# needed for trace events
-
-obj-y					+= ion/
-
-obj-$(CONFIG_ASHMEM)			+= ashmem.o
-obj-$(CONFIG_ANDROID_VSOC)		+= vsoc.o
-obj-$(CONFIG_ANDROID_SWITCH)           += switch/
-
-obj-$(CONFIG_SAMSUNG_LMKD_DEBUG)		+= lmkd_debug.o
-obj-$(CONFIG_SAMSUNG_FREECESS)		+= freecess.o
-obj-$(CONFIG_SAMSUNG_FREECESS)		+= freecess_pkg.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:827f4a1f201547b26cf676429c69854364319d1276919c94545ddd7426b65f55
+size 374

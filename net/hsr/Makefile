@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for HSR
-#
-
-obj-$(CONFIG_HSR)	+= hsr.o
-
-hsr-y			:= hsr_main.o hsr_framereg.o hsr_device.o \
-			   hsr_netlink.o hsr_slave.o hsr_forward.o
-hsr-$(CONFIG_DEBUG_FS) += hsr_debugfs.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:e94637e16e5ed1fd0efbc638c898b117e27bb456f297c77b8b9d7411c5904bd1
+size 230

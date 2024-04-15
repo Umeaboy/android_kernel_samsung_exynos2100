@@ -1,6 +1,3 @@
-menuconfig VIDEO_EXYNOS_CAMERA_POSTPROCESS_VOTF
-	tristate "EXYNOS CAMERA POSTPROCESS VOTF Driver"
-	depends on VIDEO_EXYNOS_CAMERA_POSTPROCESS
-	default n
-	help
-		This is a representative exynos CAMERA-PP VOTF device.
+version https://git-lfs.github.com/spec/v1
+oid sha256:106a52dffe22848778453feee145b27a0cde1360d4f2b4ff6dd06021c0919a0c
+size 216

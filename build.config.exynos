@@ -1,9 +1,3 @@
-BRANCH=android-exynos-5.4-gki-dev
-KERNEL_DIR=exynos
-
-CC=clang
-CLANG_PREBUILT_BIN=prebuilts-master/clang/host/linux-x86/clang-r353983c/bin
-BUILDTOOLS_PREBUILT_BIN=build/build-tools/path/linux-x86
-
-EXTRA_CMDS=''
-STOP_SHIP_TRACEPRINTK=1
+version https://git-lfs.github.com/spec/v1
+oid sha256:3a1eddcae0e05a9f94442af90ddefca29104da29ef9e693a86fb2c1ed5567247
+size 234

@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_ARCH_CNS3XXX)		+= cns3xxx.o
-cns3xxx-y				+= core.o pm.o
-cns3xxx-$(CONFIG_ATAGS)			+= devices.o
-cns3xxx-$(CONFIG_PCI)			+= pcie.o
-cns3xxx-$(CONFIG_MACH_CNS3420VB)	+= cns3420vb.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:79d2bde838a70ad275f3cba7362a07bb342542ebb197b9a7cb91612d8fed369e
+size 225

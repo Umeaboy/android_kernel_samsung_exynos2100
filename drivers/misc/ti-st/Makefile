@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for TI's shared transport line discipline
-# and its protocol drivers (BT, FM, GPS)
-#
-obj-$(CONFIG_TI_ST) 		+= st_drv.o
-st_drv-objs			:= st_core.o st_kim.o st_ll.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:dc42e257fa6b55383f79ad81da2d1491dc077dcafdda6c6b8e77a719cd8c91b1
+size 216

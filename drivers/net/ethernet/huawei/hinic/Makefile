@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_HINIC) += hinic.o
-
-hinic-y := hinic_main.o hinic_tx.o hinic_rx.o hinic_port.o hinic_hw_dev.o \
-	   hinic_hw_io.o hinic_hw_qp.o hinic_hw_cmdq.o hinic_hw_wq.o \
-	   hinic_hw_mgmt.o hinic_hw_api_cmd.o hinic_hw_eqs.o hinic_hw_if.o \
-	   hinic_common.o hinic_ethtool.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:9c8df425dfdc36ac13f3b2134bdbb00531a8a0506725ca1a45f9ba077e3d1a62
+size 317

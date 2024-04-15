@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-ccflags-y := -I $(srctree)/drivers/net/ethernet/emulex/benet
-
-obj-$(CONFIG_INFINIBAND_OCRDMA)	+= ocrdma.o
-
-ocrdma-y :=	ocrdma_main.o ocrdma_verbs.o ocrdma_hw.o ocrdma_ah.o ocrdma_stats.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:46a0a5b2f22951d19727ce56303fa12773856405bdc756b57f190747d033e18d
+size 227

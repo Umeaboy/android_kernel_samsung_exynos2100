@@ -1,18 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# To find a header included by define_trace.h.
-CFLAGS_amdtp-stream.o	:= -I$(src)
-
-snd-firewire-lib-objs := lib.o iso-resources.o packets-buffer.o \
-			 fcp.o cmp.o amdtp-stream.o amdtp-am824.o
-snd-isight-objs := isight.o
-
-obj-$(CONFIG_SND_FIREWIRE_LIB) += snd-firewire-lib.o
-obj-$(CONFIG_SND_DICE) += dice/
-obj-$(CONFIG_SND_OXFW) += oxfw/
-obj-$(CONFIG_SND_ISIGHT) += snd-isight.o
-obj-$(CONFIG_SND_FIREWORKS) += fireworks/
-obj-$(CONFIG_SND_BEBOB) += bebob/
-obj-$(CONFIG_SND_FIREWIRE_DIGI00X) += digi00x/
-obj-$(CONFIG_SND_FIREWIRE_TASCAM) += tascam/
-obj-$(CONFIG_SND_FIREWIRE_MOTU) += motu/
-obj-$(CONFIG_SND_FIREFACE) += fireface/
+version https://git-lfs.github.com/spec/v1
+oid sha256:6d0c8eb1076f40ee0dc120f24487929003c7f5e5c02d647e0ad2fdde76b964d8
+size 664

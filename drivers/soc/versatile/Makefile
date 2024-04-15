@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_SOC_INTEGRATOR_CM)	+= soc-integrator.o
-obj-$(CONFIG_SOC_REALVIEW)	+= soc-realview.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:bfa88dfeeb7b6006409be1a21e6ce2075670b05f1a7e763b2352fbdbdab095c4
+size 137

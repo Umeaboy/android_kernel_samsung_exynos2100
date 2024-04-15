@@ -1,15 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-rtl8821ae-objs :=		\
-		dm.o		\
-		fw.o		\
-		hw.o		\
-		led.o		\
-		phy.o		\
-		pwrseq.o	\
-		rf.o		\
-		sw.o		\
-		table.o		\
-		trx.o		\
-
-
-obj-$(CONFIG_RTL8821AE) += rtl8821ae.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:980ba74924d6f87750299dd56c6785ec8da8f326a28ede3265523892488830ae
+size 206

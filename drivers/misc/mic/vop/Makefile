@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile - Intel MIC Linux driver.
-# Copyright(c) 2016, Intel Corporation.
-#
-obj-m := vop.o
-
-vop-objs += vop_main.o
-vop-objs += vop_debugfs.o
-vop-objs += vop_vringh.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:eee2223b4404bc471be0f913470d01c151372e3487c49c963dff7ba63214f238
+size 211

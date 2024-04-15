@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# PHY drivers for Ralink platforms.
-#
-config PHY_RALINK_USB
-	tristate "Ralink USB PHY driver"
-	depends on RALINK || COMPILE_TEST
-	depends on HAS_IOMEM
-	select GENERIC_PHY
-	select MFD_SYSCON
-	help
-	  This option enables support for the Ralink USB PHY found inside
-	  RT3352, MT7620, MT7628 and MT7688.
+version https://git-lfs.github.com/spec/v1
+oid sha256:4f83ab7584eacba0ae5039e181ddf52d7ad6ba067f6bd3288e309fef89895d55
+size 343

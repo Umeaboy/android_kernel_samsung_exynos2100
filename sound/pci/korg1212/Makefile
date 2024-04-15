@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for ALSA
-# Copyright (c) 2001 by Jaroslav Kysela <perex@perex.cz>
-#
-
-snd-korg1212-objs := korg1212.o
-
-# Toplevel Module Dependency
-obj-$(CONFIG_SND_KORG1212) += snd-korg1212.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:d83ef1856f22880d38b7851f846f6e9e577f587115c564a0e06ab2d7689230b6
+size 229

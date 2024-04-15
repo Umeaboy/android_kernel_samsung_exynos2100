@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-## Makefile for the linux hfsplus filesystem routines.
-#
-
-obj-$(CONFIG_HFSPLUS_FS) += hfsplus.o
-
-hfsplus-objs := super.o options.o inode.o ioctl.o extents.o catalog.o dir.o btree.o \
-		bnode.o brec.o bfind.o tables.o unicode.o wrapper.o bitmap.o part_tbl.o \
-		attributes.o xattr.o xattr_user.o xattr_security.o xattr_trusted.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:0330fb0502d7763608404fc8c6e4f8962bd9b061a86b0092e533c1d57e86c4d6
+size 365

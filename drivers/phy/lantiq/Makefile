@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_PHY_LANTIQ_RCU_USB2)	+= phy-lantiq-rcu-usb2.o
-obj-$(CONFIG_PHY_LANTIQ_VRX200_PCIE)	+= phy-lantiq-vrx200-pcie.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:6def904999d6325b02d295eb9c8b1f7ed273dee8915e43f234d8c390285cd02d
+size 164

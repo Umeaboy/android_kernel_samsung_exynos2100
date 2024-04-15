@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the Synopsys network device drivers.
-#
-
-obj-$(CONFIG_DWC_XLGMAC) += dwc-xlgmac.o
-dwc-xlgmac-objs := dwc-xlgmac-net.o dwc-xlgmac-desc.o \
-		   dwc-xlgmac-hw.o dwc-xlgmac-common.o \
-		   dwc-xlgmac-ethtool.o
-
-dwc-xlgmac-$(CONFIG_DWC_XLGMAC_PCI) += dwc-xlgmac-pci.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:855e6e7a06dda53909c0b58447f44fc80e1bfeed9b101c02846df956c0198222
+size 315

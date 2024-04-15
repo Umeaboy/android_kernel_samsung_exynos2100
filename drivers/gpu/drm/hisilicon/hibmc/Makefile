@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-hibmc-drm-y := hibmc_drm_drv.o hibmc_drm_de.o hibmc_drm_vdac.o hibmc_drm_fbdev.o hibmc_ttm.o
-
-obj-$(CONFIG_DRM_HISI_HIBMC) += hibmc-drm.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:42e07b4375ea38bb04bf464922a607bff050d0425c8c658adcc1db68f766d1f5
+size 178

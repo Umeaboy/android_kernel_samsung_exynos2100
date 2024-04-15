@@ -1,21 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# HSI driver configuration
-#
-menuconfig HSI
-	tristate "HSI support"
-	---help---
-	  The "High speed synchronous Serial Interface" is
-	  synchronous serial interface used mainly to connect
-	  application engines and cellular modems.
-
-if HSI
-
-config HSI_BOARDINFO
-	bool
-	default y
-
-source "drivers/hsi/controllers/Kconfig"
-source "drivers/hsi/clients/Kconfig"
-
-endif # HSI
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd0a6d14e37e8347574cf104adea6de97084dee0c67cfe18562b4551d27fd5cc
+size 412

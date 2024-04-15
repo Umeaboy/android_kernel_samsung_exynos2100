@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-config DVB_CXD2880
-	tristate "Sony CXD2880 DVB-T2/T tuner + demodulator"
-	depends on DVB_CORE && SPI
-	default m if !MEDIA_SUBDRV_AUTOSELECT
-	help
-	  Say Y when you want to support this frontend.
+version https://git-lfs.github.com/spec/v1
+oid sha256:2dd8c405a6e2fcb7024eec63699a0ff0192ff376b9afaca53cfdb5afbb9f6211
+size 230

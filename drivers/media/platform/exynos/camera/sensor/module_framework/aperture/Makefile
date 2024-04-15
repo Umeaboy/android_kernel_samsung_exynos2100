@@ -1,8 +1,3 @@
-obj-$(CONFIG_CAMERA_APERTURE_AK7372_OBJ) += is-aperture-ak7372.o
-
-ccflags-y := -I$(srctree)/drivers/media/platform/exynos/camera
-ccflags-y += -I$(srctree)/drivers/media/platform/exynos/camera/include
-ccflags-y += -I$(srctree)/drivers/media/platform/exynos/camera/vendor
-ccflags-y += -I$(srctree)/drivers/media/platform/exynos/camera/hardware/api
-ccflags-y += -I$(srctree)/drivers/media/platform/exynos/camera/sensor
-ccflags-y += -I$(srctree)/drivers/media/platform/exynos/camera/sensor/module_framework
+version https://git-lfs.github.com/spec/v1
+oid sha256:25b7f1a01eb6b43f75e3ab5fb4f5329872acadc7982fdcb2cd6b88a4e91ae371
+size 503

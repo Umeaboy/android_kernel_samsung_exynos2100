@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-CC := $(CROSS_COMPILE)gcc
-CFLAGS := -I../../usr/include
-
-PROGS := cfag12864b-example
-
-all: $(PROGS)
-
-clean:
-	rm -fr $(PROGS)
+version https://git-lfs.github.com/spec/v1
+oid sha256:e4b10bee9d410ae8c7b45f7ed6fdbbbbf25813700f55ca696223d5592838473b
+size 160

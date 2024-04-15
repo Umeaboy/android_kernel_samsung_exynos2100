@@ -1,21 +1,3 @@
-config VISION_CORE
-        bool "Vision Core"
-        help
-	  Vision core module enablement
-
-          Vision core module handles all vision related
-          modules.
-	  Enabling this module enables NPU, and related
-	  support code.
-
-menuconfig VISION_CORE_M
-	tristate "Vision Core Module"
-	depends on VISION_CORE
-	help
-		Support module build
-
-menuconfig VISION_UNITTEST
-        bool "Build unittest for Vision"
-        depends on VISION_CORE
-        help
-	  Include unittest code into the vision-core
+version https://git-lfs.github.com/spec/v1
+oid sha256:c81c712daa90c9330b9f8d5fc77d29b7483614664fa527eb1b6a3d2769613a41
+size 503

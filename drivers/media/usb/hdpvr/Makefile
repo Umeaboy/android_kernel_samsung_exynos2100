@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-hdpvr-objs	:= hdpvr-control.o hdpvr-core.o hdpvr-video.o hdpvr-i2c.o
-
-obj-$(CONFIG_VIDEO_HDPVR) += hdpvr.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:93f52916fefe3b5871ba3d5a81462d389067f112460b21e5c86a80135c95e56a
+size 147

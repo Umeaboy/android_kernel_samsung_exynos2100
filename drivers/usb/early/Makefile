@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for early USB devices
-#
-
-obj-$(CONFIG_EARLY_PRINTK_DBGP) += ehci-dbgp.o
-obj-$(CONFIG_EARLY_PRINTK_USB_XDBC) += xhci-dbc.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:eb8bb9fd1ed414b08b5f96c7a1ad95d02011a100b0acac6cdba7e36a9774747a
+size 170

@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-vfio_virqfd-y := virqfd.o
-
-obj-$(CONFIG_VFIO) += vfio.o
-obj-$(CONFIG_VFIO_VIRQFD) += vfio_virqfd.o
-obj-$(CONFIG_VFIO_IOMMU_TYPE1) += vfio_iommu_type1.o
-obj-$(CONFIG_VFIO_IOMMU_SPAPR_TCE) += vfio_iommu_spapr_tce.o
-obj-$(CONFIG_VFIO_SPAPR_EEH) += vfio_spapr_eeh.o
-obj-$(CONFIG_VFIO_PCI) += pci/
-obj-$(CONFIG_VFIO_PLATFORM) += platform/
-obj-$(CONFIG_VFIO_MDEV) += mdev/
+version https://git-lfs.github.com/spec/v1
+oid sha256:da2ef63453dab5c6f4ebb8dc5b17a40c68408ca2079238e39fbd7e7166942d4e
+size 402

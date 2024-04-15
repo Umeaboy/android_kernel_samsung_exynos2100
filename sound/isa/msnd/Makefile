@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-snd-msnd-lib-objs := msnd.o msnd_midi.o msnd_pinnacle_mixer.o
-snd-msnd-pinnacle-objs := msnd_pinnacle.o
-snd-msnd-classic-objs := msnd_classic.o
-
-# Toplevel Module Dependency
-obj-$(CONFIG_SND_MSND_PINNACLE) += snd-msnd-pinnacle.o snd-msnd-lib.o
-obj-$(CONFIG_SND_MSND_CLASSIC) += snd-msnd-classic.o snd-msnd-lib.o
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:859f1b94d979a945b01f9138a43c7ad6664f6402bff2e1afeffa9a2d5bee9fa0
+size 349

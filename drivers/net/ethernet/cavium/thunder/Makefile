@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for Cavium's Thunder ethernet device
-#
-
-obj-$(CONFIG_THUNDER_NIC_RGX) += thunder_xcv.o
-obj-$(CONFIG_THUNDER_NIC_BGX) += thunder_bgx.o
-obj-$(CONFIG_THUNDER_NIC_PF) += nicpf.o
-obj-$(CONFIG_THUNDER_NIC_VF) += nicvf.o
-
-nicpf-y := nic_main.o
-nicvf-y := nicvf_main.o nicvf_queues.o
-nicvf-y += nicvf_ethtool.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:3d79d599588954a0b1cf91f618d9ab4e390b2f5b5f2d9e9e17992b547b41f070
+size 351

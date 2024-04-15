@@ -1,31 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Makefile for the Linux device tree
-
-obj-y			:= component.o core.o bus.o dd.o syscore.o \
-			   driver.o class.o platform.o \
-			   cpu.o firmware.o init.o map.o devres.o \
-			   attribute_container.o transport_class.o \
-			   topology.o container.o property.o cacheinfo.o \
-			   devcon.o swnode.o
-obj-$(CONFIG_DEVTMPFS)	+= devtmpfs.o
-obj-y			+= power/
-obj-$(CONFIG_ISA_BUS_API)	+= isa.o
-obj-y				+= firmware_loader/
-obj-$(CONFIG_NUMA)	+= node.o
-obj-$(CONFIG_MEMORY_HOTPLUG_SPARSE) += memory.o
-ifeq ($(CONFIG_SYSFS),y)
-obj-$(CONFIG_MODULES)	+= module.o
-endif
-obj-$(CONFIG_SYS_HYPERVISOR) += hypervisor.o
-obj-$(CONFIG_REGMAP)	+= regmap/
-obj-$(CONFIG_SOC_BUS) += soc.o
-obj-$(CONFIG_PINCTRL) += pinctrl.o
-obj-$(CONFIG_DEV_COREDUMP) += devcoredump.o
-obj-$(CONFIG_GENERIC_MSI_IRQ_DOMAIN) += platform-msi.o
-obj-$(CONFIG_GENERIC_ARCH_TOPOLOGY) += arch_topology.o
-obj-$(CONFIG_PLATFORM_MOCK) += platform-mock.o
-
-obj-y			+= test/
-
-ccflags-$(CONFIG_DEBUG_DRIVER) := -DDEBUG
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:42f0c09bf20999414b5d02cb9fc15694b368db5c03542e8da3418e49e6594430
+size 1002

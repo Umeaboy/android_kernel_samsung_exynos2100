@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_ION)	+= ion.o ion_buffer.o ion_exynos_dma_buf.o ion_heap.o ion_bltin.o
-CFLAGS_ion_buffer.o 	= -I$(src)
-obj-y			+= heaps/
-obj-y			+= exynos/
+version https://git-lfs.github.com/spec/v1
+oid sha256:b19198503cf689fefea0b7ddb19fa4a091805cee27d21ad5864048c1ff089bb6
+size 188

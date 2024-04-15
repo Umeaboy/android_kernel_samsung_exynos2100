@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-snd-soc-xlnx-i2s-objs      := xlnx_i2s.o
-obj-$(CONFIG_SND_SOC_XILINX_I2S) += snd-soc-xlnx-i2s.o
-snd-soc-xlnx-formatter-pcm-objs := xlnx_formatter_pcm.o
-obj-$(CONFIG_SND_SOC_XILINX_AUDIO_FORMATTER) += snd-soc-xlnx-formatter-pcm.o
-snd-soc-xlnx-spdif-objs := xlnx_spdif.o
-obj-$(CONFIG_SND_SOC_XILINX_SPDIF) += snd-soc-xlnx-spdif.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:0f89d7afcae67bff9501672dbc77067806a6a26ab7a467f9dc3e14e1749ca08f
+size 368

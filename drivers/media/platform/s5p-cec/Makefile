@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_VIDEO_SAMSUNG_S5P_CEC)	+= s5p-cec.o
-s5p-cec-y += s5p_cec.o exynos_hdmi_cecctrl.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:7da37ee437e3434383e7e0aecc1eaa4c5bf1bb9df038e25adaaca85d306c9bf8
+size 134

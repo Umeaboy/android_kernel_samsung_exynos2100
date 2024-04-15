@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-carl9170-objs := main.o usb.o cmd.o mac.o phy.o led.o fw.o tx.o rx.o
-carl9170-$(CONFIG_CARL9170_DEBUGFS) += debug.o
-
-obj-$(CONFIG_CARL9170) += carl9170.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:ec19c913da83db36979c20b0e67226bfff3a2362f0b7d92a27a8f7640ef426ad
+size 194

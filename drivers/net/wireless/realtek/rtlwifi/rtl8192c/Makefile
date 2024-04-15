@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-rtl8192c-common-objs :=		\
-		main.o		\
-		dm_common.o	\
-		fw_common.o	\
-		phy_common.o
-
-obj-$(CONFIG_RTL8192C_COMMON) += rtl8192c-common.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:b01875a2291577137a0f594c9dda584af765016336e254c3560d854c80b7410a
+size 173

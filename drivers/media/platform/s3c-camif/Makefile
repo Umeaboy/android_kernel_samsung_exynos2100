@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-# Makefile for s3c244x/s3c64xx CAMIF driver
-
-s3c-camif-objs := camif-core.o camif-capture.o camif-regs.o
-
-obj-$(CONFIG_VIDEO_S3C_CAMIF) += s3c-camif.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:2d2e34642bd917ed533f0b46816cac85ebf2b911d6ff8af45434a405b3f68b09
+size 191

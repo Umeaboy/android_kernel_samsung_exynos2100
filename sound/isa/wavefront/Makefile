@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for ALSA
-# Copyright (c) 2001 by Jaroslav Kysela <perex@perex.cz>
-#
-
-snd-wavefront-objs := wavefront.o wavefront_fx.o wavefront_synth.o wavefront_midi.o
-
-# Toplevel Module Dependency
-obj-$(CONFIG_SND_WAVEFRONT) += snd-wavefront.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:a91d320ccef8a344ad64b1950733abd16049b1f4d9dfdf4ed4f2150370feac9a
+size 283

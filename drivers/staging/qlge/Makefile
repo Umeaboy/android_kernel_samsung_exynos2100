@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Qlogic 10GbE PCI Express ethernet driver
-#
-
-obj-$(CONFIG_QLGE) += qlge.o
-
-qlge-objs := qlge_main.o qlge_dbg.o qlge_mpi.o qlge_ethtool.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:703295569b08c0b7497729509b9db22aa66820699ba729389a16dcade41d742f
+size 197

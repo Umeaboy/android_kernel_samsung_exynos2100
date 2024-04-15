@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for USB ATM/xDSL drivers
-#
-obj-$(CONFIG_USB_CXACRU)	+= cxacru.o
-obj-$(CONFIG_USB_SPEEDTOUCH)	+= speedtch.o
-obj-$(CONFIG_USB_UEAGLEATM)	+= ueagle-atm.o
-obj-$(CONFIG_USB_ATM)		+= usbatm.o
-obj-$(CONFIG_USB_XUSBATM)	+= xusbatm.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:5ae0733f25d5b1065270bb4f401bc321ae38dad78b6d260e524ef6d868e3cac2
+size 273

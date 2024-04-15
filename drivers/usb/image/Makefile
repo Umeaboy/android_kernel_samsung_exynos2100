@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for USB Image drivers
-#
-
-obj-$(CONFIG_USB_MDC800)	+= mdc800.o
-obj-$(CONFIG_USB_MICROTEK)	+= microtek.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:e59398cc1db1a0324ea7777562926218bd8e0db97756fedc5531a9a1c4b08c52
+size 151

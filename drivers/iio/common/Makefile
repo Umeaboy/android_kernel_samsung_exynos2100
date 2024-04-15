@@ -1,15 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the IIO common modules.
-# Common modules contains modules, which can be shared among multiple
-# IIO modules. For example if the trigger processing is common for
-# multiple IIO modules then this can be moved to a common module
-# instead of duplicating in each module.
-#
-
-# When adding new entries keep the list in alphabetical order
-obj-y += cros_ec_sensors/
-obj-y += hid-sensors/
-obj-y += ms_sensors/
-obj-y += ssp_sensors/
-obj-y += st_sensors/
+version https://git-lfs.github.com/spec/v1
+oid sha256:16df2d285fa72600ff00c8f44b775cad186d8b7fc1dce5f0ad9576acae3a85ff
+size 496

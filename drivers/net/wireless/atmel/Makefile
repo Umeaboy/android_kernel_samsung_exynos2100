@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_ATMEL)             += atmel.o
-obj-$(CONFIG_PCI_ATMEL)         += atmel_pci.o 
-obj-$(CONFIG_PCMCIA_ATMEL)      += atmel_cs.o
-
-obj-$(CONFIG_AT76C50X_USB)      += at76c50x-usb.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:6592cfe159ad09140012d154624b6c46fc48db1f1505cbd3213b69b9f5a560da
+size 228

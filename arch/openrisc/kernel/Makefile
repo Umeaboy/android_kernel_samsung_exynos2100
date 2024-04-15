@@ -1,17 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the linux kernel.
-#
-
-extra-y	:= head.o vmlinux.lds
-
-obj-y	:= setup.o or32_ksyms.o process.o dma.o \
-	   traps.o time.o irq.o entry.o ptrace.o signal.o \
-	   sys_call_table.o unwinder.o
-
-obj-$(CONFIG_SMP)		+= smp.o sync-timer.o
-obj-$(CONFIG_STACKTRACE)	+= stacktrace.o
-obj-$(CONFIG_MODULES)		+= module.o
-obj-$(CONFIG_OF)		+= prom.o
-
-clean:
+version https://git-lfs.github.com/spec/v1
+oid sha256:9f95a8ac590b10cb82b36b3d28b34ddac52b68203321d2288479a4220baba748
+size 391

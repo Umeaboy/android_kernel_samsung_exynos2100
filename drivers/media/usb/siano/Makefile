@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_SMS_USB_DRV) += smsusb.o
-
-ccflags-y += -I $(srctree)/drivers/media/common/siano
-ccflags-y += $(extra-cflags-y) $(extra-cflags-m)
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:66d99785949218a2e5ec706ee1f8b173a71acfd97493d4a7406be04b3095e16a
+size 183

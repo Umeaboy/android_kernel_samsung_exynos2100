@@ -1,16 +1,3 @@
-# SPDX-License-Identifier: MIT
-nvkm-y := nvkm/core/client.o
-nvkm-y += nvkm/core/engine.o
-nvkm-y += nvkm/core/enum.o
-nvkm-y += nvkm/core/event.o
-nvkm-y += nvkm/core/firmware.o
-nvkm-y += nvkm/core/gpuobj.o
-nvkm-y += nvkm/core/ioctl.o
-nvkm-y += nvkm/core/memory.o
-nvkm-y += nvkm/core/mm.o
-nvkm-y += nvkm/core/notify.o
-nvkm-y += nvkm/core/object.o
-nvkm-y += nvkm/core/oproxy.o
-nvkm-y += nvkm/core/option.o
-nvkm-y += nvkm/core/ramht.o
-nvkm-y += nvkm/core/subdev.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:87709dcf65697bddbe75000966a2b976df1608807784e1f993eb3c435494ae59
+size 459

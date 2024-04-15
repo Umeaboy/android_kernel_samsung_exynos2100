@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the drm device driver.  This driver provides support for the
-# Direct Rendering Infrastructure (DRI) in XFree86 4.1.0 and higher.
-
-tdfx-y := tdfx_drv.o
-
-obj-$(CONFIG_DRM_TDFX)	+= tdfx.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:04edf4f510775bd16ead99a03c55b1510e9bc06e5228ef02cb45d910bc58cd56
+size 243

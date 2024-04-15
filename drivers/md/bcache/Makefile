@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-obj-$(CONFIG_BCACHE)	+= bcache.o
-
-bcache-y		:= alloc.o bset.o btree.o closure.o debug.o extents.o\
-	io.o journal.o movinggc.o request.o stats.o super.o sysfs.o trace.o\
-	util.o writeback.o
-
-CFLAGS_request.o	+= -Iblock
+version https://git-lfs.github.com/spec/v1
+oid sha256:626095507486b6dcb76e96ca757e66de632c52c82ec9a7f3571502263d1bfae5
+size 254

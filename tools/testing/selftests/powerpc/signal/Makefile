@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-TEST_GEN_PROGS := signal signal_tm sigfuz
-
-CFLAGS += -maltivec
-$(OUTPUT)/signal_tm: CFLAGS += -mhtm
-$(OUTPUT)/sigfuz: CFLAGS += -pthread -m64
-
-top_srcdir = ../../../../..
-include ../../lib.mk
-
-$(TEST_GEN_PROGS): ../harness.c ../utils.c signal.S
+version https://git-lfs.github.com/spec/v1
+oid sha256:a85ba9798b01b886583221919e099574b16b3d4086a81baf926ac82cb297a8f2
+size 280

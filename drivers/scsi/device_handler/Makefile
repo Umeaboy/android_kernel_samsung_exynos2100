@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# SCSI Device Handler
-#
-obj-$(CONFIG_SCSI_DH_RDAC)	+= scsi_dh_rdac.o
-obj-$(CONFIG_SCSI_DH_HP_SW)	+= scsi_dh_hp_sw.o
-obj-$(CONFIG_SCSI_DH_EMC)	+= scsi_dh_emc.o
-obj-$(CONFIG_SCSI_DH_ALUA)	+= scsi_dh_alua.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:231cfe9a9e30db5b1dd3a3ac97a4856940b97ce60b4ca6127a7bbea65cb59b35
+size 246

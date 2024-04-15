@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for MemoryStick host controller drivers
-#
-
-obj-$(CONFIG_MEMSTICK_TIFM_MS)		+= tifm_ms.o
-obj-$(CONFIG_MEMSTICK_JMICRON_38X)	+= jmb38x_ms.o
-obj-$(CONFIG_MEMSTICK_R592)		+= r592.o
-obj-$(CONFIG_MEMSTICK_REALTEK_PCI)	+= rtsx_pci_ms.o
-obj-$(CONFIG_MEMSTICK_REALTEK_USB)	+= rtsx_usb_ms.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:e61cd4794caec14c2fef8fe6eb460ecff965d162e132bace38aebb451a54b1e3
+size 329

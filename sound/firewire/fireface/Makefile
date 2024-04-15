@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-snd-fireface-objs := ff.o ff-transaction.o ff-midi.o ff-proc.o amdtp-ff.o \
-		     ff-stream.o ff-pcm.o ff-hwdep.o ff-protocol-former.o \
-		     ff-protocol-latter.o
-obj-$(CONFIG_SND_FIREFACE) += snd-fireface.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:edd814179ad32cb721442f065a97b7caefff9e4db9e6b2011679f23911a4255e
+size 251

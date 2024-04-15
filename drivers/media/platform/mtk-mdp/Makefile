@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-mtk-mdp-y += mtk_mdp_core.o
-mtk-mdp-y += mtk_mdp_comp.o
-mtk-mdp-y += mtk_mdp_m2m.o
-mtk-mdp-y += mtk_mdp_regs.o
-mtk-mdp-y += mtk_mdp_vpu.o
-
-obj-$(CONFIG_VIDEO_MEDIATEK_MDP) += mtk-mdp.o
-
-ccflags-y += -I$(srctree)/drivers/media/platform/mtk-vpu
+version https://git-lfs.github.com/spec/v1
+oid sha256:edf72c7a7464c710c88ed4b3ed6889ad3285fcf731a4bc033fbe4c45b9cf03ae
+size 278

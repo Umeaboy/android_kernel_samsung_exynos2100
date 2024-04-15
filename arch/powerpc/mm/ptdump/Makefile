@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-obj-y	+= ptdump.o
-
-obj-$(CONFIG_4xx)		+= shared.o
-obj-$(CONFIG_PPC_8xx)		+= 8xx.o
-obj-$(CONFIG_PPC_BOOK3E_MMU)	+= shared.o
-obj-$(CONFIG_PPC_BOOK3S_32)	+= shared.o bats.o segment_regs.o
-obj-$(CONFIG_PPC_BOOK3S_64)	+= book3s64.o hashpagetable.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:df94dbc2fb005cdc078fb9e93c07e69cb50a2833e47b987df674777a8d4175eb
+size 279

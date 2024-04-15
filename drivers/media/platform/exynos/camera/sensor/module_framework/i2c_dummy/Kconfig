@@ -1,5 +1,3 @@
-menuconfig CAMERA_I2C_DUMMY_SELECT
-	bool "I2C DUMMY select"
-	depends on EXYNOS_DEVICE_CAMERA_MODULE
-	help
-		Say Y here to enable support for platform-specific V4L drivers.
+version https://git-lfs.github.com/spec/v1
+oid sha256:33d18bf683a8bfc710c1899c2fce2ea195a4207059bf92a5b6a83bf70341299a
+size 172

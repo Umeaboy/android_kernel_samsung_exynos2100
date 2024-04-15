@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_MTK_CMDQ) += mtk-cmdq-helper.o
-obj-$(CONFIG_MTK_INFRACFG) += mtk-infracfg.o
-obj-$(CONFIG_MTK_PMIC_WRAP) += mtk-pmic-wrap.o
-obj-$(CONFIG_MTK_SCPSYS) += mtk-scpsys.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:baf310c290c0205eb739a383ca66a8eb26e0372fa71cccc94daa5b390d7f8157
+size 217

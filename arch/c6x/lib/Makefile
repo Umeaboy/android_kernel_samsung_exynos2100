@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for arch/c6x/lib/
-#
-
-lib-y := divu.o divi.o pop_rts.o push_rts.o remi.o remu.o strasgi.o llshru.o
-lib-y += llshr.o llshl.o negll.o mpyll.o divremi.o divremu.o
-lib-y += checksum.o csum_64plus.o memcpy_64plus.o strasgi_64plus.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:5d1ec6f091e6f80692b2699d1d1bfed09ef4e830dfcd1e7d234295da6981a755
+size 279

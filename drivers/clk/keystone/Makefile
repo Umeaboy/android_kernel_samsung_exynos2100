@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_COMMON_CLK_KEYSTONE)	+= pll.o gate.o
-obj-$(CONFIG_TI_SCI_CLK)		+= sci-clk.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:8977049acda66860b709b88826879927325558a9996ec9b10a63491c2f1c9161
+size 129

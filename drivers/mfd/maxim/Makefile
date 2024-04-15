@@ -1,3 +1,3 @@
-subdir-ccflags-y := -Wformat
-obj-$(CONFIG_MFD_MAX77705)	+= mfd_max77705.o
-mfd_max77705-y	:= max77705.o max77705-irq.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:402b1edffee8816cf1c29b546f520c38f49f40b1d852df202dc44a40733c46fc
+size 118

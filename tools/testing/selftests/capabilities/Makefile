@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-TEST_GEN_FILES := validate_cap
-TEST_GEN_PROGS := test_execve
-
-CFLAGS += -O2 -g -std=gnu99 -Wall
-LDLIBS += -lcap-ng -lrt -ldl
-
-include ../lib.mk
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:0bb56c4759f57160674ea01f66be094e296a7465cdaba02f6b2a83acaca8f8bc
+size 180

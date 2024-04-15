@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Linux Wireless network device drivers for Realtek units
-#
-
-obj-$(CONFIG_RTL8180)		+= rtl818x/
-obj-$(CONFIG_RTL8187)		+= rtl818x/
-obj-$(CONFIG_RTLWIFI)		+= rtlwifi/
-obj-$(CONFIG_RTL8XXXU)		+= rtl8xxxu/
-obj-$(CONFIG_RTW88)		+= rtw88/
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:d1a7cda462efdff07f775e980435d81f7fb014aa8db1399e1533b56299ee5813
+size 294

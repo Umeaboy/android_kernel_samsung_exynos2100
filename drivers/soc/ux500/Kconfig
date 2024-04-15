@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-config UX500_SOC_ID
-	bool "SoC bus for ST-Ericsson ux500"
-	depends on ARCH_U8500 || COMPILE_TEST
-	default ARCH_U8500
-	help
-	  Include support for the SoC bus on the ARM RealView platforms
-	  providing some sysfs information about the ASIC variant.
+version https://git-lfs.github.com/spec/v1
+oid sha256:dc7b5a3c74fcb3a6d03f68a8841c35efd3b89d86b780f31870de54b7055a2a95
+size 288

@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Linux Bluetooth CMTP layer
-#
-
-obj-$(CONFIG_BT_CMTP) += cmtp.o
-
-cmtp-objs := core.o sock.o capi.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:697a23d9279d140461fd07995b6ff0a0d93f2148cc7901bf31488264f7830f9e
+size 158

@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0+
-ccflags-$(CONFIG_PPC_WERROR)	+= -Werror
-
-ocxl-y				+= main.o pci.o config.o file.o pasid.o mmio.o
-ocxl-y				+= link.o context.o afu_irq.o sysfs.o trace.o
-ocxl-y				+= core.o
-obj-$(CONFIG_OCXL)		+= ocxl.o
-
-# For tracepoints to include our trace.h from tracepoint infrastructure:
-CFLAGS_trace.o := -I$(src)
-
-# ccflags-y += -DDEBUG
+version https://git-lfs.github.com/spec/v1
+oid sha256:2ee451d1169895764594df2af6b0e132372760c3dd869bdfd54e558eef930694
+size 365

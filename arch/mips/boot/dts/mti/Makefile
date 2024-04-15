@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-dtb-$(CONFIG_MIPS_MALTA)	+= malta.dtb
-dtb-$(CONFIG_LEGACY_BOARD_SEAD3)	+= sead3.dtb
-
-obj-$(CONFIG_BUILTIN_DTB)	+= $(addsuffix .o, $(dtb-y))
+version https://git-lfs.github.com/spec/v1
+oid sha256:3a8fb3d9ff71c494ed9e8b2ae7d739fb194f2dba40c9a973a525d7952cd8bfd6
+size 175

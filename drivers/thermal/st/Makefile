@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_ST_THERMAL)		:= st_thermal.o
-obj-$(CONFIG_ST_THERMAL_SYSCFG)		+= st_thermal_syscfg.o
-obj-$(CONFIG_ST_THERMAL_MEMMAP)		+= st_thermal_memmap.o
-obj-$(CONFIG_STM32_THERMAL)		+= stm_thermal.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:c5e9592fa5a879a04b11e2434663507559d5e4e39b44d09d4bcc546e3e75fdc8
+size 240

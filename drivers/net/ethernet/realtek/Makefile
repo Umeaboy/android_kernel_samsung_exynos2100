@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Realtek network device drivers.
-#
-
-obj-$(CONFIG_8139CP) += 8139cp.o
-obj-$(CONFIG_8139TOO) += 8139too.o
-obj-$(CONFIG_ATP) += atp.o
-r8169-objs += r8169_main.o r8169_firmware.o
-obj-$(CONFIG_R8169) += r8169.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:0120cc43eabdcda40d85630ab779d46bbd512951bd7196d51a332b01a27b630f
+size 266

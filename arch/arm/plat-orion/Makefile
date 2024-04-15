@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the linux kernel.
-#
-ccflags-$(CONFIG_ARCH_MULTIPLATFORM) := -I$(srctree)/$(src)/include
-
-orion-gpio-$(CONFIG_GPIOLIB)      += gpio.o
-obj-$(CONFIG_PLAT_ORION_LEGACY)   += irq.o pcie.o time.o common.o mpp.o
-obj-$(CONFIG_PLAT_ORION_LEGACY)   += $(orion-gpio-y)
+version https://git-lfs.github.com/spec/v1
+oid sha256:510e9a02957282530cf7ff1ce2bc23afce8838a366e754c9c1899b3374d2837c
+size 315

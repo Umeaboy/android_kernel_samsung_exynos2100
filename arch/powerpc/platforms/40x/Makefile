@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_WALNUT)				+= walnut.o
-obj-$(CONFIG_XILINX_VIRTEX_GENERIC_BOARD)	+= virtex.o
-obj-$(CONFIG_EP405)				+= ep405.o
-obj-$(CONFIG_PPC40x_SIMPLE)		+= ppc40x_simple.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:e2b44d68489343fd9c5f0099b2430c141164f94ef42dcac0da73ada88bde5df7
+size 212

@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0 OR BSD-2-Clause
-# Copyright 2018-2019 Amazon.com, Inc. or its affiliates. All rights reserved.
-#
-# Makefile for Amazon Elastic Fabric Adapter (EFA) device driver.
-#
-
-obj-$(CONFIG_INFINIBAND_EFA) += efa.o
-
-efa-y := efa_com_cmd.o efa_com.o efa_main.o efa_verbs.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:df33b4c2ec6ff386216b6b1531e0f2f2c66fc41de049188a8de5ea8dac9fb214
+size 296

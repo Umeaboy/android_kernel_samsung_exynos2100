@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the Sun network device drivers.
-#
-
-obj-$(CONFIG_HAPPYMEAL) += sunhme.o
-obj-$(CONFIG_SUNQE) += sunqe.o
-obj-$(CONFIG_SUNBMAC) += sunbmac.o
-obj-$(CONFIG_SUNGEM) += sungem.o
-obj-$(CONFIG_CASSINI) += cassini.o
-obj-$(CONFIG_SUNVNET_COMMON) += sunvnet_common.o
-obj-$(CONFIG_SUNVNET) += sunvnet.o
-obj-$(CONFIG_LDMVSW) += ldmvsw.o
-obj-$(CONFIG_NIU) += niu.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:f1840301427632d4472f104876d8628553b299b43e26a2b49c30a00ebefa8ad7
+size 401

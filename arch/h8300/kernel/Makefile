@@ -1,22 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the linux kernel.
-#
-
-extra-y := vmlinux.lds
-
-obj-y := process.o traps.o ptrace.o \
-	 signal.o setup.o syscalls.o \
-	 irq.o entry.o
-
-obj-$(CONFIG_ROMKERNEL) += head_rom.o
-obj-$(CONFIG_RAMKERNEL) += head_ram.o
-
-obj-$(CONFIG_MODULES) += module.o h8300_ksyms.o
-obj-$(CONFIG_H8300H_SIM) += sim-console.o
-obj-$(CONFIG_H8S_SIM) += sim-console.o
-
-obj-$(CONFIG_CPU_H8300H) += ptrace_h.o
-obj-$(CONFIG_CPU_H8S) += ptrace_s.o
-
-obj-$(CONFIG_KGDB) += kgdb.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:d0c2dee210418f9ff17bd9fb603290b237a8a68934ea3d9926a49effc7b5ecfb
+size 496

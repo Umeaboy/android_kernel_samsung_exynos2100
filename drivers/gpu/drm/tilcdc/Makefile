@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-ifeq (, $(findstring -W,$(EXTRA_CFLAGS)))
-	ccflags-y += -Werror
-endif
-
-tilcdc-y := \
-	tilcdc_plane.o \
-	tilcdc_crtc.o \
-	tilcdc_tfp410.o \
-	tilcdc_panel.o \
-	tilcdc_external.o \
-	tilcdc_drv.o
-
-obj-$(CONFIG_DRM_TILCDC)	+= tilcdc.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:03ca0676a52546c4d635cd89f76a7d57509c5d0dcfe052d9d4087770d35dd4bb
+size 265

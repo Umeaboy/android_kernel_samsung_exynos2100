@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_PRISM2_USB) += prism2_usb.o
-
-prism2_usb-y := prism2usb.o \
-		p80211conv.o \
-		p80211req.o \
-		p80211wep.o \
-		p80211netdev.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:35c2865e8387ab55bb4d679cc7558b67fbd259d2225dff0042034679dd74d856
+size 173

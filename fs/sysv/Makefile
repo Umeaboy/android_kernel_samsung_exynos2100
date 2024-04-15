@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Linux SystemV/Coherent filesystem routines.
-#
-
-obj-$(CONFIG_SYSV_FS) += sysv.o
-
-sysv-objs := ialloc.o balloc.o inode.o itree.o file.o dir.o \
-	     namei.o super.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:f704f6f9e4198482d6545507ea57b49d1c1d291ce0f523c608df5dd9add43a10
+size 225

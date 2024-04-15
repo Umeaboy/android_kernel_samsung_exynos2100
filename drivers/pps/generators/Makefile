@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for PPS generators.
-#
-
-obj-$(CONFIG_PPS_GENERATOR_PARPORT) += pps_gen_parport.o
-
-ifeq ($(CONFIG_PPS_DEBUG),y)
-EXTRA_CFLAGS += -DDEBUG
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:b4004f1f6cfced33b59f4c0644edb239420090d5af4afba1b03f6df00e422c6f
+size 193

@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for APM X-GENE Ethernet driver.
-#
-
-obj-$(CONFIG_NET_XGENE) += xgene/
-obj-$(CONFIG_NET_XGENE_V2) += xgene-v2/
+version https://git-lfs.github.com/spec/v1
+oid sha256:0dfc60e28c7fb359a08eea19437ec82a9419c2871911bb4d5b37f1e432909faa
+size 162

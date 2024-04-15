@@ -1,16 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-config DRM_TILCDC
-	tristate "DRM Support for TI LCDC Display Controller"
-	depends on DRM && OF && ARM
-	select DRM_KMS_HELPER
-	select DRM_KMS_CMA_HELPER
-	select DRM_GEM_CMA_HELPER
-	select DRM_BRIDGE
-	select DRM_PANEL_BRIDGE
-	select VIDEOMODE_HELPERS
-	select BACKLIGHT_CLASS_DEVICE
-	help
-	  Choose this option if you have an TI SoC with LCDC display
-	  controller, for example AM33xx in beagle-bone, DA8xx, or
-	  OMAP-L1xx.  This driver replaces the FB_DA8XX fbdev driver.
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:1c7f0069b10a8d3b6366831236450a4812f6e59e722b13160851c3d5567fc6ed
+size 512

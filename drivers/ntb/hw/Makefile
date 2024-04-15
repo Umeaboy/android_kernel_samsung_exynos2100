@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_NTB_AMD)	+= amd/
-obj-$(CONFIG_NTB_IDT)	+= idt/
-obj-$(CONFIG_NTB_INTEL)	+= intel/
-obj-$(CONFIG_NTB_SWITCHTEC) += mscc/
+version https://git-lfs.github.com/spec/v1
+oid sha256:b3bbb3e608890b31eccfcf95800f364d6505af4e34586524ca3f6447c8d3d2bb
+size 171

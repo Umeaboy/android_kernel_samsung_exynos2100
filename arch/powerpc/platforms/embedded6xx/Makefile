@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the 6xx/7xx/7xxxx linux kernel.
-#
-obj-$(CONFIG_MPC7448HPC2)	+= mpc7448_hpc2.o
-obj-$(CONFIG_LINKSTATION)	+= linkstation.o ls_uart.o
-obj-$(CONFIG_STORCENTER)	+= storcenter.o
-obj-$(CONFIG_PPC_HOLLY)		+= holly.o
-obj-$(CONFIG_USBGECKO_UDBG)	+= usbgecko_udbg.o
-obj-$(CONFIG_GAMECUBE_COMMON)	+= flipper-pic.o
-obj-$(CONFIG_GAMECUBE)		+= gamecube.o
-obj-$(CONFIG_WII)		+= wii.o hlwd-pic.o
-obj-$(CONFIG_MVME5100)		+= mvme5100.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:42d015485f7b7515c374cf5b86e634803d36295fab13c6a7eed44863143a106c
+size 469

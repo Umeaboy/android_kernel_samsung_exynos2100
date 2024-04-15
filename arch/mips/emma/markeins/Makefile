@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-or-later
-#
-#  Copyright (C) NEC Electronics Corporation 2005-2006
-#
-
-obj-$(CONFIG_NEC_MARKEINS) += irq.o setup.o led.o platform.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:120f38010e3f37134c4238c1c4ea1aecd9fd1997ad4a8402075ce36e9556732b
+size 165

@@ -1,10 +1,3 @@
-#
-# Copyright (c) 2018 Samsung Electronics Co., Ltd.
-#		http://www.samsung.com
-#
-# Licensed under GPLv2
-#
-
-obj-$(CONFIG_CAMERA_PP_STR_V1_0_0_OBJ)	+= camerapp-str-sfr-api-v100.o
-
-ccflags-y += -Idrivers/media/platform/exynos/camera-pp
+version https://git-lfs.github.com/spec/v1
+oid sha256:660a7f92c0a7bcea7e2180b5a3b8f594da258a07e8c19935dcc8934a709bc6a7
+size 233

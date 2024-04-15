@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for Broadcom 10-Gigabit ethernet driver
-#
-
-obj-$(CONFIG_BNX2X) += bnx2x.o
-
-bnx2x-y := bnx2x_main.o bnx2x_link.o bnx2x_cmn.o bnx2x_ethtool.o bnx2x_stats.o bnx2x_dcb.o bnx2x_sp.o
-bnx2x-$(CONFIG_BNX2X_SRIOV) += bnx2x_vfpf.o bnx2x_sriov.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:ccea8dc6317caea924c5ec2e7b5d9b4290d88e18f6461e5d7d48775d0b4e75d1
+size 288

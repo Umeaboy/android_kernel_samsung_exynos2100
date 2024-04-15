@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_PHY_DA8XX_USB)		+= phy-da8xx-usb.o
-obj-$(CONFIG_PHY_DM816X_USB)		+= phy-dm816x-usb.o
-obj-$(CONFIG_OMAP_CONTROL_PHY)		+= phy-omap-control.o
-obj-$(CONFIG_OMAP_USB2)			+= phy-omap-usb2.o
-obj-$(CONFIG_TI_PIPE3)			+= phy-ti-pipe3.o
-obj-$(CONFIG_PHY_TUSB1210)		+= phy-tusb1210.o
-obj-$(CONFIG_TWL4030_USB)		+= phy-twl4030-usb.o
-obj-$(CONFIG_PHY_AM654_SERDES)		+= phy-am654-serdes.o
-obj-$(CONFIG_PHY_TI_GMII_SEL)		+= phy-gmii-sel.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:24d23e54a6b3a69f346f7247a1f218296417f64cefa3b348bd4ea2a300bca5bd
+size 472

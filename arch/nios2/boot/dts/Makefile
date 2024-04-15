@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-obj-y := $(patsubst "%.dts",%.dtb.o,$(CONFIG_NIOS2_DTB_SOURCE))
-
-dtstree		:= $(srctree)/$(src)
-dtb-$(CONFIG_OF_ALL_DTBS) := $(patsubst $(dtstree)/%.dts,%.dtb, $(wildcard $(dtstree)/*.dts))
+version https://git-lfs.github.com/spec/v1
+oid sha256:4adf8f6ff50e7bc28adef05d37964adaa210572f55abc867d9283dd5c096055b
+size 225

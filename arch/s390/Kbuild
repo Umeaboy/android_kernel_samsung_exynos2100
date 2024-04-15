@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-y				+= kernel/
-obj-y				+= mm/
-obj-$(CONFIG_KVM)		+= kvm/
-obj-y				+= crypto/
-obj-$(CONFIG_S390_HYPFS_FS)	+= hypfs/
-obj-$(CONFIG_APPLDATA_BASE)	+= appldata/
-obj-y				+= net/
-obj-$(CONFIG_PCI)		+= pci/
-obj-$(CONFIG_NUMA)		+= numa/
-obj-$(CONFIG_ARCH_HAS_KEXEC_PURGATORY) += purgatory/
+version https://git-lfs.github.com/spec/v1
+oid sha256:5f14237002a3c6bcb9f3d03f54b287f97083459438f6bba891734b13e3d946a3
+size 323

@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Apple network device drivers.
-#
-
-obj-$(CONFIG_MACE) += mace.o
-obj-$(CONFIG_BMAC) += bmac.o
-obj-$(CONFIG_MACMACE) += macmace.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:1477b7df80a8cb05c207f515fe9bb5432311b00e4ac4af5b2358f38e09675432
+size 187

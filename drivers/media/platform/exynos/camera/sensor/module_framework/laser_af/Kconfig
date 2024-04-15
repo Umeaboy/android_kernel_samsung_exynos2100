@@ -1,7 +1,3 @@
-config CAMERA_LASER_AF_VL53L5_OBJ
-	tristate "Use VL53L5"
-	depends on EXYNOS_DEVICE_CAMERA_MODULE
-	depends on SENSORS_VL53L5
-	default n
-	help
-	  Use to build VL53L5 driver.
+version https://git-lfs.github.com/spec/v1
+oid sha256:bda56e0f09f06d638ab3b798ef31711e85fa754b51f32b7062b52d4c11d703b7
+size 171

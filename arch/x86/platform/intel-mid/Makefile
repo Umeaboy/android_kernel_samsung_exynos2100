@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_X86_INTEL_MID) += intel-mid.o intel_mid_vrtc.o pwr.o
-
-# SFI specific code
-ifdef CONFIG_X86_INTEL_MID
-obj-$(CONFIG_SFI) += sfi.o device_libs/
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:b12b40e44d94e110da20578055770ac99e47f1d8d791dcfab26fe40171b4c9fe
+size 200

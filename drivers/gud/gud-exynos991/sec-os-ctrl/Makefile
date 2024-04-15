@@ -1,11 +1,3 @@
-#
-# Makefile for Secure OS control sysfs
-#
-obj-$(CONFIG_SECURE_OS_CONTROL) += sec_os_ctrl.o
-
-# MobiCore kernel driver path
-GUD_ROOT_FOLDER := drivers/gud/gud-exynos991/
-
-# Includes MobiCore kernel driver
-ccflags-y += -I$(GUD_ROOT_FOLDER)/MobiCoreDriver
-ccflags-y += -I$(GUD_ROOT_FOLDER)/MobiCoreDriver/public
+version https://git-lfs.github.com/spec/v1
+oid sha256:e6f7d959076386baa62ee1c3203b4c18fefecc56c55b43d5c069766f5a4091e5
+size 309

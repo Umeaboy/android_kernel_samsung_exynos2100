@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the linux kernel.
-#
-
-ccflags-$(CONFIG_ARCH_MULTIPLATFORM) := -I$(srctree)/arch/arm/plat-omap/include
-
-# Common support
-obj-y := sram.o dma.o counter_32k.o
-
-# omap_device support (OMAP2+ only at the moment)
-
-obj-$(CONFIG_OMAP_DEBUG_LEDS) += debug-leds.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:7fdec6c81326b8156bdd8640094731c5391d2079950712b42555fd1cd19907e5
+size 310

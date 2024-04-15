@@ -1,18 +1,3 @@
-config INCREMENTAL_FS
-	tristate "Incremental file system support"
-	depends on BLOCK
-	select DECOMPRESS_LZ4
-	select CRC32
-	select CRYPTO
-	select CRYPTO_RSA
-	select CRYPTO_SHA256
-	select X509_CERTIFICATE_PARSER
-	select ASYMMETRIC_KEY_TYPE
-	select ASYMMETRIC_PUBLIC_KEY_SUBTYPE
-	help
-	  Incremental FS is a read-only virtual file system that facilitates execution
-	  of programs while their binaries are still being lazily downloaded over the
-	  network, USB or pigeon post.
-
-	  To compile this file system support as a module, choose M here: the
-	  module will be called incrementalfs.
+version https://git-lfs.github.com/spec/v1
+oid sha256:a428fc530a0c63ef1eb160968981bbbb8877f156c7436b5ad02985eeb687db20
+size 584

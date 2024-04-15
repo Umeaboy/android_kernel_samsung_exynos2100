@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for ALSA
-# Copyright (c) 2001 by Jaroslav Kysela <perex@perex.cz>
-#
-
-snd-ad1848-objs := ad1848.o
-
-# Toplevel Module Dependency
-obj-$(CONFIG_SND_AD1848) += snd-ad1848.o
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:1fc2f0ba974adb8e1ebbb92aa9422ccdf7cf7e8332e919fa43e7073f1f2c6e1a
+size 222

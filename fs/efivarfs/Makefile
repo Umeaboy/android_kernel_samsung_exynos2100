@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the efivarfs filesystem
-#
-
-obj-$(CONFIG_EFIVAR_FS)		+= efivarfs.o
-
-efivarfs-objs			:= inode.o file.o super.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:21da50927a2ec5e4ce2ee5bac57112d26ffd7460e904aebaf85bddbc655a442a
+size 166

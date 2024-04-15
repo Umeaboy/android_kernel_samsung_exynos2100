@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-obj-$(CONFIG_TYPEC_DP_ALTMODE)		+= typec_displayport.o
-typec_displayport-y			:= displayport.o
-obj-$(CONFIG_TYPEC_NVIDIA_ALTMODE)	+= typec_nvidia.o
-typec_nvidia-y				:= nvidia.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:ccb4d42b42fb5bf358e2acdebe80314308274660395af2536ff767a942ca4f2b
+size 213

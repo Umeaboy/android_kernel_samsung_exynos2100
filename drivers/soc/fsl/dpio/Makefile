@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# QorIQ DPAA2 DPIO driver
-#
-
-obj-$(CONFIG_FSL_MC_DPIO) += fsl-mc-dpio.o
-
-fsl-mc-dpio-objs := dpio.o qbman-portal.o dpio-service.o dpio-driver.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:0b95e36d7041585b8cbf46b4f3ab660db6701453387456dabc441dfe28c3d2a9
+size 181

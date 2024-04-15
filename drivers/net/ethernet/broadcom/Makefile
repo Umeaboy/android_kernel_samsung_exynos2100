@@ -1,21 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the Broadcom network device drivers.
-#
-
-obj-$(CONFIG_B44) += b44.o
-obj-$(CONFIG_BCM63XX_ENET) += bcm63xx_enet.o
-obj-$(CONFIG_BCMGENET) += genet/
-obj-$(CONFIG_BNX2) += bnx2.o
-obj-$(CONFIG_CNIC) += cnic.o
-obj-$(CONFIG_BNX2X) += bnx2x/
-obj-$(CONFIG_SB1250_MAC) += sb1250-mac.o
-obj-$(CONFIG_BGMAC) += bgmac.o
-obj-$(CONFIG_BGMAC_BCMA) += bgmac-bcma.o bgmac-bcma-mdio.o
-obj-$(CONFIG_BGMAC_PLATFORM) += bgmac-platform.o
-obj-$(CONFIG_SYSTEMPORT) += bcmsysport.o
-obj-$(CONFIG_BNXT) += bnxt/
-
-# FIXME: temporarily silence -Warray-bounds on non W=1+ builds
-ifndef KBUILD_EXTRA_WARN
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:85283016304a0d04408f763c51c1d26564f306fc0b8e47b4e0378c3087010032
+size 629

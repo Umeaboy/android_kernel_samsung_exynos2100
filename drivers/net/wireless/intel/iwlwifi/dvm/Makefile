@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# DVM
-obj-$(CONFIG_IWLDVM)	+= iwldvm.o
-iwldvm-objs		+= main.o rs.o mac80211.o ucode.o tx.o
-iwldvm-objs		+= lib.o calib.o tt.o sta.o rx.o
-
-iwldvm-objs		+= power.o
-iwldvm-objs		+= scan.o
-iwldvm-objs		+= rxon.o devices.o
-
-iwldvm-$(CONFIG_IWLWIFI_LEDS) += led.o
-iwldvm-$(CONFIG_IWLWIFI_DEBUGFS) += debugfs.o
-
-ccflags-y += -I $(srctree)/$(src)/../
+version https://git-lfs.github.com/spec/v1
+oid sha256:cfc10290ba4cd6e907958dfb36a323503e4eb872e913c3e5063a764217365c86
+size 378

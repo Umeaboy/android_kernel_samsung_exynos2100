@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Agere ET-131x ethernet driver
-#
-
-obj-$(CONFIG_ET131X) += et131x.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:12dcaf6b244f6559db8fc85074cf75777d63bb9f1da6872ac39f0713db4033e0
+size 127

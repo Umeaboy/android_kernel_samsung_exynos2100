@@ -1,11 +1,3 @@
-menuconfig ANDROID_SWITCH
-	tristate "Android Switch class support"
-	help
-	  Say Y here to enable Android switch class support. This allows
-	  monitoring switches by userspace via sysfs and uevent.
-
-config ANDROID_SWITCH_GPIO
-	tristate "Android GPIO Switch support"
-	depends on GENERIC_GPIO && ANDROID_SWITCH
-	help
-	  Say Y here to enable GPIO based switch support.
+version https://git-lfs.github.com/spec/v1
+oid sha256:5b387ce6e3723439605ef5d8a95cdd2f7ccc13e13a24b4be359193866f6a0757
+size 365

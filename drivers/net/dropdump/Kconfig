@@ -1,8 +1,3 @@
-#
-# net: logging dropped skb
-#
-
-comment "Enable Dropdump to logging dropped network packet"
-
-config SUPPORT_DROPDUMP
-	tristate "Network packet drop logging service for tcpdump"
+version https://git-lfs.github.com/spec/v1
+oid sha256:9ac1d4b2a83635d488b8420e2c4980521c21cd3155d5934821bcfbba03ac1444
+size 177

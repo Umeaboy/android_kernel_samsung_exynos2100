@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_CAN_KVASER_USB) += kvaser_usb.o
-kvaser_usb-y = kvaser_usb_core.o kvaser_usb_leaf.o kvaser_usb_hydra.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:a439b0d74852ef2b22e5fdb7e7880784c0482fe555158b8acae0455b138d4804
+size 155

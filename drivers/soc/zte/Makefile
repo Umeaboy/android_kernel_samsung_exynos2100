@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# ZTE SOC drivers
-#
-obj-$(CONFIG_ZX2967_PM_DOMAINS) += zx2967_pm_domains.o
-obj-$(CONFIG_ZX2967_PM_DOMAINS) += zx296718_pm_domains.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:467242641d36f13c29facf680a5e679ffd32ea9da2614730b53fd2f11c8b18e2
+size 174

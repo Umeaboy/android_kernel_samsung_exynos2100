@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for fieldbus_dev drivers.
-#
-
-obj-$(CONFIG_FIELDBUS_DEV)	+= fieldbus_dev.o anybuss/
-fieldbus_dev-y			:= dev_core.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:a122fd7c28002db154cfcf494d261612200f5bd0f263549c544b75404fafdffe
+size 162

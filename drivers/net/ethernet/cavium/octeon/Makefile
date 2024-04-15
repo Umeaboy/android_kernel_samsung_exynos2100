@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Cavium network device drivers.
-#
-
-obj-$(CONFIG_OCTEON_MGMT_ETHERNET)	+= octeon_mgmt.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:6934165c164fd49f2503bba52c533252acae518f39f44fd3e1c659bfe28deb32
+size 147

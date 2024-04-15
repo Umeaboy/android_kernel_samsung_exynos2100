@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_WLCORE)			+= wlcore/
-obj-$(CONFIG_WL12XX)			+= wl12xx/
-obj-$(CONFIG_WL1251)			+= wl1251/
-obj-$(CONFIG_WL18XX)			+= wl18xx/
-
-# small builtin driver bit
-obj-$(CONFIG_WILINK_PLATFORM_DATA)	+= wilink_platform_data.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:0fbb972490c4dae700114314b4dfd7bba4eaaaa45031cc51b64c85997b07d521
+size 260

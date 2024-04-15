@@ -1,27 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# MIPS Platform Specific Drivers
-#
-
-menuconfig MIPS_PLATFORM_DEVICES
-	bool "MIPS Platform Specific Device Drivers"
-	default y
-	help
-	  Say Y here to get to see options for device drivers of various
-	  MIPS platforms, including vendor-specific netbook/laptop/desktop
-	  extension and hardware monitor drivers. This option itself does
-	  not add any kernel code.
-
-	  If you say N, all options in this submenu will be skipped and disabled.
-
-if MIPS_PLATFORM_DEVICES
-
-config CPU_HWMON
-	tristate "Loongson CPU HWMon Driver"
-	depends on LOONGSON_MACH3X
-	select HWMON
-	default y
-	help
-	  Loongson-3A/3B CPU Hwmon (temperature sensor) driver.
-
-endif # MIPS_PLATFORM_DEVICES
+version https://git-lfs.github.com/spec/v1
+oid sha256:85ca11f651b8fd924fd0a45b68cb4b357fd8f096c7ea915fd01ced9c8144798f
+size 708

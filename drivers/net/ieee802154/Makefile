@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_IEEE802154_FAKELB) += fakelb.o
-obj-$(CONFIG_IEEE802154_AT86RF230) += at86rf230.o
-obj-$(CONFIG_IEEE802154_MRF24J40) += mrf24j40.o
-obj-$(CONFIG_IEEE802154_CC2520) += cc2520.o
-obj-$(CONFIG_IEEE802154_ATUSB) += atusb.o
-obj-$(CONFIG_IEEE802154_ADF7242) += adf7242.o
-obj-$(CONFIG_IEEE802154_CA8210) += ca8210.o
-obj-$(CONFIG_IEEE802154_MCR20A) += mcr20a.o
-obj-$(CONFIG_IEEE802154_HWSIM) += mac802154_hwsim.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:c43ec0b64dc65c69dda1eba3e0e609a5d69f9261f266bd667924bccffd3d01c7
+size 449

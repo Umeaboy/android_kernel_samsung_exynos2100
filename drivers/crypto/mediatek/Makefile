@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_CRYPTO_DEV_MEDIATEK) += mtk-crypto.o
-mtk-crypto-objs:= mtk-platform.o mtk-aes.o mtk-sha.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:b69d7665dd08d806c156de556df7071b729b62621d023cf474ef7b9151566044
+size 143

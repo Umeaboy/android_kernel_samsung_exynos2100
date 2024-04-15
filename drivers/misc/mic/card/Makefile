@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile - Intel MIC Linux driver.
-# Copyright(c) 2013, Intel Corporation.
-#
-ccflags-y += -DINTEL_MIC_CARD
-
-obj-$(CONFIG_INTEL_MIC_CARD) += mic_card.o
-mic_card-y += mic_x100.o
-mic_card-y += mic_device.o
-mic_card-y += mic_debugfs.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:bab158489f52a8203c2dd7c12f24d7580acac6c9984b0d45a4ab9f4bc8a210a2
+size 270

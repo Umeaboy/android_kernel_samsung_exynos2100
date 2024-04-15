@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_WIZNET_W5100) += w5100.o
-obj-$(CONFIG_WIZNET_W5100_SPI) += w5100-spi.o
-obj-$(CONFIG_WIZNET_W5300) += w5300.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:098522e453318e75db63eb5cd94439d3138cb88631dc5370a5ae782bfd95da03
+size 162

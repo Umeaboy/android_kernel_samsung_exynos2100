@@ -1,8 +1,3 @@
-#
-# Exynos CPU Performance Profiling
-#
-config EXYNOS_PERF
-	tristate "Exynos Performance Drivers"
-	default m
-	help
-	  Enable Exynos Performance Drivers
+version https://git-lfs.github.com/spec/v1
+oid sha256:881c3e2020abfa935204a5cd01d65453d290aa490f6a5d40ba8efe444a1c2203
+size 151

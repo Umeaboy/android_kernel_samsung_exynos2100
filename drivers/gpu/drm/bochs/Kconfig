@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-config DRM_BOCHS
-	tristate "DRM Support for bochs dispi vga interface (qemu stdvga)"
-	depends on DRM && PCI && MMU
-	select DRM_KMS_HELPER
-	select DRM_VRAM_HELPER
-	help
-	  Choose this option for qemu.
-	  If M is selected the module will be called bochs-drm.
+version https://git-lfs.github.com/spec/v1
+oid sha256:2089a7b3bede2c7fa58769a329da5e9a67a35ab5f2b8fc1c5633774d9d8aacce
+size 297

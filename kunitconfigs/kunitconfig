@@ -1,3 +1,3 @@
-CONFIG_SEC_KUNIT=y
-CONFIG_DEBUG_FS=y
-CONFIG_OF=y
+version https://git-lfs.github.com/spec/v1
+oid sha256:30706f08769afa135a3522343bf7d81f7389ba8dae6e36e8f0153b855b3a4cca
+size 49

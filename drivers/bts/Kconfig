@@ -1,11 +1,3 @@
-#
-# BTS device driver Kernel Configuration
-#
-
-menuconfig EXYNOS_BTS
-	tristate "BTS device driver support"
-	help
-	  Enables BTS(Bus Traffic Shaper) device driver support
-	  BTS device driver will set BTS and request DVFS for
-	  controlling system bus traffic. Default setting of BTS
-	  should be different to chipset because of hardware characteristics.
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c3211b02f2a8fe2c204618017dc6a6d41874373c93abf46ed6b2097a6c56923
+size 353

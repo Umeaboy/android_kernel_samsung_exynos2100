@@ -1,17 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_SAMPLE_CONNECTOR) += cn_test.o
-
-# List of programs to build
-ifdef CONFIG_SAMPLE_CONNECTOR
-hostprogs-y := ucon
-endif
-
-# Tell kbuild to always build the programs
-always := $(hostprogs-y)
-
-HOSTCFLAGS_ucon.o += -I$(objtree)/usr/include
-
-all: modules
-
-modules clean:
-	$(MAKE) -C ../.. M=$(CURDIR) $@
+version https://git-lfs.github.com/spec/v1
+oid sha256:32974c4cbbc4d31dbdb942484cd6914e885b11b4c58e11a8f952532051996f84
+size 343

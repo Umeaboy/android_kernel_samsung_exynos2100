@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for s390-specific library files..
-#
-
-lib-y += delay.o string.o uaccess.o find.o spinlock.o
-obj-y += mem.o xor.o
-lib-$(CONFIG_KPROBES) += probes.o
-lib-$(CONFIG_UPROBES) += probes.o
-
-# Instrumenting memory accesses to __user data (in different address space)
-# produce false positives
-KASAN_SANITIZE_uaccess.o := n
+version https://git-lfs.github.com/spec/v1
+oid sha256:5c8964c7485a75b41c280ab7e12196615b84134704d2e5b23fe6b531ee73df30
+size 361

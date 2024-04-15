@@ -1,24 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for SCTP support code.
-#
-
-obj-$(CONFIG_IP_SCTP) += sctp.o
-obj-$(CONFIG_INET_SCTP_DIAG) += sctp_diag.o
-
-sctp-y := sm_statetable.o sm_statefuns.o sm_sideeffect.o \
-	  protocol.o endpointola.o associola.o \
-	  transport.o chunk.o sm_make_chunk.o ulpevent.o \
-	  inqueue.o outqueue.o ulpqueue.o \
-	  tsnmap.o bind_addr.o socket.o primitive.o \
-	  output.o input.o debug.o stream.o auth.o \
-	  offload.o stream_sched.o stream_sched_prio.o \
-	  stream_sched_rr.o stream_interleave.o
-
-sctp_diag-y := diag.o
-
-sctp-$(CONFIG_SCTP_DBG_OBJCNT) += objcnt.o
-sctp-$(CONFIG_PROC_FS) += proc.o
-sctp-$(CONFIG_SYSCTL) += sysctl.o
-
-sctp-$(subst m,y,$(CONFIG_IPV6))	+= ipv6.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:31e392e7bfae1c1eec8e85d840bb61e1fb2666199cc17ddcb5fed2b39aecfa67
+size 703

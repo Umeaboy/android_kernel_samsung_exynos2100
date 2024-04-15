@@ -1,16 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Taken from perf makefile
-uname_M := $(shell uname -m 2>/dev/null || echo not)
-ARCH ?= $(shell echo $(uname_M) | sed -e s/i.86/x86/ -e s/x86_64/x86/)
-
-TEST_GEN_PROGS := step_after_suspend_test
-
-ifeq ($(ARCH),x86)
-TEST_GEN_PROGS += breakpoint_test
-endif
-ifneq (,$(filter $(ARCH),aarch64 arm64))
-TEST_GEN_PROGS += breakpoint_test_arm64
-endif
-
-include ../lib.mk
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:63f2019985f34d30d8577db06f1cab3bebdb327ed63d1abe28b78fafebc63bf3
+size 396

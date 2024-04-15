@@ -1,27 +1,3 @@
-config INPUT_HALL_IC
-	tristate "Enable HALL IC"
-	default n
-	help
-	  Enable Hall IC Feature
-
-config HALL_NOTIFIER
-	tristate "use hall ic notifier"
-	depends on INPUT_HALL_IC
-	default n
-	help
-	  Enable notifier functions to notify hall ic status
-
-config HALL_LOGICAL
-	tristate "use logical hall ic"
-	depends on INPUT_HALL_IC
-	default n
-	help
-	  Enable logical hall ic feature
-	  It is used for pogo keyboard usually
-
-config HALL_DUMP_KEY_MODE
-	tristate "use hall dump key"
-	default n
-	help
-	  Enable hall dump key
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:eb0d6a7d25237bdd57d80ddac89d770712a976428bf809e47b4fbdace5e82991
+size 512

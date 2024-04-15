@@ -1,17 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# DMA Engine Helpers
-#
-
-obj-$(CONFIG_SH_DMAE_BASE) += shdma-base.o shdma-of.o
-
-#
-# DMA Controllers
-#
-
-shdma-y := shdmac.o
-shdma-objs := $(shdma-y)
-obj-$(CONFIG_SH_DMAE) += shdma.o
-
-obj-$(CONFIG_RCAR_DMAC) += rcar-dmac.o
-obj-$(CONFIG_RENESAS_USB_DMAC) += usb-dmac.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:98672f468ee224c5d9b3e117eb2e60478f17462f56651dd6b10afb580f2f0312
+size 302

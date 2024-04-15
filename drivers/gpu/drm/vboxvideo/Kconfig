@@ -1,16 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-config DRM_VBOXVIDEO
-	tristate "Virtual Box Graphics Card"
-	depends on DRM && X86 && PCI
-	select DRM_KMS_HELPER
-	select DRM_VRAM_HELPER
-	select GENERIC_ALLOCATOR
-	help
-	  This is a KMS driver for the virtual Graphics Card used in
-	  Virtual Box virtual machines.
-
-	  Although it is possible to build this driver built-in to the
-	  kernel, it is advised to build it as a module, so that it can
-	  be updated independently of the kernel. Select M to build this
-	  driver as a module and add support for these devices via drm/kms
-	  interfaces.
+version https://git-lfs.github.com/spec/v1
+oid sha256:b6a0c05be8bc4b7d210f28b5eb9f73248e03f9ba7eed01b3abc318ad3709200e
+size 577

@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the phy drivers.
-#
-
-obj-$(CONFIG_PHY_MTK_TPHY)		+= phy-mtk-tphy.o
-obj-$(CONFIG_PHY_MTK_UFS)		+= phy-mtk-ufs.o
-obj-$(CONFIG_PHY_MTK_XSPHY)		+= phy-mtk-xsphy.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:13fc0e01f53bd47ebe5607eb36ea9dc529091c6ceba4f4c5851b736013bf7d8c
+size 210

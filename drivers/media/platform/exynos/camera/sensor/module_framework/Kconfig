@@ -1,8 +1,3 @@
-source "drivers/media/platform/exynos/camera/sensor/module_framework/cis/Kconfig"
-source "drivers/media/platform/exynos/camera/sensor/module_framework/actuator/Kconfig"
-source "drivers/media/platform/exynos/camera/sensor/module_framework/laser_af/Kconfig"
-source "drivers/media/platform/exynos/camera/sensor/module_framework/flash/Kconfig"
-source "drivers/media/platform/exynos/camera/sensor/module_framework/ois/Kconfig"
-source "drivers/media/platform/exynos/camera/sensor/module_framework/aperture/Kconfig"
-source "drivers/media/platform/exynos/camera/sensor/module_framework/pafstat/Kconfig"
-source "drivers/media/platform/exynos/camera/sensor/module_framework/eeprom/Kconfig"
+version https://git-lfs.github.com/spec/v1
+oid sha256:42cf2d605420510a351d530a764bf6593df2e7993d89488e5b472fa3d337813b
+size 680

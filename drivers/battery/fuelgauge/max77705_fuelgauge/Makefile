@@ -1,7 +1,3 @@
-obj-$(CONFIG_FUELGAUGE_MAX77705)	+= max77705-fuelgauge.o
-max77705-fuelgauge-$(CONFIG_FUELGAUGE_MAX77705)	+= max77705_fuelgauge.o
-
-ifeq ($(CONFIG_SEC_KUNIT), y)
-GCOV_PROFILE_max77705_fuelgauge.o := $(CONFIG_SEC_KUNIT)
-endif
-ccflags-y := -Wformat
+version https://git-lfs.github.com/spec/v1
+oid sha256:3214a3c20314624977e0dfc6e05e9ed02f6d90f17db4c72bba3de00589238975
+size 245

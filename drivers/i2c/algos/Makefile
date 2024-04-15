@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the i2c algorithms
-#
-
-obj-$(CONFIG_I2C_ALGOBIT)	+= i2c-algo-bit.o
-obj-$(CONFIG_I2C_ALGOPCF)	+= i2c-algo-pcf.o
-obj-$(CONFIG_I2C_ALGOPCA)	+= i2c-algo-pca.o
-
-ccflags-$(CONFIG_I2C_DEBUG_ALGO) := -DDEBUG
+version https://git-lfs.github.com/spec/v1
+oid sha256:ae63f1c181e2d620948ea6340943f7937c1a59e5c2b8cf73edfbfec961137304
+size 256

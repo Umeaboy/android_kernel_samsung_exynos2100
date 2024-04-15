@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_ACPI)             += int340x_thermal.o
-obj-$(CONFIG_DPTF_POWER)	+= dptf_power.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:971e7f89a588fa6f4cbd3fa2c9f9cbfda5dcb1131006da275d80fe4c0537094c
+size 133

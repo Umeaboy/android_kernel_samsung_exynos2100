@@ -1,25 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-config MODULES
-	def_bool y
-	option modules
-
-choice
-	prompt "Choice"
-
-config CHOICE_VAL0
-	tristate "Choice 0"
-
-config CHOIVE_VAL1
-	tristate "Choice 1"
-
-endchoice
-
-choice
-	prompt "Another choice"
-	depends on CHOICE_VAL0
-
-config DUMMY
-	bool "dummy"
-
-endchoice
+version https://git-lfs.github.com/spec/v1
+oid sha256:3818b737d2d7e0f160e5454f34475aa77d7b4ea2e665900dc4963435dbd98b97
+size 293

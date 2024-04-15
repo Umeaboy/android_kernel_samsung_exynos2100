@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Intel XScale IXP device drivers.
-#
-
-obj-$(CONFIG_IXP4XX_ETH) += ixp4xx_eth.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:8ca280271a6c9e9e1e11730c58565ade03ea356cb392f468bc25e7adfb401027
+size 138

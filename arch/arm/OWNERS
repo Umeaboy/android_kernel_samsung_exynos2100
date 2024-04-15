@@ -1,2 +1,3 @@
-# include OWNERS from the authoritative android-mainline branch
-include kernel/common:android-mainline:/arch/arm/OWNERS
+version https://git-lfs.github.com/spec/v1
+oid sha256:a7535f3d1c79386351a460c4cdee44b19238fc446a239caef3af7a894990c60e
+size 120

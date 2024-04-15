@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-shmob-drm-y := shmob_drm_backlight.o \
-	       shmob_drm_crtc.o \
-	       shmob_drm_drv.o \
-	       shmob_drm_kms.o \
-	       shmob_drm_plane.o
-
-obj-$(CONFIG_DRM_SHMOBILE)	+= shmob-drm.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:e9776808cf61b6e9991f5190e1b1ec29730af46e489a2250c07b50dd09fc73c3
+size 222

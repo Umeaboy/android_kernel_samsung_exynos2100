@@ -1,8 +1,3 @@
-config SPU_VERIFY
-	tristate "SPU Sign Verify Driver"
-	default n
-	help
-	  This option enables SPU sign verify driver.
-	  When SPU fireware update, image signature verify.
-	  Each firmware is checked by calling a function before updating.
-	  If disable config, maybe Signature checking cause problems.
+version https://git-lfs.github.com/spec/v1
+oid sha256:b269a8cf86137d5ed8e9085730fe399e091ce1459a8b512a65b6c0ee4fa7d6ea
+size 300

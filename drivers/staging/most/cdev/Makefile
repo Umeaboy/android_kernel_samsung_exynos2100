@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_MOST_CDEV) += most_cdev.o
-
-most_cdev-objs := cdev.o
-ccflags-y += -I $(srctree)/drivers/staging/
+version https://git-lfs.github.com/spec/v1
+oid sha256:68d0ca1ffc7633e5be2034eff6520f64c2a89d54cc9fb86a807cdccde6376ea0
+size 144

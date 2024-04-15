@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_MESON_CANVAS) += meson-canvas.o
-obj-$(CONFIG_MESON_CLK_MEASURE) += meson-clk-measure.o
-obj-$(CONFIG_MESON_GX_SOCINFO) += meson-gx-socinfo.o
-obj-$(CONFIG_MESON_GX_PM_DOMAINS) += meson-gx-pwrc-vpu.o
-obj-$(CONFIG_MESON_MX_SOCINFO) += meson-mx-socinfo.o
-obj-$(CONFIG_MESON_EE_PM_DOMAINS) += meson-ee-pwrc.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:63ee866fe56638f7f1d58940e33f1c4e284461b16019d3bb820369b0b2a6acff
+size 356

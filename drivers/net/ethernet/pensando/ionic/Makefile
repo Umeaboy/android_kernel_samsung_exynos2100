@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Copyright(c) 2017 - 2019 Pensando Systems, Inc
-
-obj-$(CONFIG_IONIC) := ionic.o
-
-ionic-y := ionic_main.o ionic_bus_pci.o ionic_devlink.o ionic_dev.o \
-	   ionic_debugfs.o ionic_lif.o ionic_rx_filter.o ionic_ethtool.o \
-	   ionic_txrx.o ionic_stats.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:29bfb3bccf17e53eb4be5f4737203c5a8886c24077f00faedb4f24883c2f2434
+size 286

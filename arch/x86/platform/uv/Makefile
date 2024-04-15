@@ -1,2 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_X86_UV)		+= tlb_uv.o bios_uv.o uv_irq.o uv_sysfs.o uv_time.o uv_nmi.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:4ebb1e592be69f1365eb5490f411efe0c605f80290b923a1a858adcf39749896
+size 123

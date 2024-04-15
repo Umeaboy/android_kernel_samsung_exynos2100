@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for Loongson-3 family machines
-#
-obj-y			+= irq.o cop2-ex.o platform.o acpi_init.o dma.o
-
-obj-$(CONFIG_SMP)	+= smp.o
-
-obj-$(CONFIG_NUMA)	+= numa.o
-
-obj-$(CONFIG_RS780_HPET) += hpet.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:31db487e3a17d146bb4057647e9db72effdede7d581025151b089864d44333ce
+size 236

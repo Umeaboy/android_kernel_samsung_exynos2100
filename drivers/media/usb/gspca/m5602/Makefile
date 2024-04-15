@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_USB_M5602) += gspca_m5602.o
-
-gspca_m5602-objs := m5602_core.o \
-		    m5602_ov9650.o \
-		    m5602_ov7660.o \
-		    m5602_mt9m111.o \
-		    m5602_po1030.o \
-		    m5602_s5k83a.o \
-		    m5602_s5k4aa.o
-
-ccflags-y += -I$(srctree)/drivers/media/usb/gspca
+version https://git-lfs.github.com/spec/v1
+oid sha256:c7744814b3cc8578537c34bce38d24291977750706e4af35ec65e522e85b7ab6
+size 300

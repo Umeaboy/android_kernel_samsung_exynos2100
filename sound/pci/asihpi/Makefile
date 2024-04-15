@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-snd-asihpi-objs := asihpi.o hpioctl.o hpimsginit.o\
-	hpicmn.o hpifunc.o hpidebug.o hpidspcd.o\
-	hpios.o hpi6000.o hpi6205.o hpimsgx.o
-
-obj-$(CONFIG_SND_ASIHPI) += snd-asihpi.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:3080b3eb481e378c2e26f91a045831e3d61ed2543e1e60c208e64fec31c3da5a
+size 216

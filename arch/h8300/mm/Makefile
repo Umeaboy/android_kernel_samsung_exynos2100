@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the linux h8300-specific parts of the memory manager.
-#
-
-obj-y	 := init.o fault.o memory.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:6baea436168aed2c7589fde6d778829d88aafe7c856d3818fd509cd88dc85e47
+size 148

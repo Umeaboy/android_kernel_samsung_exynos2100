@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_DRM_DW_HDMI) += dw-hdmi.o
-obj-$(CONFIG_DRM_DW_HDMI_AHB_AUDIO) += dw-hdmi-ahb-audio.o
-obj-$(CONFIG_DRM_DW_HDMI_I2S_AUDIO) += dw-hdmi-i2s-audio.o
-obj-$(CONFIG_DRM_DW_HDMI_CEC) += dw-hdmi-cec.o
-
-obj-$(CONFIG_DRM_DW_MIPI_DSI) += dw-mipi-dsi.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:1fd00bc8bd6e9b973f7cf8b9c15b2672efd0d7c59ab9a6ddfd0f67959bcc25e3
+size 292

@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for kernel SLIMbus framework.
-#
-obj-$(CONFIG_SLIMBUS)			+= slimbus.o
-slimbus-y				:= core.o messaging.o sched.o stream.o
-
-#Controllers
-obj-$(CONFIG_SLIM_QCOM_CTRL)		+= slim-qcom-ctrl.o
-slim-qcom-ctrl-y			:= qcom-ctrl.o
-
-obj-$(CONFIG_SLIM_QCOM_NGD_CTRL)	+= slim-qcom-ngd-ctrl.o
-slim-qcom-ngd-ctrl-y			:= qcom-ngd-ctrl.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:65aadcf62c18a1119d5ce57bc5d93ebaf68027709e2a9773167e3f47ba9197d0
+size 367

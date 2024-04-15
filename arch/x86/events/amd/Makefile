@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_CPU_SUP_AMD)		+= core.o uncore.o
-obj-$(CONFIG_PERF_EVENTS_AMD_POWER)	+= power.o
-obj-$(CONFIG_X86_LOCAL_APIC)		+= ibs.o
-ifdef CONFIG_AMD_IOMMU
-obj-$(CONFIG_CPU_SUP_AMD)		+= iommu.o
-endif
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:287ce71a4b0961ae7ce17ea0cc1502aea539c444b2cb3e43b36dfd677b20f239
+size 235

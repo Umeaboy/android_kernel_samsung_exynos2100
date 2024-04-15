@@ -1,20 +1,3 @@
-menuconfig CAMERA_EEPROM_SELECT
-	bool "Sensor eeprom select"
-	depends on EXYNOS_DEVICE_CAMERA_MODULE
-	help
-	  Say Y here to enable support for platform-specific V4L drivers.
-
-config CAMERA_EEPROM_GM1_OBJ
-	bool "Use GM1 EEPROM"
-	depends on CAMERA_EEPROM_SELECT
-	default n
-	help
-	  Use to build GM1 eeprom driver.
-
-config CAMERA_EEPROM_5E9_OBJ
-	bool "Use 5E9 EEPROM"
-	depends on CAMERA_EEPROM_SELECT
-	default n
-	help
-	  Use to build 5E9 eeprom driver.
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:3aa1bca75b4b149297bd4987ad6fa70d6bf5090fecea0d47f5e56bb8f3ee0930
+size 451

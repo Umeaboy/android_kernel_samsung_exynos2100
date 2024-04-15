@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the A Semi network device drivers.
-#
-
-obj-$(CONFIG_PASEMI_MAC) += pasemi_mac_driver.o
-pasemi_mac_driver-objs := pasemi_mac.o pasemi_mac_ethtool.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:b024487b277979a0350b26ea664d95ab83f8d8d7620b2cd1c39a10c266f51b3f
+size 203

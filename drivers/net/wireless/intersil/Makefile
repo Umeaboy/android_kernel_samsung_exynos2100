@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_HOSTAP)		+= hostap/
-obj-$(CONFIG_HERMES)		+= orinoco/
-obj-$(CONFIG_P54_COMMON)	+= p54/
-obj-$(CONFIG_PRISM54)		+= prism54/
+version https://git-lfs.github.com/spec/v1
+oid sha256:77e7649530a41547e78762f8f82e80eab623870053f3a924999421ac976febac
+size 175

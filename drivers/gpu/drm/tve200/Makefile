@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-tve200_drm-y +=	tve200_display.o \
-		tve200_drv.o
-
-obj-$(CONFIG_DRM_TVE200) += tve200_drm.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:b2179ed68c73ef5ce09538d446bd263ed112bebd028fe704b6104f72f8e95fed
+size 132

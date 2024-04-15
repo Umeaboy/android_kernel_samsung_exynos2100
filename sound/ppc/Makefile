@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for ALSA
-# Copyright (c) 2001 by Jaroslav Kysela <perex@perex.cz>
-#
-
-snd-powermac-objs := powermac.o pmac.o awacs.o burgundy.o daca.o tumbler.o keywest.o beep.o
-
-# Toplevel Module Dependency
-obj-$(CONFIG_SND_POWERMAC)	+= snd-powermac.o
-obj-$(CONFIG_SND_PS3)		+= snd_ps3.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:3543005272528b690c9307b136b41c12ce24dd1cd73ae82c099d0bb52cf1e015
+size 325

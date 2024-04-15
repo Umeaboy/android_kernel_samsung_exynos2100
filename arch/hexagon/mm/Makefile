@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for Hexagon memory management subsystem
-#
-
-obj-y := init.o ioremap.o uaccess.o vm_fault.o cache.o
-obj-y += copy_to_user.o copy_from_user.o strnlen_user.o vm_tlb.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:b37e013cfc0d1a184780a05f103771f72ce11f01423c5f39d327fe27bfc762e5
+size 216

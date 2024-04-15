@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_ACPI_APEI)		+= apei.o
-obj-$(CONFIG_ACPI_APEI_GHES)	+= ghes.o
-obj-$(CONFIG_ACPI_APEI_EINJ)	+= einj.o
-obj-$(CONFIG_ACPI_APEI_ERST_DEBUG) += erst-dbg.o
-
-apei-y := apei-base.o hest.o erst.o bert.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:46ed159c2a23b3206ed897206b8902eb796c142ac724db8319da5db61aa69465
+size 241

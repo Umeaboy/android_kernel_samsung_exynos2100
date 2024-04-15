@@ -1,7 +1,3 @@
-#
-# Copyright (c) 2015 Samsung Electronics Co., Ltd.
-#		http://www.samsung.com
-#
-
-smfc-objs := smfc-dev.o smfc-v4l2-ioctls.o smfc-regs.o smfc-stream-parser.o
-obj-$(CONFIG_VIDEO_EXYNOS_SMFC) += smfc.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:80b3ab333aa7dddbfa7009b472a26f738640220b0ad2ba705295c802b30f9ffc
+size 200

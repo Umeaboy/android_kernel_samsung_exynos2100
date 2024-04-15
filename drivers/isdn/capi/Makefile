@@ -1,17 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Makefile for the CAPI subsystem.
-
-# Ordering constraints: kernelcapi.o first
-
-# Each configuration option enables a list of files.
-
-obj-$(CONFIG_ISDN_CAPI)			+= kernelcapi.o
-obj-$(CONFIG_ISDN_CAPI_CAPI20)		+= capi.o 
-obj-$(CONFIG_ISDN_CAPI_CAPIDRV)		+= capidrv.o
-
-# Multipart objects.
-
-kernelcapi-y				:= kcapi.o capiutil.o capilib.o
-kernelcapi-$(CONFIG_PROC_FS)		+= kcapi_proc.o
-
-ccflags-y += -I$(srctree)/$(src)/../include -I$(srctree)/$(src)/../include/uapi
+version https://git-lfs.github.com/spec/v1
+oid sha256:9f5a6658b1bf0b73649aaf7643682b382719c07206284e20b5a3d810e396ed91
+size 498

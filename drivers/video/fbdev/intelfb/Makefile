@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_FB_INTEL) += intelfb.o
-
-intelfb-y := intelfbdrv.o intelfbhw.o
-intelfb-$(CONFIG_FB_INTEL_I2C) += intelfb_i2c.o
-intelfb-objs := $(intelfb-y)
-
-ccflags-$(CONFIG_FB_INTEL_DEBUG) := -DDEBUG -DREGDUMP
+version https://git-lfs.github.com/spec/v1
+oid sha256:cc1614883fa76d31496778dd69d4c087c8fd1c8ef65e5501fd2034f9fc1537bc
+size 242

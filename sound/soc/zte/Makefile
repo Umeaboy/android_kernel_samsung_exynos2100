@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_ZX_SPDIF)	+= zx-spdif.o
-obj-$(CONFIG_ZX_I2S)	+= zx-i2s.o
-obj-$(CONFIG_ZX_TDM)	+= zx-tdm.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:7d20586939f9aae1c6188b563c13fdcc8af03428e553e5386840d49ae13e012f
+size 143

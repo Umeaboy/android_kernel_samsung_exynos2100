@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-y					+= berlin.o
-obj-$(CONFIG_PINCTRL_BERLIN_BG2)	+= berlin-bg2.o
-obj-$(CONFIG_PINCTRL_BERLIN_BG2CD)	+= berlin-bg2cd.o
-obj-$(CONFIG_PINCTRL_BERLIN_BG2Q)	+= berlin-bg2q.o
-obj-$(CONFIG_PINCTRL_BERLIN_BG4CT)	+= berlin-bg4ct.o
-obj-$(CONFIG_PINCTRL_AS370)		+= pinctrl-as370.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:2a05368f3e2fc845aa55adad445e0e3dbfacce67c42b1fd285473e13b4b36f37
+size 316

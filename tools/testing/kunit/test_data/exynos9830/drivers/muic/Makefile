@@ -1,10 +1,3 @@
-#
-# Makefile for muic devices
-#
-subdir-ccflags-y := -Wformat
-
-obj-y					+= muic-core.o
-obj-$(CONFIG_MUIC_NOTIFIER)		+= muic_notifier.o
-obj-$(CONFIG_MUIC_MAX77705)		+= max77705-muic.o
-obj-$(CONFIG_HV_MUIC_MAX77705_AFC)	+= max77705-muic-afc.o
-obj-$(CONFIG_MUIC_MAX77705_CCIC)	+= max77705-muic-ccic.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:2ef6b50ee41de881b22601e01cc9c77510c8823676bf9dff04143541ce3cb230
+size 297

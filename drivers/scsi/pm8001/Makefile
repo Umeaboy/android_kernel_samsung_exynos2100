@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Kernel configuration file for the PM8001 SAS/SATA 8x6G based HBA driver
-#
-# Copyright (C) 2008-2009  USI Co., Ltd.
-
-
-obj-$(CONFIG_SCSI_PM8001) += pm80xx.o
-pm80xx-y += pm8001_init.o \
-		pm8001_sas.o  \
-		pm8001_ctl.o  \
-		pm8001_hwi.o  \
-		pm80xx_hwi.o
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:2e93592c5c4141f04b69213b3da41577a97915f5d53b0541ac701b2dbe8320e4
+size 292

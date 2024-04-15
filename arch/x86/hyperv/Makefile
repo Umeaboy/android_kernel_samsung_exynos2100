@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-y			:= hv_init.o mmu.o nested.o
-obj-$(CONFIG_X86_64)	+= hv_apic.o
-
-ifdef CONFIG_X86_64
-obj-$(CONFIG_PARAVIRT_SPINLOCKS)	+= hv_spinlock.o
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:1b6a58e796db2746af9a510f30810e9eee35cf5e5488b8f448fc1ed1fc81df7a
+size 187

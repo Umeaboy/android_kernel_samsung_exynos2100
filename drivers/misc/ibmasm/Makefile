@@ -1,16 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-obj-$(CONFIG_IBM_ASM) := ibmasm.o
-
-ibmasm-y :=	module.o      \
-		ibmasmfs.o    \
-		event.o       \
-		command.o     \
-		remote.o      \
-		heartbeat.o   \
-		r_heartbeat.o \
-		dot_command.o \
-		lowlevel.o
-
-ibmasm-$(CONFIG_SERIAL_8250) += uart.o
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:9a428c0c5fb71aaafebea65836c951d27555be8966b98e2cd3d3bcdf7c0ffc75
+size 279

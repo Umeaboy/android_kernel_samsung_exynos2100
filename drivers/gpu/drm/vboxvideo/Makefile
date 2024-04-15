@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-vboxvideo-y :=  hgsmi_base.o modesetting.o vbva_base.o \
-		vbox_drv.o vbox_fb.o vbox_hgsmi.o vbox_irq.o vbox_main.o \
-		vbox_mode.o vbox_ttm.o
-
-obj-$(CONFIG_DRM_VBOXVIDEO) += vboxvideo.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:dcbdd608effac5819d1f0d69e8428b17e8bc50707743611ecf543c0afa6c41dd
+size 222

@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-ccflags-y := -I $(srctree)/$(src)/../cxgb4
-
-obj-$(CONFIG_CHELSIO_LIB) += libcxgb.o
-
-libcxgb-y := libcxgb_ppm.o libcxgb_cm.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:e1bb175c95aa5fb15639ce8394a288b223f9fe7afa27649d1c98fb698099fb34
+size 164

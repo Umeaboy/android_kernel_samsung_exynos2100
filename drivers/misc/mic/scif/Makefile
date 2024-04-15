@@ -1,21 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile - SCIF driver.
-# Copyright(c) 2014, Intel Corporation.
-#
-obj-$(CONFIG_SCIF) += scif.o
-scif-objs := scif_main.o
-scif-objs += scif_peer_bus.o
-scif-objs += scif_ports.o
-scif-objs += scif_debugfs.o
-scif-objs += scif_fd.o
-scif-objs += scif_api.o
-scif-objs += scif_epd.o
-scif-objs += scif_rb.o
-scif-objs += scif_nodeqp.o
-scif-objs += scif_nm.o
-scif-objs += scif_dma.o
-scif-objs += scif_fence.o
-scif-objs += scif_mmap.o
-scif-objs += scif_rma.o
-scif-objs += scif_rma_list.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:c2784e3b2995955786605695c976e0dbed74109547179af70bd4c49fed00feb5
+size 514

@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Chelsio T3 driver
-#
-
-obj-$(CONFIG_CHELSIO_T3) += cxgb3.o
-
-cxgb3-objs := cxgb3_main.o ael1002.o vsc8211.o t3_hw.o mc5.o \
-	      xgmac.o sge.o l2t.o cxgb3_offload.o aq100x.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:d536362ee0391e5d3c27a10f4779d80705ad9b2b3bd508860ade35516090fbd8
+size 217

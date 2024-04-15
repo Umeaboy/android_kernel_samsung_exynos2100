@@ -1,3 +1,3 @@
-obj-$(CONFIG_SOC_EXYNOS2100) += gud-exynos2100/
-obj-$(CONFIG_SOC_EXYNOS991) += gud-exynos991/
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:56d4a0ebc17936e1360e1646aeeb702bba1b12e1fde050ab320e5fae6b336ecc
+size 95

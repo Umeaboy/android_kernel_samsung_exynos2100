@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_ZSTD_COMPRESS) += zstd_compress.o
-obj-$(CONFIG_ZSTD_DECOMPRESS) += zstd_decompress.o
-
-ccflags-y += -O3
-
-zstd_compress-y := fse_compress.o huf_compress.o compress.o \
-		   entropy_common.o fse_decompress.o zstd_common.o
-zstd_decompress-y := huf_decompress.o decompress.o \
-		     entropy_common.o fse_decompress.o zstd_common.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:99bcda4d63826a0e9f42f209d22ac31e5a71f67f341baf9b3b44776fb3b3c6d9
+size 380

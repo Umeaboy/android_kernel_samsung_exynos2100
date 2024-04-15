@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-y += fuse/
-
-obj-y += common.o
-obj-$(CONFIG_SOC_TEGRA_FLOWCTRL) += flowctrl.o
-obj-$(CONFIG_SOC_TEGRA_PMC) += pmc.o
-obj-$(CONFIG_SOC_TEGRA_POWERGATE_BPMP) += powergate-bpmp.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:5b9790e8e6819edccb2816001e311118408b813ca8c0f92785afee9f74e8a451
+size 212

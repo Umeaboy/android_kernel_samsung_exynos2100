@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Linux Kernel SOC fsl specific device drivers
-#
-
-obj-$(CONFIG_FSL_DPAA)                 += qbman/
-obj-$(CONFIG_QUICC_ENGINE)		+= qe/
-obj-$(CONFIG_CPM)			+= qe/
-obj-$(CONFIG_FSL_GUTS)			+= guts.o
-obj-$(CONFIG_FSL_MC_DPIO) 		+= dpio/
-obj-$(CONFIG_DPAA2_CONSOLE)		+= dpaa2-console.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:a9a6ce0b5b4df49b61b09e0b7cae21cbf609584cba7b6a4fada53c9a1828e246
+size 340

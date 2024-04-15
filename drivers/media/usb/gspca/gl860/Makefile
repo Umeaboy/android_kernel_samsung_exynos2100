@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_USB_GL860) += gspca_gl860.o
-
-gspca_gl860-objs := gl860.o \
-		    gl860-mi1320.o \
-		    gl860-ov2640.o \
-		    gl860-ov9655.o \
-		    gl860-mi2020.o
-
-ccflags-y += -I$(srctree)/drivers/media/usb/gspca
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:c006efac3733b6202be06e5475e713a647506086354e10f6c70a8b131e1675a5
+size 249

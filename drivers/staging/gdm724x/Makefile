@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_LTE_GDM724X) := gdmulte.o
-gdmulte-y += gdm_lte.o netlink_k.o
-gdmulte-y += gdm_usb.o gdm_endian.o
-
-obj-$(CONFIG_LTE_GDM724X) += gdmtty.o
-gdmtty-y := gdm_tty.o gdm_mux.o
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:83854cdee94594e830b8ccde5c9da105bbd38e056d070561483fcabc420fcbac
+size 217

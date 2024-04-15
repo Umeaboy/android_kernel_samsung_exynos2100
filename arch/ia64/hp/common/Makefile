@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# ia64/platform/hp/common/Makefile
-#
-# Copyright (C) 2002 Hewlett Packard
-# Copyright (C) Alex Williamson (alex_williamson@hp.com)
-#
-
-obj-$(CONFIG_IA64_HP_SBA_IOMMU) += sba_iommu.o
-obj-$(CONFIG_IA64_HP_AML_NFW) += aml_nfw.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:f2e1f0360bab01011c56ec6150230263a93f9bbc44121527ca9efe6630a55e5d
+size 266

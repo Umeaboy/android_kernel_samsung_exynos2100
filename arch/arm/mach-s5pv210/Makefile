@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Copyright (c) 2010 Samsung Electronics Co., Ltd.
-# 		http://www.samsung.com/
-
-ccflags-$(CONFIG_ARCH_MULTIPLATFORM) += -I$(srctree)/arch/arm/plat-samsung/include
-
-# Core
-
-obj-$(CONFIG_PM_SLEEP)		+= pm.o sleep.o
-
-# machine support
-
-obj-y				+= s5pv210.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:abcd800629ee21a5b30d934656b77a707ceb0b523883a6013928a91901a70d98
+size 291

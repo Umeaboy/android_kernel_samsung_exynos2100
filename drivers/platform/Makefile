@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for linux/drivers/platform
-#
-
-obj-$(CONFIG_X86)		+= x86/
-obj-$(CONFIG_MELLANOX_PLATFORM)	+= mellanox/
-obj-$(CONFIG_MIPS)		+= mips/
-obj-$(CONFIG_OLPC_EC)		+= olpc/
-obj-$(CONFIG_GOLDFISH)		+= goldfish/
-obj-$(CONFIG_CHROME_PLATFORMS)	+= chrome/
+version https://git-lfs.github.com/spec/v1
+oid sha256:82954d3b631051aae7a273070d1d91a58a319404eec802903cadff73508a6794
+size 290

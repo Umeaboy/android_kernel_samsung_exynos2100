@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the SGI device drivers.
-#
-
-obj-$(CONFIG_SGI_O2MACE_ETH) += meth.o
-obj-$(CONFIG_SGI_IOC3_ETH) += ioc3-eth.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:a47950e21c5d50307537a5b0c2ff77ee0528ce51207a13d6fda8bbfcdc57b4fd
+size 164

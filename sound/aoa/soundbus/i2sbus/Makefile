@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_SND_AOA_SOUNDBUS_I2S) += snd-aoa-i2sbus.o
-snd-aoa-i2sbus-objs := core.o pcm.o control.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:378dfed558bfa90eda824dee2f8eea3bb881f66e543606b819b7c334bb3ab8f1
+size 141

@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-snd-dice-objs := dice-transaction.o dice-stream.o dice-proc.o dice-midi.o \
-		 dice-pcm.o dice-hwdep.o dice.o dice-tcelectronic.o \
-		 dice-alesis.o dice-extension.o dice-mytek.o dice-presonus.o
-obj-$(CONFIG_SND_DICE) += snd-dice.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:bbcc818cddce08e6b6b861af9748696635f62d7d761466b112a8e22f216018eb
+size 272

@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_VIDEO_STI_DELTA_DRIVER) += st-delta.o
-st-delta-y := delta-v4l2.o delta-mem.o delta-ipc.o delta-debug.o
-
-# MJPEG support
-st-delta-$(CONFIG_VIDEO_STI_DELTA_MJPEG) += delta-mjpeg-hdr.o
-st-delta-$(CONFIG_VIDEO_STI_DELTA_MJPEG) += delta-mjpeg-dec.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:89a9c71f18c9a93d6be22fe78aa59d4fa3fb2e01da99bccda78c5c5beb4b26f1
+size 297

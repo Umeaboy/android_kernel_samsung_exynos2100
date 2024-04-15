@@ -1,12 +1,3 @@
-menuconfig CAMERA_APERTURE_SELECT
-	bool "Aperture select"
-	depends on EXYNOS_DEVICE_CAMERA_MODULE
-	help
-	  Say Y here to enable support for platform-specific V4L drivers.
-
-config CAMERA_APERTURE_AK7372_OBJ
-	bool "Use aperture AK7372"
-	depends on CAMERA_APERTURE_SELECT
-	default n
-	help
-	  Use to build AK7372 driver.
+version https://git-lfs.github.com/spec/v1
+oid sha256:3b8872f616bcfb2b49c4aa5a2cde8f203dc7cfe2b0dfcaf4878c47e428473a9d
+size 317

@@ -1,23 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# MPI multiprecision maths library (from gpg)
-#
-
-obj-$(CONFIG_MPILIB) = mpi.o
-
-mpi-y = \
-	generic_mpih-lshift.o		\
-	generic_mpih-mul1.o		\
-	generic_mpih-mul2.o		\
-	generic_mpih-mul3.o		\
-	generic_mpih-rshift.o		\
-	generic_mpih-sub1.o		\
-	generic_mpih-add1.o		\
-	mpicoder.o			\
-	mpi-bit.o			\
-	mpi-cmp.o			\
-	mpih-cmp.o			\
-	mpih-div.o			\
-	mpih-mul.o			\
-	mpi-pow.o			\
-	mpiutil.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:8de798d113cfc6c987a246480e48a5056201fd92fbb93b44831742d46052facc
+size 418

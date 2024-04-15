@@ -1,4 +1,3 @@
-ifndef NO_DWARF
-PERF_HAVE_DWARF_REGS := 1
-endif
-PERF_HAVE_ARCH_REGS_QUERY_REGISTER_OFFSET := 1
+version https://git-lfs.github.com/spec/v1
+oid sha256:2d4f03fc25573765b8e9619eb5cfc25bd8ccf4b3f9d89accc0247f59ac5b4cfd
+size 95

@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for Counter devices
-#
-
-obj-$(CONFIG_COUNTER) += counter.o
-
-obj-$(CONFIG_104_QUAD_8)	+= 104-quad-8.o
-obj-$(CONFIG_STM32_TIMER_CNT)	+= stm32-timer-cnt.o
-obj-$(CONFIG_STM32_LPTIMER_CNT)	+= stm32-lptimer-cnt.o
-obj-$(CONFIG_FTM_QUADDEC)	+= ftm-quaddec.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:76541f816f56b7b4aa97f7b0b616aa258ebd70dee0468cb09f685dc0253727e8
+size 302

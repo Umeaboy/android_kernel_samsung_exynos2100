@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-cx18-objs    := cx18-driver.o cx18-cards.o cx18-i2c.o cx18-firmware.o cx18-gpio.o \
-	cx18-queue.o cx18-streams.o cx18-fileops.o cx18-ioctl.o cx18-controls.o \
-	cx18-mailbox.o cx18-vbi.o cx18-audio.o cx18-video.o cx18-irq.o \
-	cx18-av-core.o cx18-av-audio.o cx18-av-firmware.o cx18-av-vbi.o cx18-scb.o \
-	cx18-dvb.o cx18-io.o
-cx18-alsa-objs := cx18-alsa-main.o cx18-alsa-pcm.o
-
-obj-$(CONFIG_VIDEO_CX18) += cx18.o
-obj-$(CONFIG_VIDEO_CX18_ALSA) += cx18-alsa.o
-
-ccflags-y += -I $(srctree)/drivers/media/dvb-frontends
-ccflags-y += -I $(srctree)/drivers/media/tuners
+version https://git-lfs.github.com/spec/v1
+oid sha256:7f6b0c27e28d8ed0f1e35f3fe81245481498245e9fc718fc112e1e8985e32489
+size 596

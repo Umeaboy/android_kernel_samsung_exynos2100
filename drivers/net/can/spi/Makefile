@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-#  Makefile for the Linux Controller Area Network SPI drivers.
-#
-
-
-obj-$(CONFIG_CAN_HI311X)	+= hi311x.o
-obj-$(CONFIG_CAN_MCP251X)	+= mcp251x.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:bd56aa1e3a98780a3fa6dd713db98442dce0e87f09f3fc01c58c6d015128dad3
+size 185

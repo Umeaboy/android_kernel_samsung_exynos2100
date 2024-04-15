@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-# File: drivers/arcmsr/Makefile
-# Makefile for the ARECA PCI-X PCI-EXPRESS SATA RAID controllers SCSI driver.
-
-arcmsr-objs := arcmsr_attr.o arcmsr_hba.o
-
-obj-$(CONFIG_SCSI_ARCMSR) := arcmsr.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:eb5e6cecbb84dae1c53835b5984b6487f2682e18f269c7f285e248e99f5c025d
+size 232

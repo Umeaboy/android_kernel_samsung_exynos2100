@@ -1,17 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-menuconfig THUNDERBOLT
-	tristate "Thunderbolt support"
-	depends on PCI
-	depends on X86 || COMPILE_TEST
-	select APPLE_PROPERTIES if EFI_STUB && X86
-	select CRC32
-	select CRYPTO
-	select CRYPTO_HASH
-	select NVMEM
-	help
-	  Thunderbolt Controller driver. This driver is required if you
-	  want to hotplug Thunderbolt devices on Apple hardware or on PCs
-	  with Intel Falcon Ridge or newer.
-
-	  To compile this driver a module, choose M here. The module will be
-	  called thunderbolt.
+version https://git-lfs.github.com/spec/v1
+oid sha256:cf2ef131d110be7fe630be1d4d34a6d06b52be3c0de293a5e9674e8d2e9cbb17
+size 519

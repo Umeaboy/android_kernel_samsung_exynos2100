@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_TI_SOC_THERMAL)		+= ti-soc-thermal.o
-ti-soc-thermal-y			:= ti-bandgap.o
-ti-soc-thermal-$(CONFIG_TI_THERMAL)	+= ti-thermal-common.o
-ti-soc-thermal-$(CONFIG_DRA752_THERMAL)	+= dra752-thermal-data.o
-ti-soc-thermal-$(CONFIG_OMAP3_THERMAL)	+= omap3-thermal-data.o
-ti-soc-thermal-$(CONFIG_OMAP4_THERMAL)	+= omap4-thermal-data.o
-ti-soc-thermal-$(CONFIG_OMAP5_THERMAL)	+= omap5-thermal-data.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:ec31609126631d0b84833d74aac85a5637d7e1bee4d8ae9486bbe78676227d76
+size 433

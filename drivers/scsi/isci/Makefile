@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_SCSI_ISCI) += isci.o
-isci-objs := init.o phy.o request.o \
-	     remote_device.o port.o \
-	     host.o task.o probe_roms.o \
-	     remote_node_context.o \
-	     remote_node_table.o \
-	     unsolicited_frame_control.o \
-	     port_config.o \
+version https://git-lfs.github.com/spec/v1
+oid sha256:443fcbbacf0c8862030d0d104c167b095064a0854f513cfa53e7dcb2749fe7ec
+size 289

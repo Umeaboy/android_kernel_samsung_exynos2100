@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for USB Class drivers
-# (one step up from the misc category)
-#
-
-obj-$(CONFIG_USB_ACM)		+= cdc-acm.o
-obj-$(CONFIG_USB_PRINTER)	+= usblp.o
-obj-$(CONFIG_USB_WDM)		+= cdc-wdm.o
-obj-$(CONFIG_USB_TMC)		+= usbtmc.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:2d6c1118eb0c719334d93890e6d2538fddca93fbe938da85ab1c50028bacb9ef
+size 256

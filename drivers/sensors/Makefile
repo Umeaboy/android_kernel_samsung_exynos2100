@@ -1,11 +1,3 @@
-#
-# Makefile for grip sensors
-#
-
-obj-$(CONFIG_SENSORS_SX9360)  		+= sx9360.o
-obj-$(CONFIG_SENSORS_SX9360_SUB)	+= sx9360_sub.o
-obj-$(CONFIG_SENSORS_SX9364)		+= sx9360.o
-obj-$(CONFIG_SENSORS_SX9364_SUB)	+= sx9360_sub.o
-obj-$(CONFIG_SENSORS_SX9364_SUB2)	+= sx9360_sub2.o
-obj-$(CONFIG_SENSORS_ISG5320A)		+= isg5320a.o
-obj-$(CONFIG_SENSORS_ISG5320A_SUB)	+= isg5320a_sub.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:71353eb95864df009b56b60650d54791eb408e4c47eee46fc3782d035e2a545e
+size 367

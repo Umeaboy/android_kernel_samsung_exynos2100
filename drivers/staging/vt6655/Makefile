@@ -1,18 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# TODO: all of these should be removed
-ccflags-y := -DLINUX -D__KERNEL__ -D__NO_VERSION__
-ccflags-y += -DHOSTAP
-
-vt6655_stage-y +=	device_main.o \
-	card.o \
-	channel.o \
-	mac.o \
-	baseband.o \
-	rxtx.o \
-	dpc.o \
-	power.o \
-	srom.o \
-	key.o \
-	rf.o
-
-obj-$(CONFIG_VT6655) +=	vt6655_stage.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:56fc7231d1f0344f1108c79c52ff287b9db41d8f23e662ebf2ac4ca312d097a1
+size 323

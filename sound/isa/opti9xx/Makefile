@@ -1,16 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for ALSA
-# Copyright (c) 2001 by Jaroslav Kysela <perex@perex.cz>
-#
-
-snd-opti92x-ad1848-objs := opti92x-ad1848.o
-snd-opti92x-cs4231-objs := opti92x-cs4231.o
-snd-opti93x-objs := opti93x.o
-snd-miro-objs := miro.o
-
-# Toplevel Module Dependency
-obj-$(CONFIG_SND_OPTI92X_AD1848) += snd-opti92x-ad1848.o
-obj-$(CONFIG_SND_OPTI92X_CS4231) += snd-opti92x-cs4231.o
-obj-$(CONFIG_SND_OPTI93X) += snd-opti93x.o
-obj-$(CONFIG_SND_MIRO) += snd-miro.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:8b7031772d179d1032501754f629aca86bc1afb8570f9b8d4a5a7d6eb28bf764
+size 483

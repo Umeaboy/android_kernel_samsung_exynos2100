@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_MAC802154)	+= mac802154.o
-mac802154-objs		:= main.o rx.o tx.o mac_cmd.o mib.o \
-			   iface.o llsec.o util.o cfg.o trace.o
-
-CFLAGS_trace.o := -I$(src)
+version https://git-lfs.github.com/spec/v1
+oid sha256:5d09cef43dbcca8b5eb1dbe66b135cb5f0b17b596d3bcfc08d75e6c8c96c0e32
+size 204

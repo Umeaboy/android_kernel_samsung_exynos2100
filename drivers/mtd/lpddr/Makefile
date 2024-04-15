@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# linux/drivers/mtd/lpddr/Makefile
-#
-
-obj-$(CONFIG_MTD_QINFO_PROBE)	+= qinfo_probe.o
-obj-$(CONFIG_MTD_LPDDR)	+= lpddr_cmds.o
-obj-$(CONFIG_MTD_LPDDR2_NVM) += lpddr2_nvm.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:af8d1695100220ca8544d3f1ce80a5b16c456b8a91040bd5e0873b544da070fd
+size 212

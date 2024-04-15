@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_OMAP2_VRFB) += vrfb.o
-obj-y += dss/
-obj-y += displays/
-obj-$(CONFIG_FB_OMAP2) += omap2fb.o
-omap2fb-y := omapfb-main.o omapfb-sysfs.o omapfb-ioctl.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:a3102406d05e1b704780e6ca69d4121fe039d4a9d1f1e7b34e7ee4aa0f19dcd3
+size 196

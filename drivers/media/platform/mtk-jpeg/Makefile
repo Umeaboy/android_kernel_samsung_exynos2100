@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-mtk_jpeg-objs := mtk_jpeg_core.o mtk_jpeg_hw.o mtk_jpeg_parse.o
-obj-$(CONFIG_VIDEO_MEDIATEK_JPEG) += mtk_jpeg.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:e44fcd58b4a1055420caf4f13d8291f288a98160043bcddfa341977cf981a7e3
+size 152

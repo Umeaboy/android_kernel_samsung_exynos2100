@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_SCSI_BNX2X_FCOE) += bnx2fc.o
-
-bnx2fc-y := bnx2fc_els.o bnx2fc_fcoe.o bnx2fc_hwi.o bnx2fc_io.o bnx2fc_tgt.o \
-	    bnx2fc_debug.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:3adcc9ce4898bc9e7ed1121f896a9783e6fbf80ba924fb346ae81e819ff301f3
+size 182

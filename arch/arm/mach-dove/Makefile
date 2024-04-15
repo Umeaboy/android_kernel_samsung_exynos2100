@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-y				+= common.o
-obj-$(CONFIG_DOVE_LEGACY)	+= irq.o mpp.o
-obj-$(CONFIG_PCI)		+= pcie.o
-obj-$(CONFIG_MACH_DOVE_DB)	+= dove-db-setup.o
-obj-$(CONFIG_MACH_CM_A510)	+= cm-a510.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:38009203d0a85ede5cc2dbfe62e7170dcc7bb41c158140f0f8bc49bc30c85657
+size 212

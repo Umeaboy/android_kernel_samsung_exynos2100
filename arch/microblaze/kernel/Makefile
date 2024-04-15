@@ -1,30 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile
-#
-
-ifdef CONFIG_FUNCTION_TRACER
-# Do not trace early boot code and low level code
-CFLAGS_REMOVE_timer.o = -pg
-CFLAGS_REMOVE_intc.o = -pg
-CFLAGS_REMOVE_early_printk.o = -pg
-CFLAGS_REMOVE_ftrace.o = -pg
-CFLAGS_REMOVE_process.o = -pg
-endif
-
-extra-y := head.o vmlinux.lds
-
-obj-y += dma.o exceptions.o \
-	hw_exception_handler.o irq.o \
-	process.o prom.o ptrace.o \
-	reset.o setup.o signal.o sys_microblaze.o timer.o traps.o unwind.o
-
-obj-y += cpu/
-
-obj-$(CONFIG_MODULES)		+= microblaze_ksyms.o module.o
-obj-$(CONFIG_MMU)		+= misc.o
-obj-$(CONFIG_STACKTRACE)	+= stacktrace.o
-obj-$(CONFIG_FUNCTION_TRACER)	+= ftrace.o mcount.o
-obj-$(CONFIG_KGDB)		+= kgdb.o
-
-obj-y	+= entry$(MMU).o
+version https://git-lfs.github.com/spec/v1
+oid sha256:3723d0d66ca3a62b2ccf946385c7b5b3885be4238e1b5ff65e7c8728df020c5c
+size 721

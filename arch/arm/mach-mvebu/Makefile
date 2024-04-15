@@ -1,21 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-ccflags-$(CONFIG_ARCH_MULTIPLATFORM) := -I$(srctree)/arch/arm/plat-orion/include
-
-AFLAGS_coherency_ll.o		:= -Wa,-march=armv7-a
-CFLAGS_pmsu.o			:= -march=armv7-a
-
-obj-$(CONFIG_MACH_MVEBU_ANY)	 += system-controller.o mvebu-soc-id.o
-
-ifeq ($(CONFIG_MACH_MVEBU_V7),y)
-obj-y				 += cpu-reset.o board-v7.o coherency.o coherency_ll.o pmsu.o pmsu_ll.o
-
-obj-$(CONFIG_PM)		 += pm.o pm-board.o
-obj-$(CONFIG_SMP)		 += platsmp.o headsmp.o platsmp-a9.o headsmp-a9.o
-endif
-
-obj-$(CONFIG_MACH_DOVE)		 += dove.o
-
-ifeq ($(CONFIG_MACH_KIRKWOOD),y)
-obj-y				 += kirkwood.o
-obj-$(CONFIG_PM)		 += kirkwood-pm.o
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c2287411f0b0b5af1b9fd23d866f77929e4ca6f487e0fb3f3dafa83afe17fa7
+size 630

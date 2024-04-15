@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the I-Force driver
-#
-# By Johann Deneux <johann.deneux@gmail.com>
-#
-
-obj-$(CONFIG_JOYSTICK_IFORCE)		+= iforce.o
-iforce-y := iforce-ff.o iforce-main.o iforce-packets.o
-obj-$(CONFIG_JOYSTICK_IFORCE_232)	+= iforce-serio.o
-obj-$(CONFIG_JOYSTICK_IFORCE_USB)	+= iforce-usb.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:bd5b8ba55706362dba0fcf45fe1d1fea8f900aa1064a2dd43557d5831786d667
+size 326

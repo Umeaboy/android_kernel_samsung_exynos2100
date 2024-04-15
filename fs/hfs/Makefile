@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Linux hfs filesystem routines.
-#
-
-obj-$(CONFIG_HFS_FS) += hfs.o
-
-hfs-objs := bitmap.o bfind.o bnode.o brec.o btree.o \
-	    catalog.o dir.o extent.o inode.o attr.o mdb.o \
-            part_tbl.o string.o super.o sysdep.o trans.o
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:b49eade15b886bf52c27cf1b054ed7299938655f8beb439d87832dc9472d0142
+size 291

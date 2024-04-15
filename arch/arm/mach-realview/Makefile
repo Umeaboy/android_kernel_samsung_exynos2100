@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the linux kernel.
-#
-ccflags-$(CONFIG_ARCH_MULTIPLATFORM) := -I$(srctree)/arch/arm/plat-versatile/include
-
-obj-y					+= realview-dt.o
-obj-$(CONFIG_SMP)			+= platsmp-dt.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:f4a7e9c8d56e6806708b0ab6feb6e841fae7e06f0384adccc10017fef7535d2a
+size 226

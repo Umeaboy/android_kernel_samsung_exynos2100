@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for industrial I/O temperature drivers
-#
-
-obj-$(CONFIG_HID_SENSOR_TEMP) += hid-sensor-temperature.o
-obj-$(CONFIG_MAXIM_THERMOCOUPLE) += maxim_thermocouple.o
-obj-$(CONFIG_MAX31856) += max31856.o
-obj-$(CONFIG_MLX90614) += mlx90614.o
-obj-$(CONFIG_MLX90632) += mlx90632.o
-obj-$(CONFIG_TMP006) += tmp006.o
-obj-$(CONFIG_TMP007) += tmp007.o
-obj-$(CONFIG_TSYS01) += tsys01.o
-obj-$(CONFIG_TSYS02D) += tsys02d.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:3ba48512728f16a337ae245aaf3e624f423eb9f1deab1a53cc140cf5a886a34a
+size 450

@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the Toshiba network device drivers.
-#
-
-obj-$(CONFIG_GELIC_NET) += ps3_gelic.o
-gelic_wireless-$(CONFIG_GELIC_WIRELESS) += ps3_gelic_wireless.o
-ps3_gelic-objs += ps3_gelic_net.o $(gelic_wireless-y)
-spidernet-y += spider_net.o spider_net_ethtool.o
-obj-$(CONFIG_SPIDER_NET) += spidernet.o
-obj-$(CONFIG_TC35815) += tc35815.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:d78b52a5d3bbfe31d6f81529e3809c4bf1444320981c6e6c7940296c1ff92fdf
+size 372

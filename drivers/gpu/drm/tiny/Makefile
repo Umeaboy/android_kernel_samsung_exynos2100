@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-
-obj-$(CONFIG_DRM_GM12U320)		+= gm12u320.o
-obj-$(CONFIG_TINYDRM_HX8357D)		+= hx8357d.o
-obj-$(CONFIG_TINYDRM_ILI9225)		+= ili9225.o
-obj-$(CONFIG_TINYDRM_ILI9341)		+= ili9341.o
-obj-$(CONFIG_TINYDRM_MI0283QT)		+= mi0283qt.o
-obj-$(CONFIG_TINYDRM_REPAPER)		+= repaper.o
-obj-$(CONFIG_TINYDRM_ST7586)		+= st7586.o
-obj-$(CONFIG_TINYDRM_ST7735R)		+= st7735r.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:c1b16888cb6d5e7df23e5e4bc8577c42a51d517abf105ffc0ab46fa303d43fd5
+size 391

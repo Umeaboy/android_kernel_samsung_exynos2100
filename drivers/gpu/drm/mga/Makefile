@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the drm device driver.  This driver provides support for the
-# Direct Rendering Infrastructure (DRI) in XFree86 4.1.0 and higher.
-
-mga-y := mga_drv.o mga_dma.o mga_state.o mga_warp.o mga_irq.o
-
-mga-$(CONFIG_COMPAT) += mga_ioc32.o
-
-obj-$(CONFIG_DRM_MGA)	+= mga.o
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:50dfcb1ce4b09e073e54979bebc0d6cfe8210f774d82d23f4f4f40242ec6de70
+size 320

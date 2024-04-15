@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-olpc-dcon-objs += olpc_dcon.o
-olpc-dcon-$(CONFIG_FB_OLPC_DCON_1)	+= olpc_dcon_xo_1.o
-olpc-dcon-$(CONFIG_FB_OLPC_DCON_1_5)	+= olpc_dcon_xo_1_5.o
-obj-$(CONFIG_FB_OLPC_DCON)	+= olpc-dcon.o
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:1e16cd3c2092f4f0cc55b67ef8715465a3759f4f6945f8b69dc72477ad36a5f8
+size 223

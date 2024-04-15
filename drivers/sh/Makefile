@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the SuperH specific drivers.
-#
-obj-$(CONFIG_SH_INTC)			+= intc/
-ifneq ($(CONFIG_COMMON_CLK),y)
-obj-$(CONFIG_HAVE_CLK)			+= clk/
-endif
-obj-$(CONFIG_MAPLE)			+= maple/
-obj-$(CONFIG_SUPERHYWAY)		+= superhyway/
-
-obj-y					+= pm_runtime.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:1964201068183966b7fa4966ad74e52c09f955dabc800599979a04dfafbc58a9
+size 286

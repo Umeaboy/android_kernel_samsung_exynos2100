@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-config SND_BCM2835
-        tristate "BCM2835 Audio"
-        depends on (ARCH_BCM2835 || COMPILE_TEST) && SND
-        select SND_PCM
-        select BCM2835_VCHIQ
-        help
-          Say Y or M if you want to support BCM2835 built in audio
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:d50ea0282ad879417375de9e062f00cdcc453c4b936211881ccc6d90a50258cd
+size 277

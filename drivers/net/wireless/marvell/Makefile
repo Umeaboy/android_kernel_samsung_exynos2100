@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_LIBERTAS)		+= libertas/
-
-obj-$(CONFIG_LIBERTAS_THINFIRM)	+= libertas_tf/
-obj-$(CONFIG_MWIFIEX)	+= mwifiex/
-
-obj-$(CONFIG_MWL8K)	+= mwl8k.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:ec50aeedf8c32b1977106e4d72ef901c327352891f89e3840e5e57ad637e7ee2
+size 192

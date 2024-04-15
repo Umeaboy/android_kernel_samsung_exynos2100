@@ -1,9 +1,3 @@
-#
-# Mobicore Configuration
-#
-if SOC_EXYNOS2100
-source "drivers/gud/gud-exynos2100/Kconfig"
-endif
-if SOC_EXYNOS991
-source "drivers/gud/gud-exynos991/Kconfig"
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:2c61fe7546fef0bfb4571d85baf0dd0854014a2f0b81f78eb08752b8bea8fa50
+size 163

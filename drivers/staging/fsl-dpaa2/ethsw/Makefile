@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the Freescale DPAA2 Ethernet Switch
-#
-# Copyright 2014-2017 Freescale Semiconductor Inc.
-# Copyright 2017-2018 NXP
-
-obj-$(CONFIG_FSL_DPAA2_ETHSW) += dpaa2-ethsw.o
-
-dpaa2-ethsw-objs := ethsw.o ethsw-ethtool.o dpsw.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:54483c2c95fbe3a20c864892cf4723acc35e2be5fd358fd38cd3c8111a9956ed
+size 267

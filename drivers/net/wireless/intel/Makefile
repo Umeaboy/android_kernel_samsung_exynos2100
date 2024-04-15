@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_IPW2100) += ipw2x00/
-obj-$(CONFIG_IPW2200) += ipw2x00/
-
-obj-$(CONFIG_IWLEGACY)	+= iwlegacy/
-
-obj-$(CONFIG_IWLWIFI)	+= iwlwifi/
+version https://git-lfs.github.com/spec/v1
+oid sha256:dcad5ceef2a45716401f750aa9c056035dcbb20c3aad038c9a4b3a0bdbd6254d
+size 180

@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-b2c2-flexcop-objs += flexcop.o flexcop-fe-tuner.o flexcop-i2c.o
-b2c2-flexcop-objs += flexcop-sram.o flexcop-eeprom.o flexcop-misc.o
-b2c2-flexcop-objs += flexcop-hw-filter.o
-obj-$(CONFIG_DVB_B2C2_FLEXCOP) += b2c2-flexcop.o
-
-ccflags-y += -I $(srctree)/drivers/media/dvb-frontends/
-ccflags-y += -I $(srctree)/drivers/media/tuners/
+version https://git-lfs.github.com/spec/v1
+oid sha256:d1151ab969227281db5654e03dbaacedc2c4b0959c9e595bb0ea7f7934e3d0f9
+size 363

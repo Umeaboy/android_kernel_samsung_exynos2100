@@ -1,7 +1,3 @@
-#
-# Dev-Ril-Bridge driver
-#
-
-config DEV_RIL_BRIDGE
-	tristate "Support a bridge between device and RIL"
-	default n
+version https://git-lfs.github.com/spec/v1
+oid sha256:60db5caf0625cea4f250c670fecac3a7cd9af67edf0d0e0e773a13a0bfe65637
+size 114

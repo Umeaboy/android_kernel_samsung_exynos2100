@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Copyright(c) 1999 - 2018 Intel Corporation.
-
-#
-# Makefile for the Intel(R) PRO/1000 ethernet driver
-#
-
-obj-$(CONFIG_E1000E) += e1000e.o
-
-e1000e-objs := 82571.o ich8lan.o 80003es2lan.o \
-	       mac.o manage.o nvm.o phy.o \
-	       param.o ethtool.o netdev.o ptp.o
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:a30c539b3c94bb7792a5dd0afaddf9e254b1d2534ca96e2d85e193ae49ab33c5
+size 302

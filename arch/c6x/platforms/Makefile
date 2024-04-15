@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for arch/c6x/platforms
-#
-# Copyright 2010, 2011 Texas Instruments Incorporated
-#
-
-obj-y = cache.o megamod-pic.o pll.o plldata.o timer64.o
-obj-y += dscr.o
-
-# SoC objects
-obj-$(CONFIG_SOC_TMS320C6455)   += emif.o
-obj-$(CONFIG_SOC_TMS320C6457)   += emif.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:08d7410023b7d2704dc7937ee2876310718b9097cd238949c0af45d868ff029b
+size 306

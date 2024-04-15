@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-rtl8192de-objs :=		\
-		dm.o		\
-		fw.o		\
-		hw.o		\
-		led.o		\
-		phy.o		\
-		rf.o		\
-		sw.o		\
-		table.o		\
-		trx.o
-
-obj-$(CONFIG_RTL8192DE) += rtl8192de.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:6e5b4a8935ffd19ea61243c2b48a61cdb1072d05603bde44788ae22008111318
+size 189

@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_CPU_NEED_SOFTALIGN)	+= alignment.o
-obj-y					+= bswapdi.o
-obj-y					+= bswapsi.o
-obj-y					+= cacheflush.o
-obj-y					+= mmap.o
-obj-y					+= memcpy.o
-obj-y					+= strksyms.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:d742bb1847849f982dd8d007cb6a8f5a57b4989bc9c1f7be4ad0ccddf48b2fdd
+size 226

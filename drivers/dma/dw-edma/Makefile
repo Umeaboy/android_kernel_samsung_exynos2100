@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-obj-$(CONFIG_DW_EDMA)		+= dw-edma.o
-dw-edma-$(CONFIG_DEBUG_FS)	:= dw-edma-v0-debugfs.o
-dw-edma-objs			:= dw-edma-core.o \
-					dw-edma-v0-core.o $(dw-edma-y)
-obj-$(CONFIG_DW_EDMA_PCIE)	+= dw-edma-pcie.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:a4061e1ad2f02361b0793751878f0fd576634be49087666d1e4fab59ceab057b
+size 239

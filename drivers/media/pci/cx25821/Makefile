@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-cx25821-y   := cx25821-core.o cx25821-cards.o cx25821-i2c.o \
-		       cx25821-gpio.o cx25821-medusa-video.o \
-		       cx25821-video.o
-
-obj-$(CONFIG_VIDEO_CX25821) += cx25821.o
-obj-$(CONFIG_VIDEO_CX25821_ALSA) += cx25821-alsa.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:0e050ba8ab8c6be5ba054d87b1f6676c34f8573aa589427438e8b896c2c44ab2
+size 264

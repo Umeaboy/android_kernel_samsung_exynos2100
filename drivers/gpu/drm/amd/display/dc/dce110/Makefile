@@ -1,33 +1,3 @@
-#
-# Copyright 2017 Advanced Micro Devices, Inc.
-#
-# Permission is hereby granted, free of charge, to any person obtaining a
-# copy of this software and associated documentation files (the "Software"),
-# to deal in the Software without restriction, including without limitation
-# the rights to use, copy, modify, merge, publish, distribute, sublicense,
-# and/or sell copies of the Software, and to permit persons to whom the
-# Software is furnished to do so, subject to the following conditions:
-#
-# The above copyright notice and this permission notice shall be included in
-# all copies or substantial portions of the Software.
-#
-# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
-# THE COPYRIGHT HOLDER(S) OR AUTHOR(S) BE LIABLE FOR ANY CLAIM, DAMAGES OR
-# OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-# ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-# OTHER DEALINGS IN THE SOFTWARE.
-#
-#
-# Makefile for the 'controller' sub-component of DAL.
-# It provides the control and status of HW CRTC block.
-
-DCE110 = dce110_timing_generator.o \
-dce110_compressor.o dce110_hw_sequencer.o dce110_resource.o \
-dce110_opp_regamma_v.o dce110_opp_csc_v.o dce110_timing_generator_v.o \
-dce110_mem_input_v.o dce110_opp_v.o dce110_transform_v.o
-
-AMD_DAL_DCE110 = $(addprefix $(AMDDALPATH)/dc/dce110/,$(DCE110))
-
-AMD_DISPLAY_FILES += $(AMD_DAL_DCE110)
+version https://git-lfs.github.com/spec/v1
+oid sha256:34eae9e065e0edda5fd3c969916ef5bec86350f25f5e6a85de1c32eb024678c0
+size 1558

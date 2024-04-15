@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_INFINIBAND_ISER)	+= ib_iser.o
-
-ib_iser-y			:= iser_verbs.o iser_initiator.o iser_memory.o \
-				   iscsi_iser.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:a309989821bcc14f2abf63969d57f74ee57680e9b1f285bdbdcfa8da2d9f700e
+size 165

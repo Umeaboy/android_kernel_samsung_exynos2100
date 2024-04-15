@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for Microread HCI based NFC driver
-#
-
-microread_i2c-objs  = i2c.o
-microread_mei-objs  = mei.o
-
-obj-$(CONFIG_NFC_MICROREAD)     += microread.o
-obj-$(CONFIG_NFC_MICROREAD_I2C) += microread_i2c.o
-obj-$(CONFIG_NFC_MICROREAD_MEI) += microread_mei.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:75762a3f1b93709876c0e4c597c173524f570582d1f6bfb9cca359aa95126594
+size 292

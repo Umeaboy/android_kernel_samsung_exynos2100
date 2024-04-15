@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-# Makefile for the NCR/SYMBIOS/LSI 53C8XX PCI SCSI controllers driver.
-
-sym53c8xx-objs := sym_fw.o sym_glue.o sym_hipd.o sym_malloc.o sym_nvram.o
-obj-$(CONFIG_SCSI_SYM53C8XX_2) := sym53c8xx.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:da26730cdfe2212c7db6107ec4b140386731be46f592812f86f56b5f50c8728f
+size 232

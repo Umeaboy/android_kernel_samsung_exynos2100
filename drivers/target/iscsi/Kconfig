@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-config ISCSI_TARGET
-	tristate "Linux-iSCSI.org iSCSI Target Mode Stack"
-	depends on NET
-	select CRYPTO
-	select CRYPTO_CRC32C
-	select CRYPTO_CRC32C_INTEL if X86
-	help
-	Say M here to enable the ConfigFS enabled Linux-iSCSI.org iSCSI
-	Target Mode Stack.
-
-source	"drivers/target/iscsi/cxgbit/Kconfig"
+version https://git-lfs.github.com/spec/v1
+oid sha256:afba69573ef3fa50bd2b4d8238f449c18ffdf8230877d97afd29d2d3c0f48bf7
+size 337

@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_PINCTRL_ZX)	+= pinctrl-zx.o
-obj-$(CONFIG_PINCTRL_ZX296718)	+= pinctrl-zx296718.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:72f08fdbc11b0a9205dcc8157b74742c84754e7b9674f4f86d32e2e9d73622af
+size 134

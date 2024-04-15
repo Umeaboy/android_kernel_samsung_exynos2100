@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_USB_S2255)		+= s2255drv.o
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:ea7b569def7df865fb69f8a28c13b5856e3a54792cd5ba32d19cecd62e034cee
+size 80

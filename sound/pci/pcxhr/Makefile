@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-snd-pcxhr-objs := pcxhr.o pcxhr_hwdep.o pcxhr_mixer.o pcxhr_core.o pcxhr_mix22.o
-obj-$(CONFIG_SND_PCXHR) += snd-pcxhr.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:fbc001bc9e987675086a776fc6028c2f8e3fc4ef284ac44977725124096d2426
+size 160

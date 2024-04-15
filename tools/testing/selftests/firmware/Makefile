@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-# Makefile for firmware loading selftests
-
-# No binaries, but make sure arg-less "make" doesn't trigger "run_tests"
-all:
-
-TEST_PROGS := fw_run_tests.sh
-TEST_FILES := fw_fallback.sh fw_filesystem.sh fw_lib.sh
-
-include ../lib.mk
-
-# Nothing to clean up.
-clean:
+version https://git-lfs.github.com/spec/v1
+oid sha256:0027b3a073ef1c9d250133964338f056238fa58e376a48db3517e0b429b4efee
+size 298

@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_KS7010) += ks7010.o
-
-ks7010-y	:= ks_hostif.o ks_wlan_net.o ks7010_sdio.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:32f902231206a3e8ade8753c3530f6b42f90c59df5e1920fa08a2fca9a9091d6
+size 121

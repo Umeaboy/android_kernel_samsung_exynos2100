@@ -1,5 +1,3 @@
-#obj-$(CONFIG_VIDEO_EXYNOS_MC_FRC)	+= mcfrc-core.o mcfrc-helper.o
-mcfrc-objs := mcfrc-core.o mcfrc-helper.o
-obj-$(CONFIG_VIDEO_EXYNOS_MC_FRC)	+= mcfrc.o
-UBSAN_SANITIZE := y
-KASAN_SANITIZE := y
+version https://git-lfs.github.com/spec/v1
+oid sha256:e5fe1c481654602e633f6587d16aa28e74172b854632bf3bad784df96f12833f
+size 193

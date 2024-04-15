@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_INGENIC_CGU_COMMON)	+= cgu.o pm.o
-obj-$(CONFIG_INGENIC_CGU_JZ4740)	+= jz4740-cgu.o
-obj-$(CONFIG_INGENIC_CGU_JZ4725B)	+= jz4725b-cgu.o
-obj-$(CONFIG_INGENIC_CGU_JZ4770)	+= jz4770-cgu.o
-obj-$(CONFIG_INGENIC_CGU_JZ4780)	+= jz4780-cgu.o
-obj-$(CONFIG_INGENIC_TCU_CLK)		+= tcu.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:0fbaaae5218087045666358644bad858c942fbb53e4801f7b4543132761078f7
+size 325

@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_RTL8180)	+= rtl8180/
-obj-$(CONFIG_RTL8187)	+= rtl8187/
+version https://git-lfs.github.com/spec/v1
+oid sha256:650f1592110e72b8eb3d77ab6bd80b9cec4f277e1e958da8ce3e12c1c5597fd5
+size 108

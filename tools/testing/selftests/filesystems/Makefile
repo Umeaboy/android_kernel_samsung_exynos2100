@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-CFLAGS += -I../../../../usr/include/
-TEST_GEN_PROGS := devpts_pts
-TEST_GEN_PROGS_EXTENDED := dnotify_test
-
-include ../lib.mk
+version https://git-lfs.github.com/spec/v1
+oid sha256:021608c2f422fde6e3851a9606b5a438743fa1fdb54e7df672bc0300249c0b71
+size 161
