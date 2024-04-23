@@ -502,7 +502,7 @@ enum {
  *
  * It's not paranoia if the Murphy's Law really *is* out to get you.  :-)
  */
-#define TEST_FLAG_VALUE(FLAG) (EXT4_##FLAG##_FL == (1U << EXT4_INODE_##FLAG))
+#define TEST_FLAG_VALUE(FLAG) (EXT4_##FLAG##_FL == (1 << EXT4_INODE_##FLAG))
 #define CHECK_FLAG_VALUE(FLAG) BUILD_BUG_ON(!TEST_FLAG_VALUE(FLAG))
 
 static inline void ext4_check_flag_values(void)
@@ -2645,8 +2645,7 @@ int do_journal_get_write_access(handle_t *handle,
 typedef enum {
 	EXT4_IGET_NORMAL =	0,
 	EXT4_IGET_SPECIAL =	0x0001, /* OK to iget a system inode */
-	EXT4_IGET_HANDLE = 	0x0002,	/* Inode # is from a handle */
-	EXT4_IGET_BAD =		0x0004  /* Allow to iget a bad inode */
+	EXT4_IGET_HANDLE = 	0x0002	/* Inode # is from a handle */
 } ext4_iget_flags;
 
 extern struct inode *__ext4_iget(struct super_block *sb, unsigned long ino,
@@ -3388,16 +3387,7 @@ extern void ext4_io_submit_init(struct ext4_io_submit *io,
 				struct writeback_control *wbc);
 extern void ext4_end_io_rsv_work(struct work_struct *work);
 extern void ext4_io_submit(struct ext4_io_submit *io);
-#ifdef CONFIG_DDAR
-#define	EXT4_IOC_GET_DD_POLICY		FS_IOC_GET_DD_POLICY
-#define	EXT4_IOC_SET_DD_POLICY		FS_IOC_SET_DD_POLICY
-#endif
-
-#ifdef CONFIG_DDAR
-int ext4_io_submit_to_dd(struct inode *inode, struct ext4_io_submit *io);
-#else
 static inline int ext4_io_submit_to_dd(struct inode *inode, struct ext4_io_submit *io) { return -EOPNOTSUPP; }
-#endif
 
 extern int ext4_bio_write_page(struct ext4_io_submit *io,
 			       struct page *page,

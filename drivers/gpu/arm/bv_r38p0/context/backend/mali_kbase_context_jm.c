@@ -134,7 +134,6 @@ static const struct kbase_context_init context_init[] = {
 	  "Memory pool group initialization failed" },
 	{ kbase_mem_evictable_init, kbase_mem_evictable_deinit,
 	  "Memory evictable initialization failed" },
-	{ kbase_ctx_sched_init_ctx, NULL, NULL },
 	{ kbase_context_mmu_init, kbase_context_mmu_term,
 	  "MMU initialization failed" },
 	{ kbase_context_mem_alloc_page, kbase_context_mem_pool_free,
@@ -181,7 +180,7 @@ struct kbase_context *kbase_create_context(struct kbase_device *kbdev,
 	bool is_compat,
 	base_context_create_flags const flags,
 	unsigned long const api_version,
-	struct kbase_file *const kfile)
+	struct file *const filp)
 {
 	struct kbase_context *kctx;
 	unsigned int i = 0;
@@ -200,7 +199,7 @@ struct kbase_context *kbase_create_context(struct kbase_device *kbdev,
 
 	kctx->kbdev = kbdev;
 	kctx->api_version = api_version;
-	kctx->kfile = kfile;
+	kctx->filp = filp;
 	kctx->create_flags = flags;
 
 	if (is_compat)

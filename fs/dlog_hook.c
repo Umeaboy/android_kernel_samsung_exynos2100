@@ -35,7 +35,6 @@ DEFINE_DLOG(dlog_rmdir);
 #define EXT_SHIFT		7
 #define MAX_EXT			(1 << 7)
 #define MAX_DEPTH		2
-#define MEDIA_MIN_SIZE		(512 * 1024)
 
 struct dlog_keyword {
 	struct hlist_node hlist;
@@ -55,7 +54,6 @@ enum {
 enum {
 	DLOG_SUPP_PART_DATA = 0,
 	DLOG_SUPP_PART_EFS,
-	DLOG_SUPP_PART_FUSE,
 	DLOG_SUPP_PART_MAX
 };
 
@@ -69,7 +67,7 @@ enum {
 static struct dlog_keyword_hash_tbl ht[DLOG_HT_MAX];
 
 static const char *support_part[] = {
-	"data", "efs", "emulated", NULL,
+	"data", "efs", NULL,
 };
 
 static const char *extensions[] = {
@@ -213,16 +211,10 @@ static int get_support_part_id(struct vfsmount *mnt)
 #ifndef SDFAT_SUPER_MAGIC
 #define SDFAT_SUPER_MAGIC       0x5EC5DFA4
 #endif
-#ifndef FUSE_SUPER_MAGIC
-#define FUSE_SUPER_MAGIC	0x65735546
-#endif
 static int is_sdcard(struct vfsmount *mnt)
 {
 	/* internal storage (external storage till Andorid 8.x) */
 	if (mnt->mnt_sb->s_magic == SDCARDFS_SUPER_MAGIC)
-		return true;
-	/* internal storage (external storage till Andorid 11.x) */
-	else if (mnt->mnt_sb->s_magic == FUSE_SUPER_MAGIC)
 		return true;
 	/* external storage from Android 9.x */
 	else if (mnt->mnt_sb->s_magic == SDFAT_SUPER_MAGIC)
@@ -307,8 +299,7 @@ void dlog_hook(struct dentry *dentry, struct inode *inode, struct path *path)
 
 	/* for data partition`s only multimedia file */
 	if (is_ext(dentry->d_name.name, '.', &ht[DLOG_HT_EXTENSION])) {
-		if (i_size_read(inode) >= MEDIA_MIN_SIZE)
-			store_log(dentry, inode, path, DLOG_MM, part_id);
+		store_log(dentry, inode, path, DLOG_MM, part_id);
 		goto out;
 	}
 

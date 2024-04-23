@@ -499,7 +499,7 @@ int sensor_imx616_cis_init(struct v4l2_subdev *subdev)
 	cis->cis_data->low_expo_start = 33000;
 	cis->need_mode_change = false;
 	cis->long_term_mode.sen_strm_off_on_step = 0;
-	cis->long_term_mode.sen_strm_off_on_enable = false;
+
 	cis->cis_data->stream_on = false;
 	cis->cis_data->cur_pattern_mode = SENSOR_TEST_PATTERN_MODE_OFF;
 
@@ -1224,7 +1224,6 @@ int sensor_imx616_cis_set_frame_duration(struct v4l2_subdev *subdev, u32 frame_d
 	u64 pix_rate_freq_khz = 0;
 	u32 line_length_pck = 0;
 	u16 frame_length_lines = 0;
-	u8 fll_shifter = 0;
 
 #ifdef DEBUG_SENSOR_TIME
 	struct timeval st, end;
@@ -1248,22 +1247,15 @@ int sensor_imx616_cis_set_frame_duration(struct v4l2_subdev *subdev, u32 frame_d
 		frame_duration = cis_data->min_frame_us_time;
 	}
 
-	cis_data->cur_frame_us_time = frame_duration;
-
-	if (cis->long_term_mode.sen_strm_off_on_enable == false) {
-		fll_shifter = sensor_cis_get_duration_shifter(cis, frame_duration);
-		frame_duration >>= fll_shifter;
-	}
-
 	pix_rate_freq_khz = cis_data->pclk / 1000;
 	line_length_pck = cis_data->line_length_pck;
 
 	frame_length_lines = (u16)((pix_rate_freq_khz * frame_duration) / (line_length_pck * 1000));
 
 	dbg_sensor(1, "[MOD:D:%d] %s, pix_rate_freq_khz(%#x) frame_duration = %d us,"
-			KERN_CONT "(line_length_pck%#x), frame_length_lines(%#x), fll_shifter(%#x)\n",
+			KERN_CONT "(line_length_pck%#x), frame_length_lines(%#x)\n",
 			cis->id, __func__, pix_rate_freq_khz, frame_duration,
-			line_length_pck, frame_length_lines, fll_shifter);
+			line_length_pck, frame_length_lines);
 
 	I2C_MUTEX_LOCK(cis->i2c_lock);
 	hold = sensor_imx616_cis_group_param_hold_func(subdev, 0x01);
@@ -1275,16 +1267,9 @@ int sensor_imx616_cis_set_frame_duration(struct v4l2_subdev *subdev, u32 frame_d
 	ret = is_sensor_write16(client, REG(FRAME_LENGTH_LINE), frame_length_lines);
 	CHECK_GOTO(ret < 0, p_i2c_err);
 
-	/* frame duration shifter */
-	if (cis->long_term_mode.sen_strm_off_on_enable == false) {
-		ret = is_sensor_write8(client, 0x3101, fll_shifter);
-		if (ret < 0)
-			goto p_i2c_err;
-	}
-
+	cis_data->cur_frame_us_time = frame_duration;
 	cis_data->frame_length_lines = frame_length_lines;
 	cis_data->max_coarse_integration_time = cis_data->frame_length_lines - cis_data->max_margin_coarse_integration_time;
-	cis_data->frame_length_lines_shifter = fll_shifter;
 
 #ifdef DEBUG_SENSOR_TIME
 	do_gettimeofday(&end);
@@ -1374,8 +1359,6 @@ int sensor_imx616_cis_set_exposure_time(struct v4l2_subdev *subdev, struct ae_pa
 	u16 middle_coarse_int = 0;
 	u32 line_length_pck = 0;
 	u32 min_fine_int = 0;
-	u32 input_duration;
-	u8 cit_shifter = 0;
 
 #ifdef DEBUG_SENSOR_TIME
 	struct timeval st, end;
@@ -1400,14 +1383,6 @@ int sensor_imx616_cis_set_exposure_time(struct v4l2_subdev *subdev, struct ae_pa
 	}
 
 	cis_data = cis->cis_data;
-	//long term mode
-	if (cis->long_term_mode.sen_strm_off_on_enable == false) {
-		input_duration = MAX(target_exposure->long_val, target_exposure->short_val);
-		cit_shifter = sensor_cis_get_duration_shifter(cis, input_duration);
-		cit_shifter = MAX(cit_shifter, cis_data->frame_length_lines_shifter);
-		target_exposure->long_val >>= cit_shifter;
-		target_exposure->short_val >>= cit_shifter;
-	}
 
 	dbg_sensor(1, "[MOD:D:%d] %s(vsync cnt %d): target long(%d), short(%d), middle(%d)\n",
 		cis->id, __func__, cis_data->sen_vsync_count,
@@ -1482,18 +1457,13 @@ int sensor_imx616_cis_set_exposure_time(struct v4l2_subdev *subdev, struct ae_pa
 		ret = is_sensor_write16(client, REG(ST_COARSE_INTEG_TIME), short_coarse_int);
 		CHECK_GOTO(ret < 0, p_i2c_err);
 	}
-	/* CIT shifter */
-	if (cis->long_term_mode.sen_strm_off_on_enable == false) {
-		ret = is_sensor_write8(client, 0x3100, cit_shifter);
-		if (ret < 0)
-			goto p_i2c_err;
-	}
+
 	dbg_sensor(1, "[MOD:D:%d] %s(vsync cnt %d): pix_rate_freq_khz (%d),"
-		KERN_CONT "line_length_pck(%d), frame_length_lines(%#x), min_fine_int (%d)\n", cis->id, __func__,
-		cis_data->sen_vsync_count, pix_rate_freq_khz, line_length_pck, cis_data->frame_length_lines, min_fine_int);
-	dbg_sensor(1, "[MOD:D:%d] %s(vsync cnt %d): 3hdr(%d), coarse long(%#x), short(%#x), middle(%#x), cit_shifter (%#x)\n",
+		KERN_CONT "line_length_pck(%d), frame_length_lines(%#x)\n", cis->id, __func__,
+		cis_data->sen_vsync_count, pix_rate_freq_khz, line_length_pck, cis_data->frame_length_lines);
+	dbg_sensor(1, "[MOD:D:%d] %s(vsync cnt %d): 3hdr(%d), coarse long(%#x), short(%#x), middle(%#x)\n",
 		cis->id, __func__, cis_data->sen_vsync_count, IS_3HDR_MODE(cis),
-		long_coarse_int, short_coarse_int, middle_coarse_int, cit_shifter);
+		long_coarse_int, short_coarse_int, middle_coarse_int);
 
 #ifdef DEBUG_SENSOR_TIME
 	do_gettimeofday(&end);

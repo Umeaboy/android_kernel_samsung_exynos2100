@@ -816,18 +816,22 @@ static netdev_tx_t eth_start_xmit(struct sk_buff *skb,
 		req->context = skb;
 	}
 
-	retval = tx_task(dev, req);
-	switch (retval) {
-	default:
-		DBG(dev, "tx queue err %d\n", retval);
-		break;
+	if (dev->port_usb) {
+		retval = tx_task(dev, req);
+		switch (retval) {
+		default:
+			DBG(dev, "tx queue err %d\n", retval);
+			break;
+		}
+	} else {
+		if (!g_rndis_mp->multi_pkt_xfer)
+			dev_kfree_skb_any(skb);
 	}
 
 	if (retval) {
 		if (!g_rndis_mp->multi_pkt_xfer)
 			dev_kfree_skb_any(skb);
 drop:
-		req->length = 0;
 		dev->net->stats.tx_dropped++;
 multiframe:
 		spin_lock_irqsave(&dev->req_lock, flags);

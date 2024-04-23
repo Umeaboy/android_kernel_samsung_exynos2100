@@ -29,7 +29,6 @@
 #include <linux/spi/spi.h>
 #include <linux/spi/spidev.h>
 #include <linux/uaccess.h>
-#include <linux/version.h>
 
 #define QBTSPI_MAJOR					232
 #define N_SPI_MINORS					32
@@ -661,11 +660,7 @@ static int qbtspi_probe(struct spi_device *spi)
 	return status;
 }
 
-#if (LINUX_VERSION_CODE >= KERNEL_VERSION(6, 1, 0))
-static void qbtspi_remove(struct spi_device *spi)
-#else
 static int qbtspi_remove(struct spi_device *spi)
-#endif
 {
 	struct qbtspi_data	*spidev = spi_get_drvdata(spi);
 
@@ -683,11 +678,7 @@ static int qbtspi_remove(struct spi_device *spi)
 		kfree(spidev);
 	mutex_unlock(&device_list_lock);
 
-#if (LINUX_VERSION_CODE >= KERNEL_VERSION(6, 1, 0))
-	return;
-#else
 	return 0;
-#endif
 }
 
 static struct spi_driver qbtspi_spi_driver = {

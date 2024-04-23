@@ -942,7 +942,7 @@ static netdev_tx_t ip6erspan_tunnel_xmit(struct sk_buff *skb,
 		truncate = true;
 	}
 
-	nhoff = skb_network_offset(skb);
+	nhoff = skb_network_header(skb) - skb_mac_header(skb);
 	if (skb->protocol == htons(ETH_P_IP) &&
 	    (ntohs(ip_hdr(skb)->tot_len) > skb->len - nhoff))
 		truncate = true;
@@ -951,7 +951,7 @@ static netdev_tx_t ip6erspan_tunnel_xmit(struct sk_buff *skb,
 		int thoff;
 
 		if (skb_transport_header_was_set(skb))
-			thoff = skb_transport_offset(skb);
+			thoff = skb_transport_header(skb) - skb_mac_header(skb);
 		else
 			thoff = nhoff + sizeof(struct ipv6hdr);
 		if (ntohs(ipv6_hdr(skb)->payload_len) > skb->len - thoff)
@@ -1137,16 +1137,14 @@ static void ip6gre_tnl_link_config_route(struct ip6_tnl *t, int set_mtu,
 				dev->needed_headroom = dst_len;
 
 			if (set_mtu) {
-				int mtu = rt->dst.dev->mtu - t_hlen;
-
+				dev->mtu = rt->dst.dev->mtu - t_hlen;
 				if (!(t->parms.flags & IP6_TNL_F_IGN_ENCAP_LIMIT))
-					mtu -= 8;
+					dev->mtu -= 8;
 				if (dev->type == ARPHRD_ETHER)
-					mtu -= ETH_HLEN;
+					dev->mtu -= ETH_HLEN;
 
-				if (mtu < IPV6_MIN_MTU)
-					mtu = IPV6_MIN_MTU;
-				WRITE_ONCE(dev->mtu, mtu);
+				if (dev->mtu < IPV6_MIN_MTU)
+					dev->mtu = IPV6_MIN_MTU;
 			}
 		}
 		ip6_rt_put(rt);

@@ -66,11 +66,10 @@ void kbase_ctx_sched_term(struct kbase_device *kbdev)
 	}
 }
 
-int kbase_ctx_sched_init_ctx(struct kbase_context *kctx)
+void kbase_ctx_sched_init_ctx(struct kbase_context *kctx)
 {
 	kctx->as_nr = KBASEP_AS_NR_INVALID;
 	atomic_set(&kctx->refcount, 0);
-	return 0;
 }
 
 /* kbasep_ctx_sched_find_as_for_ctx - Find a free address space

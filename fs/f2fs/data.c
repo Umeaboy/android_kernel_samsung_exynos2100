@@ -371,12 +371,6 @@ static void f2fs_write_end_io(struct bio *bio)
 		if (unlikely(bio->bi_status)) {
 			mapping_set_error(page->mapping, -EIO);
 			if (type == F2FS_WB_CP_DATA) {
-#ifdef CONFIG_DDAR
-				if (fscrypt_dd_encrypted(bio)) {
-					panic("Knox-DualDAR : I/O error on ino(%ld)",
-							fscrypt_dd_get_ino(bio));
-				}
-#endif
 				f2fs_stop_checkpoint(sbi, true);
 				f2fs_bug_on_endio(sbi, 1);
 			}
@@ -546,14 +540,6 @@ submit_io:
 	else
 		trace_f2fs_submit_write_bio(sbi->sb, type, bio);
 
-#ifdef CONFIG_DDAR
-	if (type == DATA) {
-		if (fscrypt_dd_may_submit_bio(bio) == -EOPNOTSUPP)
-			submit_bio(bio);
-		return;
-	}
-#endif
-
 	submit_bio(bio);
 }
 
@@ -589,6 +575,19 @@ static void __attach_io_flag(struct f2fs_io_info *fio)
 		fio->op_flags |= REQ_META;
 	if ((1 << fio->temp) & fua_flag)
 		fio->op_flags |= REQ_FUA;
+
+	/*
+	 * P221011-01695
+	 * flush_group: Process group in which file's is very important.
+	 * e.g., system_server, keystore, etc.
+	 */
+	if (fio->type == DATA && !(fio->op_flags & REQ_FUA) &&
+	    in_group_p(F2FS_OPTION(sbi).flush_group)) {
+		struct inode *inode = fio->page->mapping->host;
+
+		if (f2fs_is_atomic_file(inode) && f2fs_is_commit_atomic_write(inode))
+			fio->op_flags |= REQ_FUA;
+	}
 }
 
 static void __submit_merged_bio(struct f2fs_bio_info *io)
@@ -741,7 +740,7 @@ int f2fs_submit_page_bio(struct f2fs_io_info *fio)
 	}
 
 	if (fio->io_wbc && !is_read_io(fio->op))
-		wbc_account_cgroup_owner(fio->io_wbc, fio->page, PAGE_SIZE);
+		wbc_account_cgroup_owner(fio->io_wbc, page, PAGE_SIZE);
 
 	__attach_io_flag(fio);
 	/* @fs.sec -- 0531f63f3688ffb680b8c83a53641dce37f186da -- */
@@ -952,7 +951,7 @@ alloc_new:
 	}
 
 	if (fio->io_wbc)
-		wbc_account_cgroup_owner(fio->io_wbc, fio->page, PAGE_SIZE);
+		wbc_account_cgroup_owner(fio->io_wbc, page, PAGE_SIZE);
 
 	inc_page_count(fio->sbi, WB_DATA_TYPE(page));
 
@@ -1005,12 +1004,6 @@ next:
 	     !f2fs_crypt_mergeable_bio(io->bio, fio->page->mapping->host,
 				       fio->page->index, fio)))
 		__submit_merged_bio(io);
-#ifdef CONFIG_DDAR
-	/* DDAR support */
-	if (!fscrypt_dd_can_merge_bio(io->bio, fio->page->mapping)) {
-		__submit_merged_bio(io);
-	}
-#endif
 
 alloc_new:
 	if (io->bio == NULL) {
@@ -1034,7 +1027,7 @@ alloc_new:
 	}
 
 	if (fio->io_wbc)
-		wbc_account_cgroup_owner(fio->io_wbc, fio->page, PAGE_SIZE);
+		wbc_account_cgroup_owner(fio->io_wbc, bio_page, PAGE_SIZE);
 
 	io->last_block_in_bio = fio->new_blkaddr;
 	f2fs_trace_ios(fio, 0);
@@ -2182,14 +2175,6 @@ submit_and_realloc:
 		bio = NULL;
 	}
 
-#ifdef CONFIG_DDAR
-	/* DDAR changes */
-	if (!fscrypt_dd_can_merge_bio(bio, page->mapping)) {
-		__submit_bio(F2FS_I_SB(inode), bio, DATA);
-		bio = NULL;
-	}
-#endif
-
 	if (bio == NULL) {
 		bio = f2fs_grab_read_bio(inode, block_nr, nr_pages,
 				is_readahead ? REQ_RAHEAD : 0, page->index,
@@ -2551,10 +2536,6 @@ int f2fs_encrypt_one_page(struct f2fs_io_info *fio)
 		return 0;
 
 retry_encrypt:
-#ifdef CONFIG_DDAR
-	if (fscrypt_dd_encrypted_inode(inode))
-		return 0;
-#endif
 	fio->encrypted_page = fscrypt_encrypt_pagecache_blocks(page,
 					PAGE_SIZE, 0, gfp_flags);
 	if (IS_ERR(fio->encrypted_page)) {
